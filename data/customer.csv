@@ -1,0 +1,1005 @@
+customer_id,ls__customer_id__customer_name,customer_city,geo__customer_city__city_pushpin_longitude,geo__customer_city__city_pushpin_latitude,customer_country,customer_email,customer_state,customer_created_date,wdf__client_id
+C-LJVPHL8G,Ms. Sharon Mason,Erwin,-78.6178,35.3063,United States,ms..sharon.mason@furl.net,North Carolina,2022-02-12,merchant__electronics
+C-V7QBD3N6,Brittany Huber,Malartic,-78.133331,48.133331,Canada,brittany.huber@nec.co.uk,Quebec,2024-05-21,merchant__bigboxretailer
+C-RYUDE8MW,Charles Short,Indianapolis,-86.27,39.73,United States,charles.short@bbc.co.uk,Indiana,2023-01-17,merchant__electronics
+C-A3CYA0KK,Tonya Gilmore,Watson Lake,-128.712080,60.06288,Canada,tonya.gilmore@bbc.co.uk,Yukon,2023-09-07,merchant__bigboxretailer
+C-16ABXYYH,Lindsay Duffy,Powder Springs,-84.5507,33.9516,United States,lindsay.duffy@in.edu,Georgia,2024-10-09,merchant__clothing
+C-SFHGOXMD,Christian Harrison,Port Saint Lucie,-80.2842,27.2665,United States,christian.harrison@velconvallis.ca,Florida,2022-04-06,merchant__electronics
+C-2MK49G6N,Mrs. Courtney Valdez,Grand Prairie,-97.0408,32.7306,United States,mrs..courtney.valdez@foxnews.com,Texas,2023-07-13,merchant__clothing
+C-DDF4HHDS,Kyle Moore,North Battleford,-108.286110,52.757500,Canada,kyle.moore@lacusMauris.net,Saskatchewan,2023-09-06,merchant__clothing
+C-YY7TCYZW,Robert Carpenter,Gardena,-118.2885,33.8832,United States,robert.carpenter@bbc.co.uk,California,2024-11-28,merchant__clothing
+C-9F2B9C3C,Sherry Edwards,New York,-73.9898,40.7393,United States,sherry.edwards@aliquet.com,New York,2022-10-17,merchant__electronics
+C-P9TO0RU1,Patrick Aguirre,Middleton,-89.3853,43.0758,United States,patrick.aguirre@velconvallis.ca,Wisconsin,2021-11-29,merchant__electronics
+C-BZ9EU8NE,Kimberly Lee,Gardena,-118.2885,33.8832,United States,kimberly.lee@sociisnatoque.net,California,2023-06-05,merchant__bigboxretailer
+C-ZYDNWVOQ,Heather Singleton,Colchester,-73.1479,44.5439,United States,heather.singleton@icq.com,Vermont,2022-11-30,merchant__clothing
+C-MQMEGBP3,Jose Silva,Victoria,-123.3544,48.408,Canada,jose.silva@foxnews.com,British Columbia,2023-09-22,merchant__electronics
+C-9DWRCH2J,John Hanna,Grasston,-93.2917,45.8769,United States,john.hanna@nunc.net,Minnesota,2021-12-13,merchant__bigboxretailer
+C-VIA7W6Q4,Patricia Blake,Dallas,-97.0004,32.7417,United States,patricia.blake@nec.co.uk,Texas,2024-11-16,merchant__clothing
+C-KOVI1Q27,Christopher Smith,North Battleford,-108.286110,52.757500,Canada,christopher.smith@bbc.co.uk,Saskatchewan,2022-12-09,merchant__clothing
+C-YEQ2RJ8J,Sarah Hall,Baltimore,-76.67,39.18,United States,sarah.hall@viverra.org,Maryland,2023-10-30,merchant__bigboxretailer
+C-3CFJR584,Jennifer Ward,Edison,-74.1977,39.9519,United States,jennifer.ward@Aliquam.net,New Jersey,2022-12-13,merchant__electronics
+C-REZMJYRP,Elizabeth Kennedy,New Haven,-72.88,41.27,United States,elizabeth.kennedy@euodio.ca,Connecticut,2022-06-30,merchant__electronics
+C-32EG7EPF,James Lewis,North York,-79.3839,43.6525,Canada,james.lewis@icq.com,Ontario,2022-08-07,merchant__electronics
+C-994NEA5S,Randy Harmon,Pixley,-119.2936,35.9683,United States,randy.harmon@velconvallis.ca,California,2023-01-31,merchant__electronics
+C-LCES4LJP,Joel Lane,Pasadena,-95.123,29.7051,United States,joel.lane@adobe.com,Texas,2023-04-06,merchant__electronics
+C-CM2Z4N87,Michael Brown,Topeka,-95.62,39.07,United States,michael.brown@euodio.ca,Kansas,2023-10-04,merchant__bigboxretailer
+C-WNZ5NNQA,Louis Rodriguez,Bellevue,-95.9146,41.1544,United States,louis.rodriguez@viverra.org,Nebraska,2024-06-22,merchant__bigboxretailer
+C-ZYKRMEBU,John Lopez,Detroit,-83.0711,42.3517,United States,john.lopez@euodio.ca,Michigan,2024-08-15,merchant__bigboxretailer
+C-SB92IH2E,Scott Rodriguez,Harrisburg,-76.8867,40.2732,United States,scott.rodriguez@nec.co.uk,Pennsylvania,2023-03-14,merchant__bigboxretailer
+C-PHDUMOLX,Benjamin Gregory,Flowery Branch,-83.8224,34.2987,United States,benjamin.gregory@lacusMauris.net,Georgia,2021-10-03,merchant__electronics
+C-8URI8YFA,Ashley Wheeler,Delhi,-91.3853,31.807,United States,ashley.wheeler@nonsollicitudin.net,Louisiana,2023-09-12,merchant__bigboxretailer
+C-03YQMS6C,Lynn Elliott,Minneapolis,-93.2928,45.0436,United States,lynn.elliott@sociisnatoque.net,Minnesota,2024-10-03,merchant__clothing
+C-N3MI00DV,Dana Collins,Oakland,-122.26,37.8333,United States,dana.collins@in.edu,California,2024-05-14,merchant__electronics
+C-X16DEVDW,Tamara Douglas,Idaho Falls,-112.0408,43.4927,United States,tamara.douglas@euodio.ca,Idaho,2024-07-24,merchant__clothing
+C-MA7Q7649,Bethany Oconnor MD,Inverness,-82.3312,28.8379,United States,bethany.oconnor.md@sociisnatoque.net,Florida,2023-08-21,merchant__bigboxretailer
+C-WWBAB3RS,Emily Walker,Chilliwack,-121.951469,49.157940,Canada,emily.walker@in.edu,British Columbia,2023-03-17,merchant__bigboxretailer
+C-1ZDNMQ4U,Matthew Soto,New York,-73.9898,40.7393,United States,matthew.soto@icq.com,New York,2023-06-21,merchant__electronics
+C-0ZJE08VE,Lauren Hurst,Eden Prairie,-93.2928,45.0436,United States,lauren.hurst@nec.co.uk,Minnesota,2022-02-03,merchant__bigboxretailer
+C-DEQI6YPR,Alexander Walsh,Montreal,-73.5689,45.5034,Canada,alexander.walsh@icq.com,Quebec,2022-07-08,merchant__clothing
+C-6R717XQQ,Thomas Gomez,Saint Paul,-93.0595,44.9629,United States,thomas.gomez@lacusMauris.net,Minnesota,2024-11-01,merchant__clothing
+C-E3CQKVKY,Mr. Joseph Stanley Jr.,Paintsville,-82.8092,37.8167,United States,mr..joseph.stanley.jr.@yahoo.co.jp,Kentucky,2022-04-25,merchant__electronics
+C-27GDG93J,Nicole Howard,Campbellton,-66.6722,48.0074,Canada,nicole.howard@lacusMauris.net,New Brunswick,2024-01-08,merchant__electronics
+C-GKRP26DN,Megan Hill,Saint Louis,-90.4002,38.6601,United States,megan.hill@icq.com,Missouri,2023-06-01,merchant__electronics
+C-UT5BGCL6,Jennifer Howard,Clinton,-83.969,42.068,United States,jennifer.howard@yahoo.co.jp,Michigan,2022-03-11,merchant__bigboxretailer
+C-AELWSTAU,Marcus Soto,Bangor,-68.82,44.80,United States,marcus.soto@furl.net,Maine,2021-11-13,merchant__clothing
+C-GYYGR3NB,Jessica Lane,Cypress,-118.0781,33.9071,United States,jessica.lane@viverra.org,California,2022-06-03,merchant__bigboxretailer
+C-W4MF4F46,Diana Berry,Saint Louis,-90.4002,38.6601,United States,diana.berry@nec.co.uk,Missouri,2024-10-20,merchant__clothing
+C-1IDB9BVE,Melissa Robertson,Modesto,-120.996,37.6442,United States,melissa.robertson@hexun.com,California,2024-04-02,merchant__electronics
+C-LKP59CTP,Michael Mcgee,New York,-73.9898,40.7393,United States,michael.mcgee@in.edu,New York,2023-05-05,merchant__bigboxretailer
+C-I6RLJEHM,Ryan Shaw,Kitchener,-80.495064,43.452969,Canada,ryan.shaw@viverra.org,Ontario,2023-03-15,merchant__electronics
+C-PHP0MRY4,James Schwartz,Maryland Heights,-90.4189,38.7034,United States,james.schwartz@yahoo.co.jp,Missouri,2023-04-14,merchant__electronics
+C-H98NO140,Andrea Lee,Hawthorne,-118.4913,34.0155,United States,andrea.lee@velconvallis.ca,California,2022-06-18,merchant__electronics
+C-OVCHKI9H,Christopher Hernandez,Loganville,-90.0344,43.44,United States,christopher.hernandez@foxnews.com,Wisconsin,2022-04-24,merchant__electronics
+C-1DJIWB2Z,Maria Moore,Cypress,-118.0781,33.9071,United States,maria.moore@a.co.uk,California,2022-12-31,merchant__bigboxretailer
+C-O9KQBGWG,Elizabeth Bradley,Three Oaks,-86.6084,41.7983,United States,elizabeth.bradley@sociisnatoque.net,Michigan,2024-07-19,merchant__electronics
+C-53CWAHIK,Aaron Hart,Gatineau,-75.6933,45.4208,Canada,aaron.hart@icq.com,Quebec,2024-08-05,merchant__electronics
+C-A663FPHL,Jaime Anderson,Hattiesburg,-89.33,31.47,United States,jaime.anderson@a.co.uk,Mississippi,2022-06-24,merchant__electronics
+C-TEJ3SA85,Emily Williams,Checotah,-95.5252,35.471,United States,emily.williams@foxnews.com,Oklahoma,2021-12-30,merchant__bigboxretailer
+C-V08DK13D,Joseph Cox,Baltimore,-76.67,39.18,United States,joseph.cox@icq.com,Maryland,2023-01-01,merchant__bigboxretailer
+C-LJDPH85J,Zachary Johns,Minneapolis,-93.2928,45.0436,United States,zachary.johns@velconvallis.ca,Minnesota,2024-11-10,merchant__electronics
+C-1LJNSYGU,Mrs. Toni Martinez,Byers,-98.4896,33.9097,United States,mrs..toni.martinez@velconvallis.ca,Texas,2024-03-09,merchant__electronics
+C-HJ742RNT,Maria Hunter,Cedar Rapids,-91.6687,41.9815,United States,maria.hunter@nunc.net,Iowa,2022-03-16,merchant__electronics
+C-SSC4DD23,Brenda Hawkins,Schwenksville,-75.3489,40.2006,United States,brenda.hawkins@nonsollicitudin.net,Pennsylvania,2022-10-05,merchant__clothing
+C-EAVTCEQ2,Brittany Harrington,Dallas,-97.0004,32.7417,United States,brittany.harrington@viverra.org,Texas,2022-10-21,merchant__bigboxretailer
+C-4QSX6FL0,John Martinez,Bloomington,-93.2983,44.8408,United States,john.martinez@lacusMauris.net,Minnesota,2022-04-10,merchant__clothing
+C-643BURSL,Kayla Hanson,Norman,-97.47,35.23,United States,kayla.hanson@bbc.co.uk,Oklahoma,2023-06-23,merchant__bigboxretailer
+C-G8QMZH3I,Timothy Harmon,Pittsburgh,-79.9502,40.5264,United States,timothy.harmon@adobe.com,Pennsylvania,2022-03-08,merchant__electronics
+C-342EK3CK,Erin Whitaker,New York,-73.9898,40.7393,United States,erin.whitaker@lacusMauris.net,New York,2024-07-11,merchant__electronics
+C-K5TJSCFQ,Amanda Ballard,Vermont,-90.4303,40.2942,United States,amanda.ballard@yahoo.co.jp,Illinois,2024-09-20,merchant__electronics
+C-675W2O7J,Lisa Hammond,Byers,-98.4896,33.9097,United States,lisa.hammond@euodio.ca,Texas,2023-07-11,merchant__bigboxretailer
+C-VYDYQT32,Christina Ballard,Sylvan Grove,-98.3923,39.2409,United States,christina.ballard@hexun.com,Kansas,2022-01-28,merchant__clothing
+C-87T216MS,Rebecca George,Bellevue,-95.9146,41.1544,United States,rebecca.george@bizjournals.com,Nebraska,2023-10-31,merchant__electronics
+C-PDUBGAHT,James Gibson,Whitman,-82.0449,37.8322,United States,james.gibson@sociisnatoque.net,West Virginia,2022-11-30,merchant__clothing
+C-9TU9ZW5A,Kenneth Steele,Thunder Bay,-89.2538,48.3846,Canada,kenneth.steele@in.edu,Ontario,2024-11-26,merchant__electronics
+C-9IF2272F,Walter Burns,Austin,-97.7077,30.2608,United States,walter.burns@nonsollicitudin.net,Texas,2023-03-12,merchant__clothing
+C-JTQL5DLA,Kenneth Lewis,Corpus Christi,-97.3629,27.6981,United States,kenneth.lewis@lacusMauris.net,Texas,2022-02-09,merchant__electronics
+C-WDG0DI4N,Sara Chung,Maryland Heights,-90.4189,38.7034,United States,sara.chung@furl.net,Missouri,2024-05-23,merchant__bigboxretailer
+C-UEUSKJ8S,Sandra Hawkins,Fort Wayne,-85.1394,41.0793,United States,sandra.hawkins@sociisnatoque.net,Indiana,2022-11-27,merchant__electronics
+C-EHV3GZ7Y,Christopher Cruz,Lefebvre,-72.3179,45.7654,Canada,christopher.cruz@sociisnatoque.net,Quebec,2023-08-07,merchant__electronics
+C-U0YYTRBT,Janet Cook,Onoway,-112.8326,49.7018,Canada,janet.cook@velconvallis.ca,Alberta,2022-12-07,merchant__bigboxretailer
+C-L3ZMNGYG,Emma Gentry,Gardena,-118.2885,33.8832,United States,emma.gentry@bizjournals.com,California,2023-07-30,merchant__bigboxretailer
+C-DE6P79HY,Katherine Norris,Warwick,-81.9098,43.0049,Canada,katherine.norris@hexun.com,Ontario,2022-10-15,merchant__electronics
+C-RD8B8K5D,Jordan Davis,North Olmsted,-81.8911,41.43,United States,jordan.davis@nunc.net,Ohio,2022-07-10,merchant__electronics
+C-QDW29TOW,Peter Stephens,Campbellton,-66.6722,48.0074,Canada,peter.stephens@nunc.net,New Brunswick,2021-11-07,merchant__bigboxretailer
+C-B26IB9KB,Norman Kelly,Yorkton,-102.462776,51.213890,Canada,norman.kelly@bizjournals.com,Saskatchewan,2022-10-09,merchant__electronics
+C-5RRL3QDV,Michael Garrison,Dundas,-88.0814,38.7367,United States,michael.garrison@viverra.org,Illinois,2022-04-30,merchant__clothing
+C-PUENXZGP,Sean Lee,San Diego,-117.17,32.73,United States,sean.lee@nec.co.uk,California,2023-08-31,merchant__clothing
+C-TG9K69X2,April Byrd,Riverdale,-84.3592,33.522,United States,april.byrd@sociisnatoque.net,Georgia,2022-09-15,merchant__electronics
+C-Z36418KJ,Angela Becker,Seattle,-122.318,47.5411,United States,angela.becker@foxnews.com,Washington,2022-12-23,merchant__clothing
+C-GD9B10X2,Sydney Ball,Waterbury,-73.0515,41.5582,United States,sydney.ball@aliquet.com,Connecticut,2024-09-10,merchant__electronics
+C-88J0BNOL,Matthew Allen,Elgin,-88.2846,42.0406,United States,matthew.allen@viverra.org,Illinois,2023-07-05,merchant__electronics
+C-HEC7VMJL,Vanessa Kennedy,Chicago,-87.6369,41.8839,United States,vanessa.kennedy@Aliquam.net,Illinois,2022-10-07,merchant__bigboxretailer
+C-WJA9HEEP,Edwin Gibson,Paradise,-115.1467,36.0972,United States,edwin.gibson@euodio.ca,Nevada,2022-05-03,merchant__electronics
+C-TU050OYM,Nicole Diaz,Ringgold,-85.0441,34.8225,United States,nicole.diaz@nunc.net,Georgia,2022-04-27,merchant__electronics
+C-R03Q1A3K,Justin Guerra,Toronto,-79.3839,43.6525,Canada,justin.guerra@viverra.org,Ontario,2022-10-22,merchant__electronics
+C-Y2VC7NCY,Katherine Cross,Freedom,-99.3168,36.9832,United States,katherine.cross@aliquet.com,Oklahoma,2023-10-13,merchant__bigboxretailer
+C-LEOOX6E2,Frank Porter,Idaho Falls,-112.0408,43.4927,United States,frank.porter@lacusMauris.net,Idaho,2024-11-02,merchant__electronics
+C-26QPNI5N,Thomas Horton,Philadelphia,-75.0401,40.035,United States,thomas.horton@a.co.uk,Pennsylvania,2022-03-08,merchant__electronics
+C-3XS3HBQ3,Jennifer Parrish,Springfield,-89.67,39.85,United States,jennifer.parrish@nec.co.uk,Illinois,2021-11-23,merchant__clothing
+C-FX0LPD07,Katie Morgan,Chilliwack,-121.951469,49.157940,Canada,katie.morgan@foxnews.com,British Columbia,2023-08-28,merchant__electronics
+C-ROW67FER,Christopher Lloyd,Wheatfield,-86.8916,41.0732,United States,christopher.lloyd@nec.co.uk,Indiana,2024-02-13,merchant__electronics
+C-FIXF2S3W,Kelly Elliott,Tucson,-110.9252,32.2336,United States,kelly.elliott@velconvallis.ca,Arizona,2021-11-28,merchant__clothing
+C-A1XR5Z5I,Grace Day,Bronx,-73.8428,40.8328,United States,grace.day@bizjournals.com,New York,2023-03-04,merchant__bigboxretailer
+C-VPPP4JZ5,Catherine Perez,Saint Louis,-90.4002,38.6601,United States,catherine.perez@hexun.com,Missouri,2022-08-24,merchant__electronics
+C-2DMK6ZME,Juan Vazquez,Claremont,-117.7158,34.0964,United States,juan.vazquez@hexun.com,California,2023-11-16,merchant__electronics
+C-LM3UPLL2,Denise Richardson,Chicago,-87.6369,41.8839,United States,denise.richardson@icq.com,Illinois,2023-01-12,merchant__electronics
+C-92611BT3,Jessica Henderson,Finksburg,-76.9519,39.3972,United States,jessica.henderson@velconvallis.ca,Maryland,2023-11-16,merchant__bigboxretailer
+C-E9KP5RMM,Michael Kim,Orilla,-79.4197,44.6082,Canada,michael.kim@Aliquam.net,Ontario,2023-10-29,merchant__electronics
+C-5DIPZ1HH,Daniel Stewart,Rockford,-89.097,42.2713,United States,daniel.stewart@bizjournals.com,Illinois,2024-06-11,merchant__electronics
+C-5W5K5JQI,Melissa Morse,Baltimore,-76.67,39.18,United States,melissa.morse@velconvallis.ca,Maryland,2024-04-05,merchant__clothing
+C-VGMB4KY1,John Black,Birmingham,-86.7992,33.3704,United States,john.black@bbc.co.uk,Alabama,2023-09-24,merchant__electronics
+C-9L28CTLY,Melissa Smith,Baltimore,-76.67,39.18,United States,melissa.smith@viverra.org,Maryland,2022-08-17,merchant__electronics
+C-ZDYSNU8C,Alec Santana,San Francisco,-122.435,37.7875,United States,alec.santana@in.edu,California,2024-05-23,merchant__clothing
+C-JYMIYFWD,Phillip Meadows,Harrisburg,-76.8867,40.2732,United States,phillip.meadows@Aliquam.net,Pennsylvania,2022-06-13,merchant__bigboxretailer
+C-TTO5YT0O,Jennifer Mejia,Las Vegas,-115.1419,36.1673,United States,jennifer.mejia@aliquet.com,Nevada,2021-10-01,merchant__clothing
+C-DNWXYGBY,Amy Fletcher,Ballston Spa,-73.7849,43.079,United States,amy.fletcher@bizjournals.com,New York,2024-07-31,merchant__bigboxretailer
+C-WZYQH5MZ,Jack Trujillo,Arlington,-112.8459,33.4372,United States,jack.trujillo@yahoo.co.jp,Arizona,2022-03-19,merchant__clothing
+C-ZNFOCM7T,Lawrence Mcguire,Baltimore,-76.67,39.18,United States,lawrence.mcguire@Aliquam.net,Maryland,2024-05-08,merchant__clothing
+C-X19QUKHI,Michelle Stone,Berwick,-70.8631,43.2629,United States,michelle.stone@yahoo.co.jp,Maine,2024-03-28,merchant__clothing
+C-VFK5BXFJ,Sheri Nicholson,Colchester,-73.1479,44.5439,United States,sheri.nicholson@a.co.uk,Vermont,2022-12-28,merchant__clothing
+C-O578Y37B,Kimberly Smith,Springfield,-89.67,39.85,United States,kimberly.smith@hexun.com,Illinois,2024-03-31,merchant__bigboxretailer
+C-8H8EXO2R,Sarah Huerta,North Olmsted,-81.8911,41.43,United States,sarah.huerta@hexun.com,Ohio,2023-07-05,merchant__electronics
+C-PABT8NCZ,Catherine Clark,Montague,-62.6480,46.1651,Canada,catherine.clark@nonsollicitudin.net,Prince Edward Island,2022-08-17,merchant__electronics
+C-RD23TQJV,Samantha Benson,Powder Springs,-84.5507,33.9516,United States,samantha.benson@yahoo.co.jp,Georgia,2023-03-24,merchant__electronics
+C-SMA5XP3A,Janice Quinn,Philadelphia,-75.0401,40.035,United States,janice.quinn@bizjournals.com,Pennsylvania,2023-01-31,merchant__electronics
+C-AFB76VVK,Tracey Parsons DVM,New York,-73.9898,40.7393,United States,tracey.parsons.dvm@lacusMauris.net,New York,2024-01-01,merchant__clothing
+C-3IC68BTQ,Tracy Huffman,Leesburg,-81.877,28.8123,United States,tracy.huffman@viverra.org,Florida,2023-01-01,merchant__bigboxretailer
+C-Y75R671N,Ruth Norris,Renton,-122.3375,47.6149,United States,ruth.norris@in.edu,Washington,2023-09-30,merchant__clothing
+C-0KLGPPW2,Jessica Ortiz,Cassville,-80.0586,39.7162,United States,jessica.ortiz@furl.net,West Virginia,2022-08-20,merchant__electronics
+C-0EZV2K4D,William Copeland,Stillwater,-92.809,45.0539,United States,william.copeland@bizjournals.com,Minnesota,2022-06-04,merchant__electronics
+C-0S8H02H9,Robert Peterson,Philadelphia,-75.0401,40.035,United States,robert.peterson@velconvallis.ca,Pennsylvania,2021-11-16,merchant__bigboxretailer
+C-XJKXNUJ3,Frank Taylor,Enumclaw,-121.989,47.2001,United States,frank.taylor@foxnews.com,Washington,2024-11-06,merchant__bigboxretailer
+C-RSR60WM0,Rhonda Barrett,Greeley,-104.6917,40.4194,United States,rhonda.barrett@in.edu,Colorado,2022-03-29,merchant__electronics
+C-TKPLD4LP,Mrs. Rachael Austin,Byers,-98.4896,33.9097,United States,mrs..rachael.austin@bbc.co.uk,Texas,2022-11-21,merchant__bigboxretailer
+C-BNCRVWRD,Dylan Thompson,Hattiesburg,-89.33,31.47,United States,dylan.thompson@hexun.com,Mississippi,2024-11-21,merchant__electronics
+C-GGIETQJF,Hannah Nichols,Bangor,-68.82,44.80,United States,hannah.nichols@Aliquam.net,Maine,2024-05-06,merchant__bigboxretailer
+C-JJJXQ0W2,David Campbell,Houston,-95.4069,29.6954,United States,david.campbell@bbc.co.uk,Texas,2024-05-20,merchant__clothing
+C-Q7STUF2H,Alejandra Ross,Saint Louis,-90.4002,38.6601,United States,alejandra.ross@adobe.com,Missouri,2023-07-23,merchant__bigboxretailer
+C-QSCZNBAQ,Ronald Thompson,Lourdes,-98.5580,49.5327,Canada,ronald.thompson@yahoo.co.jp,Manitoba,2024-04-18,merchant__bigboxretailer
+C-W3ZXWKYD,Michael Smith,Alamosa,-105.9469,37.4918,United States,michael.smith@bizjournals.com,Colorado,2022-12-04,merchant__electronics
+C-NINIAOOM,Michael Powell,San Diego,-117.17,32.73,United States,michael.powell@aliquet.com,California,2022-06-24,merchant__bigboxretailer
+C-1W3UMRUS,Crystal Simpson,Campbellton,-66.6722,48.0074,Canada,crystal.simpson@yahoo.co.jp,New Brunswick,2023-12-14,merchant__clothing
+C-ELYRESSU,Brittany Cabrera,Meadow Vista,-121.0228,38.9944,United States,brittany.cabrera@nonsollicitudin.net,California,2024-10-14,merchant__electronics
+C-W07MPIYF,Timothy Williams,Paintsville,-82.8092,37.8167,United States,timothy.williams@Aliquam.net,Kentucky,2023-04-13,merchant__bigboxretailer
+C-YR8JCK4V,Cameron Gates,Zeeland,-86.1005,42.7922,United States,cameron.gates@viverra.org,Michigan,2022-01-20,merchant__bigboxretailer
+C-B8GPDRRZ,Anthony West,Columbus,-82.9952,39.9689,United States,anthony.west@foxnews.com,Ohio,2024-06-29,merchant__electronics
+C-444XWRFB,Thomas Smith,Morristown,-74.4804,40.7936,United States,thomas.smith@euodio.ca,New Jersey,2023-09-17,merchant__bigboxretailer
+C-GEZZUX7M,James Rhodes,San Francisco,-122.435,37.7875,United States,james.rhodes@yahoo.co.jp,California,2023-04-10,merchant__clothing
+C-HFU5WDT2,Sheila Hall,Atlanta,-84.3941,33.7609,United States,sheila.hall@sociisnatoque.net,Georgia,2022-11-14,merchant__electronics
+C-Y7QMOPQR,Jeffrey Kelly,Pasadena,-95.123,29.7051,United States,jeffrey.kelly@a.co.uk,Texas,2021-10-26,merchant__electronics
+C-25VPHPPB,Leslie Grimes,Felton,-122.0743,37.0502,United States,leslie.grimes@a.co.uk,California,2022-03-08,merchant__electronics
+C-TFPC64ES,Kimberly Melton,San Bernardino,-117.2196,34.1225,United States,kimberly.melton@bbc.co.uk,California,2022-08-24,merchant__electronics
+C-MPDYNPLF,Michael Grimes,Grand Prairie,-97.0408,32.7306,United States,michael.grimes@furl.net,Texas,2024-10-29,merchant__electronics
+C-9AQ5SS46,Megan Olsen,Bradley,-97.7105,34.876,United States,megan.olsen@hexun.com,Oklahoma,2024-07-05,merchant__clothing
+C-JEKKTGSU,Rose Cross,Yorkton,-102.462776,51.213890,Canada,rose.cross@nec.co.uk,Saskatchewan,2022-07-31,merchant__bigboxretailer
+C-VTF4V6D9,Robert Jenkins,Terrance,-128.610764,54.515102,Canada,robert.jenkins@nunc.net,British Columbia,2023-11-15,merchant__bigboxretailer
+C-VFTOY8UY,Jennifer Huber,Whitehorse,-135.052292,60.719688,Canada,jennifer.huber@aliquet.com,Yukon,2023-05-15,merchant__bigboxretailer
+C-HP1KFASQ,Joseph Shields,Oklahoma City,-97.5162,35.4702,United States,joseph.shields@nec.co.uk,Oklahoma,2022-09-06,merchant__bigboxretailer
+C-WM504F2F,Jason Williams,Harrisburg,-76.8867,40.2732,United States,jason.williams@sociisnatoque.net,Pennsylvania,2023-01-17,merchant__bigboxretailer
+C-D0VYSLQC,Heather Richardson,Long Beach,-118.1899,33.7686,United States,heather.richardson@Aliquam.net,California,2023-02-11,merchant__clothing
+C-N567ZS01,Jacob Robbins,Moncton,-64.775820,46.088880,Canada,jacob.robbins@nec.co.uk,New Brunswick,2022-06-30,merchant__clothing
+C-WON947KX,Andrea Reid,Bowie,-76.8772,38.9291,United States,andrea.reid@nonsollicitudin.net,Maryland,2021-10-04,merchant__bigboxretailer
+C-8JSM7DSF,Margaret Stone,Salem,-123.00,44.92,United States,margaret.stone@viverra.org,Oregon,2024-05-08,merchant__electronics
+C-DW17UFAJ,Robert Foster,New York,-73.9898,40.7393,United States,robert.foster@nonsollicitudin.net,New York,2024-02-04,merchant__clothing
+C-Q3MNYT0N,Abigail Simmons,Paintsville,-82.8092,37.8167,United States,abigail.simmons@bbc.co.uk,Kentucky,2024-11-20,merchant__electronics
+C-B1ANSPP9,Paul Smith,Labrecque,-71.5246,48.6725,Canada,paul.smith@yahoo.co.jp,Quebec,2024-01-18,merchant__bigboxretailer
+C-MXNA4T2F,Paul Costa,Laval,-73.5689,45.5034,Canada,paul.costa@aliquet.com,Quebec,2024-02-03,merchant__clothing
+C-5JCNH1E3,Sheena Wilson,Crestview,-86.12,30.7192,United States,sheena.wilson@adobe.com,Florida,2023-11-08,merchant__clothing
+C-PXCB6OE2,Paul Berry,Montreal,-73.5689,45.5034,Canada,paul.berry@aliquet.com,Quebec,2022-07-12,merchant__clothing
+C-9D3Y2NT8,Dale Johnson,Puslinch,-80.2484,43.5422,Canada,dale.johnson@velconvallis.ca,Ontario,2024-06-08,merchant__clothing
+C-KXF3HXX8,Curtis Jenkins,Meadow Vista,-121.0228,38.9944,United States,curtis.jenkins@aliquet.com,California,2022-08-31,merchant__clothing
+C-RMGJYSNT,Rachel Ross,Gloucester,-75.5857,45.3027,Canada,rachel.ross@nunc.net,Ontario,2024-07-29,merchant__bigboxretailer
+C-BAQ76JP8,Tammy Hoffman,Montreal,-73.5689,45.5034,Canada,tammy.hoffman@euodio.ca,Quebec,2021-10-13,merchant__bigboxretailer
+C-FX80ZZTM,Gabrielle Bryant,Temple,-97.3411,31.0915,United States,gabrielle.bryant@adobe.com,Texas,2023-03-02,merchant__electronics
+C-YFWSX6JA,Anne Miller,San Diego,-117.17,32.73,United States,anne.miller@viverra.org,California,2024-10-17,merchant__clothing
+C-P6T8B97F,Andrea Rhodes,Topeka,-95.62,39.07,United States,andrea.rhodes@yahoo.co.jp,Kansas,2021-12-28,merchant__electronics
+C-D46OL7VQ,Kenneth Nelson,Wilmington,-77.9415,34.2227,United States,kenneth.nelson@nonsollicitudin.net,North Carolina,2022-02-13,merchant__electronics
+C-B5W34GKD,Dorothy Rubio,Las Vegas,-115.1419,36.1673,United States,dorothy.rubio@aliquet.com,Nevada,2023-05-07,merchant__electronics
+C-1MP8ONBC,David Gallagher,Portland,-122.60,45.60,United States,david.gallagher@bbc.co.uk,Oregon,2022-06-16,merchant__electronics
+C-TQUG2VEA,David Lee,Vegreville,-112.0539,53.4941,Canada,david.lee@euodio.ca,Alberta,2023-05-04,merchant__bigboxretailer
+C-T4TLFG1V,Tony Doyle,San Jose,-121.9515,37.342,United States,tony.doyle@hexun.com,California,2024-01-14,merchant__electronics
+C-N23E2MEU,Carlos Jackson,Moncton,-64.775820,46.088880,Canada,carlos.jackson@aliquet.com,New Brunswick,2022-01-31,merchant__electronics
+C-S5FQZOPC,Megan Wagner,Raleigh,-78.6508,35.7843,United States,megan.wagner@velconvallis.ca,North Carolina,2023-04-20,merchant__clothing
+C-W7IOX4YU,Kathy Cruz,Yukon,-97.5162,35.4702,United States,kathy.cruz@nunc.net,Oklahoma,2021-11-25,merchant__electronics
+C-V3CDPDF7,Teresa Joseph,New York,-73.9898,40.7393,United States,teresa.joseph@bizjournals.com,New York,2024-11-06,merchant__electronics
+C-BHXAMCJF,George Clark,Evanston,-110.9671,41.2677,United States,george.clark@yahoo.co.jp,Wyoming,2023-11-20,merchant__clothing
+C-UWYLW525,Monique Gutierrez,Metairie,-90.1529,29.9841,United States,monique.gutierrez@hexun.com,Louisiana,2024-07-30,merchant__electronics
+C-7QDYQP74,Erika Alvarez,Bellevue,-95.9146,41.1544,United States,erika.alvarez@nunc.net,Nebraska,2021-10-06,merchant__electronics
+C-GM43JXY4,Oscar Church,Sandy,-111.8390,40.5650,United States,oscar.church@icq.com,Utah,2022-12-30,merchant__electronics
+C-CC6US2UL,Mrs. Mary Newman,Oakland,-122.26,37.8333,United States,mrs..mary.newman@furl.net,California,2021-12-23,merchant__electronics
+C-FYYIXRDE,Erin Kelly,New York,-73.9898,40.7393,United States,erin.kelly@lacusMauris.net,New York,2023-04-29,merchant__clothing
+C-HL7DAYV0,Kimberly Foster,San Mateo,-122.3479,37.5752,United States,kimberly.foster@nunc.net,California,2023-09-30,merchant__clothing
+C-2HGFPYBO,Stephanie Adams,Watson Lake,-128.712080,60.06288,Canada,stephanie.adams@nunc.net,Yukon,2024-01-27,merchant__clothing
+C-F40W50YI,David Chapman,Colorado Springs,-104.8078,38.9254,United States,david.chapman@Aliquam.net,Colorado,2021-11-12,merchant__clothing
+C-O0IHBXDU,Katherine Young,Springfield,-89.67,39.85,United States,katherine.young@foxnews.com,Illinois,2023-03-25,merchant__electronics
+C-562MJWT0,Albert Barron,Saint Paul,-93.0595,44.9629,United States,albert.barron@nec.co.uk,Minnesota,2023-02-06,merchant__electronics
+C-FATVL2NW,Janet Gray,Aurora,-79.4504,44.0065,Canada,janet.gray@icq.com,Ontario,2024-03-24,merchant__electronics
+C-9IBLTQ8Z,Aaron Todd,Hadley,-72.5267,42.3804,United States,aaron.todd@viverra.org,Massachusetts,2024-12-02,merchant__bigboxretailer
+C-6OT3VS6M,David Wilson,Campbellton,-66.6722,48.0074,Canada,david.wilson@nunc.net,New Brunswick,2023-04-11,merchant__electronics
+C-Y4NJYNLJ,Joseph Frye,Vaughan,-79.5085,43.8563,Canada,joseph.frye@Aliquam.net,Ontario,2024-07-11,merchant__bigboxretailer
+C-04B947GP,Linda Bowen,New York,-73.9898,40.7393,United States,linda.bowen@velconvallis.ca,New York,2023-06-19,merchant__bigboxretailer
+C-XBJEB1DT,Christine Little,Welland,-82.9436,42.2246,Canada,christine.little@euodio.ca,Ontario,2024-09-02,merchant__bigboxretailer
+C-G25H9WSA,Nicolas Salazar,Grand Prairie,-97.0408,32.7306,United States,nicolas.salazar@sociisnatoque.net,Texas,2022-10-01,merchant__electronics
+C-D02WNK3M,Jeff Davila,Dallas,-97.0004,32.7417,United States,jeff.davila@Aliquam.net,Texas,2023-10-16,merchant__bigboxretailer
+C-8Q6Z6UEA,Stephanie Williams,Cedar Rapids,-91.6687,41.9815,United States,stephanie.williams@foxnews.com,Iowa,2024-06-14,merchant__clothing
+C-JOR9TZB1,Carol Henderson,Sacramento,-121.3359,38.5631,United States,carol.henderson@bbc.co.uk,California,2023-07-06,merchant__clothing
+C-4Z4INKE3,Brian Schroeder,Saint Louis,-90.4002,38.6601,United States,brian.schroeder@sociisnatoque.net,Missouri,2022-11-26,merchant__electronics
+C-OXX2XNY7,Ellen Boyd,Rancho Cordova,-121.2016,38.6341,United States,ellen.boyd@Aliquam.net,California,2024-08-28,merchant__bigboxretailer
+C-OUK0TJ7F,Doris Miller,San Mateo,-122.3479,37.5752,United States,doris.miller@lacusMauris.net,California,2023-01-28,merchant__bigboxretailer
+C-IL2I9PWZ,Stacy Andersen,Sylvan Lake,-114.0973,52.3065,Canada,stacy.andersen@lacusMauris.net,Alberta,2022-12-02,merchant__electronics
+C-TT05PB8V,Jennifer Harper,Warwick,-81.9098,43.0049,Canada,jennifer.harper@adobe.com,Ontario,2022-12-15,merchant__electronics
+C-LRMIBTF7,Sarah Mathis,Red Jacket,-82.1712,37.6245,United States,sarah.mathis@aliquet.com,West Virginia,2022-02-28,merchant__bigboxretailer
+C-GKC8M538,Mr. Scott Hernandez,Saint Paul,-93.0595,44.9629,United States,mr..scott.hernandez@nonsollicitudin.net,Minnesota,2023-01-07,merchant__clothing
+C-EW0EQ5LM,Mackenzie Walker,Austin,-97.7077,30.2608,United States,mackenzie.walker@in.edu,Texas,2024-10-27,merchant__electronics
+C-NYVH0DHE,Rebecca Gardner,Miramichi,-65.5059,47.0296,Canada,rebecca.gardner@hexun.com,New Brunswick,2024-10-18,merchant__electronics
+C-VD2U2GD2,Jason Grant,North Myrtle Beach,-78.6918,33.8176,United States,jason.grant@viverra.org,South Carolina,2023-06-03,merchant__electronics
+C-0EC1SB87,Deborah Murphy,Harrodsburg,-84.7702,37.7499,United States,deborah.murphy@adobe.com,Kentucky,2021-11-03,merchant__bigboxretailer
+C-B0PFX0R0,Jeremy Lewis,Zeeland,-86.1005,42.7922,United States,jeremy.lewis@a.co.uk,Michigan,2023-05-16,merchant__clothing
+C-KCRD7JQG,Tiffany Combs,Queensville,-79.4105,45.617,Canada,tiffany.combs@a.co.uk,Ontario,2022-11-18,merchant__electronics
+C-VJPLAKVY,Donna Sutton,Iowa City,-91.5302,41.6611,United States,donna.sutton@a.co.uk,Iowa,2022-07-10,merchant__clothing
+C-Q6UWB4T6,Kimberly Hall,Enumclaw,-121.989,47.2001,United States,kimberly.hall@lacusMauris.net,Washington,2022-04-14,merchant__bigboxretailer
+C-DGKBO6JM,Brett Jackson,Goderich,-81.7139,43.7428,Canada,brett.jackson@in.edu,Ontario,2024-10-30,merchant__electronics
+C-ZQD8C5K4,Cameron Wolf,Terrance,-128.610764,54.515102,Canada,cameron.wolf@bbc.co.uk,British Columbia,2021-12-03,merchant__electronics
+C-U49Q35BF,William Kelley,Toledo,-83.80,41.60,United States,william.kelley@bizjournals.com,Ohio,2024-03-22,merchant__electronics
+C-JH9ALT1I,Melissa Morales,Long Beach,-118.1899,33.7686,United States,melissa.morales@adobe.com,California,2022-04-27,merchant__electronics
+C-CUJVQKJB,Kathleen Peterson,San Diego,-117.17,32.73,United States,kathleen.peterson@hexun.com,California,2024-09-02,merchant__bigboxretailer
+C-8FZJO86O,Justin Evans,Buford,-84.0107,34.1284,United States,justin.evans@in.edu,Georgia,2022-04-11,merchant__bigboxretailer
+C-SZO55QA4,Joseph Scott,Apple Valley,-117.1896,34.4997,United States,joseph.scott@viverra.org,California,2023-06-10,merchant__clothing
+C-OMSRMASJ,Kristen Johnson,Rockville,-77.123,39.0558,United States,kristen.johnson@nec.co.uk,Maryland,2022-02-25,merchant__electronics
+C-OYH8YPZ0,Brendan Lee,Apple Valley,-117.1896,34.4997,United States,brendan.lee@yahoo.co.jp,California,2023-03-15,merchant__electronics
+C-PYFR8INT,Manuel Jenkins,Fort Wayne,-85.1394,41.0793,United States,manuel.jenkins@furl.net,Indiana,2023-02-03,merchant__bigboxretailer
+C-SFZO8N0M,Christopher Miles,Whitman,-82.0449,37.8322,United States,christopher.miles@nec.co.uk,West Virginia,2023-04-29,merchant__electronics
+C-DYNPI7RQ,Stacy Keith,Beaconsfield,-73.8683,45.4309,Canada,stacy.keith@in.edu,Quebec,2021-10-15,merchant__electronics
+C-Y0RWTTSL,Catherine Simpson,Rockville,-77.123,39.0558,United States,catherine.simpson@velconvallis.ca,Maryland,2024-01-06,merchant__bigboxretailer
+C-LE9ZEKBS,Colleen Richmond,Lafayette,-92.0198,30.2241,United States,colleen.richmond@Aliquam.net,Louisiana,2022-05-23,merchant__bigboxretailer
+C-KKDLXD7L,Brandi Martin,Green Bay,-88.13,44.48,United States,brandi.martin@adobe.com,Wisconsin,2023-06-08,merchant__electronics
+C-O0KO0YQK,Jessica Hahn,Lawton,-98.3959,34.6036,United States,jessica.hahn@aliquet.com,Oklahoma,2024-09-22,merchant__electronics
+C-N204IVTD,Alexandra Sanchez,Baltimore,-76.67,39.18,United States,alexandra.sanchez@nunc.net,Maryland,2022-01-04,merchant__electronics
+C-CNHAXLLO,James Sanchez,Springfield,-89.67,39.85,United States,james.sanchez@foxnews.com,Illinois,2023-11-06,merchant__electronics
+C-HB6PC3WN,Rebecca Hutchinson,Louisville,-85.67,38.23,United States,rebecca.hutchinson@foxnews.com,Kentucky,2024-04-15,merchant__electronics
+C-GC73V6BX,Joshua Mcdonald,Stoney Creek,-79.7609,43.2165,Canada,joshua.mcdonald@in.edu,Ontario,2023-05-26,merchant__electronics
+C-EA00BUS6,James Anderson,Colorado Springs,-104.8078,38.9254,United States,james.anderson@nunc.net,Colorado,2024-10-23,merchant__electronics
+C-1OVLRCHO,Robert Bell,Felton,-122.0743,37.0502,United States,robert.bell@hexun.com,California,2024-07-13,merchant__bigboxretailer
+C-GCGP9OU2,Richard Daniels,Riverdale,-84.3592,33.522,United States,richard.daniels@nec.co.uk,Georgia,2022-04-17,merchant__clothing
+C-1EUKEW3K,Gary Ross,Memphis,-89.87,35.35,United States,gary.ross@nunc.net,Tennessee,2024-05-01,merchant__bigboxretailer
+C-4U4GFFLZ,Tiffany Gray,Las Vegas,-115.1419,36.1673,United States,tiffany.gray@viverra.org,Nevada,2021-10-14,merchant__bigboxretailer
+C-OLNOA2PH,Tiffany Wang,Seattle,-122.318,47.5411,United States,tiffany.wang@a.co.uk,Washington,2024-05-05,merchant__electronics
+C-I1CXVLE4,Ebony Nelson,Arlington,-112.8459,33.4372,United States,ebony.nelson@Aliquam.net,Arizona,2022-07-11,merchant__electronics
+C-UFQ0U8DD,Kevin Rivera,Lafayette,-92.0198,30.2241,United States,kevin.rivera@lacusMauris.net,Louisiana,2022-01-16,merchant__clothing
+C-V48XNNBU,Dominique Johnson,Tallahassee,-84.37,30.38,United States,dominique.johnson@nonsollicitudin.net,Florida,2024-12-07,merchant__bigboxretailer
+C-1DN884D1,Sara Hubbard,Fort Myers,-81.8572,26.6416,United States,sara.hubbard@adobe.com,Florida,2022-01-23,merchant__electronics
+C-TBGAT6CK,Brian Holder,Harrodsburg,-84.7702,37.7499,United States,brian.holder@furl.net,Kentucky,2024-12-11,merchant__electronics
+C-JLNNCF93,Kevin Sweeney,Toronto,-79.3839,43.6525,Canada,kevin.sweeney@hexun.com,Ontario,2022-05-22,merchant__electronics
+C-8PN95KBJ,Kenneth Johnson,Kennesaw,-84.1663,33.8907,United States,kenneth.johnson@aliquet.com,Georgia,2023-05-02,merchant__electronics
+C-SXB0OZZM,David Patterson,Ellershouse,-64.1332,44.9913,Canada,david.patterson@furl.net,Nova Scotia,2024-01-14,merchant__bigboxretailer
+C-PH6R3XWW,Jason Flowers,Yorkton,-102.462776,51.213890,Canada,jason.flowers@foxnews.com,Saskatchewan,2023-02-25,merchant__electronics
+C-9ZU35U02,Eric Peters,Webster,-77.6184,43.1578,United States,eric.peters@Aliquam.net,New York,2022-08-03,merchant__electronics
+C-1JRSSRIV,Cynthia Williams,Lefebvre,-72.3179,45.7654,Canada,cynthia.williams@icq.com,Quebec,2023-01-18,merchant__electronics
+C-U9L30R2W,Melinda Gilmore,Santee,-117.1578,32.7467,United States,melinda.gilmore@bbc.co.uk,California,2023-11-30,merchant__electronics
+C-NIJFK9P3,Deborah Hunter,Grasston,-93.2917,45.8769,United States,deborah.hunter@a.co.uk,Minnesota,2024-09-14,merchant__clothing
+C-X295KAL2,Charles Lara,Pittsburgh,-79.9502,40.5264,United States,charles.lara@nunc.net,Pennsylvania,2023-02-12,merchant__electronics
+C-YZ52JGOY,Daniel Cruz,Fresno,-119.7937,36.7917,United States,daniel.cruz@viverra.org,California,2022-12-09,merchant__electronics
+C-CJNT90S6,Brianna Huff,Oakland,-122.26,37.8333,United States,brianna.huff@nonsollicitudin.net,California,2024-10-31,merchant__clothing
+C-7UOEPZVJ,Amy Yu,Moncton,-64.775820,46.088880,Canada,amy.yu@in.edu,New Brunswick,2024-07-01,merchant__bigboxretailer
+C-I7HSLZF7,Michelle Porter,Bloomington,-93.2983,44.8408,United States,michelle.porter@in.edu,Minnesota,2023-01-05,merchant__bigboxretailer
+C-AXY6C94T,Rachel Bell,Kissimmee,-81.4416,28.2931,United States,rachel.bell@viverra.org,Florida,2023-03-26,merchant__electronics
+C-BST6LA1M,Robert Roy,Birmingham,-86.7992,33.3704,United States,robert.roy@icq.com,Alabama,2022-09-12,merchant__electronics
+C-BUOJYPCB,Monica Rivera,Watson Lake,-128.712080,60.06288,Canada,monica.rivera@foxnews.com,Yukon,2024-04-12,merchant__bigboxretailer
+C-SYXW83L4,Jillian Edwards,Roselle,-88.0794,41.9862,United States,jillian.edwards@bbc.co.uk,Illinois,2023-10-13,merchant__electronics
+C-A495QSJT,Wayne Reed,Benton,-88.3513,37.0259,United States,wayne.reed@a.co.uk,Kentucky,2023-08-04,merchant__bigboxretailer
+C-3SZ583YZ,Margaret Snow,Beavertown,-77.2116,40.7443,United States,margaret.snow@euodio.ca,Pennsylvania,2022-12-28,merchant__clothing
+C-95KC7MX5,Ryan Thomas,Warrior,-86.8079,33.8188,United States,ryan.thomas@Aliquam.net,Alabama,2021-10-27,merchant__electronics
+C-XK2EG3CY,Scott Mckay,Springfield,-89.67,39.85,United States,scott.mckay@velconvallis.ca,Illinois,2024-11-22,merchant__bigboxretailer
+C-ORN86J5P,Felicia Rocha,Sherbrooke,-71.8929,45.4042,Canada,felicia.rocha@foxnews.com,Quebec,2022-11-30,merchant__bigboxretailer
+C-T1E4F2F7,Lacey Stevens,Chicago,-87.6369,41.8839,United States,lacey.stevens@bizjournals.com,Illinois,2023-02-14,merchant__bigboxretailer
+C-XCGOI71H,Victoria Schneider,Richmond,-77.434,37.542,United States,victoria.schneider@sociisnatoque.net,Virginia,2023-05-20,merchant__clothing
+C-IE0CANM6,Heather Jensen,Gloucester,-75.5857,45.3027,Canada,heather.jensen@hexun.com,Ontario,2024-09-14,merchant__electronics
+C-NXS38S1M,Corey Norton,Orlando,-81.2849,28.5369,United States,corey.norton@adobe.com,Florida,2023-07-25,merchant__bigboxretailer
+C-OL0HHPCS,Crystal Poole,Ringgold,-85.0441,34.8225,United States,crystal.poole@velconvallis.ca,Georgia,2022-05-16,merchant__bigboxretailer
+C-6NPL0ZFR,Sierra Mcdonald,North Dartmouth,-70.9252,41.6327,United States,sierra.mcdonald@aliquet.com,Massachusetts,2024-02-10,merchant__bigboxretailer
+C-06NQ9TCX,Ryan Rubio,Dallas,-97.0004,32.7417,United States,ryan.rubio@Aliquam.net,Texas,2023-04-21,merchant__bigboxretailer
+C-VMM90XZQ,Andrew Garcia,Lafayette,-92.0198,30.2241,United States,andrew.garcia@bbc.co.uk,Louisiana,2022-03-16,merchant__bigboxretailer
+C-0FADEJ8L,Aimee Griffin,Akron,-81.519005,41.081444,United States,aimee.griffin@adobe.com,Ohio,2021-10-25,merchant__electronics
+C-K4664DWY,Jennifer Lewis,Bathurst,-65.650002,47.619999,Canada,jennifer.lewis@furl.net,New Brunswick,2023-10-31,merchant__clothing
+C-3DIRNWL9,Miss Joanna Booth,New York,-73.9898,40.7393,United States,miss.joanna.booth@hexun.com,New York,2024-09-28,merchant__electronics
+C-40PX27ED,Joshua Meyers,Cincinnati,-84.3753,39.2716,United States,joshua.meyers@icq.com,Ohio,2022-05-08,merchant__electronics
+C-AXDVBX5X,Raymond Evans,Edison,-74.1977,39.9519,United States,raymond.evans@Aliquam.net,New Jersey,2024-06-19,merchant__electronics
+C-JTFXEGZ6,Pamela Duncan,Lourdes,-98.5580,49.5327,Canada,pamela.duncan@a.co.uk,Manitoba,2024-12-14,merchant__electronics
+C-C5GVQV2Q,Jacqueline Gibson,Buford,-84.0107,34.1284,United States,jacqueline.gibson@foxnews.com,Georgia,2024-09-17,merchant__bigboxretailer
+C-41OLFE1U,Carol Mitchell,Hawthorne,-118.4913,34.0155,United States,carol.mitchell@furl.net,California,2024-05-05,merchant__bigboxretailer
+C-HZ9K98MY,Katelyn Tanner,Birmingham,-86.7992,33.3704,United States,katelyn.tanner@adobe.com,Alabama,2023-03-05,merchant__bigboxretailer
+C-K3U4N154,Kimberly Stevens,Grand Rapids,-85.6681,42.9634,United States,kimberly.stevens@bbc.co.uk,Michigan,2024-03-18,merchant__bigboxretailer
+C-JQBSTJBV,Jeffrey Sims,Laurel,-76.8903,39.0587,United States,jeffrey.sims@bizjournals.com,Maryland,2022-08-18,merchant__electronics
+C-Q8NBN2ZU,Joel Hickman,Moncton,-64.775820,46.088880,Canada,joel.hickman@adobe.com,New Brunswick,2024-07-20,merchant__electronics
+C-RXYKUK76,Maurice Townsend,Colorado Springs,-104.8078,38.9254,United States,maurice.townsend@viverra.org,Colorado,2023-01-02,merchant__electronics
+C-XVVCMXEL,William Williams,Malartic,-78.133331,48.133331,Canada,william.williams@sociisnatoque.net,Quebec,2022-08-25,merchant__electronics
+C-97WU0F6Y,William Khan,Chandlersville,-81.9118,39.8716,United States,william.khan@nec.co.uk,Ohio,2023-09-11,merchant__electronics
+C-9SA8CYOZ,Diane Pratt,Las Vegas,-115.1419,36.1673,United States,diane.pratt@nec.co.uk,Nevada,2022-05-27,merchant__electronics
+C-2KRK11OJ,Jordan Martinez,Blanchardville,-89.6341,42.8163,United States,jordan.martinez@yahoo.co.jp,Wisconsin,2024-10-25,merchant__electronics
+C-Q7X8IXRO,Donald Curry,Oakland,-122.26,37.8333,United States,donald.curry@icq.com,California,2024-05-14,merchant__electronics
+C-UD4VTZN3,Ronnie Mcdaniel,Leesburg,-81.877,28.8123,United States,ronnie.mcdaniel@lacusMauris.net,Florida,2023-01-05,merchant__bigboxretailer
+C-WBZ48JFN,Antonio Perez,Elgin,-88.2846,42.0406,United States,antonio.perez@furl.net,Illinois,2023-07-15,merchant__bigboxretailer
+C-BIA9BS2D,Jacob Perez,Mobile,-88.25,30.68,United States,jacob.perez@foxnews.com,Alabama,2022-06-15,merchant__electronics
+C-VULHLWJY,Jeanette Gibbs,Chevy Chase,-77.0293,38.9999,United States,jeanette.gibbs@nunc.net,Maryland,2023-08-20,merchant__electronics
+C-ZZOYMATN,Matthew Henry,Inverness,-82.3312,28.8379,United States,matthew.henry@nunc.net,Florida,2024-05-11,merchant__bigboxretailer
+C-QN1M7IQQ,Vanessa Williams,Kitchener,-80.495064,43.452969,Canada,vanessa.williams@velconvallis.ca,Ontario,2023-01-24,merchant__electronics
+C-A5RS6NSC,Douglas Anderson,Wayne,-74.0525,40.866,United States,douglas.anderson@yahoo.co.jp,New Jersey,2024-04-06,merchant__electronics
+C-K1MPV1XL,Sara Bryan,Terryville,-72.9422,41.672,United States,sara.bryan@viverra.org,Connecticut,2021-11-13,merchant__bigboxretailer
+C-H7POWF0G,Lisa Gardner,Baltimore,-76.67,39.18,United States,lisa.gardner@bizjournals.com,Maryland,2022-06-30,merchant__electronics
+C-6FXDF2PJ,Angie Ruiz,Cassville,-80.0586,39.7162,United States,angie.ruiz@nec.co.uk,West Virginia,2024-05-16,merchant__electronics
+C-62XNDM02,Jeffrey Brown,Lawton,-98.3959,34.6036,United States,jeffrey.brown@foxnews.com,Oklahoma,2024-12-27,merchant__bigboxretailer
+C-KJVABIY5,Ricardo Miller,Grand Rapids,-85.6681,42.9634,United States,ricardo.miller@bbc.co.uk,Michigan,2024-12-26,merchant__clothing
+C-05TRMZDO,James Henderson,Euless,-97.3202,32.746,United States,james.henderson@a.co.uk,Texas,2023-09-08,merchant__electronics
+C-DPWBTRB2,Cynthia Cook,Memphis,-89.87,35.35,United States,cynthia.cook@Aliquam.net,Tennessee,2023-04-14,merchant__electronics
+C-UPWRQAFS,Amanda Joseph,Riverdale,-84.3592,33.522,United States,amanda.joseph@nonsollicitudin.net,Georgia,2023-07-12,merchant__clothing
+C-W68Y2FR5,Taylor Morgan,Norridgewock,-69.8238,44.6283,United States,taylor.morgan@icq.com,Maine,2023-04-20,merchant__bigboxretailer
+C-EI548WBJ,Danny Wright,Watson Lake,-128.712080,60.06288,Canada,danny.wright@adobe.com,Yukon,2023-03-21,merchant__electronics
+C-VF5BVS4A,Zachary Gay,San Francisco,-122.435,37.7875,United States,zachary.gay@euodio.ca,California,2023-11-30,merchant__bigboxretailer
+C-V5FRFBMQ,Kelly Mcknight,Gardena,-118.2885,33.8832,United States,kelly.mcknight@nonsollicitudin.net,California,2022-03-21,merchant__clothing
+C-GCCW8G5O,Derrick Norton,Anadarko,-98.4396,35.0962,United States,derrick.norton@bbc.co.uk,Oklahoma,2023-04-15,merchant__electronics
+C-W7E8T5B7,Christopher Dominguez,Aurora,-79.4504,44.0065,Canada,christopher.dominguez@adobe.com,Ontario,2022-01-08,merchant__electronics
+C-CER28HQS,Anne Boyd,Sandy,-111.8390,40.5650,United States,anne.boyd@viverra.org,Utah,2022-11-12,merchant__electronics
+C-NXOPCNZ3,Sara Martinez,Vance,-87.4839,33.1962,United States,sara.martinez@icq.com,Alabama,2023-10-18,merchant__bigboxretailer
+C-0GKWDQ8E,Luis Reyes,New York,-73.9898,40.7393,United States,luis.reyes@sociisnatoque.net,New York,2024-05-28,merchant__bigboxretailer
+C-UYLSZ929,Ryan Combs,Minneapolis,-93.2928,45.0436,United States,ryan.combs@nonsollicitudin.net,Minnesota,2024-05-02,merchant__clothing
+C-8WTJOQ9C,Ryan Foster,Harrodsburg,-84.7702,37.7499,United States,ryan.foster@euodio.ca,Kentucky,2021-12-31,merchant__clothing
+C-0P7K2H73,Miguel Parker,Morrisville,-78.6508,35.7843,United States,miguel.parker@icq.com,North Carolina,2021-12-04,merchant__electronics
+C-QE5RNMX5,James Burke,Lafayette,-92.0198,30.2241,United States,james.burke@lacusMauris.net,Louisiana,2022-09-20,merchant__bigboxretailer
+C-0C49RQG3,Vincent Garcia,Bonnyville Municipal District,-110.7399,54.2679,Canada,vincent.garcia@nunc.net,Alberta,2023-01-19,merchant__electronics
+C-OKURDHYN,Mackenzie Martinez,Biloxi,-88.8853,30.3960,United States,mackenzie.martinez@icq.com,Mississippi,2022-04-15,merchant__clothing
+C-7A09JOMI,Mr. Blake Ramirez,Hartford,-72.6778,41.7677,United States,mr..blake.ramirez@a.co.uk,Connecticut,2022-08-18,merchant__electronics
+C-KYR2YZTD,Kimberly Johnson,Chevy Chase,-77.0293,38.9999,United States,kimberly.johnson@viverra.org,Maryland,2023-06-11,merchant__clothing
+C-JCII3EW8,Andrew Terrell,Campbell,-121.8893,37.3323,United States,andrew.terrell@lacusMauris.net,California,2024-01-29,merchant__bigboxretailer
+C-IGTPJA89,Michael Robinson,Raleigh,-78.6508,35.7843,United States,michael.robinson@lacusMauris.net,North Carolina,2022-08-10,merchant__electronics
+C-0Z6ZASPB,Lindsay Shaffer,Manassas,-77.4783,38.7515,United States,lindsay.shaffer@in.edu,Virginia,2022-04-11,merchant__electronics
+C-C53IJOOJ,Julie Brown,Corona Del Mar,-117.8566,33.6276,United States,julie.brown@nonsollicitudin.net,California,2024-04-25,merchant__bigboxretailer
+C-2MXRR9OY,Carrie Abbott,Montreal,-73.5689,45.5034,Canada,carrie.abbott@velconvallis.ca,Quebec,2022-06-12,merchant__electronics
+C-RY9RIANE,Catherine Stevens,Clinton,-83.969,42.068,United States,catherine.stevens@in.edu,Michigan,2022-03-29,merchant__bigboxretailer
+C-5FMVWCJ9,Mr. Scott Fernandez,Watson Lake,-128.712080,60.06288,Canada,mr..scott.fernandez@viverra.org,Yukon,2022-05-14,merchant__electronics
+C-RQGE7TGX,Christopher Brooks,Onoway,-112.8326,49.7018,Canada,christopher.brooks@viverra.org,Alberta,2021-12-26,merchant__bigboxretailer
+C-0S5A9TS9,Gregory Kim,Schwenksville,-75.3489,40.2006,United States,gregory.kim@nec.co.uk,Pennsylvania,2022-02-19,merchant__electronics
+C-DA63DAJC,Debbie Ramirez,Bornholm,-81.0833,43.5823,Canada,debbie.ramirez@euodio.ca,Ontario,2023-07-20,merchant__electronics
+C-FNI00924,Christopher Kirk,Philadelphia,-75.0401,40.035,United States,christopher.kirk@hexun.com,Pennsylvania,2024-09-30,merchant__electronics
+C-B2AKP4CB,Brian Contreras,Sherbrooke,-71.8929,45.4042,Canada,brian.contreras@nunc.net,Quebec,2022-01-29,merchant__bigboxretailer
+C-HK2DKVQM,Jacqueline Arnold,Birmingham,-86.7992,33.3704,United States,jacqueline.arnold@sociisnatoque.net,Alabama,2023-11-09,merchant__bigboxretailer
+C-LV5Y080Q,Jennifer Johnson,Renton,-122.3375,47.6149,United States,jennifer.johnson@bizjournals.com,Washington,2023-04-29,merchant__bigboxretailer
+C-U9GNX33A,Stacy Wright,Evanston,-110.9671,41.2677,United States,stacy.wright@furl.net,Wyoming,2022-01-24,merchant__bigboxretailer
+C-CUW7ZXK2,Stephanie Fisher,Warwick,-81.9098,43.0049,Canada,stephanie.fisher@viverra.org,Ontario,2024-05-08,merchant__electronics
+C-S3KX79AI,Dennis Dalton,Brantford,-80.3842,44.1767,Canada,dennis.dalton@hexun.com,Ontario,2024-07-12,merchant__electronics
+C-69PYPU9D,Nicholas Randall,Metairie,-90.1529,29.9841,United States,nicholas.randall@lacusMauris.net,Louisiana,2022-04-12,merchant__electronics
+C-NS98RSDT,Mr. Jose Clark,Saint-jean-chrysostome,-71.1818,46.8078,Canada,mr..jose.clark@foxnews.com,Quebec,2021-10-12,merchant__electronics
+C-NPOZ4LVM,Elizabeth Ayala,Birmingham,-86.7992,33.3704,United States,elizabeth.ayala@nec.co.uk,Alabama,2024-10-23,merchant__electronics
+C-HHAI3756,Steven Powell,Stoney Creek,-79.7609,43.2165,Canada,steven.powell@sociisnatoque.net,Ontario,2021-12-16,merchant__electronics
+C-DEIX9E21,Thomas Golden,Roselle,-88.0794,41.9862,United States,thomas.golden@velconvallis.ca,Illinois,2024-06-07,merchant__electronics
+C-VW22QQBJ,Zachary Lawson,Carleton Place,-76.1479,45.1432,Canada,zachary.lawson@bizjournals.com,Ontario,2023-03-12,merchant__bigboxretailer
+C-5KGCE6TC,Jordan Mccarty,Moncton,-64.775820,46.088880,Canada,jordan.mccarty@nonsollicitudin.net,New Brunswick,2024-12-02,merchant__electronics
+C-6YFOTXRV,Matthew Flynn,Tallahassee,-84.37,30.38,United States,matthew.flynn@icq.com,Florida,2024-03-29,merchant__bigboxretailer
+C-XSV8SJXS,Tamara Castillo,Vermont,-90.4303,40.2942,United States,tamara.castillo@yahoo.co.jp,Illinois,2022-04-21,merchant__clothing
+C-B9J7J9A3,William Black,San Diego,-117.17,32.73,United States,william.black@furl.net,California,2022-11-26,merchant__bigboxretailer
+C-BDOYZKB7,Tracy Smith,Winnipeg,-97.1519,49.8687,Canada,tracy.smith@velconvallis.ca,Manitoba,2021-10-28,merchant__electronics
+C-5EE6XLMV,Brian Patton,Warrior,-86.8079,33.8188,United States,brian.patton@sociisnatoque.net,Alabama,2024-10-11,merchant__bigboxretailer
+C-YVOYQ5UJ,Tammy Huffman,Birmingham,-86.7992,33.3704,United States,tammy.huffman@furl.net,Alabama,2022-01-03,merchant__electronics
+C-MGZD6LLL,Patricia Smith,Paintsville,-82.8092,37.8167,United States,patricia.smith@bizjournals.com,Kentucky,2023-12-02,merchant__clothing
+C-UB1890HM,Paula Jones,Bornholm,-81.0833,43.5823,Canada,paula.jones@nonsollicitudin.net,Ontario,2024-12-05,merchant__bigboxretailer
+C-HR8XZNG7,Mark Williams,Mansfield,-82.5163,40.7588,United States,mark.williams@viverra.org,Ohio,2024-04-13,merchant__clothing
+C-SR5EN56F,Christopher Fields,Maryland Heights,-90.4189,38.7034,United States,christopher.fields@lacusMauris.net,Missouri,2022-05-07,merchant__electronics
+C-BE9LV666,Matthew Brown,Newhall,-118.5319,34.3814,United States,matthew.brown@adobe.com,California,2022-04-30,merchant__electronics
+C-RRXOMBYV,Randy Lindsey,Walnut,-117.6304,34.0525,United States,randy.lindsey@icq.com,California,2024-08-01,merchant__clothing
+C-AWAJ98CK,Margaret Fitzpatrick,Edison,-74.1977,39.9519,United States,margaret.fitzpatrick@velconvallis.ca,New Jersey,2023-12-19,merchant__bigboxretailer
+C-O5U7653M,Rachel White,Vegreville,-112.0539,53.4941,Canada,rachel.white@velconvallis.ca,Alberta,2022-11-03,merchant__bigboxretailer
+C-1M54JTDC,Matthew Carlson,Philadelphia,-75.0401,40.035,United States,matthew.carlson@adobe.com,Pennsylvania,2022-12-22,merchant__electronics
+C-LWJDW1W4,Kristin Johnson,Akron,-81.519005,41.081444,United States,kristin.johnson@velconvallis.ca,Ohio,2022-07-14,merchant__electronics
+C-FRCZ2UGI,Andrew Hill,Finksburg,-76.9519,39.3972,United States,andrew.hill@aliquet.com,Maryland,2023-12-23,merchant__electronics
+C-L5JTFRL1,Justin Daniel,Victoria,-123.3544,48.408,Canada,justin.daniel@a.co.uk,British Columbia,2023-02-09,merchant__bigboxretailer
+C-ZTM3HZK1,Jill Deleon,Salt Lake City,-111.8211,40.6677,United States,jill.deleon@yahoo.co.jp,Utah,2024-07-25,merchant__bigboxretailer
+C-A5B6G8IU,Stephanie Cobb,Minneapolis,-93.2928,45.0436,United States,stephanie.cobb@a.co.uk,Minnesota,2022-09-23,merchant__clothing
+C-M2JZX2IJ,Denise Sanchez,Montreal,-73.5689,45.5034,Canada,denise.sanchez@lacusMauris.net,Quebec,2023-06-06,merchant__bigboxretailer
+C-QME6C2Z0,Joseph Castro,Kearney,-99.00,40.73,United States,joseph.castro@lacusMauris.net,Nebraska,2022-06-10,merchant__electronics
+C-PI70BKL9,Jill Walker,Big Cabin,-95.2678,36.443,United States,jill.walker@lacusMauris.net,Oklahoma,2023-06-09,merchant__electronics
+C-2L4BYL1B,Crystal Hart,Bakersfield,-119.0166,35.3734,United States,crystal.hart@furl.net,California,2023-03-08,merchant__electronics
+C-KQYLGHJR,Jay Hoover,New York,-73.9898,40.7393,United States,jay.hoover@in.edu,New York,2023-09-08,merchant__electronics
+C-QVT4ZGSB,Nicholas Smith,Colchester,-73.1479,44.5439,United States,nicholas.smith@viverra.org,Vermont,2023-08-23,merchant__bigboxretailer
+C-KWFPJZYR,Adrienne Landry,Milwaukee,-87.9969,43.1922,United States,adrienne.landry@aliquet.com,Wisconsin,2024-10-06,merchant__bigboxretailer
+C-ACZBLTPH,Joshua Ross,Manchester,-71.4608,42.9935,United States,joshua.ross@yahoo.co.jp,New Hampshire,2024-06-22,merchant__electronics
+C-1RY0CX2L,Michael Wilson,London,-81.2513,42.9841,Canada,michael.wilson@nonsollicitudin.net,Ontario,2021-10-25,merchant__clothing
+C-6E5DAC82,Raymond Richmond,Cassville,-80.0586,39.7162,United States,raymond.richmond@lacusMauris.net,West Virginia,2022-11-28,merchant__electronics
+C-MXIO2JU0,Megan Brown,Spokane,-117.33,47.67,United States,megan.brown@nec.co.uk,Washington,2022-08-19,merchant__electronics
+C-K5W5005M,Amber Baldwin,Jefferson City,-92.17,38.60,United States,amber.baldwin@velconvallis.ca,Missouri,2022-07-09,merchant__electronics
+C-BH5QD4QQ,John Glover,San Francisco,-122.435,37.7875,United States,john.glover@in.edu,California,2023-02-23,merchant__electronics
+C-QYS178Q4,Stacey Wright,Iowa City,-91.5302,41.6611,United States,stacey.wright@nonsollicitudin.net,Iowa,2023-10-21,merchant__clothing
+C-7SRLRU8I,Veronica Fox,Austin,-97.7077,30.2608,United States,veronica.fox@furl.net,Texas,2023-05-02,merchant__electronics
+C-90VMI369,Jason Young,Bay Roberts,-53.2717,47.5812,Canada,jason.young@bizjournals.com,Newfoundland and Labrador,2022-12-13,merchant__bigboxretailer
+C-P947ZWXN,Erin Hatfield,Wheatfield,-86.8916,41.0732,United States,erin.hatfield@velconvallis.ca,Indiana,2022-11-22,merchant__electronics
+C-L14XVYN4,Darrell David,Morrisville,-78.6508,35.7843,United States,darrell.david@lacusMauris.net,North Carolina,2024-06-13,merchant__electronics
+C-OCE4JXJY,Jose Moreno,Colchester,-73.1479,44.5439,United States,jose.moreno@icq.com,Vermont,2022-08-27,merchant__electronics
+C-T7FEP3HL,Angel Smith,New Albany,-85.7346,38.2432,United States,angel.smith@nonsollicitudin.net,Indiana,2024-02-29,merchant__bigboxretailer
+C-UIN7ZJAB,Melissa Caldwell,Shreveport,-93.7519,32.5113,United States,melissa.caldwell@bbc.co.uk,Louisiana,2023-05-06,merchant__electronics
+C-8RS34DUK,Leslie Herrera,Tallahassee,-84.37,30.38,United States,leslie.herrera@in.edu,Florida,2024-11-02,merchant__electronics
+C-Z8Y70PEQ,Edward Smith,Eden Prairie,-93.2928,45.0436,United States,edward.smith@yahoo.co.jp,Minnesota,2024-11-26,merchant__electronics
+C-FI938ZUX,Paul Sanchez,Naperville,-88.1535,41.750,United States,paul.sanchez@adobe.com,Illinois,2023-12-26,merchant__bigboxretailer
+C-Q9PDVL51,Shelly Long,Sylvan Grove,-98.3923,39.2409,United States,shelly.long@nunc.net,Kansas,2023-03-12,merchant__bigboxretailer
+C-II99DX0I,Richard Ritter,Oak Brook,-87.9447,41.98,United States,richard.ritter@bizjournals.com,Illinois,2023-02-20,merchant__electronics
+C-X3XOVEMO,Gordon Kim DDS,Issaquah,-122.1423,47.5953,United States,gordon.kim.dds@euodio.ca,Washington,2024-08-18,merchant__bigboxretailer
+C-Q6HW98XM,Frank Burton,Fort Smith,-94.37,35.33,United States,frank.burton@velconvallis.ca,Arkansas,2024-02-09,merchant__electronics
+C-LRYYXNCN,Michael Wilkinson,Bakersfield,-119.0166,35.3734,United States,michael.wilkinson@lacusMauris.net,California,2023-04-14,merchant__electronics
+C-UVJSMJA3,Larry Blanchard,Syracuse,-76.1517,43.0473,United States,larry.blanchard@foxnews.com,New York,2024-12-08,merchant__electronics
+C-8YAUK7BH,Elizabeth Lopez,New York,-73.9898,40.7393,United States,elizabeth.lopez@furl.net,New York,2023-06-28,merchant__clothing
+C-2PBDODKP,Jamie Parker,Birmingham,-86.7992,33.3704,United States,jamie.parker@nonsollicitudin.net,Alabama,2023-11-15,merchant__electronics
+C-UCJ44QZE,Christina Sanders,Onoway,-112.8326,49.7018,Canada,christina.sanders@icq.com,Alberta,2021-12-29,merchant__bigboxretailer
+C-ZVOUDCX8,Mary Stone,Whitehorse,-135.052292,60.719688,Canada,mary.stone@furl.net,Yukon,2024-10-10,merchant__bigboxretailer
+C-7E8L77IS,Andrea Hoover,Vance,-87.4839,33.1962,United States,andrea.hoover@viverra.org,Alabama,2024-05-22,merchant__bigboxretailer
+C-TXPU6FCO,Chelsey Williams,Orilla,-79.4197,44.6082,Canada,chelsey.williams@sociisnatoque.net,Ontario,2023-10-17,merchant__electronics
+C-TK1BCMPJ,Kenneth Andrews,Riverside,-117.3649,33.9841,United States,kenneth.andrews@velconvallis.ca,California,2023-07-21,merchant__clothing
+C-X4UPWJD1,Isaiah Rodriguez,Toledo,-83.80,41.60,United States,isaiah.rodriguez@nunc.net,Ohio,2023-08-07,merchant__bigboxretailer
+C-EU5KHM65,Joel Moody,San Diego,-117.17,32.73,United States,joel.moody@adobe.com,California,2024-10-20,merchant__bigboxretailer
+C-XJPEZ9IY,Micheal James III,Whitehorse,-135.052292,60.719688,Canada,micheal.james.iii@nonsollicitudin.net,Yukon,2022-07-07,merchant__electronics
+C-5TWK9BCG,Andrew Todd,Los Angeles,-118.1925,34.0334,United States,andrew.todd@aliquet.com,California,2022-10-04,merchant__electronics
+C-N6ZHQ7S4,Carolyn Carlson,Idaho Falls,-112.0408,43.4927,United States,carolyn.carlson@euodio.ca,Idaho,2024-11-15,merchant__electronics
+C-59AZWPME,Jacqueline Murphy,New York,-73.9898,40.7393,United States,jacqueline.murphy@viverra.org,New York,2023-04-26,merchant__bigboxretailer
+C-AIVHJBMS,Henry Gonzales,Pittsburgh,-79.9502,40.5264,United States,henry.gonzales@adobe.com,Pennsylvania,2024-06-30,merchant__electronics
+C-7M9WWQEU,Benjamin Smith,Bloomington,-93.2983,44.8408,United States,benjamin.smith@yahoo.co.jp,Minnesota,2024-04-14,merchant__bigboxretailer
+C-4LQ8RBV8,Clayton Miller,Minneapolis,-93.2928,45.0436,United States,clayton.miller@adobe.com,Minnesota,2023-10-10,merchant__bigboxretailer
+C-VGS1O5F5,Kelly Gibson,Alamosa,-105.9469,37.4918,United States,kelly.gibson@foxnews.com,Colorado,2021-10-25,merchant__bigboxretailer
+C-TBWXA8M9,Dana Zimmerman,Whitehorse,-135.052292,60.719688,Canada,dana.zimmerman@yahoo.co.jp,Yukon,2024-09-10,merchant__electronics
+C-80XIVGVS,Mark Davenport,Ringgold,-85.0441,34.8225,United States,mark.davenport@nec.co.uk,Georgia,2024-06-05,merchant__electronics
+C-IYKY5WN5,Mary Joyce,New York,-73.9898,40.7393,United States,mary.joyce@bizjournals.com,New York,2023-06-07,merchant__electronics
+C-WU4GSHUG,Dawn Anderson,Eugene,-123.22,44.12,United States,dawn.anderson@in.edu,Oregon,2022-09-02,merchant__electronics
+C-6SR3EW08,Timothy Taylor,Moncton,-64.775820,46.088880,Canada,timothy.taylor@foxnews.com,New Brunswick,2024-11-22,merchant__clothing
+C-7R66XTBO,Matthew Hernandez,Euless,-97.3202,32.746,United States,matthew.hernandez@in.edu,Texas,2022-09-30,merchant__electronics
+C-VIUBEG3V,Jennifer Sanchez,Corpus Christi,-97.3629,27.6981,United States,jennifer.sanchez@yahoo.co.jp,Texas,2022-07-04,merchant__electronics
+C-0159TVP7,William Ross,Spokane,-117.33,47.67,United States,william.ross@nec.co.uk,Washington,2024-09-30,merchant__electronics
+C-G43SBR9M,Felicia Barber,Bakersfield,-119.0166,35.3734,United States,felicia.barber@icq.com,California,2024-03-31,merchant__clothing
+C-BFW2UXS1,Christine Lee,Minneapolis,-93.2928,45.0436,United States,christine.lee@aliquet.com,Minnesota,2024-05-05,merchant__bigboxretailer
+C-AJUVVFQ8,Lisa Fields,Lefebvre,-72.3179,45.7654,Canada,lisa.fields@a.co.uk,Quebec,2022-06-01,merchant__electronics
+C-X1FP47FM,Michael Baker,Loganville,-90.0344,43.44,United States,michael.baker@yahoo.co.jp,Wisconsin,2022-02-27,merchant__electronics
+C-WIEFJHSP,Victoria Martin,Pocatello,-112.60,42.92,United States,victoria.martin@euodio.ca,Idaho,2023-02-12,merchant__bigboxretailer
+C-ALUQ0I3A,Ashlee Vincent,Paintsville,-82.8092,37.8167,United States,ashlee.vincent@Aliquam.net,Kentucky,2022-01-14,merchant__electronics
+C-T2EZLCNW,Tiffany Wagner,Walnut,-117.6304,34.0525,United States,tiffany.wagner@foxnews.com,California,2024-05-06,merchant__electronics
+C-1CE79MN5,Kristina Morgan,Little Rock,-92.3,35.22,United States,kristina.morgan@foxnews.com,Arkansas,2022-03-17,merchant__electronics
+C-MJ2UC0TJ,Christina Graham,Bradley,-97.7105,34.876,United States,christina.graham@Aliquam.net,Oklahoma,2024-05-11,merchant__clothing
+C-DHYLYX7Z,George Allen,Birmingham,-86.7992,33.3704,United States,george.allen@in.edu,Alabama,2022-05-19,merchant__clothing
+C-8411K6PD,Melissa Daniels,Colfax,-79.9544,36.094,United States,melissa.daniels@adobe.com,North Carolina,2024-09-23,merchant__bigboxretailer
+C-71I1OJ79,Danielle Stephens PhD,San Diego,-117.17,32.73,United States,danielle.stephens.phd@bbc.co.uk,California,2022-05-21,merchant__clothing
+C-BV38ABQX,Jacob Williamson,Lourdes,-98.5580,49.5327,Canada,jacob.williamson@Aliquam.net,Manitoba,2023-07-12,merchant__bigboxretailer
+C-W5BJP8VN,Dwayne Martinez,Zeeland,-86.1005,42.7922,United States,dwayne.martinez@nonsollicitudin.net,Michigan,2024-08-21,merchant__clothing
+C-6HPNBCKJ,John Webb,Corona Del Mar,-117.8566,33.6276,United States,john.webb@euodio.ca,California,2022-10-31,merchant__electronics
+C-TT10SIMU,Julie Gregory,Newport Beach,-117.8454,33.6818,United States,julie.gregory@icq.com,California,2021-10-10,merchant__electronics
+C-O9577L62,Eric Carpenter,Idaho Falls,-112.0408,43.4927,United States,eric.carpenter@bizjournals.com,Idaho,2024-09-22,merchant__bigboxretailer
+C-2STVSGE7,Edgar Barker DDS,Hermitage,-93.2075,37.9418,United States,edgar.barker.dds@in.edu,Missouri,2021-12-28,merchant__electronics
+C-FF08ABB0,Leslie Matthews,Maryland Heights,-90.4189,38.7034,United States,leslie.matthews@aliquet.com,Missouri,2023-10-18,merchant__electronics
+C-LVJDYEZO,Jake Young,Lafayette,-92.0198,30.2241,United States,jake.young@icq.com,Louisiana,2024-03-14,merchant__electronics
+C-U199V70T,Jennifer Willis,Gladstone,-122.6069,45.3559,United States,jennifer.willis@sociisnatoque.net,Oregon,2024-06-05,merchant__electronics
+C-7NVLZZYV,Joshua Thompson,Long Beach,-118.1899,33.7686,United States,joshua.thompson@hexun.com,California,2023-04-02,merchant__clothing
+C-3OUCB8D8,Kelly Kim,Corona Del Mar,-117.8566,33.6276,United States,kelly.kim@foxnews.com,California,2024-12-23,merchant__clothing
+C-3VL03ME3,Caitlyn Dean,Rycroft,-118.7115,55.7560,Canada,caitlyn.dean@in.edu,Alberta,2022-06-27,merchant__electronics
+C-MGG39BKT,Steven Chapman,Oklahoma City,-97.5162,35.4702,United States,steven.chapman@yahoo.co.jp,Oklahoma,2024-09-02,merchant__bigboxretailer
+C-EKEAUW84,Mary Green,Eden Prairie,-93.2928,45.0436,United States,mary.green@a.co.uk,Minnesota,2024-03-16,merchant__electronics
+C-AL75EODF,Mrs. Aimee Vasquez,Sylvan Lake,-114.0973,52.3065,Canada,mrs..aimee.vasquez@a.co.uk,Alberta,2022-06-20,merchant__electronics
+C-7TC57UVF,Heidi Alexander,Hawthorne,-118.4913,34.0155,United States,heidi.alexander@bbc.co.uk,California,2023-09-12,merchant__bigboxretailer
+C-LPNF02Z3,Jill Lawson,Finksburg,-76.9519,39.3972,United States,jill.lawson@lacusMauris.net,Maryland,2022-05-17,merchant__clothing
+C-TEA4HGD3,Jessica Hardy,New Haven,-72.88,41.27,United States,jessica.hardy@bizjournals.com,Connecticut,2022-04-05,merchant__electronics
+C-X0UZR13C,Brooke Allen,Campbellton,-66.6722,48.0074,Canada,brooke.allen@hexun.com,New Brunswick,2024-11-18,merchant__electronics
+C-YNQPVJ9F,Mario Jones,Santee,-117.1578,32.7467,United States,mario.jones@foxnews.com,California,2023-05-22,merchant__clothing
+C-1ZD4JQZ2,Heather Matthews,Santa Monica,-118.4904,34.02,United States,heather.matthews@aliquet.com,California,2024-07-27,merchant__electronics
+C-ZDNSPWT5,Abigail Mcguire,Delhi,-91.3853,31.807,United States,abigail.mcguire@nec.co.uk,Louisiana,2023-07-13,merchant__electronics
+C-LH90ZIYJ,James Wall,Augusta,-69.80,44.32,United States,james.wall@icq.com,Maine,2022-07-13,merchant__bigboxretailer
+C-1R96R25W,Catherine Steele,Bismarck,-87.6056,40.265,United States,catherine.steele@Aliquam.net,Illinois,2023-10-06,merchant__bigboxretailer
+C-0YVIOD6B,Rita Foster,Bay Roberts,-53.2717,47.5812,Canada,rita.foster@aliquet.com,Newfoundland and Labrador,2024-11-08,merchant__electronics
+C-HNCKLN3Z,Rodney Martinez,Las Vegas,-115.1419,36.1673,United States,rodney.martinez@nonsollicitudin.net,Nevada,2021-10-11,merchant__electronics
+C-SJUP279R,Amy Eaton,Lafayette,-92.0198,30.2241,United States,amy.eaton@nonsollicitudin.net,Louisiana,2023-12-29,merchant__bigboxretailer
+C-IF4ZQ1SI,Duane Newman,St Lunaire-griquet,-55.4664,51.5266,Canada,duane.newman@in.edu,Newfoundland and Labrador,2023-06-02,merchant__bigboxretailer
+C-F8JIVKY4,Jessica Le,Knoxville,-83.98,35.82,United States,jessica.le@Aliquam.net,Tennessee,2022-06-19,merchant__electronics
+C-3FM9IKHA,Aaron Bender,Springfield,-89.67,39.85,United States,aaron.bender@furl.net,Illinois,2021-12-16,merchant__bigboxretailer
+C-VEBBKUW6,Caleb Hopkins,Colchester,-73.1479,44.5439,United States,caleb.hopkins@aliquet.com,Vermont,2023-11-05,merchant__electronics
+C-QEWPMHPO,Laura Garcia,Renton,-122.3375,47.6149,United States,laura.garcia@bizjournals.com,Washington,2024-08-30,merchant__bigboxretailer
+C-KF3LX83J,Kathleen Mccarthy,Riverdale,-84.3592,33.522,United States,kathleen.mccarthy@velconvallis.ca,Georgia,2023-01-07,merchant__bigboxretailer
+C-GTQ6UOY3,Melissa Parks,Metairie,-90.1529,29.9841,United States,melissa.parks@furl.net,Louisiana,2023-07-18,merchant__electronics
+C-ZR529LJ1,Jennifer Mooney,Birmingham,-86.7992,33.3704,United States,jennifer.mooney@aliquet.com,Alabama,2023-02-21,merchant__bigboxretailer
+C-MUIOA1OA,Stephanie Moore,Alexandria,-77.1036,38.8119,United States,stephanie.moore@bbc.co.uk,Virginia,2022-08-26,merchant__clothing
+C-Q0HXJWZF,Elizabeth Marshall,Big Rapids,-85.4864,43.6993,United States,elizabeth.marshall@bbc.co.uk,Michigan,2024-05-21,merchant__electronics
+C-2Y0UCQCO,Stephanie Brown,Saint Paul,-93.0595,44.9629,United States,stephanie.brown@foxnews.com,Minnesota,2022-08-15,merchant__bigboxretailer
+C-EKTU52GG,Leslie Morales,Springfield,-89.67,39.85,United States,leslie.morales@bbc.co.uk,Illinois,2024-04-11,merchant__clothing
+C-R6C4SNO6,Kathy Joyce,London,-81.2513,42.9841,Canada,kathy.joyce@nunc.net,Ontario,2021-11-18,merchant__bigboxretailer
+C-NCMQD5G1,Caitlin Williams,Mineral City,-81.4685,40.5052,United States,caitlin.williams@viverra.org,Ohio,2024-03-07,merchant__electronics
+C-OM3OW7J2,Toni Morgan,Byers,-98.4896,33.9097,United States,toni.morgan@yahoo.co.jp,Texas,2023-04-26,merchant__bigboxretailer
+C-XV4LYTO3,Tiffany Durham,Flin Flon,-101.8762,54.7658,Canada,tiffany.durham@bbc.co.uk,Manitoba,2021-10-08,merchant__electronics
+C-ECOXZXH4,Cynthia Sims,New York,-73.9898,40.7393,United States,cynthia.sims@aliquet.com,New York,2024-02-22,merchant__bigboxretailer
+C-727U9BCT,Joanna Fox,Stoney Creek,-79.7609,43.2165,Canada,joanna.fox@aliquet.com,Ontario,2023-11-20,merchant__electronics
+C-PXIJZ3HC,Robert Garrett,Toledo,-83.80,41.60,United States,robert.garrett@sociisnatoque.net,Ohio,2024-07-29,merchant__bigboxretailer
+C-OILH9L9X,Steve Hogan,Naugatuck,-73.0517,41.4931,United States,steve.hogan@adobe.com,Connecticut,2022-05-01,merchant__clothing
+C-QRWTKJ2G,Nathan Taylor,Toronto,-79.3839,43.6525,Canada,nathan.taylor@nonsollicitudin.net,Ontario,2022-04-03,merchant__electronics
+C-DTFZAFVP,Peter Duncan,Oak Brook,-87.9447,41.98,United States,peter.duncan@aliquet.com,Illinois,2024-10-09,merchant__electronics
+C-ROURFF8T,Kevin Rowe,San Leandro,-122.1275,37.6994,United States,kevin.rowe@bbc.co.uk,California,2021-12-16,merchant__bigboxretailer
+C-6D91Z5P4,Kristina Walter,Portland,-122.60,45.60,United States,kristina.walter@adobe.com,Oregon,2023-07-01,merchant__electronics
+C-D2ZG3UGF,Kristen Wilkinson,Gardena,-118.2885,33.8832,United States,kristen.wilkinson@yahoo.co.jp,California,2022-01-19,merchant__bigboxretailer
+C-ZRHXNY1O,Monica Hunt,Idaho Falls,-112.0408,43.4927,United States,monica.hunt@sociisnatoque.net,Idaho,2023-07-03,merchant__bigboxretailer
+C-Z48YRWAR,Dennis Chandler,Syracuse,-76.1517,43.0473,United States,dennis.chandler@hexun.com,New York,2022-12-07,merchant__bigboxretailer
+C-K21OK62V,Richard Moran,Idaho Falls,-112.0408,43.4927,United States,richard.moran@a.co.uk,Idaho,2022-04-18,merchant__electronics
+C-9EWFA5N2,Joseph Barker,Bay Roberts,-53.2717,47.5812,Canada,joseph.barker@velconvallis.ca,Newfoundland and Labrador,2023-09-15,merchant__electronics
+C-JNSBUBAX,Lisa Fields,Mena,-94.2417,34.5814,United States,lisa.fields@furl.net,Arkansas,2023-03-24,merchant__bigboxretailer
+C-LRBD2VJ0,Caleb Morgan,Bloomington,-93.2983,44.8408,United States,caleb.morgan@adobe.com,Minnesota,2023-12-04,merchant__electronics
+C-B04ZMDE6,Kaitlyn Dixon,Fayetteville,-78.8927,35.0546,United States,kaitlyn.dixon@nonsollicitudin.net,North Carolina,2023-06-16,merchant__clothing
+C-1P1SB608,Roger Morris,San Francisco,-122.435,37.7875,United States,roger.morris@furl.net,California,2022-05-23,merchant__clothing
+C-EORLMUTA,Rebecca Hamilton,Covington,-84.5086,39.0837,United States,rebecca.hamilton@bizjournals.com,Georgia,2022-06-20,merchant__clothing
+C-BC4RJZB8,Nathan Wallace,Gloucester,-75.5857,45.3027,Canada,nathan.wallace@a.co.uk,Ontario,2024-11-26,merchant__electronics
+C-SWYI02H8,Mr. Peter Pruitt,Birmingham,-86.7992,33.3704,United States,mr..peter.pruitt@Aliquam.net,Alabama,2022-06-13,merchant__bigboxretailer
+C-DW7Z3VPA,Heather Mercado,Norman,-97.47,35.23,United States,heather.mercado@a.co.uk,Oklahoma,2023-10-05,merchant__electronics
+C-CP5ZK8NY,Maria Parker,Sylvan Grove,-98.3923,39.2409,United States,maria.parker@nec.co.uk,Kansas,2021-10-27,merchant__electronics
+C-VS8DUCBS,Tony Rogers,Campbellton,-66.6722,48.0074,Canada,tony.rogers@furl.net,New Brunswick,2023-12-12,merchant__electronics
+C-G7QLXT4C,Melissa Allen,San Diego,-117.17,32.73,United States,melissa.allen@nunc.net,California,2023-03-18,merchant__electronics
+C-CYC29YMR,Miss Katrina Mora,Morrisville,-78.6508,35.7843,United States,miss.katrina.mora@a.co.uk,North Carolina,2024-06-20,merchant__electronics
+C-9BUFBGSS,Maurice Johnson,Grand Prairie,-97.0408,32.7306,United States,maurice.johnson@sociisnatoque.net,Texas,2024-05-12,merchant__bigboxretailer
+C-2KHE8O4W,Carlos King,Lawton,-98.3959,34.6036,United States,carlos.king@hexun.com,Oklahoma,2024-11-30,merchant__electronics
+C-SKICD7WF,Carlos Adams,Ontario,-82.5871,40.7591,United States,carlos.adams@a.co.uk,Ohio,2023-11-17,merchant__bigboxretailer
+C-3SIKCCPJ,Chloe Warren,Three Oaks,-86.6084,41.7983,United States,chloe.warren@sociisnatoque.net,Michigan,2023-04-27,merchant__electronics
+C-FEHBH0RH,James Garcia,Bloomington,-93.2983,44.8408,United States,james.garcia@yahoo.co.jp,Minnesota,2021-10-19,merchant__electronics
+C-IF7GOCZM,William Robinson,Bloomington,-93.2983,44.8408,United States,william.robinson@viverra.org,Minnesota,2021-12-05,merchant__electronics
+C-N668JBAG,Mr. Brian Brown,Tallahassee,-84.37,30.38,United States,mr..brian.brown@icq.com,Florida,2023-08-22,merchant__electronics
+C-92MWOZTG,Roy Nguyen,Idaho Falls,-112.0408,43.4927,United States,roy.nguyen@nec.co.uk,Idaho,2023-07-17,merchant__electronics
+C-H5T37JA3,Kimberly King,Philadelphia,-75.0401,40.035,United States,kimberly.king@aliquet.com,Pennsylvania,2024-09-23,merchant__bigboxretailer
+C-GRDEUO1L,Richard Atkins,Bay Roberts,-53.2717,47.5812,Canada,richard.atkins@a.co.uk,Newfoundland and Labrador,2024-09-04,merchant__electronics
+C-FWE8Y8S2,Michelle Willis,Cacouna,-69.532,47.8338,Canada,michelle.willis@lacusMauris.net,Quebec,2024-09-09,merchant__clothing
+C-MTWA7FBG,Vanessa Smith,Tallahassee,-84.37,30.38,United States,vanessa.smith@Aliquam.net,Florida,2023-01-08,merchant__bigboxretailer
+C-2BC7XA22,Joseph Cole,Meadow Vista,-121.0228,38.9944,United States,joseph.cole@nunc.net,California,2022-08-09,merchant__bigboxretailer
+C-AAE7DWDE,James Miller,Euless,-97.3202,32.746,United States,james.miller@in.edu,Texas,2023-02-24,merchant__clothing
+C-DAPDAV7C,Jesse Owens,Riverdale,-84.3592,33.522,United States,jesse.owens@velconvallis.ca,Georgia,2024-06-30,merchant__bigboxretailer
+C-PI6GGU8L,Erin Sutton,Iowa City,-91.5302,41.6611,United States,erin.sutton@adobe.com,Iowa,2024-03-16,merchant__electronics
+C-9SYVPQ0B,Brian Underwood,Blanchardville,-89.6341,42.8163,United States,brian.underwood@in.edu,Wisconsin,2022-10-02,merchant__clothing
+C-DQZL9CI7,Brandi Anderson,North York,-79.3839,43.6525,Canada,brandi.anderson@nunc.net,Ontario,2023-06-09,merchant__clothing
+C-XFM0LQ6B,Stacey Wagner,Kansas City,-94.72,39.32,United States,stacey.wagner@aliquet.com,Missouri,2023-10-14,merchant__bigboxretailer
+C-32QLM3FR,Travis Stevens,Mansfield,-82.5163,40.7588,United States,travis.stevens@bizjournals.com,Ohio,2024-01-21,merchant__electronics
+C-HQUBGEBS,Jonathan Ford,Grand Rapids,-85.6681,42.9634,United States,jonathan.ford@sociisnatoque.net,Michigan,2023-10-07,merchant__electronics
+C-WBH1DNAI,David Hughes,Hermitage,-93.2075,37.9418,United States,david.hughes@adobe.com,Missouri,2024-08-31,merchant__electronics
+C-6D7WGAF2,Jordan Clark,Clearwater Municipal District,-115.7138899,52.2755559,Canada,jordan.clark@nunc.net,Alberta,2022-07-16,merchant__electronics
+C-438T9HX1,Thomas Clark,Austin,-97.7077,30.2608,United States,thomas.clark@nonsollicitudin.net,Texas,2023-04-02,merchant__bigboxretailer
+C-U2WYRAGQ,Nicholas Evans,Charleston,-79.938,32.7834,United States,nicholas.evans@furl.net,South Carolina,2023-04-26,merchant__clothing
+C-QLMSXTAR,Samantha Fields,Santa Rosa,-122.7156,38.443,United States,samantha.fields@bbc.co.uk,California,2022-09-17,merchant__bigboxretailer
+C-8PDK5LAK,Matthew House,Charlotte,-80.839,35.226,United States,matthew.house@nonsollicitudin.net,North Carolina,2023-06-08,merchant__bigboxretailer
+C-4PISL316,Heather Houston,Morristown,-74.4804,40.7936,United States,heather.houston@sociisnatoque.net,New Jersey,2023-07-23,merchant__electronics
+C-5IUGI10C,Mr. Eric Curtis,Moss Point,-88.4947,30.6566,United States,mr..eric.curtis@aliquet.com,Mississippi,2023-01-28,merchant__electronics
+C-ZPQP8XC6,Lauren Perry,Frederick,-77.4105,39.4143,United States,lauren.perry@nonsollicitudin.net,Maryland,2023-04-06,merchant__bigboxretailer
+C-EJPES103,Mary Benson,Whitehorse,-135.052292,60.719688,Canada,mary.benson@lacusMauris.net,Yukon,2022-10-12,merchant__electronics
+C-QVQFDOTT,Sarah Miller,Gatineau,-75.6933,45.4208,Canada,sarah.miller@aliquet.com,Quebec,2024-06-19,merchant__clothing
+C-3VKDV2Q5,Patricia Ware,Baltimore,-76.67,39.18,United States,patricia.ware@sociisnatoque.net,Maryland,2024-12-11,merchant__clothing
+C-0BDT4SX0,Sheryl Kerr,Warrior,-86.8079,33.8188,United States,sheryl.kerr@yahoo.co.jp,Alabama,2024-04-03,merchant__bigboxretailer
+C-MI6W8H4S,Kelly Baker,Erwin,-78.6178,35.3063,United States,kelly.baker@bizjournals.com,North Carolina,2021-12-31,merchant__clothing
+C-FNDZ4T2L,Teresa Rodriguez,Elgin,-88.2846,42.0406,United States,teresa.rodriguez@nonsollicitudin.net,Illinois,2024-07-29,merchant__electronics
+C-CQMEGSN7,Robert Dean,Fremont,-122.0124,37.562,United States,robert.dean@nec.co.uk,California,2023-06-16,merchant__electronics
+C-15ICHOGU,Elaine Johnson,Saint Louis,-90.4002,38.6601,United States,elaine.johnson@velconvallis.ca,Missouri,2022-04-21,merchant__clothing
+C-9M0QYJ5C,Patrick Hicks,Coldstream,-119.1683,50.2241,Canada,patrick.hicks@bbc.co.uk,British Columbia,2024-01-31,merchant__clothing
+C-DPPEOAP9,Andrea Kim,Eugene,-123.22,44.12,United States,andrea.kim@euodio.ca,Oregon,2022-06-30,merchant__bigboxretailer
+C-VDJY5F32,Tiffany Harding,Ottawa,-75.6933,45.4208,Canada,tiffany.harding@icq.com,Ontario,2023-03-20,merchant__clothing
+C-1JQ0IC56,Caleb Lucero,Kearney,-99.00,40.73,United States,caleb.lucero@foxnews.com,Nebraska,2022-01-12,merchant__electronics
+C-91PSYWK4,Matthew Mahoney,Manassas,-77.4783,38.7515,United States,matthew.mahoney@yahoo.co.jp,Virginia,2023-02-17,merchant__bigboxretailer
+C-KVJ8R7FH,Corey Acosta,Dundas,-88.0814,38.7367,United States,corey.acosta@adobe.com,Illinois,2023-05-17,merchant__electronics
+C-EA3M5RHB,Rodney Bennett,Colfax,-79.9544,36.094,United States,rodney.bennett@bizjournals.com,North Carolina,2024-08-31,merchant__bigboxretailer
+C-TYK2GX0D,William Carr,Grand Prairie,-97.0408,32.7306,United States,william.carr@nonsollicitudin.net,Texas,2024-05-01,merchant__bigboxretailer
+C-O7P3UVSK,Amber West,Bozeman,-111.15,45.78,United States,amber.west@sociisnatoque.net,Montana,2024-01-03,merchant__bigboxretailer
+C-YHFHHBO3,Vanessa Walker,Detroit,-83.0711,42.3517,United States,vanessa.walker@velconvallis.ca,Michigan,2021-10-26,merchant__electronics
+C-0CWVGIAG,Rhonda Wood,Loganville,-90.0344,43.44,United States,rhonda.wood@bizjournals.com,Wisconsin,2022-11-07,merchant__electronics
+C-AJU4JXFK,Larry Saunders,Lithonia,-84.1663,33.8907,United States,larry.saunders@a.co.uk,Georgia,2022-06-17,merchant__electronics
+C-FQ1TNA3N,Joseph Green,Sherbrooke,-71.8929,45.4042,Canada,joseph.green@euodio.ca,Quebec,2023-12-04,merchant__electronics
+C-4M6O6G1X,Laura Chambers,Saint Paul,-93.0595,44.9629,United States,laura.chambers@bizjournals.com,Minnesota,2023-09-03,merchant__electronics
+C-GYY8H4HD,Heather Singleton,New York,-73.9898,40.7393,United States,heather.singleton@furl.net,New York,2024-04-08,merchant__bigboxretailer
+C-MXVPUKFK,Isaac Lee,Paradise,-115.1467,36.0972,United States,isaac.lee@nonsollicitudin.net,Nevada,2023-11-26,merchant__electronics
+C-3KTI9XX0,Jeffery Allison,Laredo,-99.5023,27.5081,United States,jeffery.allison@bizjournals.com,Texas,2022-08-13,merchant__bigboxretailer
+C-VRII3JMQ,Christopher Porter,Paris,-84.2503,38.2093,United States,christopher.porter@euodio.ca,Kentucky,2024-12-12,merchant__electronics
+C-N2TBV2I4,Patrick Anderson,North Olmsted,-81.8911,41.43,United States,patrick.anderson@a.co.uk,Ohio,2021-10-18,merchant__electronics
+C-ASVZD6XF,Alexander Singleton,Las Vegas,-115.1419,36.1673,United States,alexander.singleton@in.edu,Nevada,2024-07-09,merchant__bigboxretailer
+C-81L9PJRV,Donald Williams,Bloomington,-93.2983,44.8408,United States,donald.williams@bbc.co.uk,Minnesota,2022-06-20,merchant__electronics
+C-CXUFVQV5,Cynthia Davidson,Whitehorse,-135.052292,60.719688,Canada,cynthia.davidson@bbc.co.uk,Yukon,2024-01-04,merchant__electronics
+C-IGNT7QFE,Tiffany Swanson,Oak Brook,-87.9447,41.98,United States,tiffany.swanson@icq.com,Illinois,2023-04-10,merchant__bigboxretailer
+C-5R6Q0SDT,Terri Holland,North Myrtle Beach,-78.6918,33.8176,United States,terri.holland@furl.net,South Carolina,2023-09-21,merchant__electronics
+C-L5WP4TBD,Wayne Villanueva,Cacouna,-69.532,47.8338,Canada,wayne.villanueva@nunc.net,Quebec,2024-02-22,merchant__electronics
+C-BKI9UVY6,Jason Anderson,Minneapolis,-93.2928,45.0436,United States,jason.anderson@bizjournals.com,Minnesota,2022-12-10,merchant__bigboxretailer
+C-X9RDQZGZ,Anthony Hester,New Haven,-72.88,41.27,United States,anthony.hester@viverra.org,Connecticut,2024-10-19,merchant__bigboxretailer
+C-RTN7W1RZ,Jason Bennett,Napa,-122.7156,38.443,United States,jason.bennett@velconvallis.ca,California,2024-02-14,merchant__electronics
+C-T22F86ZV,Michael Johnson,Opelousas,-92.082,30.5317,United States,michael.johnson@foxnews.com,Louisiana,2022-09-22,merchant__clothing
+C-V6CSHGJN,Eduardo Mills,Mansfield,-82.5163,40.7588,United States,eduardo.mills@euodio.ca,Ohio,2024-03-29,merchant__electronics
+C-BKE4BZ7E,Robert Williams,Orilla,-79.4197,44.6082,Canada,robert.williams@bizjournals.com,Ontario,2022-03-12,merchant__electronics
+C-O7VURLTO,Brian Barber,Montreal,-73.5689,45.5034,Canada,brian.barber@viverra.org,Quebec,2024-05-15,merchant__bigboxretailer
+C-NIIWRTAN,Jake Robinson,Chicago,-87.6369,41.8839,United States,jake.robinson@furl.net,Illinois,2023-12-17,merchant__electronics
+C-OOZ5LY1A,Douglas Fitzgerald,Atlanta,-84.3941,33.7609,United States,douglas.fitzgerald@Aliquam.net,Georgia,2022-06-25,merchant__electronics
+C-JIONFTJT,Evan Dean,Atlanta,-84.3941,33.7609,United States,evan.dean@aliquet.com,Georgia,2023-01-30,merchant__electronics
+C-KDDWFEI6,Kristen Lutz,Checotah,-95.5252,35.471,United States,kristen.lutz@a.co.uk,Oklahoma,2023-03-21,merchant__electronics
+C-Z1MA2LEK,Angela Collins,Paintsville,-82.8092,37.8167,United States,angela.collins@bbc.co.uk,Kentucky,2023-10-05,merchant__clothing
+C-46A7ID47,Antonio Thomas,Montague,-62.6480,46.1651,Canada,antonio.thomas@lacusMauris.net,Prince Edward Island,2021-12-26,merchant__electronics
+C-RNTF3NAJ,Robert Smith,Dundas,-88.0814,38.7367,United States,robert.smith@nunc.net,Illinois,2024-04-09,merchant__electronics
+C-G7CZJU2J,Miss Haley Estrada MD,Tucson,-110.9252,32.2336,United States,miss.haley.estrada.md@foxnews.com,Arizona,2024-12-01,merchant__electronics
+C-3UE27BFS,Daniel Henderson,Norwalk,-73.4187,41.1003,United States,daniel.henderson@hexun.com,Connecticut,2023-03-19,merchant__bigboxretailer
+C-223BCT6O,Krista Garcia,Santa Monica,-118.4904,34.02,United States,krista.garcia@foxnews.com,California,2022-12-08,merchant__electronics
+C-XFN8970X,William Wiggins,Cincinnati,-84.3753,39.2716,United States,william.wiggins@a.co.uk,Ohio,2023-03-16,merchant__bigboxretailer
+C-ERK4ZLFS,Jodi Allen,San Francisco,-122.435,37.7875,United States,jodi.allen@adobe.com,California,2022-09-04,merchant__bigboxretailer
+C-LUZN3BX3,Angela Wagner,Oshkosh,-88.5349,44.0145,United States,angela.wagner@in.edu,Wisconsin,2024-12-04,merchant__bigboxretailer
+C-GEY9YGMN,Cynthia Mcdonald,Joliet,-88.0817,41.5250,United States,cynthia.mcdonald@furl.net,Illinois,2023-09-11,merchant__bigboxretailer
+C-OXS1BT23,Wendy Waters,Arlington,-112.8459,33.4372,United States,wendy.waters@foxnews.com,Arizona,2022-09-02,merchant__electronics
+C-1C7MI8GX,Deanna Henderson,Queensville,-79.4105,45.617,Canada,deanna.henderson@sociisnatoque.net,Ontario,2022-08-02,merchant__electronics
+C-4N5NW79H,Theresa Scott,Birmingham,-86.7992,33.3704,United States,theresa.scott@aliquet.com,Alabama,2024-05-25,merchant__electronics
+C-N2IDMG8Z,David Reed,Apple Valley,-117.1896,34.4997,United States,david.reed@foxnews.com,California,2023-10-15,merchant__electronics
+C-J3XITTW3,Robert Torres,Berwick,-70.8631,43.2629,United States,robert.torres@yahoo.co.jp,Maine,2022-02-05,merchant__electronics
+C-7JSGCAVY,Beth Terry,Gardena,-118.2885,33.8832,United States,beth.terry@adobe.com,California,2022-01-04,merchant__electronics
+C-NTJJZRKK,Kayla Martinez,Norwalk,-73.4187,41.1003,United States,kayla.martinez@hexun.com,Connecticut,2022-11-16,merchant__bigboxretailer
+C-O49URTYU,Eric Macdonald,Hattiesburg,-89.33,31.47,United States,eric.macdonald@foxnews.com,Mississippi,2023-04-25,merchant__electronics
+C-BDYFGUE5,James Cobb,Raleigh,-78.6508,35.7843,United States,james.cobb@lacusMauris.net,North Carolina,2024-03-23,merchant__electronics
+C-E6UXBBGJ,Nathaniel Wolf,Saint-jean-chrysostome,-71.1818,46.8078,Canada,nathaniel.wolf@bizjournals.com,Quebec,2022-03-21,merchant__bigboxretailer
+C-C0J74H03,Corey Mitchell,Las Vegas,-115.1419,36.1673,United States,corey.mitchell@bizjournals.com,Nevada,2024-03-23,merchant__electronics
+C-35QBG82F,Jeremy Rivera,San Diego,-117.17,32.73,United States,jeremy.rivera@sociisnatoque.net,California,2021-11-02,merchant__electronics
+C-DGU6SL4F,Richard Lopez,Omaha,-95.9461,41.2093,United States,richard.lopez@viverra.org,Nebraska,2024-02-23,merchant__electronics
+C-GO56LEW2,Sarah Lopez,Little Rock,-92.3,35.22,United States,sarah.lopez@sociisnatoque.net,Arkansas,2023-09-16,merchant__electronics
+C-MNHKLAID,Bethany Harris,Toronto,-79.3839,43.6525,Canada,bethany.harris@foxnews.com,Ontario,2024-10-05,merchant__electronics
+C-RTILOK39,Joshua Perkins,Warren,-83.0147,42.5145,United States,joshua.perkins@velconvallis.ca,Michigan,2022-01-25,merchant__bigboxretailer
+C-B76BB3VC,Jimmy Evans,New Haven,-72.88,41.27,United States,jimmy.evans@nonsollicitudin.net,Connecticut,2023-09-11,merchant__electronics
+C-LCCHTTV8,Steve Lopez,West Valley City,-112.0011,40.6916,United States,steve.lopez@Aliquam.net,Utah,2023-05-09,merchant__bigboxretailer
+C-BFEM2GNU,Nicole Doyle,Toledo,-83.80,41.60,United States,nicole.doyle@nonsollicitudin.net,Ohio,2023-07-20,merchant__electronics
+C-3YPTF5XL,Kaitlyn Ferguson,Fort Wayne,-85.1394,41.0793,United States,kaitlyn.ferguson@hexun.com,Indiana,2024-08-30,merchant__electronics
+C-BGWPUT4P,Curtis Blanchard Jr.,Lawton,-98.3959,34.6036,United States,curtis.blanchard.jr.@bbc.co.uk,Oklahoma,2024-01-26,merchant__bigboxretailer
+C-XN7D8IU9,Michael Austin,Chilliwack,-121.951469,49.157940,Canada,michael.austin@nonsollicitudin.net,British Columbia,2021-10-10,merchant__bigboxretailer
+C-OL4KTCR1,Kurt Flores,Colchester,-73.1479,44.5439,United States,kurt.flores@hexun.com,Vermont,2024-01-07,merchant__electronics
+C-4P74BTO0,Shannon Kramer,Charleston,-79.938,32.7834,United States,shannon.kramer@viverra.org,South Carolina,2023-08-30,merchant__electronics
+C-LI5DYTOY,Tara Fields,Chicago,-87.6369,41.8839,United States,tara.fields@nonsollicitudin.net,Illinois,2023-04-15,merchant__clothing
+C-BEPHH4OF,Alexandra Cook,Loganville,-90.0344,43.44,United States,alexandra.cook@bbc.co.uk,Wisconsin,2022-02-01,merchant__electronics
+C-3OC2L06E,Juan Goodwin,Gatineau,-75.6933,45.4208,Canada,juan.goodwin@furl.net,Quebec,2022-07-12,merchant__bigboxretailer
+C-WJOYY5KA,Michael Brock,Kansas City,-94.72,39.32,United States,michael.brock@aliquet.com,Missouri,2022-11-15,merchant__electronics
+C-9AAJK5QN,Carlos Nolan,Red Jacket,-82.1712,37.6245,United States,carlos.nolan@adobe.com,West Virginia,2023-07-22,merchant__bigboxretailer
+C-AGJ6QP53,William Morgan,Cassville,-80.0586,39.7162,United States,william.morgan@lacusMauris.net,West Virginia,2022-04-18,merchant__electronics
+C-D1O9VJTQ,Kari Gross,Benton,-88.3513,37.0259,United States,kari.gross@hexun.com,Kentucky,2022-08-25,merchant__electronics
+C-8V4TYYSN,Eric Williams,Portland,-122.60,45.60,United States,eric.williams@a.co.uk,Oregon,2024-06-20,merchant__electronics
+C-LH01MQIA,Richard Steele,Colchester,-73.1479,44.5439,United States,richard.steele@yahoo.co.jp,Vermont,2023-06-07,merchant__electronics
+C-R2FII69S,Michael Mcconnell,Bakersfield,-119.0166,35.3734,United States,michael.mcconnell@nunc.net,California,2024-09-20,merchant__clothing
+C-PU8VR2A9,Sarah White,Elgin,-88.2846,42.0406,United States,sarah.white@foxnews.com,Illinois,2023-10-15,merchant__electronics
+C-5YG0WTFE,Chad Lopez,Felton,-122.0743,37.0502,United States,chad.lopez@euodio.ca,California,2022-07-10,merchant__clothing
+C-CTY312LN,Alice Mcguire,Greer,-82.2313,34.9421,United States,alice.mcguire@furl.net,South Carolina,2022-10-28,merchant__clothing
+C-7LRG7X3Y,Kristen Gordon,Aurora,-79.4504,44.0065,Canada,kristen.gordon@bbc.co.uk,Ontario,2022-02-13,merchant__electronics
+C-4KQKPFX9,Christina Fowler,Lawton,-98.3959,34.6036,United States,christina.fowler@aliquet.com,Oklahoma,2021-10-31,merchant__bigboxretailer
+C-VNS1FM8K,Kimberly Vargas,Salt Lake City,-111.8211,40.6677,United States,kimberly.vargas@foxnews.com,Utah,2022-03-01,merchant__electronics
+C-X6W1255G,Amanda West,Edison,-74.1977,39.9519,United States,amanda.west@nonsollicitudin.net,New Jersey,2022-10-12,merchant__bigboxretailer
+C-TNNULDL6,James Miller,Bismarck,-87.6056,40.265,United States,james.miller@velconvallis.ca,Illinois,2023-05-03,merchant__bigboxretailer
+C-81MTT9NL,Thomas Garcia,Great Falls,-111.37,47.48,United States,thomas.garcia@bbc.co.uk,Montana,2023-04-22,merchant__electronics
+C-NC64SQRG,Jared Wallace,Saint Paul,-93.0595,44.9629,United States,jared.wallace@hexun.com,Minnesota,2022-02-06,merchant__bigboxretailer
+C-20AMA4KV,Katrina Price,Hawthorne,-118.4913,34.0155,United States,katrina.price@icq.com,California,2023-07-21,merchant__electronics
+C-LTREEJEU,Michaela Wood,Gaspé,-64.483330,48.833332,Canada,michaela.wood@foxnews.com,Quebec,2024-06-23,merchant__electronics
+C-X5QSD3IK,Carrie Porter MD,Moncton,-64.775820,46.088880,Canada,carrie.porter.md@aliquet.com,New Brunswick,2023-12-31,merchant__clothing
+C-88PYGHLV,Christine Young,Campbell,-121.8893,37.3323,United States,christine.young@foxnews.com,California,2022-02-19,merchant__bigboxretailer
+C-7I9LF8U6,Lisa Patel,Anadarko,-98.4396,35.0962,United States,lisa.patel@nec.co.uk,Oklahoma,2023-07-07,merchant__bigboxretailer
+C-7DT91CH8,Joseph Brown,Enumclaw,-121.989,47.2001,United States,joseph.brown@nec.co.uk,Washington,2024-09-02,merchant__electronics
+C-3DUP7LZ6,Frank Mayer,Pittsburgh,-79.9502,40.5264,United States,frank.mayer@Aliquam.net,Pennsylvania,2022-04-20,merchant__electronics
+C-8Z27WCMU,Cynthia Snyder,East York,-79.3839,43.6525,Canada,cynthia.snyder@hexun.com,Ontario,2023-04-16,merchant__clothing
+C-1EGFLAJI,Keith Davis,Hadley,-72.5267,42.3804,United States,keith.davis@furl.net,Massachusetts,2024-03-15,merchant__electronics
+C-PXQEIOG8,Molly Hernandez,Wilmington,-77.9415,34.2227,United States,molly.hernandez@furl.net,North Carolina,2021-11-05,merchant__clothing
+C-W3IDQ3L0,Brittany Mills DDS,Terryville,-72.9422,41.672,United States,brittany.mills.dds@foxnews.com,Connecticut,2023-01-25,merchant__electronics
+C-C2VAQF7Z,Matthew Smith,Pasadena,-95.123,29.7051,United States,matthew.smith@euodio.ca,Texas,2022-02-09,merchant__clothing
+C-FD9KR261,James Rhodes,Great Falls,-111.37,47.48,United States,james.rhodes@in.edu,Montana,2021-12-16,merchant__clothing
+C-7V5FED3G,Linda Wyatt,Iowa City,-91.5302,41.6611,United States,linda.wyatt@viverra.org,Iowa,2024-04-10,merchant__electronics
+C-A92UAE1W,Donald Payne,Stillwater,-92.809,45.0539,United States,donald.payne@Aliquam.net,Minnesota,2023-12-28,merchant__electronics
+C-HQUZG084,Philip Hill,Welland,-82.9436,42.2246,Canada,philip.hill@furl.net,Ontario,2024-04-08,merchant__bigboxretailer
+C-5N4S7BX6,Melissa Mcclain,New York,-73.9898,40.7393,United States,melissa.mcclain@Aliquam.net,New York,2023-05-18,merchant__clothing
+C-TW1VV2KA,Ryan Weeks,Kearney,-99.00,40.73,United States,ryan.weeks@nunc.net,Nebraska,2022-03-21,merchant__electronics
+C-9X80DXVO,Craig Greene,San Francisco,-122.435,37.7875,United States,craig.greene@a.co.uk,California,2023-09-13,merchant__bigboxretailer
+C-1095VC9Y,Amber Hahn,Corona Del Mar,-117.8566,33.6276,United States,amber.hahn@yahoo.co.jp,California,2024-08-31,merchant__electronics
+C-2DT9YLWX,Cynthia Fleming,Ancaster Town,-79.9764,43.2256,Canada,cynthia.fleming@Aliquam.net,Ontario,2023-04-20,merchant__clothing
+C-9E7EPPEG,Brent Singh,Sylvan Lake,-114.0973,52.3065,Canada,brent.singh@foxnews.com,Alberta,2024-04-15,merchant__clothing
+C-2YN27NKK,Mrs. Sarah Watkins,Las Vegas,-115.1419,36.1673,United States,mrs..sarah.watkins@in.edu,Nevada,2022-08-25,merchant__clothing
+C-E21QYYEZ,Kevin Mack,Beverly Hills,-118.3823,33.9136,United States,kevin.mack@adobe.com,California,2024-03-18,merchant__electronics
+C-TCS8WQQG,Jennifer Herring,Powder Springs,-84.5507,33.9516,United States,jennifer.herring@bizjournals.com,Georgia,2024-06-09,merchant__electronics
+C-REG5HLQD,Yolanda Moon,Inverness,-82.3312,28.8379,United States,yolanda.moon@bizjournals.com,Florida,2022-02-23,merchant__electronics
+C-J7UU3P2D,Bobby Yates,Topeka,-95.62,39.07,United States,bobby.yates@velconvallis.ca,Kansas,2022-05-08,merchant__bigboxretailer
+C-FGUHL5LK,Evan Miller,Springfield,-89.67,39.85,United States,evan.miller@hexun.com,Illinois,2024-09-16,merchant__bigboxretailer
+C-QZ3DN9BK,Madeline Davis,Tappan,-74.0391,40.887,United States,madeline.davis@a.co.uk,New Jersey,2022-07-25,merchant__bigboxretailer
+C-OXOT7NV0,Randy Mason,New York,-73.9898,40.7393,United States,randy.mason@Aliquam.net,New York,2022-11-02,merchant__electronics
+C-YSNDJX4I,Jesse Rojas,West Chester,-84.5155,39.1005,United States,jesse.rojas@viverra.org,Ohio,2023-01-08,merchant__clothing
+C-0FXD7O1H,Vanessa Hayden,Fort Smith,-94.37,35.33,United States,vanessa.hayden@Aliquam.net,Arkansas,2023-01-26,merchant__bigboxretailer
+C-RFP0FEMG,Philip Johnson,Renton,-122.3375,47.6149,United States,philip.johnson@velconvallis.ca,Washington,2023-12-03,merchant__bigboxretailer
+C-K8KKA6B9,Elizabeth Walker,Tulsa,-95.9853,36.1509,United States,elizabeth.walker@a.co.uk,Oklahoma,2022-10-10,merchant__electronics
+C-WC58E7EP,Pamela Mcdaniel,Wilmington,-77.9415,34.2227,United States,pamela.mcdaniel@bizjournals.com,North Carolina,2022-10-31,merchant__electronics
+C-2O8UXURV,Taylor Trujillo,Kennesaw,-84.1663,33.8907,United States,taylor.trujillo@velconvallis.ca,Georgia,2022-08-22,merchant__bigboxretailer
+C-V6OLDX3B,Brian King,Stevens Point,-89.5675,44.5173,United States,brian.king@bbc.co.uk,Wisconsin,2021-12-01,merchant__bigboxretailer
+C-3C8YA3F2,Bobby Jensen,Watson Lake,-128.712080,60.06288,Canada,bobby.jensen@velconvallis.ca,Yukon,2024-07-15,merchant__bigboxretailer
+C-MLLY5C0S,Benjamin Salazar DVM,Leesburg,-81.877,28.8123,United States,benjamin.salazar.dvm@icq.com,Florida,2024-04-04,merchant__electronics
+C-L6NF8U13,Samantha Murray,Riverdale,-84.3592,33.522,United States,samantha.murray@lacusMauris.net,Georgia,2022-02-10,merchant__bigboxretailer
+C-HFNH3G67,Randy Hill,Arecibo,-66.7324,18.4674,United States,randy.hill@yahoo.co.jp,Puerto Rico,2023-02-23,merchant__electronics
+C-EPFHGBCG,Johnathan Allen,Ancaster Town,-79.9764,43.2256,Canada,johnathan.allen@yahoo.co.jp,Ontario,2022-04-16,merchant__electronics
+C-2ZIZZG22,Linda Rodriguez,Bornholm,-81.0833,43.5823,Canada,linda.rodriguez@adobe.com,Ontario,2022-04-01,merchant__electronics
+C-NVYIPLRH,Kristen Pittman,Beverly Hills,-118.3823,33.9136,United States,kristen.pittman@velconvallis.ca,California,2024-05-03,merchant__electronics
+C-7OBNYBOR,Carlos Smith,Killeen,-97.7291,31.1203,United States,carlos.smith@in.edu,Texas,2024-11-21,merchant__electronics
+C-RBGHBXEV,Elizabeth Webb,Riverdale,-84.3592,33.522,United States,elizabeth.webb@nonsollicitudin.net,Georgia,2024-09-12,merchant__clothing
+C-8BKPXCWM,Carl Dixon,Cincinnati,-84.3753,39.2716,United States,carl.dixon@aliquet.com,Ohio,2023-06-03,merchant__electronics
+C-YEWAXX33,Christine King,Terrance,-128.610764,54.515102,Canada,christine.king@adobe.com,British Columbia,2021-12-15,merchant__bigboxretailer
+C-3ETQUXCW,David Howard,Las Vegas,-115.1419,36.1673,United States,david.howard@icq.com,Nevada,2023-10-11,merchant__electronics
+C-40YVDKMJ,Aaron Christensen,Newhall,-118.5319,34.3814,United States,aaron.christensen@furl.net,California,2022-03-27,merchant__electronics
+C-GB0CF0M8,Jonathan Wood,Atlanta,-84.3941,33.7609,United States,jonathan.wood@sociisnatoque.net,Georgia,2023-10-02,merchant__clothing
+C-QJLBBGHG,Joel Cruz,Stevens Point,-89.5675,44.5173,United States,joel.cruz@hexun.com,Wisconsin,2021-10-13,merchant__bigboxretailer
+C-Y9GMSAGR,Michael Hill,Benton,-88.3513,37.0259,United States,michael.hill@nonsollicitudin.net,Kentucky,2023-03-09,merchant__bigboxretailer
+C-Z6K0MJ45,Francis Jackson,Ontario,-82.5871,40.7591,United States,francis.jackson@velconvallis.ca,Ohio,2024-09-29,merchant__bigboxretailer
+C-39CF0U7B,Debra Landry,Flin Flon,-101.8762,54.7658,Canada,debra.landry@bbc.co.uk,Manitoba,2023-08-20,merchant__bigboxretailer
+C-8BQSG0MG,Anthony Escobar,Raleigh,-78.6508,35.7843,United States,anthony.escobar@yahoo.co.jp,North Carolina,2023-09-18,merchant__bigboxretailer
+C-KXESES29,Michael Parsons,Clinton,-83.969,42.068,United States,michael.parsons@foxnews.com,Michigan,2024-03-11,merchant__electronics
+C-4CYQ44MS,Jorge Smith,Gardena,-118.2885,33.8832,United States,jorge.smith@hexun.com,California,2023-05-31,merchant__electronics
+C-SAVI8FN3,Matthew Solomon,Tallahassee,-84.37,30.38,United States,matthew.solomon@a.co.uk,Florida,2023-10-05,merchant__electronics
+C-EGDNRNZP,Wendy Hart,Grand Rapids,-85.6681,42.9634,United States,wendy.hart@bizjournals.com,Michigan,2023-02-21,merchant__bigboxretailer
+C-SOQNM2PW,Tammy Long,Birmingham,-86.7992,33.3704,United States,tammy.long@a.co.uk,Alabama,2021-10-01,merchant__electronics
+C-E237BOXJ,Nicole Smith,Omaha,-95.9461,41.2093,United States,nicole.smith@hexun.com,Nebraska,2022-09-18,merchant__bigboxretailer
+C-Y5WTU4B8,David Barton,Rockville,-77.123,39.0558,United States,david.barton@velconvallis.ca,Maryland,2024-05-03,merchant__clothing
+C-6YIDE68Z,Wyatt Warren,Springfield,-89.67,39.85,United States,wyatt.warren@a.co.uk,Illinois,2023-08-08,merchant__electronics
+C-VM94LPNW,Stephen Johnson,Pocatello,-112.60,42.92,United States,stephen.johnson@velconvallis.ca,Idaho,2023-06-03,merchant__electronics
+C-56A2LS61,Courtney Small,Calgary,-114.0585,51.0478,Canada,courtney.small@nunc.net,Alberta,2022-10-27,merchant__bigboxretailer
+C-LVFRH5ZY,Teresa Boyd,Stoney Creek,-79.7609,43.2165,Canada,teresa.boyd@lacusMauris.net,Ontario,2023-02-24,merchant__electronics
+C-QKD2Y1AP,John Roberts,Summer Shade,-85.8601,36.8912,United States,john.roberts@foxnews.com,Kentucky,2023-04-01,merchant__electronics
+C-FERG0C5Z,Taylor Hayes,Stillwater,-92.809,45.0539,United States,taylor.hayes@aliquet.com,Minnesota,2024-08-03,merchant__electronics
+C-37GK2LIW,Jessica Campbell,New York,-73.9898,40.7393,United States,jessica.campbell@yahoo.co.jp,New York,2023-02-07,merchant__electronics
+C-BK5HPYEB,Amanda Parker,Fort Wayne,-85.1394,41.0793,United States,amanda.parker@Aliquam.net,Indiana,2024-01-17,merchant__electronics
+C-P989TH6U,Cynthia Stewart,Frederick,-77.4105,39.4143,United States,cynthia.stewart@bizjournals.com,Maryland,2023-11-05,merchant__bigboxretailer
+C-G5BDTWUT,Ashley Krause,San Francisco,-122.435,37.7875,United States,ashley.krause@hexun.com,California,2022-11-05,merchant__electronics
+C-MXN6J4R8,Christopher Price,Mena,-94.2417,34.5814,United States,christopher.price@foxnews.com,Arkansas,2023-02-04,merchant__electronics
+C-O976R1U0,John Wilkinson,Colchester,-73.1479,44.5439,United States,john.wilkinson@bbc.co.uk,Vermont,2022-03-11,merchant__bigboxretailer
+C-OG509GO5,Michael Lopez,Memphis,-89.87,35.35,United States,michael.lopez@foxnews.com,Tennessee,2023-07-13,merchant__clothing
+C-9TOF088U,Tyler Little,San Francisco,-122.435,37.7875,United States,tyler.little@in.edu,California,2022-03-25,merchant__bigboxretailer
+C-0EYM5I7G,Dennis Gray,Grand Rapids,-85.6681,42.9634,United States,dennis.gray@nonsollicitudin.net,Michigan,2022-06-04,merchant__electronics
+C-N4IWGTCC,Karen Trevino,Lefebvre,-72.3179,45.7654,Canada,karen.trevino@furl.net,Quebec,2022-10-21,merchant__electronics
+C-B8PYP3QO,Christopher Williams,Finksburg,-76.9519,39.3972,United States,christopher.williams@aliquet.com,Maryland,2023-07-19,merchant__electronics
+C-78DZKAUM,Kimberly Ward,San Mateo,-122.3479,37.5752,United States,kimberly.ward@a.co.uk,California,2024-03-13,merchant__bigboxretailer
+C-GVOY12OZ,Debra Cooper,Portland,-122.60,45.60,United States,debra.cooper@sociisnatoque.net,Oregon,2024-11-13,merchant__clothing
+C-FBIJZQKJ,Eric Cervantes,Colchester,-73.1479,44.5439,United States,eric.cervantes@Aliquam.net,Vermont,2024-07-15,merchant__bigboxretailer
+C-WL6Y9GIN,Nicholas Butler,Warwick,-81.9098,43.0049,Canada,nicholas.butler@in.edu,Ontario,2023-02-22,merchant__electronics
+C-BF8LE329,Steven Reyes,Bozeman,-111.15,45.78,United States,steven.reyes@velconvallis.ca,Montana,2023-02-25,merchant__electronics
+C-61I5Q5FB,Brittany Hardin,Philadelphia,-75.0401,40.035,United States,brittany.hardin@velconvallis.ca,Pennsylvania,2021-10-24,merchant__clothing
+C-RMARDB3C,Stacy Thompson,Waterbury,-73.0515,41.5582,United States,stacy.thompson@aliquet.com,Connecticut,2022-04-03,merchant__bigboxretailer
+C-G6R1FUC1,Kimberly Solis,Omaha,-95.9461,41.2093,United States,kimberly.solis@hexun.com,Nebraska,2023-06-09,merchant__bigboxretailer
+C-MODLV87B,Pamela Daniel,Norridgewock,-69.8238,44.6283,United States,pamela.daniel@sociisnatoque.net,Maine,2024-06-16,merchant__electronics
+C-UPH6WIBJ,Brittany Fitzgerald,Rockford,-89.097,42.2713,United States,brittany.fitzgerald@foxnews.com,Illinois,2021-12-31,merchant__bigboxretailer
+C-ZPF3MLZC,Isaac Schmidt,New York,-73.9898,40.7393,United States,isaac.schmidt@bizjournals.com,New York,2023-11-01,merchant__clothing
+C-UGMTJL5R,John Pierce,Colchester,-73.1479,44.5439,United States,john.pierce@yahoo.co.jp,Vermont,2024-02-21,merchant__bigboxretailer
+C-JLGJK578,Lisa Robinson,Colchester,-73.1479,44.5439,United States,lisa.robinson@nec.co.uk,Vermont,2023-09-20,merchant__bigboxretailer
+C-9V4010J9,Courtney Jordan,Campbellton,-66.6722,48.0074,Canada,courtney.jordan@furl.net,New Brunswick,2024-10-21,merchant__clothing
+C-O4E28F33,Anthony Trujillo,Queensville,-79.4105,45.617,Canada,anthony.trujillo@adobe.com,Ontario,2023-02-24,merchant__electronics
+C-CV0SBPNK,Douglas Burke,Delhi,-91.3853,31.807,United States,douglas.burke@lacusMauris.net,Louisiana,2024-01-30,merchant__bigboxretailer
+C-G4PZNB17,Sandra Weber,Laredo,-99.5023,27.5081,United States,sandra.weber@aliquet.com,Texas,2023-11-15,merchant__electronics
+C-IO4TOXH1,Marcus Brown,Sylvan Lake,-114.0973,52.3065,Canada,marcus.brown@euodio.ca,Alberta,2023-09-17,merchant__electronics
+C-WF48BL48,Christine Sanchez,Atlanta,-84.3941,33.7609,United States,christine.sanchez@aliquet.com,Georgia,2022-03-13,merchant__electronics
+C-W6CX97DM,Cynthia Cantu,Gaspé,-64.483330,48.833332,Canada,cynthia.cantu@viverra.org,Quebec,2023-02-15,merchant__clothing
+C-S5JK9926,Roy Solis,Marietta,-84.4627,33.8941,United States,roy.solis@a.co.uk,Georgia,2023-01-12,merchant__electronics
+C-5ECLJRN6,Paula Fox,Rockville,-77.123,39.0558,United States,paula.fox@adobe.com,Maryland,2024-12-16,merchant__electronics
+C-ULGWFW28,Mary Henson,Covington,-84.5086,39.0837,United States,mary.henson@furl.net,Kentucky,2023-09-22,merchant__electronics
+C-75XLWTZW,Lauren Nguyen,El Cajon,-116.9553,32.7923,United States,lauren.nguyen@foxnews.com,California,2022-04-10,merchant__clothing
+C-UH32CW4K,Stephen Blake,Bathurst,-65.650002,47.619999,Canada,stephen.blake@hexun.com,New Brunswick,2024-09-21,merchant__electronics
+C-WEY4MAF8,Jeremy Gray,Bellevue,-95.9146,41.1544,United States,jeremy.gray@yahoo.co.jp,Nebraska,2021-11-12,merchant__electronics
+C-V3F3RPGY,Yolanda Floyd,Sandy,-111.8390,40.5650,United States,yolanda.floyd@nec.co.uk,Utah,2024-07-15,merchant__clothing
+C-NYUDUDZN,Samuel Harper,Big Rapids,-85.4864,43.6993,United States,samuel.harper@furl.net,Michigan,2023-10-29,merchant__electronics
+C-VWIL0DM7,Christina Maldonado,Ontario,-82.5871,40.7591,United States,christina.maldonado@lacusMauris.net,Ohio,2022-12-14,merchant__bigboxretailer
+C-ASXCKQ42,Joseph Powers,Issaquah,-122.1423,47.5953,United States,joseph.powers@furl.net,Washington,2021-11-16,merchant__bigboxretailer
+C-72BWJ866,James Richard,Raleigh,-78.6508,35.7843,United States,james.richard@lacusMauris.net,North Carolina,2024-11-02,merchant__bigboxretailer
+C-9GDD021P,George Morton,Anadarko,-98.4396,35.0962,United States,george.morton@bbc.co.uk,Oklahoma,2024-08-15,merchant__electronics
+C-X5DZLNQP,Toni Austin,Laurel,-76.8903,39.0587,United States,toni.austin@a.co.uk,Maryland,2024-06-17,merchant__bigboxretailer
+C-QKODU4EC,Mr. Austin Logan,Birmingham,-86.7992,33.3704,United States,mr..austin.logan@yahoo.co.jp,Alabama,2021-11-10,merchant__electronics
+C-5NLTS51T,Sheryl Ortiz,Raleigh,-78.6508,35.7843,United States,sheryl.ortiz@hexun.com,North Carolina,2023-04-27,merchant__clothing
+C-PRD5DCOO,Michelle Duncan,Cincinnati,-84.3753,39.2716,United States,michelle.duncan@adobe.com,Ohio,2022-08-17,merchant__electronics
+C-69FJO0CE,Dylan Coleman,Gainesville,-82.3284,29.6505,United States,dylan.coleman@euodio.ca,Florida,2021-10-30,merchant__bigboxretailer
+C-0BMB2PHH,Mackenzie Bruce,Mansfield,-82.5163,40.7588,United States,mackenzie.bruce@euodio.ca,Ohio,2022-02-25,merchant__electronics
+C-7YO17T90,Brent Barber,Manchester,-71.4608,42.9935,United States,brent.barber@yahoo.co.jp,New Hampshire,2023-10-18,merchant__bigboxretailer
+C-AIS1YZJP,Daniel Rodriguez,Quebec,-71.216,46.8152,Canada,daniel.rodriguez@adobe.com,Quebec,2022-03-13,merchant__electronics
+C-NNJE6XFV,Adam George,Idaho Falls,-112.0408,43.4927,United States,adam.george@bbc.co.uk,Idaho,2023-09-07,merchant__electronics
+C-D9YHJF5I,Travis Cole,Bornholm,-81.0833,43.5823,Canada,travis.cole@nonsollicitudin.net,Ontario,2024-11-18,merchant__electronics
+C-7RG9W0I1,Jesse Mooney,Maryland Heights,-90.4189,38.7034,United States,jesse.mooney@hexun.com,Missouri,2024-09-30,merchant__bigboxretailer
+C-RW2NPOMM,Ms. Tonya Harrell,Wheatfield,-86.8916,41.0732,United States,ms..tonya.harrell@furl.net,Indiana,2022-12-14,merchant__electronics
+C-AP0HE6ED,Jeffrey Davis,Labrecque,-71.5246,48.6725,Canada,jeffrey.davis@yahoo.co.jp,Quebec,2022-04-25,merchant__bigboxretailer
+C-8SA3HF6A,Justin Hobbs,Delhi,-91.3853,31.807,United States,justin.hobbs@adobe.com,Louisiana,2023-02-28,merchant__electronics
+C-H2GE5S9D,Jeffrey Hubbard,Hays,-99.3271,38.8743,United States,jeffrey.hubbard@velconvallis.ca,Kansas,2022-02-16,merchant__bigboxretailer
+C-1TCOPBLT,Crystal Wilson,Lithonia,-84.1663,33.8907,United States,crystal.wilson@furl.net,Georgia,2024-07-07,merchant__bigboxretailer
+C-8B0JW7GD,David Owens,Ringgold,-85.0441,34.8225,United States,david.owens@euodio.ca,Georgia,2022-01-26,merchant__electronics
+C-9CUTKCDR,Gail Contreras,Fredericton,-66.6422,45.9577,Canada,gail.contreras@furl.net,New Brunswick,2022-09-21,merchant__electronics
+C-P9K7Q0JY,Mrs. Tiffany Green,Rockville,-77.123,39.0558,United States,mrs..tiffany.green@yahoo.co.jp,Maryland,2023-11-19,merchant__electronics
+C-7M4DW0TJ,Amanda Dyer,Colorado Springs,-104.8078,38.9254,United States,amanda.dyer@a.co.uk,Colorado,2022-01-27,merchant__bigboxretailer
+C-1E2TBVCZ,Megan Kennedy,Morristown,-74.4804,40.7936,United States,megan.kennedy@lacusMauris.net,New Jersey,2023-08-22,merchant__clothing
+C-KBF4TE5Z,Richard Lewis,Idaho Falls,-112.0408,43.4927,United States,richard.lewis@in.edu,Idaho,2022-05-07,merchant__electronics
+C-5W60Q0A8,David Clark,Warwick,-81.9098,43.0049,Canada,david.clark@lacusMauris.net,Ontario,2022-12-13,merchant__bigboxretailer
+C-SPR4RH43,Michael Carter,Little Rock,-92.3,35.22,United States,michael.carter@hexun.com,Arkansas,2022-08-12,merchant__electronics
+C-9IDLNMP5,Jacob Jackson,Sacramento,-121.3359,38.5631,United States,jacob.jackson@lacusMauris.net,California,2024-06-15,merchant__bigboxretailer
+C-UJ4S136Y,Lindsay Mcdonald,Rock Springs,-109.07,41.60,United States,lindsay.mcdonald@yahoo.co.jp,Wyoming,2024-05-26,merchant__bigboxretailer
+C-P66WMIU2,Jenna Francis,Pasadena,-95.123,29.7051,United States,jenna.francis@hexun.com,Texas,2022-04-16,merchant__clothing
+C-F53GAON9,Anthony Gross,Roselle,-88.0794,41.9862,United States,anthony.gross@a.co.uk,Illinois,2022-02-20,merchant__electronics
+C-VWHG6RTU,Nicole Acevedo DDS,New Albany,-85.7346,38.2432,United States,nicole.acevedo.dds@adobe.com,Indiana,2023-01-04,merchant__clothing
+C-1F7R4MO1,Vanessa Smith,Bellevue,-95.9146,41.1544,United States,vanessa.smith@lacusMauris.net,Nebraska,2023-10-13,merchant__bigboxretailer
+C-BGU49LX9,Brian Mendez,Maryland Heights,-90.4189,38.7034,United States,brian.mendez@sociisnatoque.net,Missouri,2023-01-12,merchant__bigboxretailer
+C-0S8W6CB0,Mrs. Kimberly Vargas MD,Kalamazoo,-85.5628,42.1984,United States,mrs..kimberly.vargas.md@icq.com,Michigan,2023-10-15,merchant__electronics
+C-L2DVE8UB,Patrick Brown,Bakersfield,-119.0166,35.3734,United States,patrick.brown@icq.com,California,2022-05-02,merchant__electronics
+C-BNRZF4PS,Daniel Young,Louisville,-85.67,38.23,United States,daniel.young@yahoo.co.jp,Kentucky,2022-05-25,merchant__electronics
+C-FWQYSKMB,Stephen Hernandez,Centerview,-93.9911,38.7159,United States,stephen.hernandez@a.co.uk,Missouri,2021-12-30,merchant__bigboxretailer
+C-9MOL3QY1,Laura Johnson,Akron,-81.519005,41.081444,United States,laura.johnson@furl.net,Ohio,2024-10-20,merchant__bigboxretailer
+C-YTHTB74R,Mark Castro,Calgary,-114.0585,51.0478,Canada,mark.castro@bbc.co.uk,Alberta,2023-02-07,merchant__electronics
+C-7PCPKR65,Frank Bowers,Colt,-90.7853,35.0103,United States,frank.bowers@euodio.ca,Arkansas,2023-04-07,merchant__electronics
+C-38W2PXSR,Kim Adams,Checotah,-95.5252,35.471,United States,kim.adams@aliquet.com,Oklahoma,2023-03-17,merchant__clothing
+C-HDPIH1G5,Kimberly Mccann DDS,Springfield,-89.67,39.85,United States,kimberly.mccann.dds@velconvallis.ca,Illinois,2024-02-20,merchant__electronics
+C-5USMKF9X,Lisa Mcdaniel,Manassas,-77.4783,38.7515,United States,lisa.mcdaniel@sociisnatoque.net,Virginia,2023-07-27,merchant__electronics
+C-EAL35RD4,Gary Marshall,Philadelphia,-75.0401,40.035,United States,gary.marshall@icq.com,Pennsylvania,2023-11-14,merchant__clothing
+C-TKNBOIUP,Erica Yang,New York,-73.9898,40.7393,United States,erica.yang@yahoo.co.jp,New York,2022-09-13,merchant__electronics
+C-5MRK5M7E,Jennifer Castillo,Las Vegas,-115.1419,36.1673,United States,jennifer.castillo@bbc.co.uk,Nevada,2023-02-09,merchant__clothing
+C-J44MBUFS,Julie Norman,New York,-73.9898,40.7393,United States,julie.norman@a.co.uk,New York,2022-12-10,merchant__electronics
+C-09SPV767,Jesse Adams,Hattiesburg,-89.33,31.47,United States,jesse.adams@nonsollicitudin.net,Mississippi,2021-10-11,merchant__electronics
+C-KCBTUA4F,Anna Graves,Orlando,-81.2849,28.5369,United States,anna.graves@a.co.uk,Florida,2023-05-02,merchant__clothing
+C-FVITB31Y,Kathy Floyd,Santa Monica,-118.4904,34.02,United States,kathy.floyd@furl.net,California,2022-11-07,merchant__electronics
+C-2VG5A3R4,Jason Phillips DVM,Leesburg,-81.877,28.8123,United States,jason.phillips.dvm@yahoo.co.jp,Florida,2022-08-04,merchant__bigboxretailer
+C-2ZU2QZHQ,David Brown,Toledo,-83.80,41.60,United States,david.brown@nec.co.uk,Ohio,2021-12-22,merchant__electronics
+C-PMTPJ8MG,Joseph Smith,Bornholm,-81.0833,43.5823,Canada,joseph.smith@aliquet.com,Ontario,2021-12-17,merchant__bigboxretailer
+C-5WFWTA4V,Cheryl Carr,New York,-73.9898,40.7393,United States,cheryl.carr@aliquet.com,New York,2022-10-12,merchant__clothing
+C-5RVOM1CE,Christopher Lee,Pittsburgh,-79.9502,40.5264,United States,christopher.lee@lacusMauris.net,Pennsylvania,2023-02-25,merchant__electronics
+C-JRLH1WY4,Emma West,Pasadena,-95.123,29.7051,United States,emma.west@hexun.com,Texas,2022-04-08,merchant__bigboxretailer
+C-FE8WN82Q,Dr. Lisa Nelson,Scarborough,-79.3839,43.6525,Canada,dr..lisa.nelson@yahoo.co.jp,Ontario,2021-11-05,merchant__electronics
+C-ZKB7M9MU,Charles Brooks,Atlanta,-84.3941,33.7609,United States,charles.brooks@nec.co.uk,Georgia,2021-12-07,merchant__bigboxretailer
+C-1PZSHYF5,Willie Sosa,Charlotte,-80.839,35.226,United States,willie.sosa@yahoo.co.jp,North Carolina,2022-04-08,merchant__clothing
+C-0QSBJI5D,Robert Adams Jr.,Idaho Falls,-112.0408,43.4927,United States,robert.adams.jr.@foxnews.com,Idaho,2024-09-26,merchant__electronics
+C-DP4ITFCD,Mark Barron,Gladstone,-122.6069,45.3559,United States,mark.barron@Aliquam.net,Oregon,2023-09-13,merchant__electronics
+C-AA8SN04P,Zachary Miller,Kansas City,-94.72,39.32,United States,zachary.miller@a.co.uk,Missouri,2022-09-10,merchant__electronics
+C-MWSVPM1K,Devin Robles,Kitchener,-80.495064,43.452969,Canada,devin.robles@hexun.com,Ontario,2024-05-26,merchant__bigboxretailer
+C-B2O1NHAX,Anthony Warner,Clearwater Municipal District,-115.7138899,52.2755559,Canada,anthony.warner@bbc.co.uk,Alberta,2024-11-07,merchant__electronics
+C-PPSXUD2K,Teresa Lopez,Columbus,-82.9952,39.9689,United States,teresa.lopez@yahoo.co.jp,Ohio,2023-10-19,merchant__bigboxretailer
+C-WSBW93YV,Stephanie Blair,Warrior,-86.8079,33.8188,United States,stephanie.blair@a.co.uk,Alabama,2022-05-11,merchant__bigboxretailer
+C-HA7OHLTM,Matthew Ramos,Mountville,-76.4359,40.0409,United States,matthew.ramos@adobe.com,Pennsylvania,2022-08-25,merchant__electronics
+C-867QRN0U,Alexa Smith,Saint Paul,-93.0595,44.9629,United States,alexa.smith@foxnews.com,Minnesota,2022-10-13,merchant__electronics
+C-FYZWWM9U,Cynthia Brown,Naugatuck,-73.0517,41.4931,United States,cynthia.brown@hexun.com,Connecticut,2023-12-02,merchant__electronics
+C-717L2RGP,Michael Ballard,Oshkosh,-88.5349,44.0145,United States,michael.ballard@a.co.uk,Wisconsin,2024-10-02,merchant__electronics
+C-PFH9C6DS,Christopher Buchanan,Las Vegas,-115.1419,36.1673,United States,christopher.buchanan@furl.net,Nevada,2022-06-05,merchant__bigboxretailer
+C-7OQO18N6,Kyle Phelps,Salt Lake City,-111.8211,40.6677,United States,kyle.phelps@nonsollicitudin.net,Utah,2024-04-30,merchant__bigboxretailer
+C-RDXCR062,Gina Hurst,Beavertown,-77.2116,40.7443,United States,gina.hurst@yahoo.co.jp,Pennsylvania,2023-09-28,merchant__electronics
+C-PBS5WYK1,Christopher Daugherty,Milwaukee,-87.9969,43.1922,United States,christopher.daugherty@icq.com,Wisconsin,2024-01-03,merchant__electronics
+C-IUTCFK4L,Scott Bowers,Terryville,-72.9422,41.672,United States,scott.bowers@bizjournals.com,Connecticut,2023-10-08,merchant__bigboxretailer
+C-PYK5PPU6,Erin Lopez,Schwenksville,-75.3489,40.2006,United States,erin.lopez@adobe.com,Pennsylvania,2024-11-02,merchant__electronics
+C-FXZD3KK4,Blake Strong,Los Angeles,-118.1925,34.0334,United States,blake.strong@bizjournals.com,California,2024-06-11,merchant__bigboxretailer
+C-E47M6GJR,Kristina King,Port Saint Lucie,-80.2842,27.2665,United States,kristina.king@sociisnatoque.net,Florida,2021-10-15,merchant__bigboxretailer
+C-WHDVSGWG,Andrea Carter,Moncton,-64.775820,46.088880,Canada,andrea.carter@lacusMauris.net,New Brunswick,2022-12-09,merchant__bigboxretailer
+C-ER6P2WNX,Kevin Carter,New York,-73.9898,40.7393,United States,kevin.carter@nunc.net,New York,2022-08-23,merchant__bigboxretailer
+C-H53XVN3D,Danielle Nixon,Houston,-95.4069,29.6954,United States,danielle.nixon@aliquet.com,Texas,2024-03-22,merchant__electronics
+C-0WO3W5AW,Jaclyn Gill,Modesto,-120.996,37.6442,United States,jaclyn.gill@bizjournals.com,California,2022-01-12,merchant__electronics
+C-T8HHQY5E,Roberto Manning,Bornholm,-81.0833,43.5823,Canada,roberto.manning@furl.net,Ontario,2022-10-25,merchant__electronics
+C-UQM7EPON,Brittany Cole,Bloomington,-93.2983,44.8408,United States,brittany.cole@lacusMauris.net,Minnesota,2024-07-24,merchant__electronics
+C-2EF5VAWP,Justin Pearson,Roselle,-88.0794,41.9862,United States,justin.pearson@nonsollicitudin.net,Illinois,2023-04-11,merchant__bigboxretailer
+C-QXUKQAQU,Madeline Wood,Omaha,-95.9461,41.2093,United States,madeline.wood@adobe.com,Nebraska,2022-06-16,merchant__electronics
+C-GFGDWGCN,Tammy Perry,Moncton,-64.775820,46.088880,Canada,tammy.perry@Aliquam.net,New Brunswick,2023-05-06,merchant__electronics
+C-5ZV3IK7Z,Steven Dominguez,Austin,-97.7077,30.2608,United States,steven.dominguez@euodio.ca,Texas,2022-12-05,merchant__bigboxretailer
+C-TCA1KAEB,Rachel Kim,Malartic,-78.133331,48.133331,Canada,rachel.kim@viverra.org,Quebec,2023-07-08,merchant__electronics
+C-Z7YRY40O,Jeffrey Moss,Colorado Springs,-104.8078,38.9254,United States,jeffrey.moss@bbc.co.uk,Colorado,2024-09-06,merchant__clothing
+C-6UIYHCB5,Douglas Rodriguez,San Diego,-117.17,32.73,United States,douglas.rodriguez@viverra.org,California,2022-10-26,merchant__clothing
+C-8OB6FDLY,Jenna Hughes,Las Vegas,-115.1419,36.1673,United States,jenna.hughes@yahoo.co.jp,Nevada,2023-08-02,merchant__bigboxretailer
+C-9OXZBAIZ,Erik Huerta,North Las Vegas,-115.17,36.08,United States,erik.huerta@velconvallis.ca,Nevada,2022-03-07,merchant__bigboxretailer
+C-KGTLHOXM,Mrs. Chelsea Cooper MD,Naperville,-88.1535,41.750,United States,mrs..chelsea.cooper.md@nonsollicitudin.net,Illinois,2022-12-24,merchant__electronics
+C-ZU52KPYW,Laura Anderson DDS,Vegreville,-112.0539,53.4941,Canada,laura.anderson.dds@icq.com,Alberta,2021-12-25,merchant__electronics
+C-XYX9TI9O,James Munoz,Corydon,-93.4991,40.8574,United States,james.munoz@sociisnatoque.net,Iowa,2024-07-15,merchant__bigboxretailer
+C-NA8T9YKX,Alan Davis,Scarborough,-79.3839,43.6525,Canada,alan.davis@lacusMauris.net,Ontario,2024-06-30,merchant__bigboxretailer
+C-RX9B3HIY,Suzanne Hill,Bridgeport,-73.1894,41.179,United States,suzanne.hill@hexun.com,Connecticut,2024-03-11,merchant__electronics
+C-M9SUOSB8,Amanda Perkins,Hassell,-77.2589,35.8259,United States,amanda.perkins@nec.co.uk,North Carolina,2023-08-05,merchant__clothing
+C-LYWGU83G,Nancy Black,Big Cabin,-95.2678,36.443,United States,nancy.black@foxnews.com,Oklahoma,2022-08-22,merchant__bigboxretailer
+C-EFG5Y794,Marissa Johnson,Centerview,-93.9911,38.7159,United States,marissa.johnson@lacusMauris.net,Missouri,2024-12-05,merchant__electronics
+C-ZKGMQPUC,Joseph Johnson,Flin Flon,-101.8762,54.7658,Canada,joseph.johnson@lacusMauris.net,Manitoba,2022-08-24,merchant__bigboxretailer
+C-DUPXVQM6,Lori Moore,Salt Lake City,-111.8211,40.6677,United States,lori.moore@sociisnatoque.net,Utah,2022-11-13,merchant__electronics
+C-K6SAQ1DB,James Hansen,Fort Lauderdale,-80.142,26.1171,United States,james.hansen@lacusMauris.net,Florida,2024-10-26,merchant__electronics
+C-O7ITJTRQ,Darius Wiggins,Dallas,-97.0004,32.7417,United States,darius.wiggins@nec.co.uk,Texas,2022-06-10,merchant__electronics
+C-UY50E2L3,Kyle Walker,Alfred,-70.7789,43.4426,United States,kyle.walker@furl.net,Maine,2023-01-08,merchant__bigboxretailer
+C-BL1E1N7O,Karen Smith,Mobile,-88.25,30.68,United States,karen.smith@sociisnatoque.net,Alabama,2023-03-16,merchant__clothing
+C-46G7PE32,Megan Roberts,Greenville,-77.373,35.6075,United States,megan.roberts@Aliquam.net,North Carolina,2023-04-24,merchant__bigboxretailer
+C-5ZW4AE3P,Megan Campos,Denver,-104.9948,39.7467,United States,megan.campos@furl.net,Colorado,2023-10-23,merchant__electronics
+C-B2HF6O49,Tracy Joseph,Springfield,-89.67,39.85,United States,tracy.joseph@icq.com,Illinois,2021-11-14,merchant__bigboxretailer
+C-QGBOEWTV,Michael Alvarez,Las Vegas,-115.1419,36.1673,United States,michael.alvarez@bbc.co.uk,Nevada,2024-03-31,merchant__clothing
+C-P3GTHQ2B,Julie Giles,Santa Rosa,-122.7156,38.443,United States,julie.giles@viverra.org,California,2023-12-20,merchant__electronics
+C-9Q6I1ZSN,Clayton Riddle,Raleigh,-78.6508,35.7843,United States,clayton.riddle@icq.com,North Carolina,2023-10-20,merchant__bigboxretailer
+C-WZA66OS6,Devin Garcia,Harrodsburg,-84.7702,37.7499,United States,devin.garcia@icq.com,Kentucky,2024-10-03,merchant__clothing
+C-NDFOZRDW,Charles Salinas,Bathurst,-65.650002,47.619999,Canada,charles.salinas@bizjournals.com,New Brunswick,2024-04-26,merchant__bigboxretailer
+C-26GSNH67,Whitney Thomas,Memphis,-89.87,35.35,United States,whitney.thomas@nonsollicitudin.net,Tennessee,2023-11-28,merchant__electronics
+C-RKZ7MTIJ,Rebecca Brown,Conway,-92.4502,35.0814,United States,rebecca.brown@a.co.uk,Arkansas,2021-12-09,merchant__electronics
+C-EJ7LTC7H,Margaret Baker,Gainesville,-82.3284,29.6505,United States,margaret.baker@velconvallis.ca,Florida,2023-07-01,merchant__bigboxretailer
+C-RDA89L55,Robert Carr,Crestview,-86.12,30.7192,United States,robert.carr@euodio.ca,Florida,2024-11-25,merchant__electronics
+C-AYMFILX6,Nancy Thomas,Toledo,-83.80,41.60,United States,nancy.thomas@Aliquam.net,Ohio,2022-08-16,merchant__electronics
+C-O00IIZDU,Michael Young,West Chester,-84.5155,39.1005,United States,michael.young@furl.net,Ohio,2023-01-02,merchant__clothing
+C-7IUO1KUX,Charles Hobbs,Cassville,-80.0586,39.7162,United States,charles.hobbs@velconvallis.ca,West Virginia,2024-08-29,merchant__electronics
+C-KFZB0V6Y,Joseph Price,Pasadena,-95.123,29.7051,United States,joseph.price@bbc.co.uk,Texas,2022-09-08,merchant__clothing
+C-3M51LZQ9,Jeffery Wood,Elmhurst,-87.9445,41.9016,United States,jeffery.wood@aliquet.com,Illinois,2023-10-31,merchant__bigboxretailer
+C-KC82ZKN2,David Rice,Boston,-71.054,42.354,United States,david.rice@foxnews.com,Massachusetts,2024-05-31,merchant__bigboxretailer
+C-V9O8Y6P4,Roberta Short,Carleton Place,-76.1479,45.1432,Canada,roberta.short@a.co.uk,Ontario,2022-09-21,merchant__clothing
+C-QAWI466Z,Juan Anderson,Marrero,-90.0765,29.9475,United States,juan.anderson@aliquet.com,Louisiana,2023-10-02,merchant__electronics
+C-VT6FSFPQ,Tina Rivera,Crestview,-86.12,30.7192,United States,tina.rivera@lacusMauris.net,Florida,2024-08-11,merchant__electronics
+C-TRVBGZ1U,Allen Wood,Beavertown,-77.2116,40.7443,United States,allen.wood@icq.com,Pennsylvania,2024-02-29,merchant__bigboxretailer
+C-Y4PPV7QD,Karen Hansen,Chandlersville,-81.9118,39.8716,United States,karen.hansen@hexun.com,Ohio,2023-08-13,merchant__bigboxretailer
+C-0BIFHMJQ,Rebecca Webb,Chicago,-87.6369,41.8839,United States,rebecca.webb@nonsollicitudin.net,Illinois,2021-10-07,merchant__clothing
+C-5NK3000B,Kayla Parker,Terryville,-72.9422,41.672,United States,kayla.parker@nunc.net,Connecticut,2023-04-27,merchant__electronics
+C-T6YFUPFC,Carla Moore,North Dartmouth,-70.9252,41.6327,United States,carla.moore@foxnews.com,Massachusetts,2022-12-19,merchant__bigboxretailer
+C-A636G1ZH,Greg Gonzalez,Stevens Point,-89.5675,44.5173,United States,greg.gonzalez@viverra.org,Wisconsin,2024-06-27,merchant__bigboxretailer
+C-YO8KRZQN,Tammy Reyes,New Albany,-85.7346,38.2432,United States,tammy.reyes@bbc.co.uk,Indiana,2022-04-30,merchant__electronics
+C-29HCO56I,Shannon Rocha,Berwick,-70.8631,43.2629,United States,shannon.rocha@nunc.net,Maine,2022-09-28,merchant__electronics
+C-4HSNCUV0,Kevin Morales,Colchester,-73.1479,44.5439,United States,kevin.morales@in.edu,Vermont,2023-05-16,merchant__bigboxretailer
+C-7NR4LEKD,Matthew Ross,Warwick,-81.9098,43.0049,Canada,matthew.ross@furl.net,Ontario,2023-12-21,merchant__electronics
+C-XS2KF973,Luis Williams,Toledo,-83.80,41.60,United States,luis.williams@hexun.com,Ohio,2022-12-30,merchant__electronics
+C-WVCLIUST,Jonathan Jackson,Sherbrooke,-71.8929,45.4042,Canada,jonathan.jackson@sociisnatoque.net,Quebec,2022-06-18,merchant__electronics
+C-MPQA5ZDF,Tracy Carter,Sacramento,-121.3359,38.5631,United States,tracy.carter@euodio.ca,California,2021-10-01,merchant__bigboxretailer
+C-96SYBCKR,Stacey Walters,West Chester,-84.5155,39.1005,United States,stacey.walters@a.co.uk,Ohio,2024-12-20,merchant__electronics
+C-MSECIMQ3,Evan Johnson,Hermitage,-93.2075,37.9418,United States,evan.johnson@velconvallis.ca,Missouri,2024-02-22,merchant__electronics
+C-7ZN192W3,Brandy Case,East York,-79.3839,43.6525,Canada,brandy.case@velconvallis.ca,Ontario,2022-01-29,merchant__clothing
+C-SAD3JZA2,Todd Garcia,Checotah,-95.5252,35.471,United States,todd.garcia@lacusMauris.net,Oklahoma,2022-06-16,merchant__clothing
+C-CLX0PF5R,Kristin Floyd,Orilla,-79.4197,44.6082,Canada,kristin.floyd@icq.com,Ontario,2022-09-24,merchant__electronics
+C-ICUGNJG9,Gregory Parker,Warren,-83.0147,42.5145,United States,gregory.parker@aliquet.com,Michigan,2024-04-20,merchant__electronics
+C-AQA7XE80,Cody Golden,Gaspé,-64.483330,48.833332,Canada,cody.golden@a.co.uk,Quebec,2022-11-07,merchant__electronics
+C-QEOGPDDO,Michaela Carlson,Kearney,-99.00,40.73,United States,michaela.carlson@in.edu,Nebraska,2023-06-26,merchant__bigboxretailer
+C-8NDZU373,Robert Lee,Elmhurst,-87.9445,41.9016,United States,robert.lee@nonsollicitudin.net,Illinois,2022-03-20,merchant__bigboxretailer
+C-KNSQK793,Dylan Boyd,Springfield,-89.67,39.85,United States,dylan.boyd@bizjournals.com,Illinois,2021-11-01,merchant__electronics
+C-7MEDDXSZ,Michael Garcia,Minneapolis,-93.2928,45.0436,United States,michael.garcia@bbc.co.uk,Minnesota,2022-03-07,merchant__electronics
+C-ESY1AWW5,Lisa Maldonado,Campbellton,-66.6722,48.0074,Canada,lisa.maldonado@aliquet.com,New Brunswick,2024-03-19,merchant__electronics
+C-AFH826LH,Patricia Burton,Houston,-95.4069,29.6954,United States,patricia.burton@furl.net,Texas,2023-10-14,merchant__bigboxretailer
+C-CYVZSPKC,James Baxter,Orlando,-81.2849,28.5369,United States,james.baxter@icq.com,Florida,2022-02-21,merchant__electronics
+C-WWZH5RZX,Javier Vasquez,Lafayette,-92.0198,30.2241,United States,javier.vasquez@adobe.com,Louisiana,2022-07-31,merchant__electronics
+C-3WG98TCF,Phillip Stewart,Pittsburgh,-79.9502,40.5264,United States,phillip.stewart@icq.com,Pennsylvania,2023-12-17,merchant__clothing
+C-Y8YNIQ04,Tonya Walker,Corona Del Mar,-117.8566,33.6276,United States,tonya.walker@furl.net,California,2022-03-14,merchant__clothing
+C-QCB6MY39,Frederick Perez,Gardena,-118.2885,33.8832,United States,frederick.perez@adobe.com,California,2023-01-02,merchant__electronics
+C-GG20C9PK,Rebecca Davis,Sherbrooke,-71.8929,45.4042,Canada,rebecca.davis@furl.net,Quebec,2022-07-27,merchant__clothing
+C-6NTZ7KGY,Kevin Green,Sherbrooke,-71.8929,45.4042,Canada,kevin.green@adobe.com,Quebec,2021-11-02,merchant__electronics
+C-XVW6TVFX,Daniel Nicholson,Yukon,-97.5162,35.4702,United States,daniel.nicholson@nonsollicitudin.net,Oklahoma,2023-03-15,merchant__bigboxretailer
+C-IWA7SCAR,Brandon George,Fort Smith,-94.37,35.33,United States,brandon.george@a.co.uk,Arkansas,2024-07-01,merchant__electronics
+C-NVLP4LVV,Mrs. Crystal Murray,Bellevue,-95.9146,41.1544,United States,mrs..crystal.murray@nec.co.uk,Nebraska,2021-10-04,merchant__clothing
+C-Q36ESHSM,Whitney Chavez,Charleston,-79.938,32.7834,United States,whitney.chavez@bbc.co.uk,South Carolina,2023-05-22,merchant__bigboxretailer
+C-9JXXKK7X,Robert Carroll,San Francisco,-122.435,37.7875,United States,robert.carroll@adobe.com,California,2024-04-16,merchant__clothing
+C-74ENB76I,Matthew Castillo,Boston,-71.054,42.354,United States,matthew.castillo@foxnews.com,Massachusetts,2024-03-04,merchant__electronics
+C-DX9192GB,Angela Ramirez,Fort Smith,-94.37,35.33,United States,angela.ramirez@lacusMauris.net,Arkansas,2022-09-03,merchant__electronics
+C-0JWF0XF5,Mark Glass DDS,Greeley,-104.6917,40.4194,United States,mark.glass.dds@euodio.ca,Colorado,2024-06-17,merchant__bigboxretailer
+C-L6AD8RJ6,Barbara George,Milwaukee,-87.9969,43.1922,United States,barbara.george@nec.co.uk,Wisconsin,2024-07-10,merchant__electronics
+C-1IS84GB7,Lori Hill,Denver,-104.9948,39.7467,United States,lori.hill@adobe.com,Colorado,2023-10-11,merchant__bigboxretailer
+C-IJ7ZLV5R,Luis Payne,Ballston Spa,-73.7849,43.079,United States,luis.payne@nunc.net,New York,2024-03-14,merchant__electronics
+C-CPXH08HV,Derrick Thomas,Dallas,-97.0004,32.7417,United States,derrick.thomas@viverra.org,Texas,2024-10-24,merchant__bigboxretailer
+C-2UT7Q5UU,Carl Farley,Yorkton,-102.462776,51.213890,Canada,carl.farley@in.edu,Saskatchewan,2023-08-24,merchant__electronics
+C-6B95ULK9,Lisa Gibson,Fort Myers,-81.8572,26.6416,United States,lisa.gibson@foxnews.com,Florida,2023-09-04,merchant__electronics
+C-ISIPTHL5,Gregory Garner,Fort Myers,-81.8572,26.6416,United States,gregory.garner@bbc.co.uk,Florida,2022-01-13,merchant__electronics
+C-9R91H6QL,Tyler Wong,Fort Lauderdale,-80.142,26.1171,United States,tyler.wong@yahoo.co.jp,Florida,2022-11-28,merchant__bigboxretailer
+C-9UJJTD9F,Larry Glover,Zeeland,-86.1005,42.7922,United States,larry.glover@adobe.com,Michigan,2024-11-30,merchant__bigboxretailer
+C-AQ70MJ9K,Brianna Fitzgerald,North Dartmouth,-70.9252,41.6327,United States,brianna.fitzgerald@lacusMauris.net,Massachusetts,2024-10-03,merchant__bigboxretailer
+C-NVU9XHW0,Cameron Foster,Saint-jean-chrysostome,-71.1818,46.8078,Canada,cameron.foster@yahoo.co.jp,Quebec,2022-04-10,merchant__bigboxretailer
+C-WOCBBVL3,Tina Reynolds,Chandlersville,-81.9118,39.8716,United States,tina.reynolds@in.edu,Ohio,2024-09-29,merchant__electronics
+C-3VI2JWL5,Jimmy Cole,Houston,-95.4069,29.6954,United States,jimmy.cole@hexun.com,Texas,2023-02-03,merchant__bigboxretailer
+C-TDHAHI66,Justin Sanders,Sidney,-75.3941,42.3163,United States,justin.sanders@in.edu,New York,2024-12-05,merchant__electronics
+C-U7IP8NHY,Nathan Brooks,Felton,-122.0743,37.0502,United States,nathan.brooks@yahoo.co.jp,California,2022-02-06,merchant__clothing
+C-F50ZA0BI,Morgan Klein,Austin,-97.7077,30.2608,United States,morgan.klein@nonsollicitudin.net,Texas,2024-11-19,merchant__bigboxretailer
+C-H0T1MAVT,Jennifer Morales,Cincinnati,-84.3753,39.2716,United States,jennifer.morales@icq.com,Ohio,2021-11-18,merchant__electronics
+C-1ERKEYQR,Eric Gallagher II,Santee,-117.1578,32.7467,United States,eric.gallagher.ii@foxnews.com,California,2024-05-04,merchant__bigboxretailer
+C-2A8SLQGY,Corey Page,Las Vegas,-115.1419,36.1673,United States,corey.page@sociisnatoque.net,Nevada,2023-02-07,merchant__bigboxretailer
+C-P49L83BT,Lisa Craig,Repentigny,-73.5689,45.5034,Canada,lisa.craig@foxnews.com,Quebec,2023-12-31,merchant__bigboxretailer
+C-V418G51X,Jeffrey Murphy,Scotland,-72.2193,41.714,United States,jeffrey.murphy@hexun.com,Connecticut,2023-01-26,merchant__electronics
+C-Z2RZNW2V,Suzanne Fisher,Birmingham,-86.7992,33.3704,United States,suzanne.fisher@aliquet.com,Alabama,2022-07-25,merchant__bigboxretailer
+C-H9F9ITG4,Brittany Gay,Victoria,-123.3544,48.408,Canada,brittany.gay@euodio.ca,British Columbia,2023-10-06,merchant__electronics
+C-LOCJHFCQ,Katherine Gates,Oakland,-122.26,37.8333,United States,katherine.gates@nonsollicitudin.net,California,2023-05-26,merchant__electronics
+C-9Z0LWJOB,Alex Jones,New York,-73.9898,40.7393,United States,alex.jones@sociisnatoque.net,New York,2022-03-06,merchant__electronics
+C-8HEMBM2U,Brian Lopez,Gainesville,-82.3284,29.6505,United States,brian.lopez@sociisnatoque.net,Florida,2022-10-30,merchant__electronics
+C-I4EOPVYS,Jeffery Davis,Salt Lake City,-111.8211,40.6677,United States,jeffery.davis@yahoo.co.jp,Utah,2023-05-17,merchant__electronics
+C-0C2RLRDM,Kelli Davis,Humble,-95.583,29.6602,United States,kelli.davis@bizjournals.com,Texas,2022-04-02,merchant__bigboxretailer
+C-VOL2X3J7,Troy Turner,Summer Shade,-85.8601,36.8912,United States,troy.turner@foxnews.com,Kentucky,2023-06-26,merchant__electronics
+C-IO0CL88F,Renee Hernandez,Vance,-87.4839,33.1962,United States,renee.hernandez@foxnews.com,Alabama,2023-12-03,merchant__electronics
+C-B6LA8GQU,Marilyn Johnson,Eugene,-123.22,44.12,United States,marilyn.johnson@nec.co.uk,Oregon,2021-10-25,merchant__electronics
+C-E3JDGCYX,Gregory Peterson,Pacific,-122.2277,47.3043,United States,gregory.peterson@nonsollicitudin.net,Washington,2024-04-10,merchant__clothing
+C-U0PD5VJW,Justin Carroll,Russell,-75.3576,45.2593,Canada,justin.carroll@euodio.ca,Ontario,2023-03-23,merchant__electronics
+C-RG2ANJF2,Kayla Simmons,Toledo,-83.80,41.60,United States,kayla.simmons@a.co.uk,Ohio,2022-11-05,merchant__bigboxretailer
+C-3RDGT1GM,Isaac Valencia,Whitehorse,-135.052292,60.719688,Canada,isaac.valencia@furl.net,Yukon,2022-02-26,merchant__electronics
+C-9EHAF01N,James Carroll DVM,Bellevue,-95.9146,41.1544,United States,james.carroll.dvm@euodio.ca,Nebraska,2022-10-11,merchant__bigboxretailer
+C-028LVI4Y,Brenda Anderson,Webster,-77.6184,43.1578,United States,brenda.anderson@euodio.ca,New York,2023-02-04,merchant__clothing
+C-Y59A0POY,Cindy Holt,Charlotte,-80.839,35.226,United States,cindy.holt@viverra.org,North Carolina,2022-07-23,merchant__electronics
+C-YFIB2H3Q,Jennifer Lester,Apple Valley,-117.1896,34.4997,United States,jennifer.lester@nonsollicitudin.net,California,2024-03-12,merchant__electronics
+C-1TMO76T9,Christopher Meyer,Salt Lake City,-111.8211,40.6677,United States,christopher.meyer@bizjournals.com,Utah,2024-01-22,merchant__electronics
+C-9OB577T1,Renee Garcia,Yukon,-97.5162,35.4702,United States,renee.garcia@velconvallis.ca,Oklahoma,2022-05-19,merchant__electronics
+C-QFWF0D77,Monique Medina,Cleveland,-81.6905,41.4989,United States,monique.medina@foxnews.com,Ohio,2024-06-08,merchant__bigboxretailer
+C-G8QLLIU6,Melody Jones,Cassville,-80.0586,39.7162,United States,melody.jones@adobe.com,West Virginia,2022-06-30,merchant__clothing
+C-WEDFOCPQ,Patrick Rose,Summer Shade,-85.8601,36.8912,United States,patrick.rose@velconvallis.ca,Kentucky,2021-12-05,merchant__bigboxretailer
+C-Z6CY267B,Meghan Jones,Baltimore,-76.67,39.18,United States,meghan.jones@bbc.co.uk,Maryland,2023-11-07,merchant__bigboxretailer
+C-0BQD92IF,Jessica Welch,Cypress,-118.0781,33.9071,United States,jessica.welch@nunc.net,California,2023-03-08,merchant__electronics
+C-KLCVT6L2,Christopher Clark,Byers,-98.4896,33.9097,United States,christopher.clark@nunc.net,Texas,2023-10-06,merchant__electronics
+C-CLPQB2KR,Michelle Salazar,Arecibo,-66.7324,18.4674,United States,michelle.salazar@velconvallis.ca,Puerto Rico,2024-05-02,merchant__clothing
+C-7C502G7W,Terri Jimenez,Louisville,-85.67,38.23,United States,terri.jimenez@velconvallis.ca,Kentucky,2021-11-21,merchant__electronics
+C-0BOHDI9B,Martha Rodriguez,Victoria,-123.3544,48.408,Canada,martha.rodriguez@a.co.uk,British Columbia,2023-04-11,merchant__electronics
+C-FOFEJQND,Kyle Johns,Gardena,-118.2885,33.8832,United States,kyle.johns@furl.net,California,2022-08-21,merchant__bigboxretailer
+C-BB5VZGIZ,Alexandria Hart,Gainesville,-82.3284,29.6505,United States,alexandria.hart@in.edu,Florida,2024-11-17,merchant__electronics
+C-C1RMDK4C,Tony Brown,Brantford,-80.3842,44.1767,Canada,tony.brown@a.co.uk,Ontario,2022-09-23,merchant__clothing
+C-W9KS3PKP,Scott Rasmussen,Houston,-95.4069,29.6954,United States,scott.rasmussen@adobe.com,Texas,2022-11-10,merchant__electronics
+C-WCFRNZHH,Patricia Gomez,Morristown,-74.4804,40.7936,United States,patricia.gomez@nonsollicitudin.net,New Jersey,2023-09-08,merchant__bigboxretailer
+C-F1Z6BXNL,Veronica Brown,Guelph,-80.250000,43.549999,Canada,veronica.brown@nunc.net,Ontario,2023-06-17,merchant__clothing
+C-3ZZ3CJIU,Wendy Alvarez DVM,Springfield,-89.67,39.85,United States,wendy.alvarez.dvm@adobe.com,Illinois,2022-03-18,merchant__bigboxretailer
+C-A9X9GLB3,Christina Blair,Gardena,-118.2885,33.8832,United States,christina.blair@velconvallis.ca,California,2023-10-31,merchant__electronics
+C-3RH1Q3KV,Tracey Gonzales,Biloxi,-88.8853,30.3960,United States,tracey.gonzales@a.co.uk,Mississippi,2024-09-25,merchant__bigboxretailer
+C-E4T6LCSH,Christopher Smith,Cedar Rapids,-91.6687,41.9815,United States,christopher.smith@adobe.com,Iowa,2022-08-31,merchant__electronics
+C-MKESMCNP,Robert Smith,San Leandro,-122.1275,37.6994,United States,robert.smith@yahoo.co.jp,California,2021-11-12,merchant__clothing
+C-QNH1PWG9,Alexandra Cooper,Birmingham,-86.7992,33.3704,United States,alexandra.cooper@nunc.net,Alabama,2024-09-19,merchant__clothing
+C-N8K025EV,Michelle Horn,Atlanta,-84.3941,33.7609,United States,michelle.horn@hexun.com,Georgia,2022-01-14,merchant__electronics
+C-K1SI2VCK,Samantha Mullins,Colchester,-73.1479,44.5439,United States,samantha.mullins@adobe.com,Vermont,2024-02-23,merchant__clothing
+C-UDC08709,Timothy Estrada,Pocatello,-112.60,42.92,United States,timothy.estrada@bizjournals.com,Idaho,2023-07-15,merchant__bigboxretailer
+C-3P856P07,Mrs. Courtney Jordan MD,Manassas,-77.4783,38.7515,United States,mrs..courtney.jordan.md@euodio.ca,Virginia,2024-01-15,merchant__bigboxretailer
+C-0ORNY2TU,Edwin James,Maryland Heights,-90.4189,38.7034,United States,edwin.james@in.edu,Missouri,2021-10-11,merchant__bigboxretailer
+C-KN0VK33E,Robert George,East York,-79.3839,43.6525,Canada,robert.george@adobe.com,Ontario,2024-06-09,merchant__bigboxretailer
+C-7K34ZCDT,Carolyn Carter,New York,-73.9898,40.7393,United States,carolyn.carter@yahoo.co.jp,New York,2022-05-14,merchant__bigboxretailer
+C-OIXR1PCX,Debbie Henderson,Frankfort,-84.8733,38.2009,United States,debbie.henderson@icq.com,Kentucky,2022-04-30,merchant__bigboxretailer
+C-8V11R2QK,Brian Lowe,Syracuse,-76.1517,43.0473,United States,brian.lowe@nonsollicitudin.net,New York,2023-12-02,merchant__electronics
+C-JJ2S89RJ,Andrew Brown,New York,-73.9898,40.7393,United States,andrew.brown@bbc.co.uk,New York,2024-08-20,merchant__bigboxretailer
+C-180AO0OT,Brenda Webb,Cassville,-80.0586,39.7162,United States,brenda.webb@hexun.com,West Virginia,2022-11-26,merchant__clothing
+C-1WBTFIVT,Michael Ramos,West Jordan,-111.9391,40.6097,United States,michael.ramos@hexun.com,Utah,2023-12-19,merchant__electronics
+C-TFFOGMD1,Lawrence Spencer,Bozeman,-111.15,45.78,United States,lawrence.spencer@velconvallis.ca,Montana,2024-11-07,merchant__electronics
+C-6VQC25O4,Kim Robinson,Metairie,-90.1529,29.9841,United States,kim.robinson@furl.net,Louisiana,2024-06-20,merchant__bigboxretailer
+C-QYOV4S08,Victor Odonnell,Trion,-85.3081,34.5436,United States,victor.odonnell@aliquet.com,Georgia,2023-10-14,merchant__clothing
+C-5ZKE1I9R,Ashley Allen,Fresno,-119.7937,36.7917,United States,ashley.allen@aliquet.com,California,2023-11-22,merchant__electronics
+C-S33IL24I,Ms. Tara Griffin,Oshkosh,-88.5349,44.0145,United States,ms..tara.griffin@nunc.net,Wisconsin,2023-08-07,merchant__electronics
+C-IORM350P,Jeffery Thomas,Canby,-96.4517,44.7944,United States,jeffery.thomas@lacusMauris.net,Minnesota,2022-02-24,merchant__clothing
+C-K8IXZVW2,John Reed,Saint Paul,-93.0595,44.9629,United States,john.reed@euodio.ca,Minnesota,2024-07-25,merchant__bigboxretailer
+C-9YIM9W52,James Shaffer,Austin,-97.7077,30.2608,United States,james.shaffer@foxnews.com,Texas,2021-10-11,merchant__electronics
+C-U6S0WODA,Ryan Wilson,Aurora,-79.4504,44.0065,Canada,ryan.wilson@icq.com,Ontario,2023-06-04,merchant__bigboxretailer
+C-EAMQ30CN,Ashlee Young,Finksburg,-76.9519,39.3972,United States,ashlee.young@lacusMauris.net,Maryland,2023-09-07,merchant__electronics
+C-HF8HS1IW,Megan Martin,Cacouna,-69.532,47.8338,Canada,megan.martin@foxnews.com,Quebec,2024-02-08,merchant__electronics
+C-FJ39N7YB,Wesley Cook,Seaford,-73.511,40.672,United States,wesley.cook@foxnews.com,New York,2024-03-20,merchant__bigboxretailer
+C-FERKSSWL,Dr. Alicia Miller,Frankfort,-84.8733,38.2009,United States,dr..alicia.miller@furl.net,Kentucky,2023-02-10,merchant__clothing
+C-LF4IR4F3,Claire Taylor,Sherbrooke,-71.8929,45.4042,Canada,claire.taylor@aliquet.com,Quebec,2024-08-01,merchant__clothing
