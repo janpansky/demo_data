@@ -88,7 +88,7 @@ for ds in datasets:
     new_rows = []
     current_date = start_date
     while current_date <= today:
-        num_new = random.randint(1, 20)  # up to 20 new rows per day
+        num_new = random.randint(20, 40)  # up to 20 new rows per day
         for _ in range(num_new):
             new_row = {}
             # For returns.csv and order_lines.csv, sync specific date fields:
