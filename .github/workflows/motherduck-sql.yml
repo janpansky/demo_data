@@ -28,7 +28,7 @@ jobs:
           duckdb <<EOF
           INSTALL motherduck;
           LOAD motherduck;
-          CALL md_auth('${{ secrets.MOTHERDUCK_TOKEN }}');
+          SET motherduck_token='${{ secrets.MOTHERDUCK_TOKEN }}';
           EOF
 
       - name: Append Only New Data to Tables
