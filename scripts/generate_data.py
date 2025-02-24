@@ -16,25 +16,29 @@ max_dates = {}
 
 datasets = [
     {"filename": "customer.csv", "date_column": "customer_created_date"},
-    {"filename": "orders.csv", "date_column": None},  # Orders use customer_created_date indirectly
+    {"filename": "orders.csv", "date_column": "order_date"},
     {"filename": "order_lines.csv", "date_column": "date"},
     {"filename": "returns.csv", "date_column": "date"},
 ]
+
+existing_columns = {}
 
 for ds in datasets:
     file_path = os.path.join(DATA_DIR, ds["filename"])
 
     try:
         df_orig = pl.read_csv(file_path)
+        existing_columns[ds["filename"]] = df_orig.columns  # Store existing columns
         if ds["date_column"] and ds["date_column"] in df_orig.columns:
             max_dates[ds["filename"]] = df_orig[ds["date_column"]].drop_nulls().max()
         else:
-            max_dates[ds["filename"]] = None  # No date column, update only if new orders exist
+            max_dates[ds["filename"]] = None
     except Exception as e:
         print(f"Error reading {ds['filename']}: {e}")
-        max_dates[ds["filename"]] = None  # Assume missing files should start fresh
+        max_dates[ds["filename"]] = None
+        existing_columns[ds["filename"]] = None
 
-# Convert max dates to datetime objects for comparison
+# Convert max dates to datetime objects
 for key, value in max_dates.items():
     if value is not None:
         try:
@@ -42,7 +46,7 @@ for key, value in max_dates.items():
         except ValueError:
             max_dates[key] = datetime.datetime.strptime(value.split()[0], "%Y-%m-%d").date()
     else:
-        max_dates[key] = datetime.date(2024, 1, 1)  # Default start date if missing
+        max_dates[key] = datetime.date(2024, 1, 1)
 
 # Merchant types
 MERCHANT_TYPES = ["merchant__electronics", "merchant__clothing", "merchant__bigboxretailer"]
@@ -91,14 +95,30 @@ while current_date <= today:
             day_customers.append(customer)
             new_customers.append(customer)
 
-    # Generate orders for missing day
-    if max_dates["orders.csv"] < current_date:
-        for customer in day_customers:
+    # Get **existing** customers to use in orders
+    existing_customers = pl.read_csv(os.path.join(DATA_DIR, "customer.csv"))["customer_id"].to_list()
+    day_customer_ids = [c["customer_id"] for c in day_customers]  # Newly generated customers
+    all_valid_customers = existing_customers + day_customer_ids  # Ensure only real customers are used
+
+    # **Check if orders for this date already exist**
+    existing_orders = pl.read_csv(os.path.join(DATA_DIR, "orders.csv"))
+    if "order_date" in existing_orders.columns:
+        existing_order_dates = existing_orders["order_date"].drop_nulls().unique().to_list()
+    else:
+        existing_order_dates = []
+
+    # Generate orders **only if missing for this day**
+    if str(current_date) not in existing_order_dates:
+        for _ in range(random.randint(3, 7)):
             new_order_id = generate_id("O")
+            customer_id = random.choice(all_valid_customers)  # Only use real customers
+
             order = {
                 "order_id": new_order_id,
-                "wdf__client_id": customer["wdf__client_id"],
+                "wdf__client_id": random.choice(MERCHANT_TYPES),
                 "order_status": random.choice(["Processed", "Completed", "In Cart", "Canceled"]),
+                "order_date": current_date.strftime("%Y-%m-%d"),  # Ensure order is dated correctly
+                "customer_id": customer_id  # Ensuring valid customers
             }
             day_orders.append(order)
             new_orders.append(order)
@@ -111,7 +131,7 @@ while current_date <= today:
                     "order_line_id": generate_id("L"),
                     "order__order_id": order["order_id"],
                     "product__product_id": generate_id("P"),
-                    "customer__customer_id": generate_id("C"),
+                    "customer__customer_id": order["customer_id"],  # Ensure the customer exists
                     "order_unit_price": float(round(random.uniform(5, 200), 2)),
                     "order_unit_quantity": float(random.randint(1, 5)),
                     "wdf__client_id": order["wdf__client_id"],
@@ -124,25 +144,6 @@ while current_date <= today:
                 day_order_lines.append(order_line)
                 new_order_lines.append(order_line)
 
-    # Generate returns for missing day
-    if max_dates["returns.csv"] < current_date:
-        for order in day_orders:
-            if random.random() < 0.3:
-                return_data = {
-                    "return_id": generate_id("R"),
-                    "order__order_id": order["order_id"],
-                    "product__product_id": generate_id("P"),
-                    "customer__customer_id": generate_id("C"),
-                    "return_unit_cost": float(round(random.uniform(10, 150), 2)),
-                    "return_unit_quantity": float(random.randint(1, 5)),
-                    "wdf__client_id": order["wdf__client_id"],
-                    "return_unit_paid_amount": float(round(random.uniform(5, 200), 2)),
-                    "date": current_date.strftime("%Y-%m-%d %H:%M:%S.000"),
-                    "return_date": current_date.strftime("%Y-%m-%d %H:%M:%S.000"),
-                }
-                day_returns.append(return_data)
-                new_returns.append(return_data)
-
     # Move to next missing day
     current_date += datetime.timedelta(days=1)
 
@@ -151,7 +152,6 @@ for dataset, new_data in [
     ("customer.csv", new_customers),
     ("orders.csv", new_orders),
     ("order_lines.csv", new_order_lines),
-    ("returns.csv", new_returns)
 ]:
     if not new_data:
         print(f"No new data for {dataset}. Skipping update.")
@@ -162,6 +162,10 @@ for dataset, new_data in [
     try:
         df_orig = pl.read_csv(file_path)
         df_new = pl.DataFrame(new_data)
+
+        # Ensure column consistency before appending
+        if existing_columns[dataset]:
+            df_new = df_new.select(existing_columns[dataset])  # Only keep known columns
 
         updated_df = pl.concat([df_orig, df_new]).filter(pl.col(df_orig.columns[0]).is_not_null())
         updated_df.write_csv(file_path)
