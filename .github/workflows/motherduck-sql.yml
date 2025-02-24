@@ -8,6 +8,7 @@ on:
 jobs:
   append_data:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -20,72 +21,40 @@ jobs:
           sudo mv duckdb /usr/local/bin/
 
       - name: Verify DuckDB Version
-        run: |
-          duckdb --version  # Ensure correct version is installed
+        run: duckdb --version  # Ensure correct version is installed
 
       - name: Authenticate with MotherDuck
         run: |
-          duckdb -c "
+          duckdb <<EOF
           INSTALL motherduck;
           LOAD motherduck;
-          CALL md_auth('${{ secrets.MOTHERDUCK_TOKEN }}');"
+          CALL md_auth('${{ secrets.MOTHERDUCK_TOKEN }}');
+          EOF
 
       - name: Append Only New Data to Tables
         run: |
-          duckdb -c "
+          duckdb <<EOF
           ATTACH 'md:your_database_name' AS md;
 
-          INSERT INTO md.customer
-          SELECT new.*
-          FROM read_csv_auto(
-            'https://raw.githubusercontent.com/janpansky/demo_data/main/data/customer.csv',
-            MD_RUN='REMOTE'
-          ) AS new
-          LEFT JOIN md.customer existing ON new.customer_id = existing.customer_id
-          WHERE existing.customer_id IS NULL;
+          -- Ensure DuckDB always fetches the latest data (disable caching)
+          SET enable_http_metadata_cache = false;
+          SET enable_object_cache = false;
 
-          INSERT INTO md.monthly_inventory
-          SELECT new.*
-          FROM read_csv_auto(
-            'https://raw.githubusercontent.com/janpansky/demo_data/main/data/monthly_inventory.csv',
-            MD_RUN='REMOTE'
-          ) AS new
-          LEFT JOIN md.monthly_inventory existing ON new.monthly_inventory_id = existing.monthly_inventory_id
-          WHERE existing.monthly_inventory_id IS NULL;
+          -- Append new data for monthly_inventory
+          INSERT INTO monthly_inventory
+          SELECT * 
+          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/monthly_inventory.csv') AS new
+          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM monthly_inventory);
 
-          INSERT INTO md.order_lines
-          SELECT new.*
-          FROM read_csv_auto(
-            'https://raw.githubusercontent.com/janpansky/demo_data/main/data/order_lines.csv',
-            MD_RUN='REMOTE'
-          ) AS new
-          LEFT JOIN md.order_lines existing ON new.order_line_id = existing.order_line_id
-          WHERE existing.order_line_id IS NULL;
+          -- Append new data for order_lines
+          INSERT INTO order_lines
+          SELECT * 
+          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/order_lines.csv') AS new
+          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM order_lines);
 
-          INSERT INTO md.orders
-          SELECT new.*
-          FROM read_csv_auto(
-            'https://raw.githubusercontent.com/janpansky/demo_data/main/data/orders.csv',
-            MD_RUN='REMOTE'
-          ) AS new
-          LEFT JOIN md.orders existing ON new.order_id = existing.order_id
-          WHERE existing.order_id IS NULL;
-
-          INSERT INTO md.product
-          SELECT new.*
-          FROM read_csv_auto(
-            'https://raw.githubusercontent.com/janpansky/demo_data/main/data/product.csv',
-            MD_RUN='REMOTE'
-          ) AS new
-          LEFT JOIN md.product existing ON new.product_id = existing.product_id
-          WHERE existing.product_id IS NULL;
-
-          INSERT INTO md.returns
-          SELECT new.*
-          FROM read_csv_auto(
-            'https://raw.githubusercontent.com/janpansky/demo_data/main/data/returns.csv',
-            MD_RUN='REMOTE'
-          ) AS new
-          LEFT JOIN md.returns existing ON new.return_id = existing.return_id
-          WHERE existing.return_id IS NULL;
-          "
+          -- Append new data for returns
+          INSERT INTO returns
+          SELECT * 
+          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/returns.csv') AS new
+          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM returns);
+          EOF
