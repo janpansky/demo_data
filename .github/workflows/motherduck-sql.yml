@@ -13,26 +13,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Latest DuckDB with MotherDuck
+      - name: Install DuckDB v1.2.0
         run: |
-          wget https://motherduck.com/download/duckdb-cli-linux-amd64 -O duckdb
+          wget https://github.com/duckdb/duckdb/releases/download/v1.2.0/duckdb_cli-linux-amd64.zip
+          unzip duckdb_cli-linux-amd64.zip
           chmod +x duckdb
           sudo mv duckdb /usr/local/bin/
 
-      - name: Verify DuckDB Version
-        run: duckdb --version  # Ensure correct version is installed
-
       - name: Authenticate with MotherDuck
         run: |
-          duckdb <<EOF
+          duckdb -c "
           INSTALL motherduck;
           LOAD motherduck;
-          ATTACH 'md:your_database_name' AS md USING '${{ secrets.MOTHERDUCK_TOKEN }}';
-          EOF
+          CALL md_auth('${{ secrets.MOTHERDUCK_TOKEN }}');
+          "
 
       - name: Append Only New Data to Tables
         run: |
-          duckdb <<EOF
+          duckdb -c "
           ATTACH 'md:your_database_name' AS md;
 
           -- Ensure DuckDB always fetches the latest data (disable caching)
@@ -40,26 +38,26 @@ jobs:
           SET enable_object_cache = false;
 
           -- Append new data for customer
-          INSERT INTO customer
-          SELECT customer_id, ls__customer_id__customer_name, customer_city, geo__customer_city__city_pushpin_longitude, geo__customer_city__city_pushpin_latitude, customer_country, customer_email, customer_state, customer_created_date, wdf__client_id
-          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/customer.csv') AS new
-          WHERE new.customer_created_date > (SELECT COALESCE(MAX(customer_created_date), '1900-01-01') FROM customer);
+          INSERT INTO md.customer
+          SELECT *
+          FROM read_csv_auto('https://raw.githubusercontent.com/your_username/your_repository/main/data/customer.csv') AS new
+          WHERE new.customer_created_date > (SELECT COALESCE(MAX(customer_created_date), '1900-01-01') FROM md.customer);
 
           -- Append new data for monthly_inventory
-          INSERT INTO monthly_inventory
-          SELECT * 
-          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/monthly_inventory.csv') AS new
-          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM monthly_inventory);
+          INSERT INTO md.monthly_inventory
+          SELECT *
+          FROM read_csv_auto('https://raw.githubusercontent.com/your_username/your_repository/main/data/monthly_inventory.csv') AS new
+          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM md.monthly_inventory);
 
           -- Append new data for order_lines
-          INSERT INTO order_lines
-          SELECT * 
-          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/order_lines.csv') AS new
-          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM order_lines);
+          INSERT INTO md.order_lines
+          SELECT *
+          FROM read_csv_auto('https://raw.githubusercontent.com/your_username/your_repository/main/data/order_lines.csv') AS new
+          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM md.order_lines);
 
           -- Append new data for returns
-          INSERT INTO returns
-          SELECT * 
-          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/returns.csv') AS new
-          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM returns);
-          EOF
+          INSERT INTO md.returns
+          SELECT *
+          FROM read_csv_auto('https://raw.githubusercontent.com/your_username/your_repository/main/data/returns.csv') AS new
+          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM md.returns);
+          "
