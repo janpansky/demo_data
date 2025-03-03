@@ -26,7 +26,6 @@ existing_columns = {}
 
 for ds in datasets:
     file_path = os.path.join(DATA_DIR, ds["filename"])
-
     try:
         df_orig = pl.read_csv(file_path)
         existing_columns[ds["filename"]] = df_orig.columns  # Store existing columns
@@ -78,46 +77,45 @@ customer_locations = customer_df.select([
     "geo__customer_city__city_pushpin_latitude"
 ]).unique().to_dicts()
 
-# First, ensure missing customers are created
+# Step 1: Generate Missing Data Day-by-Day
 new_customers = []
-
-current_date = max_dates["customer.csv"] + datetime.timedelta(days=1)
-while current_date <= today:
-    for _ in range(random.randint(5, 10)):
-        new_customer_id = generate_id("C")
-        full_name = f"{random.choice(['Emma', 'Olivia', 'Liam', 'Noah', 'Ava'])} {random.choice(['Smith', 'Johnson', 'Williams'])}"
-        location = random.choice(customer_locations)
-        merchant_type = random.choice(MERCHANT_TYPES)
-
-        customer = {
-            "customer_id": new_customer_id,
-            "ls__customer_id__customer_name": full_name,
-            "customer_city": location["customer_city"],
-            "geo__customer_city__city_pushpin_longitude": location["geo__customer_city__city_pushpin_longitude"],
-            "geo__customer_city__city_pushpin_latitude": location["geo__customer_city__city_pushpin_latitude"],
-            "customer_country": location["customer_country"],
-            "customer_email": f"{full_name.replace(' ', '.').lower()}@example.com",
-            "customer_state": location["customer_state"],
-            "customer_created_date": current_date.strftime("%Y-%m-%d"),
-            "wdf__client_id": merchant_type,
-        }
-        new_customers.append(customer)
-        existing_customer_ids.append(new_customer_id)
-
-    current_date += datetime.timedelta(days=1)
-
-# Step 2: Generate Missing Data for Orders, Order Lines, Returns, and Inventory
 new_orders = []
 new_order_lines = []
 new_returns = []
 new_inventory = []
 
+# Set the start date for missing data
 current_date = min(max_dates.values()) + datetime.timedelta(days=1)
+
 while current_date <= today:
+    day_customers = []
     day_orders = []
     day_order_lines = []
     day_returns = []
     day_inventory = []
+
+    # Generate customers if missing
+    if max_dates["customer.csv"] < current_date:
+        for _ in range(random.randint(5, 10)):
+            new_customer_id = generate_id("C")
+            full_name = f"{random.choice(['Emma','Olivia','Liam','Noah','Ava'])} {random.choice(['Smith','Johnson','Williams'])}"
+            location = random.choice(customer_locations)
+            merchant_type = random.choice(MERCHANT_TYPES)
+            customer = {
+                "customer_id": new_customer_id,
+                "ls__customer_id__customer_name": full_name,
+                "customer_city": location["customer_city"],
+                "geo__customer_city__city_pushpin_longitude": location["geo__customer_city__city_pushpin_longitude"],
+                "geo__customer_city__city_pushpin_latitude": location["geo__customer_city__city_pushpin_latitude"],
+                "customer_country": location["customer_country"],
+                "customer_email": f"{full_name.replace(' ', '.').lower()}@example.com",
+                "customer_state": location["customer_state"],
+                "customer_created_date": current_date.strftime("%Y-%m-%d"),
+                "wdf__client_id": merchant_type,
+            }
+            day_customers.append(customer)
+            new_customers.append(customer)
+        existing_customer_ids.extend([c["customer_id"] for c in day_customers])
 
     # Generate orders if missing
     if max_dates["orders.csv"] < current_date:
@@ -134,14 +132,14 @@ while current_date <= today:
             new_orders.append(order)
         existing_order_ids.extend([o["order_id"] for o in day_orders])
 
-    # Generate order lines with only valid product IDs
+    # Generate order lines linked to valid products if missing
     if max_dates["order_lines.csv"] < current_date:
         for order in day_orders:
             for _ in range(random.randint(1, 3)):
                 order_line = {
                     "order_line_id": generate_id("L"),
                     "order__order_id": order["order_id"],
-                    "product__product_id": random.choice(existing_product_ids),  # Ensure product exists
+                    "product__product_id": random.choice(existing_product_ids),
                     "customer__customer_id": order["customer_id"],
                     "order_unit_price": float(round(random.uniform(5, 200), 2)),
                     "order_unit_quantity": float(random.randint(1, 5)),
@@ -150,38 +148,77 @@ while current_date <= today:
                     "order_unit_cost": float(round(random.uniform(5, 150), 2)),
                     "date": current_date.strftime("%Y-%m-%d %H:%M:%S.000"),
                     "order_date": current_date.strftime("%Y-%m-%d %H:%M:%S.000"),
-                    "customer_age": f"{random.randint(18, 70)}M+",
                 }
                 day_order_lines.append(order_line)
                 new_order_lines.append(order_line)
 
+    # Generate missing returns based on date field for orders of that day
+    if max_dates["returns.csv"] < current_date:
+        for order in day_orders:
+            if random.random() < 0.4:  # 40% chance to generate a return for an order
+                return_data = {
+                    "return_id": generate_id("R"),
+                    "order__order_id": order["order_id"],
+                    "product__product_id": random.choice(existing_product_ids),
+                    "customer__customer_id": order["customer_id"],
+                    "return_unit_cost": float(round(random.uniform(5, 150), 2)),
+                    "return_unit_quantity": float(random.randint(1, 3)),
+                    "wdf__client_id": order["wdf__client_id"],
+                    "return_unit_paid_amount": float(round(random.uniform(5, 200), 2)),
+                    "date": current_date.strftime("%Y-%m-%d %H:%M:%S.000"),
+                    "return_date": current_date.strftime("%Y-%m-%d %H:%M:%S.000"),
+                }
+                day_returns.append(return_data)
+                new_returns.append(return_data)
+
+    # Generate missing inventory updates if missing
+    if max_dates["monthly_inventory.csv"] < current_date:
+        for product_id in existing_product_ids:
+            inventory_data = {
+                "monthly_inventory_id": generate_id("M"),
+                "product__product_id": product_id,
+                "inventory_month": current_date.strftime("%Y-%m-01"),
+                "monthly_quantity_bom": float(random.randint(300, 2000)),
+                "monthly_quantity_eom": float(random.randint(300, 2000)),
+                "wdf__client_id": random.choice(MERCHANT_TYPES),
+                "date": current_date.strftime("%Y-%m-%d %H:%M:%S.000"),
+            }
+            day_inventory.append(inventory_data)
+            new_inventory.append(inventory_data)
+
     current_date += datetime.timedelta(days=1)
 
-# Save updates to datasets
-for dataset, new_data in [
-    ("customer.csv", new_customers),
-    ("orders.csv", new_orders),
-    ("order_lines.csv", new_order_lines),
-    ("returns.csv", new_returns),
-    ("monthly_inventory.csv", new_inventory),
-]:
+# Step 2: Save all updates ensuring column consistency without altering original file structure
+def update_dataset(dataset, new_data):
     if not new_data:
         print(f"No new data for {dataset}. Skipping update.")
-        continue
-
+        return
     file_path = os.path.join(DATA_DIR, dataset)
-
     try:
         df_orig = pl.read_csv(file_path)
         df_new = pl.DataFrame(new_data)
+        # Use original file's column order as reference (if original not empty)
+        if df_orig.shape[0] > 0:
+            ref_columns = df_orig.columns
+        else:
+            ref_columns = df_new.columns
 
-        # Ensure column consistency before appending
-        if existing_columns[dataset]:
-            df_new = df_new.select(existing_columns[dataset])  # Keep known columns
+        # For each column in the reference, ensure df_new has it (fill missing with null, cast to type from df_orig if available)
+        for col in ref_columns:
+            if col not in df_new.columns:
+                dtype = df_orig.schema.get(col, pl.Utf8)
+                df_new = df_new.with_columns(pl.lit(None).cast(dtype).alias(col))
+        # Drop any extra columns from df_new not in the reference
+        df_new = df_new.select(ref_columns)
 
         updated_df = pl.concat([df_orig, df_new])
         updated_df.write_csv(file_path)
         print(f"Updated {dataset} with {len(new_data)} new records.")
-
     except Exception as e:
         print(f"Error writing {dataset}: {e}")
+
+update_dataset("customer.csv", new_customers)
+update_dataset("orders.csv", new_orders)
+update_dataset("order_lines.csv", new_order_lines)
+update_dataset("returns.csv", new_returns)
+update_dataset("monthly_inventory.csv", new_inventory)
