@@ -88,6 +88,6 @@ jobs:
               SELECT 1 FROM returns existing WHERE existing.return_id = new.return_id
           )
           AND CAST(new.return_date AS DATE) > (
-              SELECT COALESCE(MAX(return_date), '1900-01-01') FROM returns
+              SELECT COALESCE(MAX(date), '1900-01-01') FROM returns
           );
           "
