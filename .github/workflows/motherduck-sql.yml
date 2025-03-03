@@ -36,28 +36,58 @@ jobs:
           -- Ensure DuckDB always fetches the latest data (disable caching)
           SET enable_http_metadata_cache = false;
           SET enable_object_cache = false;
-
-          -- Append new data for customer
-          INSERT INTO md.customer
+          
+          -- ✅ Insert only new customers (fixes date issues)
+          INSERT INTO customer
+          SELECT 
+              new.customer_id,
+              new.ls__customer_id__customer_name,
+              new.customer_city,
+              new.geo__customer_city__city_pushpin_longitude,
+              new.geo__customer_city__city_pushpin_latitude,
+              new.customer_country,
+              new.customer_email,
+              new.customer_state,
+              CAST(new.customer_created_date AS DATE), -- Ensure date type
+              new.wdf__client_id
+          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/customer.csv') AS new
+          WHERE NOT EXISTS (
+              SELECT 1 FROM customer existing WHERE existing.customer_id = new.customer_id
+          )
+          AND CAST(new.customer_created_date AS DATE) > (
+              SELECT COALESCE(MAX(customer_created_date), '1900-01-01') FROM customer
+          );
+          
+          -- ✅ Insert only new monthly_inventory records
+          INSERT INTO monthly_inventory
           SELECT *
-          FROM read_csv_auto('https://raw.githubusercontent.com/your_username/your_repository/main/data/customer.csv') AS new
-          WHERE new.customer_created_date > (SELECT COALESCE(MAX(customer_created_date), '1900-01-01') FROM md.customer);
-
-          -- Append new data for monthly_inventory
-          INSERT INTO md.monthly_inventory
+          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/monthly_inventory.csv') AS new
+          WHERE NOT EXISTS (
+              SELECT 1 FROM monthly_inventory existing WHERE existing.monthly_inventory_id = new.monthly_inventory_id
+          )
+          AND CAST(new.date AS DATE) > (
+              SELECT COALESCE(MAX(date), '1900-01-01') FROM monthly_inventory
+          );
+          
+          -- ✅ Insert only new order_lines records
+          INSERT INTO order_lines
           SELECT *
-          FROM read_csv_auto('https://raw.githubusercontent.com/your_username/your_repository/main/data/monthly_inventory.csv') AS new
-          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM md.monthly_inventory);
-
-          -- Append new data for order_lines
-          INSERT INTO md.order_lines
+          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/order_lines.csv') AS new
+          WHERE NOT EXISTS (
+              SELECT 1 FROM order_lines existing WHERE existing.order_line_id = new.order_line_id
+          )
+          AND CAST(new.order_date AS DATE) > (
+              SELECT COALESCE(MAX(order_date), '1900-01-01') FROM order_lines
+          );
+          
+          -- ✅ Insert only new returns records
+          INSERT INTO returns
           SELECT *
-          FROM read_csv_auto('https://raw.githubusercontent.com/your_username/your_repository/main/data/order_lines.csv') AS new
-          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM md.order_lines);
-
-          -- Append new data for returns
-          INSERT INTO md.returns
-          SELECT *
-          FROM read_csv_auto('https://raw.githubusercontent.com/your_username/your_repository/main/data/returns.csv') AS new
-          WHERE new.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM md.returns);
+          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/returns.csv') AS new
+          WHERE NOT EXISTS (
+              SELECT 1 FROM returns existing WHERE existing.return_id = new.return_id
+          )
+          AND CAST(new.return_date AS DATE) > (
+              SELECT COALESCE(MAX(return_date), '1900-01-01') FROM returns
+          );
           "
