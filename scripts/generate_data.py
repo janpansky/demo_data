@@ -16,7 +16,7 @@ def generate_id(prefix):
 # Datasets to update.
 datasets = [
     {"filename": "customer.csv", "date_column": "customer_created_date"},
-    {"filename": "orders.csv", "date_column": "order_date"},
+    {"filename": "orders.csv", "date_column": "order_date"},       # orders.csv originally has only 3 columns.
     {"filename": "order_lines.csv", "date_column": "date"},
     {"filename": "returns.csv", "date_column": "return_date"},
     {"filename": "monthly_inventory.csv", "date_column": "date"}
@@ -29,6 +29,7 @@ for ds in datasets:
     file_path = os.path.join(DATA_DIR, ds["filename"])
     try:
         df_orig = pl.read_csv(file_path)
+        # Preserve the original column order.
         existing_columns[ds["filename"]] = df_orig.columns
         if ds["date_column"] and ds["date_column"] in df_orig.columns:
             max_dates[ds["filename"]] = df_orig[ds["date_column"]].drop_nulls().max()
@@ -82,8 +83,9 @@ customer_locations = customer_df.select([
 # Step 1: Generate New Data for Customers, Orders, and Order Lines (Daily Data)
 # --------------------------
 new_customers = []
-new_orders = []
+new_orders = []      # In memory, we generate extra fields for orders (customer_id, order_date) for referential linking.
 new_order_lines = []
+
 # Use the maximum date among customer, orders, and order_lines as the start date.
 global_start_date = max(max_dates["customer.csv"], max_dates["orders.csv"], max_dates["order_lines.csv"])
 current_date = global_start_date + datetime.timedelta(days=1)
@@ -92,10 +94,9 @@ while current_date <= today:
     day_customers = []
     day_orders = []
     day_order_lines = []
-    # Increment for numeric fields based on days elapsed.
-    incr = (current_date - base_date_incr).days * 0.1
+    incr = (current_date - base_date_incr).days * 0.1  # Numeric increment.
 
-    # Customers generation.
+    # Generate customers if needed.
     if max_dates["customer.csv"] < current_date:
         for _ in range(random.randint(5, 10)):
             new_customer_id = generate_id("C")
@@ -118,23 +119,23 @@ while current_date <= today:
             new_customers.append(customer)
         existing_customer_ids.extend([c["customer_id"] for c in day_customers])
 
-    # Orders generation.
+    # Generate orders if needed.
     if max_dates["orders.csv"] < current_date:
         for _ in range(random.randint(3, 7)):
             new_order_id = generate_id("O")
+            # In memory, we include extra fields for linking.
             order = {
                 "order_id": new_order_id,
-                # Although orders.csv doesn't store order_date, we generate it in-memory
-                "order_date": current_date.strftime("%Y-%m-%d"),
                 "wdf__client_id": random.choice(MERCHANT_TYPES),
                 "order_status": random.choice(["Processed", "Completed", "In Cart", "Canceled"]),
-                "customer_id": random.choice(existing_customer_ids)
+                "order_date": current_date.strftime("%Y-%m-%d"),  # In-memory extra field.
+                "customer_id": random.choice(existing_customer_ids),  # In-memory extra field.
             }
             day_orders.append(order)
             new_orders.append(order)
         existing_order_ids.extend([o["order_id"] for o in day_orders])
 
-    # Order lines generation.
+    # Generate order lines if needed.
     if max_dates["order_lines.csv"] < current_date:
         for order in day_orders:
             for _ in range(random.randint(1, 3)):
@@ -152,6 +153,7 @@ while current_date <= today:
                     "order_unit_cost": float(round(base_cost + incr, 2)),
                     "date": current_date.strftime("%Y-%m-%d %H:%M:%S.000"),
                     "order_date": current_date.strftime("%Y-%m-%d %H:%M:%S.000"),
+                    "customer_age": f"{random.randint(18, 70)}M+",
                 }
                 day_order_lines.append(order_line)
                 new_order_lines.append(order_line)
@@ -176,9 +178,9 @@ while current_month_date <= today:
             "monthly_inventory_id": generate_id("M"),
             "product__product_id": product_id,
             "inventory_month": current_month_date.strftime("%Y-%m-01"),
-            "monthly_quantity_bom": float(round(base_bom + incr, 2)),
             "monthly_quantity_eom": float(round(base_eom + incr, 2)),
             "wdf__client_id": random.choice(MERCHANT_TYPES),
+            "monthly_quantity_bom": float(round(base_bom + incr, 2)),
             "date": current_month_date.strftime("%Y-%m-%d %H:%M:%S.000"),
         }
         new_inventory.append(inventory_data)
@@ -189,35 +191,31 @@ while current_month_date <= today:
 
 # --------------------------
 # Step 3: Generate New Returns Based on New Orders
-# Instead of reading orders.csv (which lacks order_date), we use the in-memory new_orders.
+# We use the in-memory new_orders (which include extra fields) for generating returns.
 new_returns = []
-# We set returns_start_date as the day after the max return date.
 returns_start_date = max_dates["returns.csv"] + datetime.timedelta(days=1)
-if new_orders:
-    for order in new_orders:
-        order_date = order["order_date"]  # This is generated in memory.
-        order_date_obj = datetime.datetime.strptime(order_date, "%Y-%m-%d").date()
-        if order_date_obj >= returns_start_date:
-            if random.random() < 0.4:  # 40% chance
-                incr = (order_date_obj - base_date_incr).days * 0.1
-                new_return = {
-                    "return_id": generate_id("R"),
-                    "order__order_id": order["order_id"],
-                    "product__product_id": random.choice(existing_product_ids),
-                    "customer__customer_id": order["customer_id"],
-                    "return_unit_cost": float(round(random.uniform(5, 150) + incr, 2)),
-                    "return_unit_quantity": float(random.randint(1, 3)),
-                    "wdf__client_id": order["wdf__client_id"],
-                    "return_unit_paid_amount": float(round(random.uniform(5, 200) + incr, 2)),
-                    "date": order_date + " 00:00:00.000",
-                    "return_date": order_date + " 00:00:00.000",
-                }
-                new_returns.append(new_return)
-else:
-    print("No new orders generated; returns will not be updated.")
+for order in new_orders:
+    order_date_obj = datetime.datetime.strptime(order["order_date"], "%Y-%m-%d").date()
+    if order_date_obj >= returns_start_date:
+        if random.random() < 0.4:  # 40% chance
+            incr = (order_date_obj - base_date_incr).days * 0.1
+            new_return = {
+                "return_id": generate_id("R"),
+                "order__order_id": order["order_id"],
+                "product__product_id": random.choice(existing_product_ids),
+                "customer__customer_id": order["customer_id"],
+                "return_unit_cost": float(round(random.uniform(5, 150) + incr, 2)),
+                "return_unit_quantity": float(random.randint(1, 3)),
+                "wdf__client_id": order["wdf__client_id"],
+                "return_unit_paid_amount": float(round(random.uniform(5, 200) + incr, 2)),
+                "date": order["order_date"] + " 00:00:00.000",
+                "return_date": order["order_date"] + " 00:00:00.000",
+            }
+            new_returns.append(new_return)
 
 # --------------------------
-# Step 4: Save All Updates with Column Consistency (Preserve Original Structure)
+# Step 4: Save All Updates, preserving original structure exactly.
+# For orders.csv, we save only the original 3 columns.
 def update_dataset(dataset, new_data):
     if not new_data:
         print(f"No new data for {dataset}. Skipping update.")
@@ -226,17 +224,8 @@ def update_dataset(dataset, new_data):
     try:
         df_orig = pl.read_csv(file_path)
         df_new = pl.DataFrame(new_data)
-        # Use the original file's column order as reference if available
-        if df_orig.shape[0] > 0:
-            ref_columns = df_orig.columns
-        else:
-            ref_columns = df_new.columns
-        # For each column in the reference, ensure df_new has it.
-        for col in ref_columns:
-            if col not in df_new.columns:
-                dtype = df_orig.schema.get(col, pl.Utf8)
-                df_new = df_new.with_columns(pl.lit(None).cast(dtype).alias(col))
-        # Drop any extra columns from df_new that aren't in the reference.
+        # For orders.csv, use the original file's columns exactly.
+        ref_columns = existing_columns[dataset]
         df_new = df_new.select(ref_columns)
         updated_df = pl.concat([df_orig, df_new])
         updated_df.write_csv(file_path)
