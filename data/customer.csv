@@ -1003,487 +1003,467 @@ C-HF8HS1IW,Megan Martin,Cacouna,-69.532,47.8338,Canada,megan.martin@foxnews.com,
 C-FJ39N7YB,Wesley Cook,Seaford,-73.511,40.672,United States,wesley.cook@foxnews.com,New York,2024-03-20,merchant__bigboxretailer
 C-FERKSSWL,Dr. Alicia Miller,Frankfort,-84.8733,38.2009,United States,dr..alicia.miller@furl.net,Kentucky,2023-02-10,merchant__clothing
 C-LF4IR4F3,Claire Taylor,Sherbrooke,-71.8929,45.4042,Canada,claire.taylor@aliquet.com,Quebec,2024-08-01,merchant__clothing
-C-31350165,Olivia Smith,Newhall,-118.5319,34.3814,United States,olivia.smith@example.com,California,2025-01-01,merchant__clothing
-C-47309117,Noah Smith,Kalamazoo,-85.5628,42.1984,United States,noah.smith@example.com,Michigan,2025-01-01,merchant__bigboxretailer
-C-8845890,Noah Smith,Topeka,-95.62,39.07,United States,noah.smith@example.com,Kansas,2025-01-01,merchant__electronics
-C-87180625,Emma Johnson,Vermont,-90.4303,40.2942,United States,emma.johnson@example.com,Illinois,2025-01-01,merchant__clothing
-C-74610845,Noah Johnson,Ellershouse,-64.1332,44.9913,Canada,noah.johnson@example.com,Nova Scotia,2025-01-01,merchant__bigboxretailer
-C-86187050,Liam Johnson,Grasston,-93.2917,45.8769,United States,liam.johnson@example.com,Minnesota,2025-01-01,merchant__electronics
-C-63248365,Emma Smith,Charleston,-79.938,32.7834,United States,emma.smith@example.com,South Carolina,2025-01-02,merchant__electronics
-C-13380062,Emma Smith,Bozeman,-111.15,45.78,United States,emma.smith@example.com,Montana,2025-01-02,merchant__clothing
-C-15499537,Liam Smith,Frankfort,-84.8733,38.2009,United States,liam.smith@example.com,Kentucky,2025-01-02,merchant__electronics
-C-94760975,Olivia Smith,Saint-jean-chrysostome,-71.1818,46.8078,Canada,olivia.smith@example.com,Quebec,2025-01-02,merchant__clothing
-C-55124782,Liam Williams,Tallahassee,-84.37,30.38,United States,liam.williams@example.com,Florida,2025-01-02,merchant__bigboxretailer
-C-92080216,Emma Smith,Joliet,-88.0817,41.525,United States,emma.smith@example.com,Illinois,2025-01-02,merchant__bigboxretailer
-C-4934171,Liam Smith,Gaspé,-64.48333,48.833332,Canada,liam.smith@example.com,Quebec,2025-01-02,merchant__clothing
-C-9011627,Ava Johnson,Terrance,-128.610764,54.515102,Canada,ava.johnson@example.com,British Columbia,2025-01-02,merchant__electronics
-C-95108643,Olivia Williams,Knoxville,-83.98,35.82,United States,olivia.williams@example.com,Tennessee,2025-01-03,merchant__clothing
-C-94372720,Emma Smith,Hattiesburg,-89.33,31.47,United States,emma.smith@example.com,Mississippi,2025-01-03,merchant__bigboxretailer
-C-52481230,Ava Smith,Toledo,-83.8,41.6,United States,ava.smith@example.com,Ohio,2025-01-03,merchant__bigboxretailer
-C-3335788,Noah Johnson,Trion,-85.3081,34.5436,United States,noah.johnson@example.com,Georgia,2025-01-03,merchant__bigboxretailer
-C-36868223,Liam Smith,East York,-79.3839,43.6525,Canada,liam.smith@example.com,Ontario,2025-01-03,merchant__bigboxretailer
-C-25836636,Liam Smith,Clearwater Municipal District,-115.7138899,52.2755559,Canada,liam.smith@example.com,Alberta,2025-01-03,merchant__electronics
-C-55248838,Liam Williams,Scotland,-72.2193,41.714,United States,liam.williams@example.com,Connecticut,2025-01-03,merchant__clothing
-C-21733020,Ava Johnson,Beaconsfield,-73.8683,45.4309,Canada,ava.johnson@example.com,Quebec,2025-01-03,merchant__clothing
-C-64309103,Emma Smith,Fayetteville,-78.8927,35.0546,United States,emma.smith@example.com,North Carolina,2025-01-04,merchant__electronics
-C-61799679,Liam Smith,Mena,-94.2417,34.5814,United States,liam.smith@example.com,Arkansas,2025-01-04,merchant__electronics
-C-39261438,Emma Williams,Corydon,-93.4991,40.8574,United States,emma.williams@example.com,Iowa,2025-01-04,merchant__clothing
-C-19956190,Ava Johnson,East York,-79.3839,43.6525,Canada,ava.johnson@example.com,Ontario,2025-01-04,merchant__clothing
-C-92473084,Ava Williams,Vaughan,-79.5085,43.8563,Canada,ava.williams@example.com,Ontario,2025-01-04,merchant__clothing
-C-85488898,Emma Smith,Sacramento,-121.3359,38.5631,United States,emma.smith@example.com,California,2025-01-04,merchant__electronics
-C-45080096,Ava Johnson,Ontario,-82.5871,40.7591,United States,ava.johnson@example.com,Ohio,2025-01-04,merchant__clothing
-C-12626231,Olivia Smith,San Mateo,-122.3479,37.5752,United States,olivia.smith@example.com,California,2025-01-04,merchant__electronics
-C-64276109,Ava Williams,Newport Beach,-117.8454,33.6818,United States,ava.williams@example.com,California,2025-01-04,merchant__bigboxretailer
-C-43468531,Olivia Smith,Cincinnati,-84.3753,39.2716,United States,olivia.smith@example.com,Ohio,2025-01-05,merchant__electronics
-C-44860549,Emma Williams,Moncton,-64.77582,46.08888,Canada,emma.williams@example.com,New Brunswick,2025-01-05,merchant__bigboxretailer
-C-80455496,Noah Williams,Bloomington,-93.2983,44.8408,United States,noah.williams@example.com,Minnesota,2025-01-05,merchant__bigboxretailer
-C-44827292,Noah Johnson,Tucson,-110.9252,32.2336,United States,noah.johnson@example.com,Arizona,2025-01-05,merchant__bigboxretailer
-C-19261601,Emma Johnson,Yorkton,-102.462776,51.21389,Canada,emma.johnson@example.com,Saskatchewan,2025-01-05,merchant__bigboxretailer
-C-91609656,Ava Johnson,Joliet,-88.0817,41.525,United States,ava.johnson@example.com,Illinois,2025-01-05,merchant__bigboxretailer
-C-69822380,Liam Johnson,Rycroft,-118.7115,55.756,Canada,liam.johnson@example.com,Alberta,2025-01-05,merchant__clothing
-C-2659826,Emma Johnson,Pasadena,-95.123,29.7051,United States,emma.johnson@example.com,Texas,2025-01-05,merchant__clothing
-C-40145191,Emma Johnson,Issaquah,-122.1423,47.5953,United States,emma.johnson@example.com,Washington,2025-01-06,merchant__electronics
-C-95453876,Ava Johnson,Mansfield,-82.5163,40.7588,United States,ava.johnson@example.com,Ohio,2025-01-06,merchant__electronics
-C-35987725,Emma Williams,San Francisco,-122.435,37.7875,United States,emma.williams@example.com,California,2025-01-06,merchant__clothing
-C-58768735,Liam Johnson,Manchester,-71.4608,42.9935,United States,liam.johnson@example.com,New Hampshire,2025-01-06,merchant__clothing
-C-75846244,Ava Johnson,Flin Flon,-101.8762,54.7658,Canada,ava.johnson@example.com,Manitoba,2025-01-06,merchant__electronics
-C-44624370,Noah Smith,Little Rock,-92.3,35.22,United States,noah.smith@example.com,Arkansas,2025-01-06,merchant__clothing
-C-46744724,Ava Williams,Miramichi,-65.5059,47.0296,Canada,ava.williams@example.com,New Brunswick,2025-01-06,merchant__electronics
-C-31929812,Emma Smith,Fort Smith,-94.37,35.33,United States,emma.smith@example.com,Arkansas,2025-01-07,merchant__electronics
-C-66325602,Noah Johnson,Lefebvre,-72.3179,45.7654,Canada,noah.johnson@example.com,Quebec,2025-01-07,merchant__electronics
-C-14174531,Emma Smith,Modesto,-120.996,37.6442,United States,emma.smith@example.com,California,2025-01-07,merchant__electronics
-C-25522486,Emma Williams,Chilliwack,-121.951469,49.15794,Canada,emma.williams@example.com,British Columbia,2025-01-07,merchant__electronics
-C-44670784,Liam Smith,Hassell,-77.2589,35.8259,United States,liam.smith@example.com,North Carolina,2025-01-07,merchant__clothing
-C-33756361,Ava Smith,Repentigny,-73.5689,45.5034,Canada,ava.smith@example.com,Quebec,2025-01-08,merchant__clothing
-C-78055926,Olivia Williams,Indianapolis,-86.27,39.73,United States,olivia.williams@example.com,Indiana,2025-01-08,merchant__electronics
-C-65691340,Ava Johnson,Birmingham,-86.7992,33.3704,United States,ava.johnson@example.com,Alabama,2025-01-08,merchant__bigboxretailer
-C-44147887,Ava Williams,Guelph,-80.25,43.549999,Canada,ava.williams@example.com,Ontario,2025-01-08,merchant__clothing
-C-27009025,Emma Williams,Ottawa,-75.6933,45.4208,Canada,emma.williams@example.com,Ontario,2025-01-08,merchant__electronics
-C-38184296,Emma Smith,Enumclaw,-121.989,47.2001,United States,emma.smith@example.com,Washington,2025-01-08,merchant__clothing
-C-96624973,Ava Johnson,Richmond,-77.434,37.542,United States,ava.johnson@example.com,Virginia,2025-01-08,merchant__electronics
-C-27446884,Emma Williams,Clearwater Municipal District,-115.7138899,52.2755559,Canada,emma.williams@example.com,Alberta,2025-01-08,merchant__bigboxretailer
-C-92818272,Liam Johnson,Middleton,-89.3853,43.0758,United States,liam.johnson@example.com,Wisconsin,2025-01-08,merchant__clothing
-C-21192623,Liam Williams,North Battleford,-108.28611,52.7575,Canada,liam.williams@example.com,Saskatchewan,2025-01-09,merchant__clothing
-C-37161545,Ava Johnson,Corydon,-93.4991,40.8574,United States,ava.johnson@example.com,Iowa,2025-01-09,merchant__clothing
-C-66602546,Ava Williams,West Jordan,-111.9391,40.6097,United States,ava.williams@example.com,Utah,2025-01-09,merchant__bigboxretailer
-C-71539886,Noah Smith,Red Jacket,-82.1712,37.6245,United States,noah.smith@example.com,West Virginia,2025-01-09,merchant__electronics
-C-64983062,Ava Smith,Grasston,-93.2917,45.8769,United States,ava.smith@example.com,Minnesota,2025-01-09,merchant__bigboxretailer
-C-77189862,Noah Johnson,Pittsburgh,-79.9502,40.5264,United States,noah.johnson@example.com,Pennsylvania,2025-01-09,merchant__electronics
-C-40112583,Emma Smith,Carleton Place,-76.1479,45.1432,Canada,emma.smith@example.com,Ontario,2025-01-09,merchant__bigboxretailer
-C-79002905,Olivia Johnson,San Bernardino,-117.2196,34.1225,United States,olivia.johnson@example.com,California,2025-01-09,merchant__electronics
-C-47245296,Liam Williams,Corona Del Mar,-117.8566,33.6276,United States,liam.williams@example.com,California,2025-01-09,merchant__clothing
-C-80444429,Liam Johnson,Salem,-123.0,44.92,United States,liam.johnson@example.com,Oregon,2025-01-10,merchant__bigboxretailer
-C-39130627,Olivia Johnson,Gainesville,-82.3284,29.6505,United States,olivia.johnson@example.com,Florida,2025-01-10,merchant__electronics
-C-86820574,Emma Williams,Killeen,-97.7291,31.1203,United States,emma.williams@example.com,Texas,2025-01-10,merchant__electronics
-C-22918138,Olivia Johnson,Kearney,-99.0,40.73,United States,olivia.johnson@example.com,Nebraska,2025-01-10,merchant__clothing
-C-38758998,Olivia Williams,Fort Wayne,-85.1394,41.0793,United States,olivia.williams@example.com,Indiana,2025-01-10,merchant__electronics
-C-51180605,Emma Williams,Norridgewock,-69.8238,44.6283,United States,emma.williams@example.com,Maine,2025-01-10,merchant__electronics
-C-89126941,Emma Smith,Boston,-71.054,42.354,United States,emma.smith@example.com,Massachusetts,2025-01-10,merchant__clothing
-C-97527415,Ava Williams,Manchester,-71.4608,42.9935,United States,ava.williams@example.com,New Hampshire,2025-01-10,merchant__electronics
-C-55545108,Liam Smith,Alexandria,-77.1036,38.8119,United States,liam.smith@example.com,Virginia,2025-01-10,merchant__bigboxretailer
-C-38294713,Ava Smith,Gatineau,-75.6933,45.4208,Canada,ava.smith@example.com,Quebec,2025-01-11,merchant__clothing
-C-66137899,Liam Johnson,Ontario,-82.5871,40.7591,United States,liam.johnson@example.com,Ohio,2025-01-11,merchant__electronics
-C-19448092,Noah Smith,Red Jacket,-82.1712,37.6245,United States,noah.smith@example.com,West Virginia,2025-01-11,merchant__electronics
-C-69106606,Noah Johnson,Orilla,-79.4197,44.6082,Canada,noah.johnson@example.com,Ontario,2025-01-11,merchant__electronics
-C-18457546,Noah Smith,Scarborough,-79.3839,43.6525,Canada,noah.smith@example.com,Ontario,2025-01-11,merchant__electronics
-C-70993074,Ava Williams,Sylvan Lake,-114.0973,52.3065,Canada,ava.williams@example.com,Alberta,2025-01-12,merchant__bigboxretailer
-C-57081204,Noah Johnson,Augusta,-69.8,44.32,United States,noah.johnson@example.com,Maine,2025-01-12,merchant__bigboxretailer
-C-88019476,Noah Johnson,Topeka,-95.62,39.07,United States,noah.johnson@example.com,Kansas,2025-01-12,merchant__electronics
-C-15847037,Noah Johnson,Chandlersville,-81.9118,39.8716,United States,noah.johnson@example.com,Ohio,2025-01-12,merchant__electronics
-C-60114804,Noah Johnson,Napa,-122.7156,38.443,United States,noah.johnson@example.com,California,2025-01-12,merchant__electronics
-C-48521806,Emma Williams,Long Beach,-118.1899,33.7686,United States,emma.williams@example.com,California,2025-01-12,merchant__bigboxretailer
-C-97291386,Liam Johnson,Colorado Springs,-104.8078,38.9254,United States,liam.johnson@example.com,Colorado,2025-01-12,merchant__bigboxretailer
-C-86569554,Ava Williams,Inverness,-82.3312,28.8379,United States,ava.williams@example.com,Florida,2025-01-12,merchant__bigboxretailer
-C-99897631,Liam Johnson,Powder Springs,-84.5507,33.9516,United States,liam.johnson@example.com,Georgia,2025-01-12,merchant__electronics
-C-84473531,Olivia Smith,Goderich,-81.7139,43.7428,Canada,olivia.smith@example.com,Ontario,2025-01-13,merchant__clothing
-C-48272645,Emma Williams,Elgin,-88.2846,42.0406,United States,emma.williams@example.com,Illinois,2025-01-13,merchant__clothing
-C-29832873,Liam Smith,Buford,-84.0107,34.1284,United States,liam.smith@example.com,Georgia,2025-01-13,merchant__bigboxretailer
-C-30595806,Olivia Williams,Philadelphia,-75.0401,40.035,United States,olivia.williams@example.com,Pennsylvania,2025-01-13,merchant__bigboxretailer
-C-62978381,Olivia Smith,Hays,-99.3271,38.8743,United States,olivia.smith@example.com,Kansas,2025-01-13,merchant__clothing
-C-57278351,Ava Smith,Kansas City,-94.72,39.32,United States,ava.smith@example.com,Missouri,2025-01-13,merchant__clothing
-C-74584873,Ava Johnson,Killeen,-97.7291,31.1203,United States,ava.johnson@example.com,Texas,2025-01-13,merchant__bigboxretailer
-C-79254475,Emma Smith,Brantford,-80.3842,44.1767,Canada,emma.smith@example.com,Ontario,2025-01-13,merchant__electronics
-C-28352254,Noah Williams,Eden Prairie,-93.2928,45.0436,United States,noah.williams@example.com,Minnesota,2025-01-13,merchant__electronics
-C-9766012,Noah Smith,Toledo,-83.8,41.6,United States,noah.smith@example.com,Ohio,2025-01-13,merchant__bigboxretailer
-C-30590274,Olivia Johnson,Hermitage,-93.2075,37.9418,United States,olivia.johnson@example.com,Missouri,2025-01-14,merchant__bigboxretailer
-C-30297990,Noah Williams,Brantford,-80.3842,44.1767,Canada,noah.williams@example.com,Ontario,2025-01-14,merchant__electronics
-C-31208366,Ava Williams,Yukon,-97.5162,35.4702,United States,ava.williams@example.com,Oklahoma,2025-01-14,merchant__electronics
-C-45776809,Olivia Johnson,Temple,-97.3411,31.0915,United States,olivia.johnson@example.com,Texas,2025-01-14,merchant__clothing
-C-13359993,Emma Smith,Wheatfield,-86.8916,41.0732,United States,emma.smith@example.com,Indiana,2025-01-14,merchant__electronics
-C-18276393,Ava Williams,Aurora,-79.4504,44.0065,Canada,ava.williams@example.com,Ontario,2025-01-14,merchant__electronics
-C-45925154,Noah Williams,Sandy,-111.839,40.565,United States,noah.williams@example.com,Utah,2025-01-15,merchant__clothing
-C-44464924,Liam Johnson,Bozeman,-111.15,45.78,United States,liam.johnson@example.com,Montana,2025-01-15,merchant__clothing
-C-95123146,Liam Smith,San Mateo,-122.3479,37.5752,United States,liam.smith@example.com,California,2025-01-15,merchant__bigboxretailer
-C-91066120,Olivia Johnson,Byers,-98.4896,33.9097,United States,olivia.johnson@example.com,Texas,2025-01-15,merchant__bigboxretailer
-C-69992289,Olivia Smith,Colfax,-79.9544,36.094,United States,olivia.smith@example.com,North Carolina,2025-01-15,merchant__electronics
-C-16826549,Ava Johnson,Birmingham,-86.7992,33.3704,United States,ava.johnson@example.com,Alabama,2025-01-15,merchant__electronics
-C-28804226,Ava Smith,Dallas,-97.0004,32.7417,United States,ava.smith@example.com,Texas,2025-01-16,merchant__bigboxretailer
-C-79101491,Emma Williams,Flowery Branch,-83.8224,34.2987,United States,emma.williams@example.com,Georgia,2025-01-16,merchant__clothing
-C-85619206,Emma Williams,Oklahoma City,-97.5162,35.4702,United States,emma.williams@example.com,Oklahoma,2025-01-16,merchant__electronics
-C-13530851,Emma Williams,East York,-79.3839,43.6525,Canada,emma.williams@example.com,Ontario,2025-01-16,merchant__bigboxretailer
-C-74791410,Ava Johnson,Philadelphia,-75.0401,40.035,United States,ava.johnson@example.com,Pennsylvania,2025-01-16,merchant__clothing
-C-61035912,Noah Williams,Greer,-82.2313,34.9421,United States,noah.williams@example.com,South Carolina,2025-01-17,merchant__electronics
-C-67617554,Emma Williams,Victoria,-123.3544,48.408,Canada,emma.williams@example.com,British Columbia,2025-01-17,merchant__electronics
-C-1637890,Emma Williams,Dallas,-97.0004,32.7417,United States,emma.williams@example.com,Texas,2025-01-17,merchant__electronics
-C-19428537,Ava Williams,Rock Springs,-109.07,41.6,United States,ava.williams@example.com,Wyoming,2025-01-17,merchant__clothing
-C-29248118,Noah Williams,Hassell,-77.2589,35.8259,United States,noah.williams@example.com,North Carolina,2025-01-17,merchant__bigboxretailer
-C-65312730,Olivia Williams,Puslinch,-80.2484,43.5422,Canada,olivia.williams@example.com,Ontario,2025-01-17,merchant__bigboxretailer
-C-8382587,Olivia Smith,Los Angeles,-118.1925,34.0334,United States,olivia.smith@example.com,California,2025-01-17,merchant__clothing
-C-44270825,Emma Williams,Rancho Cordova,-121.2016,38.6341,United States,emma.williams@example.com,California,2025-01-17,merchant__bigboxretailer
-C-1625682,Olivia Williams,Norman,-97.47,35.23,United States,olivia.williams@example.com,Oklahoma,2025-01-17,merchant__clothing
-C-33659657,Noah Williams,Felton,-122.0743,37.0502,United States,noah.williams@example.com,California,2025-01-18,merchant__electronics
-C-26419642,Liam Williams,Kansas City,-94.72,39.32,United States,liam.williams@example.com,Missouri,2025-01-18,merchant__bigboxretailer
-C-21908133,Liam Williams,Topeka,-95.62,39.07,United States,liam.williams@example.com,Kansas,2025-01-18,merchant__electronics
-C-79516722,Liam Smith,San Bernardino,-117.2196,34.1225,United States,liam.smith@example.com,California,2025-01-18,merchant__bigboxretailer
-C-1013604,Emma Johnson,Houston,-95.4069,29.6954,United States,emma.johnson@example.com,Texas,2025-01-18,merchant__electronics
-C-40860745,Olivia Williams,Zeeland,-86.1005,42.7922,United States,olivia.williams@example.com,Michigan,2025-01-18,merchant__bigboxretailer
-C-96119655,Ava Williams,Fort Wayne,-85.1394,41.0793,United States,ava.williams@example.com,Indiana,2025-01-18,merchant__bigboxretailer
-C-79840671,Liam Williams,Bornholm,-81.0833,43.5823,Canada,liam.williams@example.com,Ontario,2025-01-18,merchant__bigboxretailer
-C-81175750,Olivia Johnson,Queensville,-79.4105,45.617,Canada,olivia.johnson@example.com,Ontario,2025-01-18,merchant__clothing
-C-83968781,Emma Smith,Powder Springs,-84.5507,33.9516,United States,emma.smith@example.com,Georgia,2025-01-19,merchant__bigboxretailer
-C-9282233,Olivia Smith,Chicago,-87.6369,41.8839,United States,olivia.smith@example.com,Illinois,2025-01-19,merchant__clothing
-C-98721993,Ava Williams,Bathurst,-65.650002,47.619999,Canada,ava.williams@example.com,New Brunswick,2025-01-19,merchant__electronics
-C-43515518,Emma Williams,Big Cabin,-95.2678,36.443,United States,emma.williams@example.com,Oklahoma,2025-01-19,merchant__clothing
-C-31387818,Emma Williams,London,-81.2513,42.9841,Canada,emma.williams@example.com,Ontario,2025-01-19,merchant__electronics
-C-85453595,Emma Smith,Sherbrooke,-71.8929,45.4042,Canada,emma.smith@example.com,Quebec,2025-01-20,merchant__clothing
-C-94623863,Emma Smith,Calgary,-114.0585,51.0478,Canada,emma.smith@example.com,Alberta,2025-01-20,merchant__clothing
-C-20830915,Ava Smith,Colorado Springs,-104.8078,38.9254,United States,ava.smith@example.com,Colorado,2025-01-20,merchant__clothing
-C-51252468,Ava Smith,Yukon,-97.5162,35.4702,United States,ava.smith@example.com,Oklahoma,2025-01-20,merchant__clothing
-C-46148886,Ava Johnson,Lourdes,-98.558,49.5327,Canada,ava.johnson@example.com,Manitoba,2025-01-20,merchant__clothing
-C-42797340,Liam Johnson,Baltimore,-76.67,39.18,United States,liam.johnson@example.com,Maryland,2025-01-20,merchant__bigboxretailer
-C-458078,Emma Johnson,Mobile,-88.25,30.68,United States,emma.johnson@example.com,Alabama,2025-01-20,merchant__bigboxretailer
-C-80630115,Olivia Williams,Tucson,-110.9252,32.2336,United States,olivia.williams@example.com,Arizona,2025-01-20,merchant__electronics
-C-56402763,Liam Johnson,Rancho Cordova,-121.2016,38.6341,United States,liam.johnson@example.com,California,2025-01-20,merchant__bigboxretailer
-C-18766950,Emma Smith,North Olmsted,-81.8911,41.43,United States,emma.smith@example.com,Ohio,2025-01-21,merchant__electronics
-C-48907312,Emma Johnson,Modesto,-120.996,37.6442,United States,emma.johnson@example.com,California,2025-01-21,merchant__electronics
-C-72241727,Noah Williams,London,-81.2513,42.9841,Canada,noah.williams@example.com,Ontario,2025-01-21,merchant__bigboxretailer
-C-51013732,Emma Johnson,Renton,-122.3375,47.6149,United States,emma.johnson@example.com,Washington,2025-01-21,merchant__electronics
-C-54273218,Liam Smith,Ottawa,-75.6933,45.4208,Canada,liam.smith@example.com,Ontario,2025-01-21,merchant__bigboxretailer
-C-63325815,Olivia Johnson,Wheatfield,-86.8916,41.0732,United States,olivia.johnson@example.com,Indiana,2025-01-21,merchant__clothing
-C-14504231,Liam Smith,Eden Prairie,-93.2928,45.0436,United States,liam.smith@example.com,Minnesota,2025-01-21,merchant__clothing
-C-443036,Emma Williams,Issaquah,-122.1423,47.5953,United States,emma.williams@example.com,Washington,2025-01-22,merchant__electronics
-C-91303787,Emma Johnson,Eden Prairie,-93.2928,45.0436,United States,emma.johnson@example.com,Minnesota,2025-01-22,merchant__electronics
-C-63611230,Ava Smith,Wheatfield,-86.8916,41.0732,United States,ava.smith@example.com,Indiana,2025-01-22,merchant__electronics
-C-73364077,Emma Smith,Montague,-62.648,46.1651,Canada,emma.smith@example.com,Prince Edward Island,2025-01-22,merchant__bigboxretailer
-C-29943386,Emma Johnson,New Albany,-85.7346,38.2432,United States,emma.johnson@example.com,Indiana,2025-01-22,merchant__clothing
-C-64121308,Olivia Williams,Alfred,-70.7789,43.4426,United States,olivia.williams@example.com,Maine,2025-01-22,merchant__clothing
-C-81602916,Emma Johnson,Elgin,-88.2846,42.0406,United States,emma.johnson@example.com,Illinois,2025-01-23,merchant__electronics
-C-23579584,Emma Smith,Syracuse,-76.1517,43.0473,United States,emma.smith@example.com,New York,2025-01-23,merchant__bigboxretailer
-C-78135875,Ava Johnson,Fort Lauderdale,-80.142,26.1171,United States,ava.johnson@example.com,Florida,2025-01-23,merchant__clothing
-C-99625406,Emma Johnson,Edison,-74.1977,39.9519,United States,emma.johnson@example.com,New Jersey,2025-01-23,merchant__clothing
-C-43621193,Ava Smith,Bismarck,-87.6056,40.265,United States,ava.smith@example.com,Illinois,2025-01-23,merchant__clothing
-C-73097294,Noah Johnson,Dallas,-97.0004,32.7417,United States,noah.johnson@example.com,Texas,2025-01-23,merchant__bigboxretailer
-C-54672704,Ava Johnson,Fremont,-122.0124,37.562,United States,ava.johnson@example.com,California,2025-01-23,merchant__electronics
-C-34447214,Olivia Smith,Covington,-84.5086,39.0837,United States,olivia.smith@example.com,Georgia,2025-01-23,merchant__bigboxretailer
-C-95047651,Emma Williams,San Diego,-117.17,32.73,United States,emma.williams@example.com,California,2025-01-23,merchant__electronics
-C-19739634,Emma Smith,Grand Prairie,-97.0408,32.7306,United States,emma.smith@example.com,Texas,2025-01-24,merchant__electronics
-C-20625397,Ava Johnson,Idaho Falls,-112.0408,43.4927,United States,ava.johnson@example.com,Idaho,2025-01-24,merchant__bigboxretailer
-C-49032342,Emma Smith,Mineral City,-81.4685,40.5052,United States,emma.smith@example.com,Ohio,2025-01-24,merchant__electronics
-C-47239097,Liam Johnson,Vegreville,-112.0539,53.4941,Canada,liam.johnson@example.com,Alberta,2025-01-24,merchant__clothing
-C-61529136,Noah Johnson,Manassas,-77.4783,38.7515,United States,noah.johnson@example.com,Virginia,2025-01-24,merchant__bigboxretailer
-C-82360547,Olivia Williams,Dallas,-97.0004,32.7417,United States,olivia.williams@example.com,Texas,2025-01-24,merchant__clothing
-C-48646142,Ava Williams,Rycroft,-118.7115,55.756,Canada,ava.williams@example.com,Alberta,2025-01-24,merchant__clothing
-C-95380795,Noah Smith,Wayne,-74.0525,40.866,United States,noah.smith@example.com,New Jersey,2025-01-24,merchant__clothing
-C-32721340,Emma Smith,Norwalk,-73.4187,41.1003,United States,emma.smith@example.com,Connecticut,2025-01-24,merchant__electronics
-C-7949960,Olivia Smith,Memphis,-89.87,35.35,United States,olivia.smith@example.com,Tennessee,2025-01-24,merchant__electronics
-C-50227363,Emma Johnson,Ancaster Town,-79.9764,43.2256,Canada,emma.johnson@example.com,Ontario,2025-01-25,merchant__bigboxretailer
-C-4714810,Olivia Smith,Grand Prairie,-97.0408,32.7306,United States,olivia.smith@example.com,Texas,2025-01-25,merchant__clothing
-C-12186941,Noah Johnson,North Dartmouth,-70.9252,41.6327,United States,noah.johnson@example.com,Massachusetts,2025-01-25,merchant__clothing
-C-40323666,Ava Williams,Mobile,-88.25,30.68,United States,ava.williams@example.com,Alabama,2025-01-25,merchant__electronics
-C-54758077,Ava Williams,Pacific,-122.2277,47.3043,United States,ava.williams@example.com,Washington,2025-01-25,merchant__bigboxretailer
-C-39082239,Olivia Smith,Bloomington,-93.2983,44.8408,United States,olivia.smith@example.com,Minnesota,2025-01-25,merchant__clothing
-C-7133275,Noah Johnson,San Francisco,-122.435,37.7875,United States,noah.johnson@example.com,California,2025-01-25,merchant__electronics
-C-4704425,Olivia Williams,Calgary,-114.0585,51.0478,Canada,olivia.williams@example.com,Alberta,2025-01-25,merchant__electronics
-C-15292959,Ava Williams,Harrisburg,-76.8867,40.2732,United States,ava.williams@example.com,Pennsylvania,2025-01-25,merchant__bigboxretailer
-C-68617512,Ava Williams,Fremont,-122.0124,37.562,United States,ava.williams@example.com,California,2025-01-25,merchant__electronics
-C-70566112,Noah Smith,Marietta,-84.4627,33.8941,United States,noah.smith@example.com,Georgia,2025-01-26,merchant__clothing
-C-5981581,Ava Williams,Milwaukee,-87.9969,43.1922,United States,ava.williams@example.com,Wisconsin,2025-01-26,merchant__clothing
-C-71961630,Olivia Smith,Charleston,-79.938,32.7834,United States,olivia.smith@example.com,South Carolina,2025-01-26,merchant__bigboxretailer
-C-84088871,Noah Smith,Saint-jean-chrysostome,-71.1818,46.8078,Canada,noah.smith@example.com,Quebec,2025-01-26,merchant__bigboxretailer
-C-26864784,Noah Johnson,Toledo,-83.8,41.6,United States,noah.johnson@example.com,Ohio,2025-01-26,merchant__electronics
-C-26439804,Ava Smith,Kennesaw,-84.1663,33.8907,United States,ava.smith@example.com,Georgia,2025-01-26,merchant__clothing
-C-82842384,Noah Johnson,Warwick,-81.9098,43.0049,Canada,noah.johnson@example.com,Ontario,2025-01-26,merchant__electronics
-C-11848146,Emma Williams,Salt Lake City,-111.8211,40.6677,United States,emma.williams@example.com,Utah,2025-01-26,merchant__bigboxretailer
-C-63910509,Noah Johnson,Tappan,-74.0391,40.887,United States,noah.johnson@example.com,New Jersey,2025-01-26,merchant__electronics
-C-57284864,Noah Williams,Chandlersville,-81.9118,39.8716,United States,noah.williams@example.com,Ohio,2025-01-26,merchant__electronics
-C-20895700,Emma Williams,Manchester,-71.4608,42.9935,United States,emma.williams@example.com,New Hampshire,2025-01-27,merchant__bigboxretailer
-C-61279309,Emma Smith,Santa Monica,-118.4904,34.02,United States,emma.smith@example.com,California,2025-01-27,merchant__clothing
-C-59981640,Emma Johnson,Guelph,-80.25,43.549999,Canada,emma.johnson@example.com,Ontario,2025-01-27,merchant__bigboxretailer
-C-79447938,Olivia Williams,Corydon,-93.4991,40.8574,United States,olivia.williams@example.com,Iowa,2025-01-27,merchant__electronics
-C-44120874,Ava Johnson,Oakland,-122.26,37.8333,United States,ava.johnson@example.com,California,2025-01-27,merchant__electronics
-C-46282393,Ava Williams,St Lunaire-griquet,-55.4664,51.5266,Canada,ava.williams@example.com,Newfoundland and Labrador,2025-01-28,merchant__bigboxretailer
-C-67684947,Noah Williams,Campbellton,-66.6722,48.0074,Canada,noah.williams@example.com,New Brunswick,2025-01-28,merchant__electronics
-C-54575194,Emma Smith,Lawton,-98.3959,34.6036,United States,emma.smith@example.com,Oklahoma,2025-01-28,merchant__clothing
-C-78472254,Olivia Johnson,Alfred,-70.7789,43.4426,United States,olivia.johnson@example.com,Maine,2025-01-28,merchant__bigboxretailer
-C-4897303,Noah Williams,Newport Beach,-117.8454,33.6818,United States,noah.williams@example.com,California,2025-01-28,merchant__clothing
-C-60252730,Liam Smith,Fresno,-119.7937,36.7917,United States,liam.smith@example.com,California,2025-01-28,merchant__bigboxretailer
-C-34247958,Ava Smith,Bangor,-68.82,44.8,United States,ava.smith@example.com,Maine,2025-01-28,merchant__clothing
-C-2360365,Olivia Johnson,Moss Point,-88.4947,30.6566,United States,olivia.johnson@example.com,Mississippi,2025-01-28,merchant__bigboxretailer
-C-57077548,Noah Williams,Wayne,-74.0525,40.866,United States,noah.williams@example.com,New Jersey,2025-01-28,merchant__clothing
-C-30776749,Liam Smith,Paradise,-115.1467,36.0972,United States,liam.smith@example.com,Nevada,2025-01-29,merchant__bigboxretailer
-C-80609881,Ava Williams,Malartic,-78.133331,48.133331,Canada,ava.williams@example.com,Quebec,2025-01-29,merchant__clothing
-C-64606297,Emma Johnson,Fort Myers,-81.8572,26.6416,United States,emma.johnson@example.com,Florida,2025-01-29,merchant__bigboxretailer
-C-85975860,Liam Johnson,Alamosa,-105.9469,37.4918,United States,liam.johnson@example.com,Colorado,2025-01-29,merchant__clothing
-C-51911141,Ava Williams,Gardena,-118.2885,33.8832,United States,ava.williams@example.com,California,2025-01-29,merchant__electronics
-C-67774121,Emma Johnson,Oakland,-122.26,37.8333,United States,emma.johnson@example.com,California,2025-01-29,merchant__bigboxretailer
-C-37652937,Noah Smith,Vermont,-90.4303,40.2942,United States,noah.smith@example.com,Illinois,2025-01-29,merchant__clothing
-C-52257399,Liam Johnson,Lithonia,-84.1663,33.8907,United States,liam.johnson@example.com,Georgia,2025-01-30,merchant__clothing
-C-93767912,Emma Smith,Coldstream,-119.1683,50.2241,Canada,emma.smith@example.com,British Columbia,2025-01-30,merchant__clothing
-C-76090853,Noah Williams,Paris,-84.2503,38.2093,United States,noah.williams@example.com,Kentucky,2025-01-30,merchant__electronics
-C-4284686,Noah Smith,Covington,-84.5086,39.0837,United States,noah.smith@example.com,Georgia,2025-01-30,merchant__bigboxretailer
-C-76829056,Ava Smith,Santa Rosa,-122.7156,38.443,United States,ava.smith@example.com,California,2025-01-30,merchant__bigboxretailer
-C-11025914,Noah Johnson,Puslinch,-80.2484,43.5422,Canada,noah.johnson@example.com,Ontario,2025-01-30,merchant__clothing
-C-81611111,Emma Williams,London,-81.2513,42.9841,Canada,emma.williams@example.com,Ontario,2025-01-31,merchant__bigboxretailer
-C-70531749,Emma Smith,Mobile,-88.25,30.68,United States,emma.smith@example.com,Alabama,2025-01-31,merchant__bigboxretailer
-C-89510809,Emma Smith,Victoria,-123.3544,48.408,Canada,emma.smith@example.com,British Columbia,2025-01-31,merchant__electronics
-C-42779874,Liam Williams,Manassas,-77.4783,38.7515,United States,liam.williams@example.com,Virginia,2025-01-31,merchant__electronics
-C-50235053,Ava Johnson,Iowa City,-91.5302,41.6611,United States,ava.johnson@example.com,Iowa,2025-01-31,merchant__bigboxretailer
-C-69401595,Liam Smith,Riverdale,-84.3592,33.522,United States,liam.smith@example.com,Georgia,2025-01-31,merchant__electronics
-C-97573378,Noah Johnson,Winnipeg,-97.1519,49.8687,Canada,noah.johnson@example.com,Manitoba,2025-01-31,merchant__electronics
-C-30013840,Ava Smith,Saint-jean-chrysostome,-71.1818,46.8078,Canada,ava.smith@example.com,Quebec,2025-01-31,merchant__clothing
-C-54317726,Liam Smith,Arecibo,-66.7324,18.4674,United States,liam.smith@example.com,Puerto Rico,2025-02-01,merchant__bigboxretailer
-C-49579695,Noah Smith,Fremont,-122.0124,37.562,United States,noah.smith@example.com,California,2025-02-01,merchant__bigboxretailer
-C-45976570,Ava Johnson,Saint Paul,-93.0595,44.9629,United States,ava.johnson@example.com,Minnesota,2025-02-01,merchant__electronics
-C-54578116,Liam Johnson,Anadarko,-98.4396,35.0962,United States,liam.johnson@example.com,Oklahoma,2025-02-01,merchant__electronics
-C-91277543,Emma Johnson,Killeen,-97.7291,31.1203,United States,emma.johnson@example.com,Texas,2025-02-01,merchant__clothing
-C-95601817,Olivia Williams,West Valley City,-112.0011,40.6916,United States,olivia.williams@example.com,Utah,2025-02-01,merchant__clothing
-C-77112005,Olivia Williams,Vermont,-90.4303,40.2942,United States,olivia.williams@example.com,Illinois,2025-02-01,merchant__electronics
-C-83254333,Noah Johnson,Fresno,-119.7937,36.7917,United States,noah.johnson@example.com,California,2025-02-01,merchant__bigboxretailer
-C-45309275,Ava Williams,Hawthorne,-118.4913,34.0155,United States,ava.williams@example.com,California,2025-02-01,merchant__bigboxretailer
-C-77715439,Noah Williams,Onoway,-112.8326,49.7018,Canada,noah.williams@example.com,Alberta,2025-02-01,merchant__electronics
-C-70027881,Liam Williams,Detroit,-83.0711,42.3517,United States,liam.williams@example.com,Michigan,2025-02-02,merchant__clothing
-C-47700231,Olivia Smith,Covington,-84.5086,39.0837,United States,olivia.smith@example.com,Georgia,2025-02-02,merchant__electronics
-C-53142854,Ava Johnson,West Chester,-84.5155,39.1005,United States,ava.johnson@example.com,Ohio,2025-02-02,merchant__bigboxretailer
-C-24698581,Olivia Johnson,Covington,-84.5086,39.0837,United States,olivia.johnson@example.com,Kentucky,2025-02-02,merchant__bigboxretailer
-C-99125209,Ava Smith,Summer Shade,-85.8601,36.8912,United States,ava.smith@example.com,Kentucky,2025-02-02,merchant__electronics
-C-52433380,Olivia Smith,Vaughan,-79.5085,43.8563,Canada,olivia.smith@example.com,Ontario,2025-02-02,merchant__bigboxretailer
-C-70657246,Ava Williams,Mountville,-76.4359,40.0409,United States,ava.williams@example.com,Pennsylvania,2025-02-03,merchant__clothing
-C-31783565,Ava Williams,Port Saint Lucie,-80.2842,27.2665,United States,ava.williams@example.com,Florida,2025-02-03,merchant__bigboxretailer
-C-86762415,Noah Smith,Colt,-90.7853,35.0103,United States,noah.smith@example.com,Arkansas,2025-02-03,merchant__clothing
-C-33468988,Liam Williams,Manassas,-77.4783,38.7515,United States,liam.williams@example.com,Virginia,2025-02-03,merchant__bigboxretailer
-C-37688401,Olivia Williams,Rockford,-89.097,42.2713,United States,olivia.williams@example.com,Illinois,2025-02-03,merchant__bigboxretailer
-C-40507824,Liam Smith,Los Angeles,-118.1925,34.0334,United States,liam.smith@example.com,California,2025-02-04,merchant__bigboxretailer
-C-92895370,Ava Johnson,Chevy Chase,-77.0293,38.9999,United States,ava.johnson@example.com,Maryland,2025-02-04,merchant__bigboxretailer
-C-36831530,Liam Williams,Mountville,-76.4359,40.0409,United States,liam.williams@example.com,Pennsylvania,2025-02-04,merchant__clothing
-C-24828037,Ava Johnson,Saint Paul,-93.0595,44.9629,United States,ava.johnson@example.com,Minnesota,2025-02-04,merchant__electronics
-C-24150320,Ava Williams,Detroit,-83.0711,42.3517,United States,ava.williams@example.com,Michigan,2025-02-04,merchant__clothing
-C-76449709,Emma Smith,Apple Valley,-117.1896,34.4997,United States,emma.smith@example.com,California,2025-02-04,merchant__electronics
-C-69663473,Liam Johnson,Las Vegas,-115.1419,36.1673,United States,liam.johnson@example.com,Nevada,2025-02-05,merchant__bigboxretailer
-C-92982406,Noah Williams,Canby,-96.4517,44.7944,United States,noah.williams@example.com,Minnesota,2025-02-05,merchant__electronics
-C-51533245,Olivia Smith,Delhi,-91.3853,31.807,United States,olivia.smith@example.com,Louisiana,2025-02-05,merchant__bigboxretailer
-C-34146020,Noah Smith,Centerview,-93.9911,38.7159,United States,noah.smith@example.com,Missouri,2025-02-05,merchant__electronics
-C-72595517,Olivia Williams,Arlington,-112.8459,33.4372,United States,olivia.williams@example.com,Arizona,2025-02-05,merchant__clothing
-C-29288447,Emma Johnson,Lourdes,-98.558,49.5327,Canada,emma.johnson@example.com,Manitoba,2025-02-05,merchant__bigboxretailer
-C-31415652,Ava Williams,Mobile,-88.25,30.68,United States,ava.williams@example.com,Alabama,2025-02-05,merchant__electronics
-C-19130824,Olivia Johnson,Inverness,-82.3312,28.8379,United States,olivia.johnson@example.com,Florida,2025-02-05,merchant__bigboxretailer
-C-50627144,Ava Williams,West Valley City,-112.0011,40.6916,United States,ava.williams@example.com,Utah,2025-02-06,merchant__clothing
-C-35621062,Emma Williams,Whitman,-82.0449,37.8322,United States,emma.williams@example.com,West Virginia,2025-02-06,merchant__bigboxretailer
-C-29545164,Noah Johnson,Santee,-117.1578,32.7467,United States,noah.johnson@example.com,California,2025-02-06,merchant__electronics
-C-45136803,Noah Johnson,Stillwater,-92.809,45.0539,United States,noah.johnson@example.com,Minnesota,2025-02-06,merchant__clothing
-C-54115713,Ava Smith,Fort Smith,-94.37,35.33,United States,ava.smith@example.com,Arkansas,2025-02-06,merchant__bigboxretailer
-C-7346332,Ava Johnson,Green Bay,-88.13,44.48,United States,ava.johnson@example.com,Wisconsin,2025-02-06,merchant__clothing
-C-81962089,Ava Smith,Fort Smith,-94.37,35.33,United States,ava.smith@example.com,Arkansas,2025-02-06,merchant__bigboxretailer
-C-84374639,Liam Smith,Benton,-88.3513,37.0259,United States,liam.smith@example.com,Kentucky,2025-02-07,merchant__bigboxretailer
-C-8230074,Noah Smith,Biloxi,-88.8853,30.396,United States,noah.smith@example.com,Mississippi,2025-02-07,merchant__clothing
-C-65220890,Ava Johnson,Memphis,-89.87,35.35,United States,ava.johnson@example.com,Tennessee,2025-02-07,merchant__bigboxretailer
-C-38129962,Emma Johnson,Centerview,-93.9911,38.7159,United States,emma.johnson@example.com,Missouri,2025-02-07,merchant__clothing
-C-79133551,Olivia Smith,Pocatello,-112.6,42.92,United States,olivia.smith@example.com,Idaho,2025-02-07,merchant__clothing
-C-59548153,Emma Johnson,Hattiesburg,-89.33,31.47,United States,emma.johnson@example.com,Mississippi,2025-02-07,merchant__bigboxretailer
-C-42971680,Noah Smith,Big Cabin,-95.2678,36.443,United States,noah.smith@example.com,Oklahoma,2025-02-07,merchant__clothing
-C-23794700,Noah Williams,Marietta,-84.4627,33.8941,United States,noah.williams@example.com,Georgia,2025-02-08,merchant__electronics
-C-19030531,Liam Smith,Bellevue,-95.9146,41.1544,United States,liam.smith@example.com,Nebraska,2025-02-08,merchant__clothing
-C-26618222,Olivia Johnson,Three Oaks,-86.6084,41.7983,United States,olivia.johnson@example.com,Michigan,2025-02-08,merchant__clothing
-C-15514347,Emma Williams,Manchester,-71.4608,42.9935,United States,emma.williams@example.com,New Hampshire,2025-02-08,merchant__bigboxretailer
-C-93970396,Noah Smith,Corydon,-93.4991,40.8574,United States,noah.smith@example.com,Iowa,2025-02-08,merchant__clothing
-C-94943367,Liam Williams,Bronx,-73.8428,40.8328,United States,liam.williams@example.com,New York,2025-02-08,merchant__bigboxretailer
-C-82888503,Ava Johnson,Big Rapids,-85.4864,43.6993,United States,ava.johnson@example.com,Michigan,2025-02-08,merchant__bigboxretailer
-C-35831136,Liam Smith,Laurel,-76.8903,39.0587,United States,liam.smith@example.com,Maryland,2025-02-08,merchant__bigboxretailer
-C-6356158,Ava Williams,Norridgewock,-69.8238,44.6283,United States,ava.williams@example.com,Maine,2025-02-08,merchant__electronics
-C-25855226,Emma Johnson,Santa Monica,-118.4904,34.02,United States,emma.johnson@example.com,California,2025-02-08,merchant__bigboxretailer
-C-62852704,Ava Williams,Los Angeles,-118.1925,34.0334,United States,ava.williams@example.com,California,2025-02-09,merchant__electronics
-C-97766714,Emma Williams,Newport Beach,-117.8454,33.6818,United States,emma.williams@example.com,California,2025-02-09,merchant__bigboxretailer
-C-6097482,Ava Williams,Elgin,-88.2846,42.0406,United States,ava.williams@example.com,Illinois,2025-02-09,merchant__electronics
-C-14061825,Liam Smith,Mobile,-88.25,30.68,United States,liam.smith@example.com,Alabama,2025-02-09,merchant__bigboxretailer
-C-99375636,Liam Williams,Ellershouse,-64.1332,44.9913,Canada,liam.williams@example.com,Nova Scotia,2025-02-09,merchant__electronics
-C-87954253,Olivia Smith,Crestview,-86.12,30.7192,United States,olivia.smith@example.com,Florida,2025-02-10,merchant__electronics
-C-34627204,Noah Smith,Campbell,-121.8893,37.3323,United States,noah.smith@example.com,California,2025-02-10,merchant__electronics
-C-41404995,Emma Smith,New York,-73.9898,40.7393,United States,emma.smith@example.com,New York,2025-02-10,merchant__clothing
-C-16007688,Emma Williams,Bronx,-73.8428,40.8328,United States,emma.williams@example.com,New York,2025-02-10,merchant__electronics
-C-33002557,Ava Johnson,Quebec,-71.216,46.8152,Canada,ava.johnson@example.com,Quebec,2025-02-10,merchant__electronics
-C-24950562,Liam Johnson,Elgin,-88.2846,42.0406,United States,liam.johnson@example.com,Illinois,2025-02-10,merchant__electronics
-C-3907820,Noah Smith,Springfield,-89.67,39.85,United States,noah.smith@example.com,Illinois,2025-02-10,merchant__bigboxretailer
-C-22733697,Liam Johnson,Columbus,-82.9952,39.9689,United States,liam.johnson@example.com,Ohio,2025-02-10,merchant__clothing
-C-36703740,Ava Smith,Frankfort,-84.8733,38.2009,United States,ava.smith@example.com,Kentucky,2025-02-11,merchant__bigboxretailer
-C-74990517,Liam Johnson,Terrance,-128.610764,54.515102,Canada,liam.johnson@example.com,British Columbia,2025-02-11,merchant__bigboxretailer
-C-63619362,Liam Johnson,Puslinch,-80.2484,43.5422,Canada,liam.johnson@example.com,Ontario,2025-02-11,merchant__bigboxretailer
-C-67215781,Noah Williams,Felton,-122.0743,37.0502,United States,noah.williams@example.com,California,2025-02-11,merchant__bigboxretailer
-C-57435172,Ava Williams,New York,-73.9898,40.7393,United States,ava.williams@example.com,New York,2025-02-11,merchant__clothing
-C-76613995,Olivia Johnson,Saint Louis,-90.4002,38.6601,United States,olivia.johnson@example.com,Missouri,2025-02-11,merchant__electronics
-C-2913420,Ava Smith,Raleigh,-78.6508,35.7843,United States,ava.smith@example.com,North Carolina,2025-02-11,merchant__bigboxretailer
-C-31076430,Liam Johnson,Canby,-96.4517,44.7944,United States,liam.johnson@example.com,Minnesota,2025-02-11,merchant__electronics
-C-98576309,Liam Smith,Sacramento,-121.3359,38.5631,United States,liam.smith@example.com,California,2025-02-12,merchant__clothing
-C-97307391,Noah Williams,Corpus Christi,-97.3629,27.6981,United States,noah.williams@example.com,Texas,2025-02-12,merchant__electronics
-C-56190957,Noah Smith,Gainesville,-82.3284,29.6505,United States,noah.smith@example.com,Florida,2025-02-12,merchant__clothing
-C-72215684,Olivia Smith,Chandlersville,-81.9118,39.8716,United States,olivia.smith@example.com,Ohio,2025-02-12,merchant__clothing
-C-22129983,Liam Johnson,Springfield,-89.67,39.85,United States,liam.johnson@example.com,Illinois,2025-02-12,merchant__clothing
-C-11989334,Emma Johnson,Covington,-84.5086,39.0837,United States,emma.johnson@example.com,Kentucky,2025-02-12,merchant__clothing
-C-38216471,Noah Johnson,Boston,-71.054,42.354,United States,noah.johnson@example.com,Massachusetts,2025-02-12,merchant__bigboxretailer
-C-25784124,Noah Williams,Sandy,-111.839,40.565,United States,noah.williams@example.com,Utah,2025-02-12,merchant__bigboxretailer
-C-63152591,Olivia Smith,Guelph,-80.25,43.549999,Canada,olivia.smith@example.com,Ontario,2025-02-13,merchant__electronics
-C-84463010,Emma Williams,Stevens Point,-89.5675,44.5173,United States,emma.williams@example.com,Wisconsin,2025-02-13,merchant__bigboxretailer
-C-8270208,Liam Smith,West Chester,-84.5155,39.1005,United States,liam.smith@example.com,Ohio,2025-02-13,merchant__bigboxretailer
-C-29942934,Olivia Williams,New York,-73.9898,40.7393,United States,olivia.williams@example.com,New York,2025-02-13,merchant__clothing
-C-22977728,Emma Smith,Philadelphia,-75.0401,40.035,United States,emma.smith@example.com,Pennsylvania,2025-02-13,merchant__bigboxretailer
-C-11681347,Liam Smith,Puslinch,-80.2484,43.5422,Canada,liam.smith@example.com,Ontario,2025-02-13,merchant__clothing
-C-42069239,Emma Johnson,Meadow Vista,-121.0228,38.9944,United States,emma.johnson@example.com,California,2025-02-13,merchant__bigboxretailer
-C-51476640,Olivia Williams,Humble,-95.583,29.6602,United States,olivia.williams@example.com,Texas,2025-02-13,merchant__electronics
-C-37158478,Olivia Johnson,Bismarck,-87.6056,40.265,United States,olivia.johnson@example.com,Illinois,2025-02-13,merchant__electronics
-C-99598694,Olivia Williams,Minneapolis,-93.2928,45.0436,United States,olivia.williams@example.com,Minnesota,2025-02-13,merchant__bigboxretailer
-C-21221685,Liam Smith,Harrisburg,-76.8867,40.2732,United States,liam.smith@example.com,Pennsylvania,2025-02-14,merchant__bigboxretailer
-C-8583498,Ava Smith,Alexandria,-77.1036,38.8119,United States,ava.smith@example.com,Virginia,2025-02-14,merchant__bigboxretailer
-C-66986343,Noah Williams,Welland,-82.9436,42.2246,Canada,noah.williams@example.com,Ontario,2025-02-14,merchant__clothing
-C-11465838,Olivia Smith,Paintsville,-82.8092,37.8167,United States,olivia.smith@example.com,Kentucky,2025-02-14,merchant__electronics
-C-10800793,Ava Smith,Metairie,-90.1529,29.9841,United States,ava.smith@example.com,Louisiana,2025-02-14,merchant__bigboxretailer
-C-27602680,Olivia Williams,Warwick,-81.9098,43.0049,Canada,olivia.williams@example.com,Ontario,2025-02-14,merchant__clothing
-C-84784127,Ava Johnson,Milwaukee,-87.9969,43.1922,United States,ava.johnson@example.com,Wisconsin,2025-02-14,merchant__electronics
-C-1438484,Liam Johnson,Felton,-122.0743,37.0502,United States,liam.johnson@example.com,California,2025-02-14,merchant__electronics
-C-88786914,Liam Johnson,Lafayette,-92.0198,30.2241,United States,liam.johnson@example.com,Louisiana,2025-02-15,merchant__clothing
-C-38957169,Liam Williams,New Haven,-72.88,41.27,United States,liam.williams@example.com,Connecticut,2025-02-15,merchant__bigboxretailer
-C-76683838,Emma Smith,San Leandro,-122.1275,37.6994,United States,emma.smith@example.com,California,2025-02-15,merchant__electronics
-C-34770476,Noah Williams,Kissimmee,-81.4416,28.2931,United States,noah.williams@example.com,Florida,2025-02-15,merchant__electronics
-C-52940939,Emma Smith,Trion,-85.3081,34.5436,United States,emma.smith@example.com,Georgia,2025-02-15,merchant__electronics
-C-19290714,Olivia Smith,Hartford,-72.6778,41.7677,United States,olivia.smith@example.com,Connecticut,2025-02-15,merchant__clothing
-C-57011296,Liam Johnson,Baltimore,-76.67,39.18,United States,liam.johnson@example.com,Maryland,2025-02-15,merchant__clothing
-C-86654575,Olivia Smith,Minneapolis,-93.2928,45.0436,United States,olivia.smith@example.com,Minnesota,2025-02-15,merchant__clothing
-C-32570121,Olivia Smith,Newport Beach,-117.8454,33.6818,United States,olivia.smith@example.com,California,2025-02-16,merchant__electronics
-C-36394304,Ava Williams,Minneapolis,-93.2928,45.0436,United States,ava.williams@example.com,Minnesota,2025-02-16,merchant__bigboxretailer
-C-99469021,Emma Johnson,Bismarck,-87.6056,40.265,United States,emma.johnson@example.com,Illinois,2025-02-16,merchant__clothing
-C-745831,Noah Smith,West Chester,-84.5155,39.1005,United States,noah.smith@example.com,Ohio,2025-02-16,merchant__clothing
-C-43672778,Emma Williams,Guelph,-80.25,43.549999,Canada,emma.williams@example.com,Ontario,2025-02-16,merchant__electronics
-C-35221654,Emma Smith,Campbell,-121.8893,37.3323,United States,emma.smith@example.com,California,2025-02-16,merchant__electronics
-C-6366468,Emma Johnson,Bathurst,-65.650002,47.619999,Canada,emma.johnson@example.com,New Brunswick,2025-02-16,merchant__bigboxretailer
-C-38971910,Liam Smith,Yukon,-97.5162,35.4702,United States,liam.smith@example.com,Oklahoma,2025-02-17,merchant__bigboxretailer
-C-86416882,Emma Smith,Stevens Point,-89.5675,44.5173,United States,emma.smith@example.com,Wisconsin,2025-02-17,merchant__bigboxretailer
-C-65764195,Emma Smith,Walnut,-117.6304,34.0525,United States,emma.smith@example.com,California,2025-02-17,merchant__clothing
-C-51541608,Liam Smith,Erwin,-78.6178,35.3063,United States,liam.smith@example.com,North Carolina,2025-02-17,merchant__electronics
-C-67692316,Ava Smith,Campbellton,-66.6722,48.0074,Canada,ava.smith@example.com,New Brunswick,2025-02-17,merchant__bigboxretailer
-C-73733761,Ava Williams,Hartford,-72.6778,41.7677,United States,ava.williams@example.com,Connecticut,2025-02-17,merchant__electronics
-C-67868095,Olivia Williams,Malartic,-78.133331,48.133331,Canada,olivia.williams@example.com,Quebec,2025-02-18,merchant__clothing
-C-34267071,Liam Williams,Winnipeg,-97.1519,49.8687,Canada,liam.williams@example.com,Manitoba,2025-02-18,merchant__electronics
-C-23452664,Olivia Smith,Paintsville,-82.8092,37.8167,United States,olivia.smith@example.com,Kentucky,2025-02-18,merchant__electronics
-C-90305692,Noah Smith,Atlanta,-84.3941,33.7609,United States,noah.smith@example.com,Georgia,2025-02-18,merchant__bigboxretailer
-C-97149978,Ava Johnson,Crestview,-86.12,30.7192,United States,ava.johnson@example.com,Florida,2025-02-18,merchant__clothing
-C-71212559,Liam Johnson,Louisville,-85.67,38.23,United States,liam.johnson@example.com,Kentucky,2025-02-18,merchant__bigboxretailer
-C-65598049,Emma Smith,San Diego,-117.17,32.73,United States,emma.smith@example.com,California,2025-02-18,merchant__bigboxretailer
-C-46965238,Emma Johnson,Louisville,-85.67,38.23,United States,emma.johnson@example.com,Kentucky,2025-02-18,merchant__electronics
-C-63108439,Olivia Johnson,Big Rapids,-85.4864,43.6993,United States,olivia.johnson@example.com,Michigan,2025-02-18,merchant__bigboxretailer
-C-14697207,Ava Johnson,Pocatello,-112.6,42.92,United States,ava.johnson@example.com,Idaho,2025-02-18,merchant__bigboxretailer
-C-23655597,Noah Smith,Campbell,-121.8893,37.3323,United States,noah.smith@example.com,California,2025-02-19,merchant__bigboxretailer
-C-69178363,Olivia Johnson,Napa,-122.7156,38.443,United States,olivia.johnson@example.com,California,2025-02-19,merchant__clothing
-C-13172074,Ava Johnson,Charlotte,-80.839,35.226,United States,ava.johnson@example.com,North Carolina,2025-02-19,merchant__bigboxretailer
-C-53604290,Noah Smith,Fresno,-119.7937,36.7917,United States,noah.smith@example.com,California,2025-02-19,merchant__clothing
-C-8767612,Emma Williams,Corona Del Mar,-117.8566,33.6276,United States,emma.williams@example.com,California,2025-02-19,merchant__electronics
-C-85239412,Liam Smith,West Chester,-84.5155,39.1005,United States,liam.smith@example.com,Ohio,2025-02-19,merchant__electronics
-C-55151922,Emma Johnson,Harrisburg,-76.8867,40.2732,United States,emma.johnson@example.com,Pennsylvania,2025-02-19,merchant__bigboxretailer
-C-99861527,Emma Smith,Inverness,-82.3312,28.8379,United States,emma.smith@example.com,Florida,2025-02-19,merchant__electronics
-C-12961460,Noah Williams,Santee,-117.1578,32.7467,United States,noah.williams@example.com,California,2025-02-20,merchant__bigboxretailer
-C-21222425,Liam Williams,Paintsville,-82.8092,37.8167,United States,liam.williams@example.com,Kentucky,2025-02-20,merchant__clothing
-C-86746772,Olivia Williams,Whitman,-82.0449,37.8322,United States,olivia.williams@example.com,West Virginia,2025-02-20,merchant__bigboxretailer
-C-72443714,Olivia Johnson,Whitman,-82.0449,37.8322,United States,olivia.johnson@example.com,West Virginia,2025-02-20,merchant__bigboxretailer
-C-34731659,Ava Smith,Cincinnati,-84.3753,39.2716,United States,ava.smith@example.com,Ohio,2025-02-20,merchant__clothing
-C-88467684,Noah Smith,Rockford,-89.097,42.2713,United States,noah.smith@example.com,Illinois,2025-02-20,merchant__bigboxretailer
-C-35090571,Olivia Williams,Byers,-98.4896,33.9097,United States,olivia.williams@example.com,Texas,2025-02-20,merchant__bigboxretailer
-C-54971989,Ava Johnson,Wilmington,-77.9415,34.2227,United States,ava.johnson@example.com,North Carolina,2025-02-20,merchant__clothing
-C-71803815,Emma Smith,Big Rapids,-85.4864,43.6993,United States,emma.smith@example.com,Michigan,2025-02-21,merchant__electronics
-C-44480454,Liam Smith,Kalamazoo,-85.5628,42.1984,United States,liam.smith@example.com,Michigan,2025-02-21,merchant__bigboxretailer
-C-14774769,Emma Smith,Thunder Bay,-89.2538,48.3846,Canada,emma.smith@example.com,Ontario,2025-02-21,merchant__clothing
-C-5876630,Olivia Smith,Middleton,-89.3853,43.0758,United States,olivia.smith@example.com,Wisconsin,2025-02-21,merchant__bigboxretailer
-C-2841354,Emma Smith,West Jordan,-111.9391,40.6097,United States,emma.smith@example.com,Utah,2025-02-21,merchant__clothing
-C-78707693,Noah Johnson,Springfield,-89.67,39.85,United States,noah.johnson@example.com,Illinois,2025-02-21,merchant__bigboxretailer
-C-8947739,Emma Johnson,San Mateo,-122.3479,37.5752,United States,emma.johnson@example.com,California,2025-02-21,merchant__bigboxretailer
-C-88702163,Olivia Williams,Ellershouse,-64.1332,44.9913,Canada,olivia.williams@example.com,Nova Scotia,2025-02-21,merchant__electronics
-C-37791744,Liam Smith,Greenville,-77.373,35.6075,United States,liam.smith@example.com,North Carolina,2025-02-22,merchant__bigboxretailer
-C-82262569,Liam Johnson,Trion,-85.3081,34.5436,United States,liam.johnson@example.com,Georgia,2025-02-22,merchant__electronics
-C-73523116,Olivia Johnson,Greenville,-77.373,35.6075,United States,olivia.johnson@example.com,North Carolina,2025-02-22,merchant__electronics
-C-77581677,Olivia Smith,Spokane,-117.33,47.67,United States,olivia.smith@example.com,Washington,2025-02-22,merchant__clothing
-C-34694648,Noah Smith,Sherbrooke,-71.8929,45.4042,Canada,noah.smith@example.com,Quebec,2025-02-22,merchant__clothing
-C-4366965,Emma Johnson,Beverly Hills,-118.3823,33.9136,United States,emma.johnson@example.com,California,2025-02-23,merchant__bigboxretailer
-C-10994206,Noah Smith,Philadelphia,-75.0401,40.035,United States,noah.smith@example.com,Pennsylvania,2025-02-23,merchant__bigboxretailer
-C-96050630,Liam Smith,Miramichi,-65.5059,47.0296,Canada,liam.smith@example.com,New Brunswick,2025-02-23,merchant__electronics
-C-75988927,Emma Williams,Finksburg,-76.9519,39.3972,United States,emma.williams@example.com,Maryland,2025-02-23,merchant__clothing
-C-16097095,Ava Johnson,North Battleford,-108.28611,52.7575,Canada,ava.johnson@example.com,Saskatchewan,2025-02-23,merchant__electronics
-C-70021571,Olivia Williams,Tucson,-110.9252,32.2336,United States,olivia.williams@example.com,Arizona,2025-02-23,merchant__electronics
-C-72855356,Olivia Williams,Flowery Branch,-83.8224,34.2987,United States,olivia.williams@example.com,Georgia,2025-02-23,merchant__electronics
-C-63551905,Noah Smith,Colfax,-79.9544,36.094,United States,noah.smith@example.com,North Carolina,2025-02-23,merchant__electronics
-C-72307799,Liam Williams,Sylvan Lake,-114.0973,52.3065,Canada,liam.williams@example.com,Alberta,2025-02-24,merchant__clothing
-C-4516289,Liam Williams,North Battleford,-108.28611,52.7575,Canada,liam.williams@example.com,Saskatchewan,2025-02-24,merchant__electronics
-C-18578958,Olivia Smith,Kearney,-99.0,40.73,United States,olivia.smith@example.com,Nebraska,2025-02-24,merchant__clothing
-C-20512120,Liam Smith,New Haven,-72.88,41.27,United States,liam.smith@example.com,Connecticut,2025-02-24,merchant__clothing
-C-91585088,Emma Johnson,Elmhurst,-87.9445,41.9016,United States,emma.johnson@example.com,Illinois,2025-02-24,merchant__clothing
-C-76352648,Noah Smith,Columbus,-82.9952,39.9689,United States,noah.smith@example.com,Ohio,2025-02-24,merchant__electronics
-C-77828606,Olivia Johnson,Evanston,-110.9671,41.2677,United States,olivia.johnson@example.com,Wyoming,2025-02-25,merchant__electronics
-C-76796458,Emma Smith,Chevy Chase,-77.0293,38.9999,United States,emma.smith@example.com,Maryland,2025-02-25,merchant__electronics
-C-72711947,Ava Johnson,Hermitage,-93.2075,37.9418,United States,ava.johnson@example.com,Missouri,2025-02-25,merchant__electronics
-C-14382776,Emma Johnson,Riverside,-117.3649,33.9841,United States,emma.johnson@example.com,California,2025-02-25,merchant__bigboxretailer
-C-49573317,Noah Smith,Delhi,-91.3853,31.807,United States,noah.smith@example.com,Louisiana,2025-02-25,merchant__bigboxretailer
-C-74746110,Ava Williams,Biloxi,-88.8853,30.396,United States,ava.williams@example.com,Mississippi,2025-02-25,merchant__bigboxretailer
-C-44022060,Liam Johnson,Marietta,-84.4627,33.8941,United States,liam.johnson@example.com,Georgia,2025-02-25,merchant__bigboxretailer
-C-18620843,Noah Smith,Hassell,-77.2589,35.8259,United States,noah.smith@example.com,North Carolina,2025-02-26,merchant__electronics
-C-15860200,Noah Johnson,Anadarko,-98.4396,35.0962,United States,noah.johnson@example.com,Oklahoma,2025-02-26,merchant__electronics
-C-62466560,Ava Johnson,New York,-73.9898,40.7393,United States,ava.johnson@example.com,New York,2025-02-26,merchant__clothing
-C-32132199,Olivia Johnson,Colchester,-73.1479,44.5439,United States,olivia.johnson@example.com,Vermont,2025-02-26,merchant__bigboxretailer
-C-89159427,Liam Smith,Atlanta,-84.3941,33.7609,United States,liam.smith@example.com,Georgia,2025-02-26,merchant__bigboxretailer
-C-16832188,Liam Johnson,Arlington,-112.8459,33.4372,United States,liam.johnson@example.com,Arizona,2025-02-26,merchant__bigboxretailer
-C-40550749,Liam Johnson,Colt,-90.7853,35.0103,United States,liam.johnson@example.com,Arkansas,2025-02-26,merchant__electronics
-C-8818310,Olivia Williams,Houston,-95.4069,29.6954,United States,olivia.williams@example.com,Texas,2025-02-26,merchant__clothing
-C-2520652,Emma Smith,Greenville,-77.373,35.6075,United States,emma.smith@example.com,North Carolina,2025-02-26,merchant__clothing
-C-59614604,Ava Williams,Minneapolis,-93.2928,45.0436,United States,ava.williams@example.com,Minnesota,2025-02-27,merchant__clothing
-C-69805556,Noah Smith,Evanston,-110.9671,41.2677,United States,noah.smith@example.com,Wyoming,2025-02-27,merchant__clothing
-C-23985621,Olivia Johnson,Bloomington,-93.2983,44.8408,United States,olivia.johnson@example.com,Minnesota,2025-02-27,merchant__electronics
-C-60285593,Liam Williams,Spokane,-117.33,47.67,United States,liam.williams@example.com,Washington,2025-02-27,merchant__bigboxretailer
-C-87284635,Olivia Smith,Chevy Chase,-77.0293,38.9999,United States,olivia.smith@example.com,Maryland,2025-02-27,merchant__electronics
-C-10530833,Noah Williams,Seattle,-122.318,47.5411,United States,noah.williams@example.com,Washington,2025-02-27,merchant__clothing
-C-46987017,Noah Smith,Quebec,-71.216,46.8152,Canada,noah.smith@example.com,Quebec,2025-02-27,merchant__clothing
-C-30374500,Liam Williams,Berwick,-70.8631,43.2629,United States,liam.williams@example.com,Maine,2025-02-28,merchant__clothing
-C-30770389,Ava Williams,San Leandro,-122.1275,37.6994,United States,ava.williams@example.com,California,2025-02-28,merchant__clothing
-C-74676712,Olivia Williams,Alexandria,-77.1036,38.8119,United States,olivia.williams@example.com,Virginia,2025-02-28,merchant__electronics
-C-87113587,Noah Williams,Orilla,-79.4197,44.6082,Canada,noah.williams@example.com,Ontario,2025-02-28,merchant__electronics
-C-49225830,Olivia Johnson,Cleveland,-81.6905,41.4989,United States,olivia.johnson@example.com,Ohio,2025-02-28,merchant__bigboxretailer
-C-70056983,Ava Williams,Manchester,-71.4608,42.9935,United States,ava.williams@example.com,New Hampshire,2025-02-28,merchant__bigboxretailer
-C-71347912,Emma Johnson,Cincinnati,-84.3753,39.2716,United States,emma.johnson@example.com,Ohio,2025-02-28,merchant__bigboxretailer
-C-64037710,Liam Smith,Elgin,-88.2846,42.0406,United States,liam.smith@example.com,Illinois,2025-02-28,merchant__clothing
-C-86882367,Emma Williams,Marrero,-90.0765,29.9475,United States,emma.williams@example.com,Louisiana,2025-02-28,merchant__electronics
-C-40281697,Noah Williams,Omaha,-95.9461,41.2093,United States,noah.williams@example.com,Nebraska,2025-03-01,merchant__clothing
-C-41775776,Ava Williams,Topeka,-95.62,39.07,United States,ava.williams@example.com,Kansas,2025-03-01,merchant__electronics
-C-16599516,Ava Johnson,Seattle,-122.318,47.5411,United States,ava.johnson@example.com,Washington,2025-03-01,merchant__electronics
-C-83096996,Ava Williams,Morristown,-74.4804,40.7936,United States,ava.williams@example.com,New Jersey,2025-03-01,merchant__electronics
-C-94701075,Emma Smith,Red Jacket,-82.1712,37.6245,United States,emma.smith@example.com,West Virginia,2025-03-01,merchant__bigboxretailer
-C-36795967,Olivia Johnson,Covington,-84.5086,39.0837,United States,olivia.johnson@example.com,Georgia,2025-03-01,merchant__electronics
-C-21506675,Liam Williams,Tulsa,-95.9853,36.1509,United States,liam.williams@example.com,Oklahoma,2025-03-01,merchant__clothing
-C-67036918,Noah Smith,Meadow Vista,-121.0228,38.9944,United States,noah.smith@example.com,California,2025-03-01,merchant__bigboxretailer
-C-34175418,Noah Johnson,Hadley,-72.5267,42.3804,United States,noah.johnson@example.com,Massachusetts,2025-03-02,merchant__bigboxretailer
-C-46827828,Olivia Johnson,Miramichi,-65.5059,47.0296,Canada,olivia.johnson@example.com,New Brunswick,2025-03-02,merchant__bigboxretailer
-C-39021179,Noah Williams,Moncton,-64.77582,46.08888,Canada,noah.williams@example.com,New Brunswick,2025-03-02,merchant__clothing
-C-2317506,Emma Smith,Temple,-97.3411,31.0915,United States,emma.smith@example.com,Texas,2025-03-02,merchant__clothing
-C-38005697,Emma Johnson,San Diego,-117.17,32.73,United States,emma.johnson@example.com,California,2025-03-02,merchant__bigboxretailer
-C-55323116,Emma Williams,Conway,-92.4502,35.0814,United States,emma.williams@example.com,Arkansas,2025-03-02,merchant__bigboxretailer
-C-3212969,Ava Smith,Montague,-62.648,46.1651,Canada,ava.smith@example.com,Prince Edward Island,2025-03-02,merchant__bigboxretailer
-C-49697552,Olivia Smith,Santa Monica,-118.4904,34.02,United States,olivia.smith@example.com,California,2025-03-02,merchant__bigboxretailer
-C-48291058,Olivia Smith,Manassas,-77.4783,38.7515,United States,olivia.smith@example.com,Virginia,2025-03-02,merchant__electronics
-C-44134239,Liam Williams,Marietta,-84.4627,33.8941,United States,liam.williams@example.com,Georgia,2025-03-02,merchant__bigboxretailer
-C-99546804,Ava Smith,Joliet,-88.0817,41.525,United States,ava.smith@example.com,Illinois,2025-03-03,merchant__clothing
-C-62125921,Olivia Williams,Topeka,-95.62,39.07,United States,olivia.williams@example.com,Kansas,2025-03-03,merchant__bigboxretailer
-C-94971594,Ava Johnson,Syracuse,-76.1517,43.0473,United States,ava.johnson@example.com,New York,2025-03-03,merchant__clothing
-C-99536716,Olivia Smith,Flowery Branch,-83.8224,34.2987,United States,olivia.smith@example.com,Georgia,2025-03-03,merchant__clothing
-C-68449554,Liam Williams,Berwick,-70.8631,43.2629,United States,liam.williams@example.com,Maine,2025-03-03,merchant__electronics
-C-17954955,Noah Smith,Webster,-77.6184,43.1578,United States,noah.smith@example.com,New York,2025-03-03,merchant__electronics
-C-57123174,Noah Johnson,San Mateo,-122.3479,37.5752,United States,noah.johnson@example.com,California,2025-03-03,merchant__electronics
-C-29756007,Noah Smith,Campbell,-121.8893,37.3323,United States,noah.smith@example.com,California,2025-03-03,merchant__clothing
-C-40517631,Olivia Johnson,Mountville,-76.4359,40.0409,United States,olivia.johnson@example.com,Pennsylvania,2025-03-04,merchant__electronics
-C-94176509,Liam Johnson,Fredericton,-66.6422,45.9577,Canada,liam.johnson@example.com,New Brunswick,2025-03-04,merchant__clothing
-C-90947247,Olivia Smith,Sandy,-111.839,40.565,United States,olivia.smith@example.com,Utah,2025-03-04,merchant__clothing
-C-13873747,Noah Johnson,Bay Roberts,-53.2717,47.5812,Canada,noah.johnson@example.com,Newfoundland and Labrador,2025-03-04,merchant__clothing
-C-64671231,Noah Smith,Great Falls,-111.37,47.48,United States,noah.smith@example.com,Montana,2025-03-04,merchant__clothing
-C-73197915,Liam Johnson,Flin Flon,-101.8762,54.7658,Canada,liam.johnson@example.com,Manitoba,2025-03-04,merchant__clothing
-C-50304173,Olivia Smith,San Diego,-117.17,32.73,United States,olivia.smith@example.com,California,2025-03-04,merchant__bigboxretailer
-C-3957809,Emma Williams,Opelousas,-92.082,30.5317,United States,emma.williams@example.com,Louisiana,2025-03-04,merchant__electronics
+C-6293446559,Emma Johnson,Pocatello,-112.6,42.92,United States,emma.johnson@example.com,Idaho,2025-01-01,merchant__clothing
+C-9235187943,Emma Johnson,Newhall,-118.5319,34.3814,United States,emma.johnson@example.com,California,2025-01-01,merchant__bigboxretailer
+C-5578321213,Ava Smith,Lefebvre,-72.3179,45.7654,Canada,ava.smith@example.com,Quebec,2025-01-01,merchant__electronics
+C-2402426443,Ava Smith,New York,-73.9898,40.7393,United States,ava.smith@example.com,New York,2025-01-01,merchant__bigboxretailer
+C-5650398267,Ava Johnson,Erwin,-78.6178,35.3063,United States,ava.johnson@example.com,North Carolina,2025-01-01,merchant__clothing
+C-3696739285,Liam Smith,Rock Springs,-109.07,41.6,United States,liam.smith@example.com,Wyoming,2025-01-01,merchant__clothing
+C-3133265478,Emma Johnson,Springfield,-89.67,39.85,United States,emma.johnson@example.com,Illinois,2025-01-01,merchant__clothing
+C-145972718,Olivia Johnson,Seaford,-73.511,40.672,United States,olivia.johnson@example.com,New York,2025-01-01,merchant__bigboxretailer
+C-6223117100,Olivia Smith,Three Oaks,-86.6084,41.7983,United States,olivia.smith@example.com,Michigan,2025-01-01,merchant__bigboxretailer
+C-7616271988,Ava Smith,Bridgeport,-73.1894,41.179,United States,ava.smith@example.com,Connecticut,2025-01-02,merchant__clothing
+C-6350049688,Ava Smith,Elgin,-88.2846,42.0406,United States,ava.smith@example.com,Illinois,2025-01-02,merchant__clothing
+C-6114261246,Emma Williams,Cincinnati,-84.3753,39.2716,United States,emma.williams@example.com,Ohio,2025-01-02,merchant__bigboxretailer
+C-5303894008,Emma Johnson,Warrior,-86.8079,33.8188,United States,emma.johnson@example.com,Alabama,2025-01-02,merchant__bigboxretailer
+C-477671676,Noah Smith,St Lunaire-griquet,-55.4664,51.5266,Canada,noah.smith@example.com,Newfoundland and Labrador,2025-01-02,merchant__bigboxretailer
+C-278499419,Olivia Williams,Blanchardville,-89.6341,42.8163,United States,olivia.williams@example.com,Wisconsin,2025-01-03,merchant__clothing
+C-5824374242,Emma Johnson,Maryland Heights,-90.4189,38.7034,United States,emma.johnson@example.com,Missouri,2025-01-03,merchant__bigboxretailer
+C-544836934,Liam Johnson,Fayetteville,-78.8927,35.0546,United States,liam.johnson@example.com,North Carolina,2025-01-03,merchant__electronics
+C-4939272478,Noah Williams,Campbellton,-66.6722,48.0074,Canada,noah.williams@example.com,New Brunswick,2025-01-03,merchant__clothing
+C-4748384982,Olivia Johnson,Yukon,-97.5162,35.4702,United States,olivia.johnson@example.com,Oklahoma,2025-01-03,merchant__bigboxretailer
+C-8485134080,Olivia Johnson,Brantford,-80.3842,44.1767,Canada,olivia.johnson@example.com,Ontario,2025-01-03,merchant__bigboxretailer
+C-6088180959,Noah Smith,Vance,-87.4839,33.1962,United States,noah.smith@example.com,Alabama,2025-01-03,merchant__clothing
+C-2446003903,Liam Smith,Schwenksville,-75.3489,40.2006,United States,liam.smith@example.com,Pennsylvania,2025-01-03,merchant__clothing
+C-761589674,Olivia Williams,Terryville,-72.9422,41.672,United States,olivia.williams@example.com,Connecticut,2025-01-04,merchant__bigboxretailer
+C-139413048,Olivia Williams,Naperville,-88.1535,41.75,United States,olivia.williams@example.com,Illinois,2025-01-04,merchant__electronics
+C-1274206510,Emma Johnson,Springfield,-89.67,39.85,United States,emma.johnson@example.com,Illinois,2025-01-04,merchant__bigboxretailer
+C-4046249838,Emma Johnson,Saint Louis,-90.4002,38.6601,United States,emma.johnson@example.com,Missouri,2025-01-04,merchant__electronics
+C-6810319814,Noah Johnson,San Bernardino,-117.2196,34.1225,United States,noah.johnson@example.com,California,2025-01-04,merchant__clothing
+C-2141305996,Olivia Williams,Sherbrooke,-71.8929,45.4042,Canada,olivia.williams@example.com,Quebec,2025-01-04,merchant__electronics
+C-5830061413,Noah Smith,Terryville,-72.9422,41.672,United States,noah.smith@example.com,Connecticut,2025-01-04,merchant__bigboxretailer
+C-7374423850,Ava Williams,Laurel,-76.8903,39.0587,United States,ava.williams@example.com,Maryland,2025-01-04,merchant__electronics
+C-1179866330,Liam Williams,Rycroft,-118.7115,55.756,Canada,liam.williams@example.com,Alberta,2025-01-04,merchant__bigboxretailer
+C-78175691,Emma Johnson,Ballston Spa,-73.7849,43.079,United States,emma.johnson@example.com,New York,2025-01-04,merchant__clothing
+C-7372592083,Noah Williams,Vegreville,-112.0539,53.4941,Canada,noah.williams@example.com,Alberta,2025-01-05,merchant__clothing
+C-2031073912,Noah Johnson,Birmingham,-86.7992,33.3704,United States,noah.johnson@example.com,Alabama,2025-01-05,merchant__clothing
+C-6801953566,Liam Smith,Bozeman,-111.15,45.78,United States,liam.smith@example.com,Montana,2025-01-05,merchant__clothing
+C-3770379973,Liam Smith,Ellershouse,-64.1332,44.9913,Canada,liam.smith@example.com,Nova Scotia,2025-01-05,merchant__bigboxretailer
+C-5149740353,Emma Smith,Pocatello,-112.6,42.92,United States,emma.smith@example.com,Idaho,2025-01-05,merchant__clothing
+C-7978191805,Noah Williams,Hattiesburg,-89.33,31.47,United States,noah.williams@example.com,Mississippi,2025-01-05,merchant__bigboxretailer
+C-5080674077,Olivia Williams,Lafayette,-92.0198,30.2241,United States,olivia.williams@example.com,Louisiana,2025-01-05,merchant__clothing
+C-78874551,Emma Williams,Ancaster Town,-79.9764,43.2256,Canada,emma.williams@example.com,Ontario,2025-01-05,merchant__clothing
+C-795882356,Ava Williams,Hartford,-72.6778,41.7677,United States,ava.williams@example.com,Connecticut,2025-01-06,merchant__electronics
+C-9443034234,Emma Williams,Crestview,-86.12,30.7192,United States,emma.williams@example.com,Florida,2025-01-06,merchant__bigboxretailer
+C-9142579792,Ava Smith,St Lunaire-griquet,-55.4664,51.5266,Canada,ava.smith@example.com,Newfoundland and Labrador,2025-01-06,merchant__electronics
+C-3696869315,Emma Williams,Moncton,-64.77582,46.08888,Canada,emma.williams@example.com,New Brunswick,2025-01-06,merchant__bigboxretailer
+C-5290006702,Emma Smith,Laredo,-99.5023,27.5081,United States,emma.smith@example.com,Texas,2025-01-06,merchant__electronics
+C-3892869698,Olivia Smith,Sandy,-111.839,40.565,United States,olivia.smith@example.com,Utah,2025-01-06,merchant__electronics
+C-963341849,Liam Johnson,Maryland Heights,-90.4189,38.7034,United States,liam.johnson@example.com,Missouri,2025-01-06,merchant__bigboxretailer
+C-2501195220,Emma Williams,Meadow Vista,-121.0228,38.9944,United States,emma.williams@example.com,California,2025-01-06,merchant__clothing
+C-5375634649,Noah Williams,Jefferson City,-92.17,38.6,United States,noah.williams@example.com,Missouri,2025-01-06,merchant__electronics
+C-9161546124,Emma Smith,Delhi,-91.3853,31.807,United States,emma.smith@example.com,Louisiana,2025-01-07,merchant__electronics
+C-1591787559,Liam Williams,Rock Springs,-109.07,41.6,United States,liam.williams@example.com,Wyoming,2025-01-07,merchant__bigboxretailer
+C-4336169939,Emma Smith,Bakersfield,-119.0166,35.3734,United States,emma.smith@example.com,California,2025-01-07,merchant__electronics
+C-591404487,Liam Williams,Corona Del Mar,-117.8566,33.6276,United States,liam.williams@example.com,California,2025-01-07,merchant__bigboxretailer
+C-6064036097,Olivia Smith,Onoway,-112.8326,49.7018,Canada,olivia.smith@example.com,Alberta,2025-01-07,merchant__clothing
+C-9041420100,Noah Williams,Hays,-99.3271,38.8743,United States,noah.williams@example.com,Kansas,2025-01-07,merchant__clothing
+C-11841273,Olivia Williams,Flowery Branch,-83.8224,34.2987,United States,olivia.williams@example.com,Georgia,2025-01-08,merchant__bigboxretailer
+C-9900420664,Olivia Williams,Naugatuck,-73.0517,41.4931,United States,olivia.williams@example.com,Connecticut,2025-01-08,merchant__bigboxretailer
+C-4228473174,Liam Johnson,Laurel,-76.8903,39.0587,United States,liam.johnson@example.com,Maryland,2025-01-08,merchant__clothing
+C-2528538789,Noah Johnson,Bismarck,-87.6056,40.265,United States,noah.johnson@example.com,Illinois,2025-01-08,merchant__electronics
+C-8846647541,Noah Johnson,Elgin,-88.2846,42.0406,United States,noah.johnson@example.com,Illinois,2025-01-08,merchant__bigboxretailer
+C-6274719920,Emma Williams,Kansas City,-94.72,39.32,United States,emma.williams@example.com,Missouri,2025-01-08,merchant__clothing
+C-1422946606,Liam Williams,Oak Brook,-87.9447,41.98,United States,liam.williams@example.com,Illinois,2025-01-08,merchant__clothing
+C-9612154815,Noah Williams,Grand Prairie,-97.0408,32.7306,United States,noah.williams@example.com,Texas,2025-01-08,merchant__clothing
+C-6102976340,Emma Johnson,Kissimmee,-81.4416,28.2931,United States,emma.johnson@example.com,Florida,2025-01-08,merchant__electronics
+C-3022067727,Liam Smith,North Olmsted,-81.8911,41.43,United States,liam.smith@example.com,Ohio,2025-01-09,merchant__bigboxretailer
+C-8180437119,Emma Williams,Lefebvre,-72.3179,45.7654,Canada,emma.williams@example.com,Quebec,2025-01-09,merchant__electronics
+C-6382096666,Olivia Johnson,Arecibo,-66.7324,18.4674,United States,olivia.johnson@example.com,Puerto Rico,2025-01-09,merchant__bigboxretailer
+C-9218024308,Olivia Johnson,Guelph,-80.25,43.549999,Canada,olivia.johnson@example.com,Ontario,2025-01-09,merchant__bigboxretailer
+C-2399959904,Emma Smith,Yukon,-97.5162,35.4702,United States,emma.smith@example.com,Oklahoma,2025-01-09,merchant__bigboxretailer
+C-2198919651,Olivia Smith,Eden Prairie,-93.2928,45.0436,United States,olivia.smith@example.com,Minnesota,2025-01-09,merchant__electronics
+C-6311450005,Olivia Williams,Bornholm,-81.0833,43.5823,Canada,olivia.williams@example.com,Ontario,2025-01-09,merchant__electronics
+C-3379039001,Liam Smith,Apple Valley,-117.1896,34.4997,United States,liam.smith@example.com,California,2025-01-09,merchant__clothing
+C-8536483117,Emma Johnson,Mineral City,-81.4685,40.5052,United States,emma.johnson@example.com,Ohio,2025-01-10,merchant__bigboxretailer
+C-9428468666,Emma Smith,Covington,-84.5086,39.0837,United States,emma.smith@example.com,Georgia,2025-01-10,merchant__electronics
+C-6037976177,Liam Williams,Colt,-90.7853,35.0103,United States,liam.williams@example.com,Arkansas,2025-01-10,merchant__bigboxretailer
+C-7997897773,Noah Smith,Eden Prairie,-93.2928,45.0436,United States,noah.smith@example.com,Minnesota,2025-01-10,merchant__clothing
+C-6599279585,Olivia Johnson,Indianapolis,-86.27,39.73,United States,olivia.johnson@example.com,Indiana,2025-01-10,merchant__electronics
+C-3888502939,Olivia Smith,Saint-jean-chrysostome,-71.1818,46.8078,Canada,olivia.smith@example.com,Quebec,2025-01-10,merchant__electronics
+C-3993623862,Olivia Johnson,Meadow Vista,-121.0228,38.9944,United States,olivia.johnson@example.com,California,2025-01-11,merchant__bigboxretailer
+C-61547017,Liam Williams,Chilliwack,-121.951469,49.15794,Canada,liam.williams@example.com,British Columbia,2025-01-11,merchant__bigboxretailer
+C-6305744483,Ava Smith,Ontario,-82.5871,40.7591,United States,ava.smith@example.com,Ohio,2025-01-11,merchant__bigboxretailer
+C-8632683350,Liam Smith,Richmond,-77.434,37.542,United States,liam.smith@example.com,Virginia,2025-01-11,merchant__electronics
+C-7608816229,Liam Smith,Apple Valley,-117.1896,34.4997,United States,liam.smith@example.com,California,2025-01-11,merchant__clothing
+C-3746118247,Olivia Johnson,Laval,-73.5689,45.5034,Canada,olivia.johnson@example.com,Quebec,2025-01-11,merchant__clothing
+C-799721766,Noah Williams,Vegreville,-112.0539,53.4941,Canada,noah.williams@example.com,Alberta,2025-01-12,merchant__electronics
+C-6311584477,Olivia Johnson,Coldstream,-119.1683,50.2241,Canada,olivia.johnson@example.com,British Columbia,2025-01-12,merchant__clothing
+C-3144701238,Emma Smith,Gatineau,-75.6933,45.4208,Canada,emma.smith@example.com,Quebec,2025-01-12,merchant__bigboxretailer
+C-4442145595,Emma Williams,Santa Rosa,-122.7156,38.443,United States,emma.williams@example.com,California,2025-01-12,merchant__clothing
+C-2340909032,Noah Smith,Sherbrooke,-71.8929,45.4042,Canada,noah.smith@example.com,Quebec,2025-01-12,merchant__bigboxretailer
+C-9363032551,Ava Johnson,Paintsville,-82.8092,37.8167,United States,ava.johnson@example.com,Kentucky,2025-01-13,merchant__bigboxretailer
+C-3375555485,Liam Johnson,Kennesaw,-84.1663,33.8907,United States,liam.johnson@example.com,Georgia,2025-01-13,merchant__clothing
+C-3785122078,Emma Smith,Flin Flon,-101.8762,54.7658,Canada,emma.smith@example.com,Manitoba,2025-01-13,merchant__clothing
+C-1449021501,Olivia Williams,Hermitage,-93.2075,37.9418,United States,olivia.williams@example.com,Missouri,2025-01-13,merchant__clothing
+C-7480432049,Ava Williams,Naperville,-88.1535,41.75,United States,ava.williams@example.com,Illinois,2025-01-13,merchant__bigboxretailer
+C-8072299489,Noah Johnson,San Mateo,-122.3479,37.5752,United States,noah.johnson@example.com,California,2025-01-13,merchant__bigboxretailer
+C-4058940541,Olivia Smith,Bozeman,-111.15,45.78,United States,olivia.smith@example.com,Montana,2025-01-13,merchant__bigboxretailer
+C-1823712733,Olivia Williams,Syracuse,-76.1517,43.0473,United States,olivia.williams@example.com,New York,2025-01-13,merchant__clothing
+C-1758197344,Liam Williams,Edison,-74.1977,39.9519,United States,liam.williams@example.com,New Jersey,2025-01-14,merchant__bigboxretailer
+C-9651225613,Liam Johnson,Akron,-81.519005,41.081444,United States,liam.johnson@example.com,Ohio,2025-01-14,merchant__electronics
+C-4968478136,Emma Williams,Orlando,-81.2849,28.5369,United States,emma.williams@example.com,Florida,2025-01-14,merchant__electronics
+C-6367400451,Ava Smith,Queensville,-79.4105,45.617,Canada,ava.smith@example.com,Ontario,2025-01-14,merchant__bigboxretailer
+C-8210064795,Olivia Johnson,Greenville,-77.373,35.6075,United States,olivia.johnson@example.com,North Carolina,2025-01-14,merchant__clothing
+C-8652849447,Noah Williams,Springfield,-89.67,39.85,United States,noah.williams@example.com,Illinois,2025-01-14,merchant__electronics
+C-5119349388,Emma Smith,Cacouna,-69.532,47.8338,Canada,emma.smith@example.com,Quebec,2025-01-14,merchant__electronics
+C-579144632,Liam Johnson,Fredericton,-66.6422,45.9577,Canada,liam.johnson@example.com,New Brunswick,2025-01-14,merchant__clothing
+C-1515427209,Noah Smith,Oakland,-122.26,37.8333,United States,noah.smith@example.com,California,2025-01-14,merchant__clothing
+C-2308894366,Liam Smith,Ottawa,-75.6933,45.4208,Canada,liam.smith@example.com,Ontario,2025-01-15,merchant__bigboxretailer
+C-365562377,Emma Williams,Santee,-117.1578,32.7467,United States,emma.williams@example.com,California,2025-01-15,merchant__electronics
+C-5321796104,Olivia Johnson,Norwalk,-73.4187,41.1003,United States,olivia.johnson@example.com,Connecticut,2025-01-15,merchant__bigboxretailer
+C-5710769948,Olivia Johnson,Toledo,-83.8,41.6,United States,olivia.johnson@example.com,Ohio,2025-01-15,merchant__electronics
+C-645175024,Ava Smith,Houston,-95.4069,29.6954,United States,ava.smith@example.com,Texas,2025-01-15,merchant__electronics
+C-5742523563,Emma Williams,Yukon,-97.5162,35.4702,United States,emma.williams@example.com,Oklahoma,2025-01-16,merchant__electronics
+C-7135832283,Emma Johnson,Alfred,-70.7789,43.4426,United States,emma.johnson@example.com,Maine,2025-01-16,merchant__bigboxretailer
+C-6970315900,Noah Smith,Flin Flon,-101.8762,54.7658,Canada,noah.smith@example.com,Manitoba,2025-01-16,merchant__clothing
+C-4554958041,Liam Johnson,Big Rapids,-85.4864,43.6993,United States,liam.johnson@example.com,Michigan,2025-01-16,merchant__clothing
+C-8432213070,Ava Williams,Beverly Hills,-118.3823,33.9136,United States,ava.williams@example.com,California,2025-01-16,merchant__bigboxretailer
+C-8446473343,Olivia Williams,Campbell,-121.8893,37.3323,United States,olivia.williams@example.com,California,2025-01-17,merchant__clothing
+C-2705701836,Olivia Smith,Watson Lake,-128.71208,60.06288,Canada,olivia.smith@example.com,Yukon,2025-01-17,merchant__bigboxretailer
+C-9206761429,Olivia Williams,Lefebvre,-72.3179,45.7654,Canada,olivia.williams@example.com,Quebec,2025-01-17,merchant__electronics
+C-1801574753,Liam Johnson,Erwin,-78.6178,35.3063,United States,liam.johnson@example.com,North Carolina,2025-01-17,merchant__electronics
+C-2868574175,Olivia Smith,Bismarck,-87.6056,40.265,United States,olivia.smith@example.com,Illinois,2025-01-17,merchant__clothing
+C-5015661370,Noah Johnson,Malartic,-78.133331,48.133331,Canada,noah.johnson@example.com,Quebec,2025-01-17,merchant__electronics
+C-869819421,Emma Williams,Anadarko,-98.4396,35.0962,United States,emma.williams@example.com,Oklahoma,2025-01-17,merchant__bigboxretailer
+C-6941867463,Noah Williams,St Lunaire-griquet,-55.4664,51.5266,Canada,noah.williams@example.com,Newfoundland and Labrador,2025-01-18,merchant__clothing
+C-3957577771,Liam Johnson,Bakersfield,-119.0166,35.3734,United States,liam.johnson@example.com,California,2025-01-18,merchant__bigboxretailer
+C-3787909907,Liam Smith,Ontario,-82.5871,40.7591,United States,liam.smith@example.com,Ohio,2025-01-18,merchant__bigboxretailer
+C-2503028309,Olivia Smith,Springfield,-89.67,39.85,United States,olivia.smith@example.com,Illinois,2025-01-18,merchant__bigboxretailer
+C-6389630210,Liam Smith,Beavertown,-77.2116,40.7443,United States,liam.smith@example.com,Pennsylvania,2025-01-18,merchant__electronics
+C-1379158065,Noah Williams,Houston,-95.4069,29.6954,United States,noah.williams@example.com,Texas,2025-01-18,merchant__bigboxretailer
+C-6239220799,Emma Johnson,Greer,-82.2313,34.9421,United States,emma.johnson@example.com,South Carolina,2025-01-18,merchant__clothing
+C-2994626102,Liam Smith,Wilmington,-77.9415,34.2227,United States,liam.smith@example.com,North Carolina,2025-01-18,merchant__electronics
+C-8023547957,Olivia Williams,Paintsville,-82.8092,37.8167,United States,olivia.williams@example.com,Kentucky,2025-01-18,merchant__clothing
+C-4914029341,Olivia Johnson,Fort Lauderdale,-80.142,26.1171,United States,olivia.johnson@example.com,Florida,2025-01-18,merchant__bigboxretailer
+C-3764081694,Liam Williams,Joliet,-88.0817,41.525,United States,liam.williams@example.com,Illinois,2025-01-19,merchant__bigboxretailer
+C-4871902584,Noah Williams,Las Vegas,-115.1419,36.1673,United States,noah.williams@example.com,Nevada,2025-01-19,merchant__bigboxretailer
+C-343016139,Liam Williams,Saint Louis,-90.4002,38.6601,United States,liam.williams@example.com,Missouri,2025-01-19,merchant__bigboxretailer
+C-2435292258,Emma Williams,Tappan,-74.0391,40.887,United States,emma.williams@example.com,New Jersey,2025-01-19,merchant__bigboxretailer
+C-4284710520,Noah Williams,Coldstream,-119.1683,50.2241,Canada,noah.williams@example.com,British Columbia,2025-01-19,merchant__bigboxretailer
+C-4228947556,Olivia Smith,Yukon,-97.5162,35.4702,United States,olivia.smith@example.com,Oklahoma,2025-01-19,merchant__electronics
+C-8687742373,Noah Williams,Elgin,-88.2846,42.0406,United States,noah.williams@example.com,Illinois,2025-01-19,merchant__clothing
+C-8648538127,Noah Johnson,Canby,-96.4517,44.7944,United States,noah.johnson@example.com,Minnesota,2025-01-19,merchant__clothing
+C-1646736920,Olivia Williams,Orlando,-81.2849,28.5369,United States,olivia.williams@example.com,Florida,2025-01-20,merchant__electronics
+C-2884641447,Ava Smith,Victoria,-123.3544,48.408,Canada,ava.smith@example.com,British Columbia,2025-01-20,merchant__clothing
+C-8691463224,Olivia Smith,Pittsburgh,-79.9502,40.5264,United States,olivia.smith@example.com,Pennsylvania,2025-01-20,merchant__bigboxretailer
+C-1783303863,Ava Smith,Arecibo,-66.7324,18.4674,United States,ava.smith@example.com,Puerto Rico,2025-01-20,merchant__electronics
+C-281326085,Ava Williams,Lawton,-98.3959,34.6036,United States,ava.williams@example.com,Oklahoma,2025-01-20,merchant__electronics
+C-4257196797,Liam Williams,Kalamazoo,-85.5628,42.1984,United States,liam.williams@example.com,Michigan,2025-01-20,merchant__bigboxretailer
+C-4161075021,Emma Williams,Labrecque,-71.5246,48.6725,Canada,emma.williams@example.com,Quebec,2025-01-20,merchant__bigboxretailer
+C-7175815177,Emma Johnson,Stevens Point,-89.5675,44.5173,United States,emma.johnson@example.com,Wisconsin,2025-01-20,merchant__electronics
+C-9260184084,Emma Johnson,Tallahassee,-84.37,30.38,United States,emma.johnson@example.com,Florida,2025-01-21,merchant__clothing
+C-7754871195,Emma Smith,Tulsa,-95.9853,36.1509,United States,emma.smith@example.com,Oklahoma,2025-01-21,merchant__bigboxretailer
+C-9672329176,Olivia Smith,Rock Springs,-109.07,41.6,United States,olivia.smith@example.com,Wyoming,2025-01-21,merchant__clothing
+C-7170920033,Emma Smith,Maryland Heights,-90.4189,38.7034,United States,emma.smith@example.com,Missouri,2025-01-21,merchant__electronics
+C-4203013419,Olivia Smith,Erwin,-78.6178,35.3063,United States,olivia.smith@example.com,North Carolina,2025-01-21,merchant__electronics
+C-7266075341,Ava Williams,Greeley,-104.6917,40.4194,United States,ava.williams@example.com,Colorado,2025-01-21,merchant__bigboxretailer
+C-991328930,Olivia Smith,San Bernardino,-117.2196,34.1225,United States,olivia.smith@example.com,California,2025-01-22,merchant__clothing
+C-3478289646,Liam Williams,Cincinnati,-84.3753,39.2716,United States,liam.williams@example.com,Ohio,2025-01-22,merchant__bigboxretailer
+C-9101504566,Noah Johnson,Labrecque,-71.5246,48.6725,Canada,noah.johnson@example.com,Quebec,2025-01-22,merchant__clothing
+C-8519827591,Olivia Smith,Metairie,-90.1529,29.9841,United States,olivia.smith@example.com,Louisiana,2025-01-22,merchant__electronics
+C-8891047137,Olivia Johnson,Stoney Creek,-79.7609,43.2165,Canada,olivia.johnson@example.com,Ontario,2025-01-22,merchant__bigboxretailer
+C-9813219846,Ava Johnson,Gardena,-118.2885,33.8832,United States,ava.johnson@example.com,California,2025-01-22,merchant__clothing
+C-2951109915,Olivia Johnson,Kissimmee,-81.4416,28.2931,United States,olivia.johnson@example.com,Florida,2025-01-22,merchant__clothing
+C-4989583058,Ava Williams,Montague,-62.648,46.1651,Canada,ava.williams@example.com,Prince Edward Island,2025-01-22,merchant__electronics
+C-5595691815,Ava Williams,Baltimore,-76.67,39.18,United States,ava.williams@example.com,Maryland,2025-01-22,merchant__electronics
+C-1061297300,Ava Williams,Bangor,-68.82,44.8,United States,ava.williams@example.com,Maine,2025-01-23,merchant__electronics
+C-7884347125,Liam Williams,North Las Vegas,-115.17,36.08,United States,liam.williams@example.com,Nevada,2025-01-23,merchant__clothing
+C-3822369925,Olivia Smith,Ringgold,-85.0441,34.8225,United States,olivia.smith@example.com,Georgia,2025-01-23,merchant__electronics
+C-4722560499,Emma Williams,Spokane,-117.33,47.67,United States,emma.williams@example.com,Washington,2025-01-23,merchant__clothing
+C-5474994111,Ava Johnson,San Jose,-121.9515,37.342,United States,ava.johnson@example.com,California,2025-01-23,merchant__bigboxretailer
+C-3957344495,Noah Williams,Bangor,-68.82,44.8,United States,noah.williams@example.com,Maine,2025-01-23,merchant__electronics
+C-9791698338,Olivia Smith,Harrisburg,-76.8867,40.2732,United States,olivia.smith@example.com,Pennsylvania,2025-01-23,merchant__bigboxretailer
+C-5369869127,Olivia Williams,Kansas City,-94.72,39.32,United States,olivia.williams@example.com,Missouri,2025-01-24,merchant__clothing
+C-7489556738,Emma Smith,Brantford,-80.3842,44.1767,Canada,emma.smith@example.com,Ontario,2025-01-24,merchant__electronics
+C-793328407,Olivia Smith,Roselle,-88.0794,41.9862,United States,olivia.smith@example.com,Illinois,2025-01-24,merchant__clothing
+C-1725856400,Emma Johnson,Guelph,-80.25,43.549999,Canada,emma.johnson@example.com,Ontario,2025-01-24,merchant__clothing
+C-5915192809,Liam Williams,Paradise,-115.1467,36.0972,United States,liam.williams@example.com,Nevada,2025-01-24,merchant__bigboxretailer
+C-3804253281,Noah Smith,Buford,-84.0107,34.1284,United States,noah.smith@example.com,Georgia,2025-01-25,merchant__bigboxretailer
+C-4015027716,Emma Johnson,Blanchardville,-89.6341,42.8163,United States,emma.johnson@example.com,Wisconsin,2025-01-25,merchant__clothing
+C-4630566462,Ava Smith,Rycroft,-118.7115,55.756,Canada,ava.smith@example.com,Alberta,2025-01-25,merchant__electronics
+C-3709934415,Noah Williams,North Myrtle Beach,-78.6918,33.8176,United States,noah.williams@example.com,South Carolina,2025-01-25,merchant__bigboxretailer
+C-3287779638,Ava Williams,Paris,-84.2503,38.2093,United States,ava.williams@example.com,Kentucky,2025-01-25,merchant__bigboxretailer
+C-8787825035,Liam Smith,Bakersfield,-119.0166,35.3734,United States,liam.smith@example.com,California,2025-01-25,merchant__clothing
+C-2838787701,Liam Williams,Grand Prairie,-97.0408,32.7306,United States,liam.williams@example.com,Texas,2025-01-25,merchant__clothing
+C-3277032667,Emma Johnson,Kalamazoo,-85.5628,42.1984,United States,emma.johnson@example.com,Michigan,2025-01-25,merchant__bigboxretailer
+C-4953603083,Emma Johnson,Biloxi,-88.8853,30.396,United States,emma.johnson@example.com,Mississippi,2025-01-26,merchant__electronics
+C-7787121599,Olivia Williams,East York,-79.3839,43.6525,Canada,olivia.williams@example.com,Ontario,2025-01-26,merchant__bigboxretailer
+C-865721342,Ava Johnson,Terrance,-128.610764,54.515102,Canada,ava.johnson@example.com,British Columbia,2025-01-26,merchant__electronics
+C-2279706609,Liam Smith,Queensville,-79.4105,45.617,Canada,liam.smith@example.com,Ontario,2025-01-26,merchant__electronics
+C-6341299902,Noah Smith,Yukon,-97.5162,35.4702,United States,noah.smith@example.com,Oklahoma,2025-01-26,merchant__bigboxretailer
+C-9991948523,Ava Smith,Hadley,-72.5267,42.3804,United States,ava.smith@example.com,Massachusetts,2025-01-27,merchant__bigboxretailer
+C-1685554418,Olivia Johnson,Berwick,-70.8631,43.2629,United States,olivia.johnson@example.com,Maine,2025-01-27,merchant__clothing
+C-8703031671,Emma Williams,Chandlersville,-81.9118,39.8716,United States,emma.williams@example.com,Ohio,2025-01-27,merchant__clothing
+C-9342711059,Ava Johnson,Portland,-122.6,45.6,United States,ava.johnson@example.com,Oregon,2025-01-27,merchant__electronics
+C-8092790706,Olivia Smith,Ellershouse,-64.1332,44.9913,Canada,olivia.smith@example.com,Nova Scotia,2025-01-27,merchant__electronics
+C-4076400075,Liam Smith,Sherbrooke,-71.8929,45.4042,Canada,liam.smith@example.com,Quebec,2025-01-27,merchant__clothing
+C-1256354679,Olivia Williams,Bradley,-97.7105,34.876,United States,olivia.williams@example.com,Oklahoma,2025-01-27,merchant__bigboxretailer
+C-471148049,Ava Johnson,Crestview,-86.12,30.7192,United States,ava.johnson@example.com,Florida,2025-01-27,merchant__bigboxretailer
+C-3016354903,Emma Johnson,Green Bay,-88.13,44.48,United States,emma.johnson@example.com,Wisconsin,2025-01-28,merchant__electronics
+C-2778190150,Emma Williams,Orilla,-79.4197,44.6082,Canada,emma.williams@example.com,Ontario,2025-01-28,merchant__bigboxretailer
+C-1134958180,Emma Williams,Claremont,-117.7158,34.0964,United States,emma.williams@example.com,California,2025-01-28,merchant__clothing
+C-6661245754,Liam Williams,Morrisville,-78.6508,35.7843,United States,liam.williams@example.com,North Carolina,2025-01-28,merchant__clothing
+C-2113343077,Ava Williams,Killeen,-97.7291,31.1203,United States,ava.williams@example.com,Texas,2025-01-28,merchant__clothing
+C-9568694449,Emma Johnson,Colorado Springs,-104.8078,38.9254,United States,emma.johnson@example.com,Colorado,2025-01-28,merchant__electronics
+C-6735994958,Noah Johnson,Euless,-97.3202,32.746,United States,noah.johnson@example.com,Texas,2025-01-28,merchant__electronics
+C-5837197469,Noah Williams,Beaconsfield,-73.8683,45.4309,Canada,noah.williams@example.com,Quebec,2025-01-29,merchant__bigboxretailer
+C-8978982062,Noah Johnson,Orilla,-79.4197,44.6082,Canada,noah.johnson@example.com,Ontario,2025-01-29,merchant__electronics
+C-4808829370,Emma Williams,Sidney,-75.3941,42.3163,United States,emma.williams@example.com,New York,2025-01-29,merchant__electronics
+C-1851988473,Liam Williams,Little Rock,-92.3,35.22,United States,liam.williams@example.com,Arkansas,2025-01-29,merchant__bigboxretailer
+C-3996212166,Noah Williams,Campbellton,-66.6722,48.0074,Canada,noah.williams@example.com,New Brunswick,2025-01-29,merchant__clothing
+C-8086950101,Olivia Williams,Paradise,-115.1467,36.0972,United States,olivia.williams@example.com,Nevada,2025-01-29,merchant__clothing
+C-658017266,Ava Smith,Sylvan Lake,-114.0973,52.3065,Canada,ava.smith@example.com,Alberta,2025-01-30,merchant__bigboxretailer
+C-9728163376,Liam Williams,Santee,-117.1578,32.7467,United States,liam.williams@example.com,California,2025-01-30,merchant__bigboxretailer
+C-3276627005,Olivia Smith,Miramichi,-65.5059,47.0296,Canada,olivia.smith@example.com,New Brunswick,2025-01-30,merchant__bigboxretailer
+C-3691565202,Ava Williams,Hattiesburg,-89.33,31.47,United States,ava.williams@example.com,Mississippi,2025-01-30,merchant__electronics
+C-3447361820,Noah Smith,Blanchardville,-89.6341,42.8163,United States,noah.smith@example.com,Wisconsin,2025-01-30,merchant__clothing
+C-3653367488,Olivia Johnson,Freedom,-99.3168,36.9832,United States,olivia.johnson@example.com,Oklahoma,2025-01-30,merchant__bigboxretailer
+C-633560465,Noah Smith,Warwick,-81.9098,43.0049,Canada,noah.smith@example.com,Ontario,2025-01-30,merchant__electronics
+C-1167131305,Liam Johnson,Norridgewock,-69.8238,44.6283,United States,liam.johnson@example.com,Maine,2025-01-30,merchant__clothing
+C-2694269925,Ava Johnson,Sylvan Lake,-114.0973,52.3065,Canada,ava.johnson@example.com,Alberta,2025-01-30,merchant__bigboxretailer
+C-4223492803,Ava Smith,Rockford,-89.097,42.2713,United States,ava.smith@example.com,Illinois,2025-01-31,merchant__clothing
+C-6632532596,Noah Williams,Aurora,-79.4504,44.0065,Canada,noah.williams@example.com,Ontario,2025-01-31,merchant__electronics
+C-353027769,Liam Smith,Oak Brook,-87.9447,41.98,United States,liam.smith@example.com,Illinois,2025-01-31,merchant__electronics
+C-12455220,Noah Johnson,Oakland,-122.26,37.8333,United States,noah.johnson@example.com,California,2025-01-31,merchant__clothing
+C-946900405,Olivia Smith,Fredericton,-66.6422,45.9577,Canada,olivia.smith@example.com,New Brunswick,2025-01-31,merchant__bigboxretailer
+C-8748839254,Olivia Williams,Rockford,-89.097,42.2713,United States,olivia.williams@example.com,Illinois,2025-01-31,merchant__clothing
+C-3291889174,Liam Williams,Naugatuck,-73.0517,41.4931,United States,liam.williams@example.com,Connecticut,2025-02-01,merchant__clothing
+C-5655058641,Emma Smith,Cassville,-80.0586,39.7162,United States,emma.smith@example.com,West Virginia,2025-02-01,merchant__electronics
+C-3387805310,Ava Johnson,Mountville,-76.4359,40.0409,United States,ava.johnson@example.com,Pennsylvania,2025-02-01,merchant__bigboxretailer
+C-6227055614,Emma Johnson,Manassas,-77.4783,38.7515,United States,emma.johnson@example.com,Virginia,2025-02-01,merchant__clothing
+C-9537868798,Liam Williams,Bismarck,-87.6056,40.265,United States,liam.williams@example.com,Illinois,2025-02-01,merchant__electronics
+C-1923865481,Olivia Smith,Yukon,-97.5162,35.4702,United States,olivia.smith@example.com,Oklahoma,2025-02-02,merchant__bigboxretailer
+C-4879607423,Ava Williams,Seaford,-73.511,40.672,United States,ava.williams@example.com,New York,2025-02-02,merchant__clothing
+C-3697079137,Ava Williams,Finksburg,-76.9519,39.3972,United States,ava.williams@example.com,Maryland,2025-02-02,merchant__clothing
+C-7574575512,Liam Williams,Flowery Branch,-83.8224,34.2987,United States,liam.williams@example.com,Georgia,2025-02-02,merchant__bigboxretailer
+C-3839284483,Olivia Williams,Grand Prairie,-97.0408,32.7306,United States,olivia.williams@example.com,Texas,2025-02-02,merchant__electronics
+C-6130098836,Olivia Johnson,West Jordan,-111.9391,40.6097,United States,olivia.johnson@example.com,Utah,2025-02-02,merchant__electronics
+C-3204633425,Ava Smith,Knoxville,-83.98,35.82,United States,ava.smith@example.com,Tennessee,2025-02-02,merchant__electronics
+C-6583818167,Noah Smith,Fayetteville,-78.8927,35.0546,United States,noah.smith@example.com,North Carolina,2025-02-02,merchant__clothing
+C-6820108032,Olivia Smith,Grand Rapids,-85.6681,42.9634,United States,olivia.smith@example.com,Michigan,2025-02-02,merchant__bigboxretailer
+C-1512112251,Liam Williams,North Battleford,-108.28611,52.7575,Canada,liam.williams@example.com,Saskatchewan,2025-02-02,merchant__electronics
+C-9509839919,Ava Johnson,Hermitage,-93.2075,37.9418,United States,ava.johnson@example.com,Missouri,2025-02-03,merchant__bigboxretailer
+C-4143749599,Emma Johnson,Euless,-97.3202,32.746,United States,emma.johnson@example.com,Texas,2025-02-03,merchant__bigboxretailer
+C-3077008604,Ava Johnson,Terrance,-128.610764,54.515102,Canada,ava.johnson@example.com,British Columbia,2025-02-03,merchant__electronics
+C-1480193474,Ava Johnson,Terryville,-72.9422,41.672,United States,ava.johnson@example.com,Connecticut,2025-02-03,merchant__electronics
+C-6009085386,Ava Johnson,Hermitage,-93.2075,37.9418,United States,ava.johnson@example.com,Missouri,2025-02-03,merchant__clothing
+C-4491609730,Liam Smith,Port Saint Lucie,-80.2842,27.2665,United States,liam.smith@example.com,Florida,2025-02-03,merchant__bigboxretailer
+C-6791688005,Ava Johnson,Joliet,-88.0817,41.525,United States,ava.johnson@example.com,Illinois,2025-02-04,merchant__electronics
+C-5766501698,Ava Williams,Boston,-71.054,42.354,United States,ava.williams@example.com,Massachusetts,2025-02-04,merchant__bigboxretailer
+C-6502520001,Noah Williams,Byers,-98.4896,33.9097,United States,noah.williams@example.com,Texas,2025-02-04,merchant__clothing
+C-604411632,Ava Johnson,El Cajon,-116.9553,32.7923,United States,ava.johnson@example.com,California,2025-02-04,merchant__bigboxretailer
+C-9925562257,Noah Smith,Beaconsfield,-73.8683,45.4309,Canada,noah.smith@example.com,Quebec,2025-02-04,merchant__bigboxretailer
+C-8182791058,Liam Smith,Mena,-94.2417,34.5814,United States,liam.smith@example.com,Arkansas,2025-02-05,merchant__clothing
+C-2695583252,Ava Williams,Paris,-84.2503,38.2093,United States,ava.williams@example.com,Kentucky,2025-02-05,merchant__electronics
+C-3028539890,Liam Williams,Summer Shade,-85.8601,36.8912,United States,liam.williams@example.com,Kentucky,2025-02-05,merchant__clothing
+C-2714653979,Liam Johnson,Schwenksville,-75.3489,40.2006,United States,liam.johnson@example.com,Pennsylvania,2025-02-05,merchant__clothing
+C-2832391854,Liam Smith,Loganville,-90.0344,43.44,United States,liam.smith@example.com,Wisconsin,2025-02-05,merchant__bigboxretailer
+C-9925872465,Olivia Johnson,Mansfield,-82.5163,40.7588,United States,olivia.johnson@example.com,Ohio,2025-02-06,merchant__clothing
+C-6355264013,Noah Johnson,Grand Rapids,-85.6681,42.9634,United States,noah.johnson@example.com,Michigan,2025-02-06,merchant__bigboxretailer
+C-2308370504,Ava Smith,Kansas City,-94.72,39.32,United States,ava.smith@example.com,Missouri,2025-02-06,merchant__bigboxretailer
+C-6244962259,Olivia Smith,Cleveland,-81.6905,41.4989,United States,olivia.smith@example.com,Ohio,2025-02-06,merchant__electronics
+C-9651564504,Noah Johnson,Beverly Hills,-118.3823,33.9136,United States,noah.johnson@example.com,California,2025-02-06,merchant__clothing
+C-1805464976,Ava Smith,Richmond,-77.434,37.542,United States,ava.smith@example.com,Virginia,2025-02-06,merchant__electronics
+C-4486882834,Ava Williams,Columbus,-82.9952,39.9689,United States,ava.williams@example.com,Ohio,2025-02-06,merchant__electronics
+C-6683125640,Liam Williams,Cedar Rapids,-91.6687,41.9815,United States,liam.williams@example.com,Iowa,2025-02-06,merchant__electronics
+C-556740155,Olivia Williams,New Albany,-85.7346,38.2432,United States,olivia.williams@example.com,Indiana,2025-02-07,merchant__electronics
+C-6435188114,Emma Johnson,Salt Lake City,-111.8211,40.6677,United States,emma.johnson@example.com,Utah,2025-02-07,merchant__electronics
+C-3919173143,Liam Williams,Hattiesburg,-89.33,31.47,United States,liam.williams@example.com,Mississippi,2025-02-07,merchant__bigboxretailer
+C-9314230693,Ava Smith,Saint Paul,-93.0595,44.9629,United States,ava.smith@example.com,Minnesota,2025-02-07,merchant__electronics
+C-6404361885,Ava Johnson,Bronx,-73.8428,40.8328,United States,ava.johnson@example.com,New York,2025-02-07,merchant__clothing
+C-7108822080,Emma Johnson,Brantford,-80.3842,44.1767,Canada,emma.johnson@example.com,Ontario,2025-02-08,merchant__bigboxretailer
+C-2721868645,Noah Williams,Hadley,-72.5267,42.3804,United States,noah.williams@example.com,Massachusetts,2025-02-08,merchant__bigboxretailer
+C-581700661,Emma Johnson,San Diego,-117.17,32.73,United States,emma.johnson@example.com,California,2025-02-08,merchant__bigboxretailer
+C-2087681502,Emma Johnson,Arlington,-112.8459,33.4372,United States,emma.johnson@example.com,Arizona,2025-02-08,merchant__electronics
+C-549172010,Noah Johnson,Temple,-97.3411,31.0915,United States,noah.johnson@example.com,Texas,2025-02-08,merchant__electronics
+C-2383117336,Ava Smith,Sylvan Lake,-114.0973,52.3065,Canada,ava.smith@example.com,Alberta,2025-02-08,merchant__clothing
+C-9182961332,Emma Johnson,Scotland,-72.2193,41.714,United States,emma.johnson@example.com,Connecticut,2025-02-08,merchant__electronics
+C-3332656036,Liam Williams,Philadelphia,-75.0401,40.035,United States,liam.williams@example.com,Pennsylvania,2025-02-08,merchant__bigboxretailer
+C-4875119316,Noah Williams,Rancho Cordova,-121.2016,38.6341,United States,noah.williams@example.com,California,2025-02-08,merchant__bigboxretailer
+C-4242827198,Noah Williams,Elgin,-88.2846,42.0406,United States,noah.williams@example.com,Illinois,2025-02-08,merchant__bigboxretailer
+C-9241294327,Noah Williams,Green Bay,-88.13,44.48,United States,noah.williams@example.com,Wisconsin,2025-02-09,merchant__electronics
+C-8299213286,Olivia Johnson,Rancho Cordova,-121.2016,38.6341,United States,olivia.johnson@example.com,California,2025-02-09,merchant__electronics
+C-642219915,Liam Johnson,Mountville,-76.4359,40.0409,United States,liam.johnson@example.com,Pennsylvania,2025-02-09,merchant__bigboxretailer
+C-8004242331,Emma Williams,Gloucester,-75.5857,45.3027,Canada,emma.williams@example.com,Ontario,2025-02-09,merchant__bigboxretailer
+C-9987255228,Olivia Smith,Winnipeg,-97.1519,49.8687,Canada,olivia.smith@example.com,Manitoba,2025-02-09,merchant__clothing
+C-9364937549,Noah Smith,Kansas City,-94.72,39.32,United States,noah.smith@example.com,Missouri,2025-02-09,merchant__electronics
+C-3225509013,Emma Smith,Corpus Christi,-97.3629,27.6981,United States,emma.smith@example.com,Texas,2025-02-09,merchant__bigboxretailer
+C-3712565853,Olivia Johnson,Kitchener,-80.495064,43.452969,Canada,olivia.johnson@example.com,Ontario,2025-02-09,merchant__bigboxretailer
+C-2700735172,Olivia Johnson,Bloomington,-93.2983,44.8408,United States,olivia.johnson@example.com,Minnesota,2025-02-09,merchant__clothing
+C-7721853948,Olivia Johnson,Saint Paul,-93.0595,44.9629,United States,olivia.johnson@example.com,Minnesota,2025-02-09,merchant__electronics
+C-5800645826,Liam Johnson,Elmhurst,-87.9445,41.9016,United States,liam.johnson@example.com,Illinois,2025-02-10,merchant__electronics
+C-9999461958,Liam Johnson,Gainesville,-82.3284,29.6505,United States,liam.johnson@example.com,Florida,2025-02-10,merchant__clothing
+C-4814258874,Olivia Smith,Kennesaw,-84.1663,33.8907,United States,olivia.smith@example.com,Georgia,2025-02-10,merchant__clothing
+C-4452419301,Olivia Smith,Schwenksville,-75.3489,40.2006,United States,olivia.smith@example.com,Pennsylvania,2025-02-10,merchant__bigboxretailer
+C-8427537198,Emma Williams,Miramichi,-65.5059,47.0296,Canada,emma.williams@example.com,New Brunswick,2025-02-10,merchant__electronics
+C-2355342099,Ava Johnson,Austin,-97.7077,30.2608,United States,ava.johnson@example.com,Texas,2025-02-10,merchant__bigboxretailer
+C-4097991490,Emma Johnson,Bonnyville Municipal District,-110.7399,54.2679,Canada,emma.johnson@example.com,Alberta,2025-02-10,merchant__bigboxretailer
+C-2254996505,Olivia Williams,Lefebvre,-72.3179,45.7654,Canada,olivia.williams@example.com,Quebec,2025-02-11,merchant__bigboxretailer
+C-6701889593,Emma Johnson,Cacouna,-69.532,47.8338,Canada,emma.johnson@example.com,Quebec,2025-02-11,merchant__bigboxretailer
+C-264556300,Emma Williams,Carleton Place,-76.1479,45.1432,Canada,emma.williams@example.com,Ontario,2025-02-11,merchant__electronics
+C-6324411317,Emma Smith,Gardena,-118.2885,33.8832,United States,emma.smith@example.com,California,2025-02-11,merchant__electronics
+C-8394580338,Liam Johnson,Freedom,-99.3168,36.9832,United States,liam.johnson@example.com,Oklahoma,2025-02-11,merchant__bigboxretailer
+C-3617272094,Emma Williams,Renton,-122.3375,47.6149,United States,emma.williams@example.com,Washington,2025-02-11,merchant__clothing
+C-3430638630,Noah Williams,Arecibo,-66.7324,18.4674,United States,noah.williams@example.com,Puerto Rico,2025-02-11,merchant__bigboxretailer
+C-597740713,Noah Johnson,Warwick,-81.9098,43.0049,Canada,noah.johnson@example.com,Ontario,2025-02-11,merchant__bigboxretailer
+C-1829583640,Olivia Johnson,Gardena,-118.2885,33.8832,United States,olivia.johnson@example.com,California,2025-02-12,merchant__bigboxretailer
+C-7101073193,Emma Williams,Onoway,-112.8326,49.7018,Canada,emma.williams@example.com,Alberta,2025-02-12,merchant__bigboxretailer
+C-7890348143,Olivia Johnson,Cacouna,-69.532,47.8338,Canada,olivia.johnson@example.com,Quebec,2025-02-12,merchant__electronics
+C-9807100667,Noah Smith,New York,-73.9898,40.7393,United States,noah.smith@example.com,New York,2025-02-12,merchant__electronics
+C-5661155719,Emma Smith,Moncton,-64.77582,46.08888,Canada,emma.smith@example.com,New Brunswick,2025-02-12,merchant__electronics
+C-5190813103,Olivia Smith,Stillwater,-92.809,45.0539,United States,olivia.smith@example.com,Minnesota,2025-02-12,merchant__electronics
+C-689888804,Noah Williams,Kearney,-99.0,40.73,United States,noah.williams@example.com,Nebraska,2025-02-13,merchant__electronics
+C-2690240139,Olivia Johnson,Santa Rosa,-122.7156,38.443,United States,olivia.johnson@example.com,California,2025-02-13,merchant__clothing
+C-3618600992,Emma Johnson,San Mateo,-122.3479,37.5752,United States,emma.johnson@example.com,California,2025-02-13,merchant__electronics
+C-1651632128,Emma Johnson,Lafayette,-92.0198,30.2241,United States,emma.johnson@example.com,Louisiana,2025-02-13,merchant__bigboxretailer
+C-6800009323,Olivia Smith,Hadley,-72.5267,42.3804,United States,olivia.smith@example.com,Massachusetts,2025-02-13,merchant__electronics
+C-1074162655,Ava Smith,North Battleford,-108.28611,52.7575,Canada,ava.smith@example.com,Saskatchewan,2025-02-14,merchant__electronics
+C-2828541398,Emma Smith,Fort Wayne,-85.1394,41.0793,United States,emma.smith@example.com,Indiana,2025-02-14,merchant__electronics
+C-795685204,Olivia Johnson,Canby,-96.4517,44.7944,United States,olivia.johnson@example.com,Minnesota,2025-02-14,merchant__electronics
+C-5339181586,Olivia Smith,Conway,-92.4502,35.0814,United States,olivia.smith@example.com,Arkansas,2025-02-14,merchant__clothing
+C-4503352425,Olivia Smith,Covington,-84.5086,39.0837,United States,olivia.smith@example.com,Georgia,2025-02-14,merchant__clothing
+C-5525418912,Emma Johnson,Modesto,-120.996,37.6442,United States,emma.johnson@example.com,California,2025-02-14,merchant__electronics
+C-6250630646,Liam Johnson,Rock Springs,-109.07,41.6,United States,liam.johnson@example.com,Wyoming,2025-02-14,merchant__clothing
+C-78418114,Liam Williams,Akron,-81.519005,41.081444,United States,liam.williams@example.com,Ohio,2025-02-14,merchant__clothing
+C-2885770130,Ava Williams,Miramichi,-65.5059,47.0296,Canada,ava.williams@example.com,New Brunswick,2025-02-14,merchant__bigboxretailer
+C-1423964397,Ava Smith,Boston,-71.054,42.354,United States,ava.smith@example.com,Massachusetts,2025-02-14,merchant__bigboxretailer
+C-9314582821,Liam Williams,Denver,-104.9948,39.7467,United States,liam.williams@example.com,Colorado,2025-02-15,merchant__clothing
+C-7218877383,Ava Smith,Cassville,-80.0586,39.7162,United States,ava.smith@example.com,West Virginia,2025-02-15,merchant__electronics
+C-9997620387,Liam Williams,Humble,-95.583,29.6602,United States,liam.williams@example.com,Texas,2025-02-15,merchant__electronics
+C-1231343130,Liam Johnson,Lefebvre,-72.3179,45.7654,Canada,liam.johnson@example.com,Quebec,2025-02-15,merchant__electronics
+C-1088458401,Noah Williams,Bay Roberts,-53.2717,47.5812,Canada,noah.williams@example.com,Newfoundland and Labrador,2025-02-15,merchant__electronics
+C-2784095964,Ava Smith,Big Rapids,-85.4864,43.6993,United States,ava.smith@example.com,Michigan,2025-02-15,merchant__clothing
+C-1773343847,Emma Williams,Rockville,-77.123,39.0558,United States,emma.williams@example.com,Maryland,2025-02-15,merchant__bigboxretailer
+C-4110695627,Liam Smith,Richmond,-77.434,37.542,United States,liam.smith@example.com,Virginia,2025-02-15,merchant__bigboxretailer
+C-9239712662,Liam Johnson,Stoney Creek,-79.7609,43.2165,Canada,liam.johnson@example.com,Ontario,2025-02-15,merchant__clothing
+C-6936933352,Olivia Williams,Schwenksville,-75.3489,40.2006,United States,olivia.williams@example.com,Pennsylvania,2025-02-16,merchant__bigboxretailer
+C-3031815636,Noah Johnson,Checotah,-95.5252,35.471,United States,noah.johnson@example.com,Oklahoma,2025-02-16,merchant__electronics
+C-7198738759,Ava Smith,Lawton,-98.3959,34.6036,United States,ava.smith@example.com,Oklahoma,2025-02-16,merchant__electronics
+C-2786515688,Olivia Smith,Iowa City,-91.5302,41.6611,United States,olivia.smith@example.com,Iowa,2025-02-16,merchant__bigboxretailer
+C-9231604547,Olivia Johnson,Frederick,-77.4105,39.4143,United States,olivia.johnson@example.com,Maryland,2025-02-16,merchant__electronics
+C-9781577391,Ava Johnson,Louisville,-85.67,38.23,United States,ava.johnson@example.com,Kentucky,2025-02-16,merchant__bigboxretailer
+C-3150106988,Liam Smith,Orilla,-79.4197,44.6082,Canada,liam.smith@example.com,Ontario,2025-02-16,merchant__bigboxretailer
+C-9907011409,Emma Johnson,Blanchardville,-89.6341,42.8163,United States,emma.johnson@example.com,Wisconsin,2025-02-16,merchant__electronics
+C-432646205,Liam Smith,Carleton Place,-76.1479,45.1432,Canada,liam.smith@example.com,Ontario,2025-02-17,merchant__bigboxretailer
+C-3707085508,Ava Williams,Claremont,-117.7158,34.0964,United States,ava.williams@example.com,California,2025-02-17,merchant__bigboxretailer
+C-6145144674,Noah Smith,Gladstone,-122.6069,45.3559,United States,noah.smith@example.com,Oregon,2025-02-17,merchant__clothing
+C-5713567769,Liam Smith,Frankfort,-84.8733,38.2009,United States,liam.smith@example.com,Kentucky,2025-02-17,merchant__bigboxretailer
+C-805050317,Emma Smith,Meadow Vista,-121.0228,38.9944,United States,emma.smith@example.com,California,2025-02-17,merchant__clothing
+C-4932117560,Emma Williams,Boston,-71.054,42.354,United States,emma.williams@example.com,Massachusetts,2025-02-17,merchant__electronics
+C-5289590984,Noah Smith,Chilliwack,-121.951469,49.15794,Canada,noah.smith@example.com,British Columbia,2025-02-17,merchant__bigboxretailer
+C-5357622746,Ava Johnson,Wayne,-74.0525,40.866,United States,ava.johnson@example.com,New Jersey,2025-02-18,merchant__bigboxretailer
+C-3512676330,Liam Johnson,Raleigh,-78.6508,35.7843,United States,liam.johnson@example.com,North Carolina,2025-02-18,merchant__electronics
+C-5399235258,Noah Johnson,Pacific,-122.2277,47.3043,United States,noah.johnson@example.com,Washington,2025-02-18,merchant__clothing
+C-8132831949,Olivia Williams,Gloucester,-75.5857,45.3027,Canada,olivia.williams@example.com,Ontario,2025-02-18,merchant__electronics
+C-5330164704,Liam Williams,Kearney,-99.0,40.73,United States,liam.williams@example.com,Nebraska,2025-02-18,merchant__electronics
+C-5176247438,Emma Smith,Pixley,-119.2936,35.9683,United States,emma.smith@example.com,California,2025-02-18,merchant__bigboxretailer
+C-6592786855,Ava Johnson,Iowa City,-91.5302,41.6611,United States,ava.johnson@example.com,Iowa,2025-02-19,merchant__bigboxretailer
+C-7663818705,Ava Johnson,Chilliwack,-121.951469,49.15794,Canada,ava.johnson@example.com,British Columbia,2025-02-19,merchant__electronics
+C-873522031,Emma Johnson,Hadley,-72.5267,42.3804,United States,emma.johnson@example.com,Massachusetts,2025-02-19,merchant__clothing
+C-4448788412,Liam Johnson,Saint Paul,-93.0595,44.9629,United States,liam.johnson@example.com,Minnesota,2025-02-19,merchant__bigboxretailer
+C-744935677,Olivia Smith,Oshkosh,-88.5349,44.0145,United States,olivia.smith@example.com,Wisconsin,2025-02-19,merchant__bigboxretailer
+C-3290725129,Olivia Johnson,Malartic,-78.133331,48.133331,Canada,olivia.johnson@example.com,Quebec,2025-02-19,merchant__bigboxretailer
+C-1536318542,Noah Smith,Mountville,-76.4359,40.0409,United States,noah.smith@example.com,Pennsylvania,2025-02-19,merchant__clothing
+C-4053796883,Noah Williams,Warrior,-86.8079,33.8188,United States,noah.williams@example.com,Alabama,2025-02-19,merchant__electronics
+C-6869086150,Noah Smith,Sacramento,-121.3359,38.5631,United States,noah.smith@example.com,California,2025-02-20,merchant__clothing
+C-5947091324,Emma Johnson,Austin,-97.7077,30.2608,United States,emma.johnson@example.com,Texas,2025-02-20,merchant__electronics
+C-1290048065,Ava Smith,Joliet,-88.0817,41.525,United States,ava.smith@example.com,Illinois,2025-02-20,merchant__electronics
+C-6215231471,Liam Williams,Laredo,-99.5023,27.5081,United States,liam.williams@example.com,Texas,2025-02-20,merchant__clothing
+C-4115964962,Emma Williams,Santa Monica,-118.4904,34.02,United States,emma.williams@example.com,California,2025-02-20,merchant__electronics
+C-4889395917,Olivia Smith,Laurel,-76.8903,39.0587,United States,olivia.smith@example.com,Maryland,2025-02-20,merchant__electronics
+C-5741869423,Liam Williams,Orlando,-81.2849,28.5369,United States,liam.williams@example.com,Florida,2025-02-20,merchant__bigboxretailer
+C-4600290044,Noah Smith,Hassell,-77.2589,35.8259,United States,noah.smith@example.com,North Carolina,2025-02-20,merchant__bigboxretailer
+C-2339199879,Ava Johnson,Oakland,-122.26,37.8333,United States,ava.johnson@example.com,California,2025-02-21,merchant__clothing
+C-7113103621,Ava Johnson,Beverly Hills,-118.3823,33.9136,United States,ava.johnson@example.com,California,2025-02-21,merchant__electronics
+C-5306722645,Noah Smith,Paris,-84.2503,38.2093,United States,noah.smith@example.com,Kentucky,2025-02-21,merchant__bigboxretailer
+C-5579289856,Olivia Smith,Lawton,-98.3959,34.6036,United States,olivia.smith@example.com,Oklahoma,2025-02-21,merchant__bigboxretailer
+C-1932821927,Noah Smith,Frederick,-77.4105,39.4143,United States,noah.smith@example.com,Maryland,2025-02-21,merchant__bigboxretailer
+C-6370469060,Noah Johnson,Scarborough,-79.3839,43.6525,Canada,noah.johnson@example.com,Ontario,2025-02-21,merchant__bigboxretailer
+C-9637535273,Ava Johnson,Clearwater Municipal District,-115.7138899,52.2755559,Canada,ava.johnson@example.com,Alberta,2025-02-21,merchant__bigboxretailer
+C-3609350867,Olivia Johnson,Rycroft,-118.7115,55.756,Canada,olivia.johnson@example.com,Alberta,2025-02-21,merchant__clothing
+C-9673523461,Olivia Johnson,Clinton,-83.969,42.068,United States,olivia.johnson@example.com,Michigan,2025-02-22,merchant__electronics
+C-6033707255,Ava Williams,Campbellton,-66.6722,48.0074,Canada,ava.williams@example.com,New Brunswick,2025-02-22,merchant__clothing
+C-9645376941,Noah Smith,Laval,-73.5689,45.5034,Canada,noah.smith@example.com,Quebec,2025-02-22,merchant__clothing
+C-190228215,Noah Williams,Stillwater,-92.809,45.0539,United States,noah.williams@example.com,Minnesota,2025-02-22,merchant__bigboxretailer
+C-9181919811,Emma Smith,Norridgewock,-69.8238,44.6283,United States,emma.smith@example.com,Maine,2025-02-22,merchant__bigboxretailer
+C-5815820458,Liam Smith,Brantford,-80.3842,44.1767,Canada,liam.smith@example.com,Ontario,2025-02-22,merchant__clothing
+C-2588454184,Emma Smith,Marrero,-90.0765,29.9475,United States,emma.smith@example.com,Louisiana,2025-02-22,merchant__electronics
+C-704637131,Liam Johnson,Charleston,-79.938,32.7834,United States,liam.johnson@example.com,South Carolina,2025-02-22,merchant__electronics
+C-5649596807,Olivia Williams,Queensville,-79.4105,45.617,Canada,olivia.williams@example.com,Ontario,2025-02-22,merchant__electronics
+C-680353749,Ava Smith,Freedom,-99.3168,36.9832,United States,ava.smith@example.com,Oklahoma,2025-02-22,merchant__clothing
+C-1432471376,Emma Johnson,Warren,-83.0147,42.5145,United States,emma.johnson@example.com,Michigan,2025-02-23,merchant__bigboxretailer
+C-9632169932,Emma Johnson,Onoway,-112.8326,49.7018,Canada,emma.johnson@example.com,Alberta,2025-02-23,merchant__clothing
+C-3061643390,Olivia Williams,Dallas,-97.0004,32.7417,United States,olivia.williams@example.com,Texas,2025-02-23,merchant__bigboxretailer
+C-9859380175,Emma Johnson,Oak Brook,-87.9447,41.98,United States,emma.johnson@example.com,Illinois,2025-02-23,merchant__bigboxretailer
+C-6562267096,Emma Smith,Gladstone,-122.6069,45.3559,United States,emma.smith@example.com,Oregon,2025-02-23,merchant__clothing
+C-6890633749,Ava Smith,Gatineau,-75.6933,45.4208,Canada,ava.smith@example.com,Quebec,2025-02-24,merchant__electronics
+C-8580668704,Liam Johnson,Ballston Spa,-73.7849,43.079,United States,liam.johnson@example.com,New York,2025-02-24,merchant__bigboxretailer
+C-4327165726,Emma Williams,Bellevue,-95.9146,41.1544,United States,emma.williams@example.com,Nebraska,2025-02-24,merchant__clothing
+C-950118301,Ava Johnson,Great Falls,-111.37,47.48,United States,ava.johnson@example.com,Montana,2025-02-24,merchant__electronics
+C-143596966,Ava Williams,Santee,-117.1578,32.7467,United States,ava.williams@example.com,California,2025-02-24,merchant__bigboxretailer
+C-370698306,Noah Smith,Walnut,-117.6304,34.0525,United States,noah.smith@example.com,California,2025-02-24,merchant__clothing
+C-9592950687,Noah Williams,Stillwater,-92.809,45.0539,United States,noah.williams@example.com,Minnesota,2025-02-24,merchant__electronics
+C-1477798199,Ava Johnson,North Olmsted,-81.8911,41.43,United States,ava.johnson@example.com,Ohio,2025-02-24,merchant__bigboxretailer
+C-9172727325,Olivia Williams,Covington,-84.5086,39.0837,United States,olivia.williams@example.com,Kentucky,2025-02-24,merchant__clothing
+C-2486219514,Noah Johnson,Biloxi,-88.8853,30.396,United States,noah.johnson@example.com,Mississippi,2025-02-25,merchant__electronics
+C-5441614019,Olivia Williams,Colorado Springs,-104.8078,38.9254,United States,olivia.williams@example.com,Colorado,2025-02-25,merchant__electronics
+C-8416379803,Ava Williams,Green Bay,-88.13,44.48,United States,ava.williams@example.com,Wisconsin,2025-02-25,merchant__clothing
+C-486584731,Emma Williams,Eugene,-123.22,44.12,United States,emma.williams@example.com,Oregon,2025-02-25,merchant__clothing
+C-263414938,Ava Williams,Meadow Vista,-121.0228,38.9944,United States,ava.williams@example.com,California,2025-02-25,merchant__bigboxretailer
+C-7925188596,Noah Smith,Salem,-123.0,44.92,United States,noah.smith@example.com,Oregon,2025-02-25,merchant__electronics
+C-9982697610,Noah Johnson,Wheatfield,-86.8916,41.0732,United States,noah.johnson@example.com,Indiana,2025-02-25,merchant__electronics
+C-2185033692,Liam Smith,Goderich,-81.7139,43.7428,Canada,liam.smith@example.com,Ontario,2025-02-25,merchant__bigboxretailer
+C-3381505358,Noah Smith,Alamosa,-105.9469,37.4918,United States,noah.smith@example.com,Colorado,2025-02-25,merchant__bigboxretailer
+C-871875295,Emma Smith,Cypress,-118.0781,33.9071,United States,emma.smith@example.com,California,2025-02-26,merchant__electronics
+C-3173166371,Ava Smith,Flowery Branch,-83.8224,34.2987,United States,ava.smith@example.com,Georgia,2025-02-26,merchant__electronics
+C-5012730360,Noah Smith,Buford,-84.0107,34.1284,United States,noah.smith@example.com,Georgia,2025-02-26,merchant__bigboxretailer
+C-602151290,Liam Johnson,Enumclaw,-121.989,47.2001,United States,liam.johnson@example.com,Washington,2025-02-26,merchant__electronics
+C-3285155545,Olivia Johnson,Pasadena,-95.123,29.7051,United States,olivia.johnson@example.com,Texas,2025-02-26,merchant__bigboxretailer
+C-494577740,Liam Johnson,Hays,-99.3271,38.8743,United States,liam.johnson@example.com,Kansas,2025-02-26,merchant__electronics
+C-2948330663,Noah Smith,Ellershouse,-64.1332,44.9913,Canada,noah.smith@example.com,Nova Scotia,2025-02-26,merchant__clothing
+C-5852334408,Emma Johnson,Vermont,-90.4303,40.2942,United States,emma.johnson@example.com,Illinois,2025-02-27,merchant__bigboxretailer
+C-4848833068,Emma Smith,Kitchener,-80.495064,43.452969,Canada,emma.smith@example.com,Ontario,2025-02-27,merchant__bigboxretailer
+C-4096947438,Liam Johnson,Lourdes,-98.558,49.5327,Canada,liam.johnson@example.com,Manitoba,2025-02-27,merchant__bigboxretailer
+C-5185907408,Noah Smith,Arecibo,-66.7324,18.4674,United States,noah.smith@example.com,Puerto Rico,2025-02-27,merchant__bigboxretailer
+C-4271725433,Ava Smith,Paradise,-115.1467,36.0972,United States,ava.smith@example.com,Nevada,2025-02-27,merchant__clothing
+C-5909737445,Olivia Williams,Thunder Bay,-89.2538,48.3846,Canada,olivia.williams@example.com,Ontario,2025-02-27,merchant__clothing
+C-421979399,Olivia Smith,Austin,-97.7077,30.2608,United States,olivia.smith@example.com,Texas,2025-02-27,merchant__bigboxretailer
+C-3256553196,Emma Williams,Napa,-122.7156,38.443,United States,emma.williams@example.com,California,2025-02-27,merchant__electronics
+C-1856543168,Ava Smith,Gatineau,-75.6933,45.4208,Canada,ava.smith@example.com,Quebec,2025-02-28,merchant__electronics
+C-4188652138,Emma Smith,Colt,-90.7853,35.0103,United States,emma.smith@example.com,Arkansas,2025-02-28,merchant__clothing
+C-8480138571,Olivia Smith,Inverness,-82.3312,28.8379,United States,olivia.smith@example.com,Florida,2025-02-28,merchant__bigboxretailer
+C-8848010450,Emma Johnson,Corydon,-93.4991,40.8574,United States,emma.johnson@example.com,Iowa,2025-02-28,merchant__bigboxretailer
+C-1257090969,Ava Smith,Buford,-84.0107,34.1284,United States,ava.smith@example.com,Georgia,2025-02-28,merchant__bigboxretailer
+C-2436056513,Ava Williams,North York,-79.3839,43.6525,Canada,ava.williams@example.com,Ontario,2025-02-28,merchant__electronics
+C-2828204405,Noah Williams,Big Rapids,-85.4864,43.6993,United States,noah.williams@example.com,Michigan,2025-02-28,merchant__clothing
+C-2993864357,Noah Williams,El Cajon,-116.9553,32.7923,United States,noah.williams@example.com,California,2025-02-28,merchant__bigboxretailer
+C-1489543494,Emma Williams,Roselle,-88.0794,41.9862,United States,emma.williams@example.com,Illinois,2025-02-28,merchant__clothing
+C-3897156910,Ava Johnson,Santa Rosa,-122.7156,38.443,United States,ava.johnson@example.com,California,2025-03-01,merchant__electronics
+C-9317099492,Ava Smith,New Albany,-85.7346,38.2432,United States,ava.smith@example.com,Indiana,2025-03-01,merchant__bigboxretailer
+C-6676842326,Noah Williams,Flin Flon,-101.8762,54.7658,Canada,noah.williams@example.com,Manitoba,2025-03-01,merchant__clothing
+C-215682367,Olivia Smith,Chilliwack,-121.951469,49.15794,Canada,olivia.smith@example.com,British Columbia,2025-03-01,merchant__bigboxretailer
+C-495006185,Olivia Williams,North Dartmouth,-70.9252,41.6327,United States,olivia.williams@example.com,Massachusetts,2025-03-01,merchant__clothing
+C-2861961659,Olivia Smith,Watson Lake,-128.71208,60.06288,Canada,olivia.smith@example.com,Yukon,2025-03-01,merchant__clothing
+C-9127666392,Ava Johnson,Alfred,-70.7789,43.4426,United States,ava.johnson@example.com,Maine,2025-03-01,merchant__electronics
+C-3397137589,Emma Williams,Fort Lauderdale,-80.142,26.1171,United States,emma.williams@example.com,Florida,2025-03-01,merchant__bigboxretailer
+C-2747422344,Emma Johnson,Vermont,-90.4303,40.2942,United States,emma.johnson@example.com,Illinois,2025-03-01,merchant__clothing
+C-8402401725,Olivia Johnson,Fayetteville,-78.8927,35.0546,United States,olivia.johnson@example.com,North Carolina,2025-03-01,merchant__electronics
+C-6935815486,Olivia Smith,Bowie,-76.8772,38.9291,United States,olivia.smith@example.com,Maryland,2025-03-02,merchant__electronics
+C-8150323081,Liam Johnson,Hermitage,-93.2075,37.9418,United States,liam.johnson@example.com,Missouri,2025-03-02,merchant__clothing
+C-2054925096,Liam Johnson,Hawthorne,-118.4913,34.0155,United States,liam.johnson@example.com,California,2025-03-02,merchant__electronics
+C-1467410356,Emma Williams,Memphis,-89.87,35.35,United States,emma.williams@example.com,Tennessee,2025-03-02,merchant__bigboxretailer
+C-361080066,Liam Smith,Greenville,-77.373,35.6075,United States,liam.smith@example.com,North Carolina,2025-03-02,merchant__clothing
+C-4687925644,Noah Smith,St Lunaire-griquet,-55.4664,51.5266,Canada,noah.smith@example.com,Newfoundland and Labrador,2025-03-02,merchant__electronics
+C-5699046719,Noah Smith,Minneapolis,-93.2928,45.0436,United States,noah.smith@example.com,Minnesota,2025-03-02,merchant__bigboxretailer
+C-368169449,Ava Smith,Freedom,-99.3168,36.9832,United States,ava.smith@example.com,Oklahoma,2025-03-02,merchant__bigboxretailer
+C-4833369903,Emma Johnson,Lafayette,-92.0198,30.2241,United States,emma.johnson@example.com,Louisiana,2025-03-03,merchant__bigboxretailer
+C-5569272729,Liam Smith,Loganville,-90.0344,43.44,United States,liam.smith@example.com,Wisconsin,2025-03-03,merchant__clothing
+C-6127353245,Olivia Johnson,Corpus Christi,-97.3629,27.6981,United States,olivia.johnson@example.com,Texas,2025-03-03,merchant__bigboxretailer
+C-166319191,Noah Johnson,Zeeland,-86.1005,42.7922,United States,noah.johnson@example.com,Michigan,2025-03-03,merchant__electronics
+C-461248406,Ava Williams,Austin,-97.7077,30.2608,United States,ava.williams@example.com,Texas,2025-03-03,merchant__electronics
+C-4350954889,Liam Johnson,Crestview,-86.12,30.7192,United States,liam.johnson@example.com,Florida,2025-03-04,merchant__clothing
+C-8203170797,Emma Williams,Mobile,-88.25,30.68,United States,emma.williams@example.com,Alabama,2025-03-04,merchant__bigboxretailer
+C-7251769337,Liam Williams,San Francisco,-122.435,37.7875,United States,liam.williams@example.com,California,2025-03-04,merchant__electronics
+C-6993157621,Olivia Johnson,Coldstream,-119.1683,50.2241,Canada,olivia.johnson@example.com,British Columbia,2025-03-04,merchant__clothing
+C-9426044682,Emma Smith,Naugatuck,-73.0517,41.4931,United States,emma.smith@example.com,Connecticut,2025-03-04,merchant__electronics

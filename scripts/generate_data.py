@@ -9,9 +9,10 @@ today = datetime.date.today()
 # Base date for numeric increment (adjust multiplier as needed)
 base_date_incr = datetime.date(2022, 1, 1)
 
-# Helper: generate unique IDs.
+# Updated helper: generate unique IDs using a larger range.
 def generate_id(prefix):
-    return f"{prefix}-{random.randint(100000, 99999999)}"
+    # Using a random number between 10^7 and 10^10 - 1.
+    return f"{prefix}-{random.randint(10000000, 9999999999)}"
 
 # Datasets to update.
 datasets = [
@@ -85,7 +86,6 @@ customer_locations = customer_df.select([
 new_customers = []
 new_orders = []      # In memory, we generate extra fields for orders (customer_id, order_date) for referential linking.
 new_order_lines = []
-
 # Use the maximum date among customer, orders, and order_lines as the start date.
 global_start_date = max(max_dates["customer.csv"], max_dates["orders.csv"], max_dates["order_lines.csv"])
 current_date = global_start_date + datetime.timedelta(days=1)
@@ -94,9 +94,10 @@ while current_date <= today:
     day_customers = []
     day_orders = []
     day_order_lines = []
-    incr = (current_date - base_date_incr).days * 0.1  # Numeric increment.
+    # Increment for numeric fields.
+    incr = (current_date - base_date_incr).days * 0.1
 
-    # Generate customers if needed.
+    # Customers generation.
     if max_dates["customer.csv"] < current_date:
         for _ in range(random.randint(5, 10)):
             new_customer_id = generate_id("C")
@@ -119,23 +120,23 @@ while current_date <= today:
             new_customers.append(customer)
         existing_customer_ids.extend([c["customer_id"] for c in day_customers])
 
-    # Generate orders if needed.
+    # Orders generation.
     if max_dates["orders.csv"] < current_date:
         for _ in range(random.randint(3, 7)):
             new_order_id = generate_id("O")
-            # In memory, we include extra fields for linking.
+            # Generate extra fields in memory for linking (order_date, customer_id).
             order = {
                 "order_id": new_order_id,
                 "wdf__client_id": random.choice(MERCHANT_TYPES),
                 "order_status": random.choice(["Processed", "Completed", "In Cart", "Canceled"]),
-                "order_date": current_date.strftime("%Y-%m-%d"),  # In-memory extra field.
-                "customer_id": random.choice(existing_customer_ids),  # In-memory extra field.
+                "order_date": current_date.strftime("%Y-%m-%d"),
+                "customer_id": random.choice(existing_customer_ids)
             }
             day_orders.append(order)
             new_orders.append(order)
         existing_order_ids.extend([o["order_id"] for o in day_orders])
 
-    # Generate order lines if needed.
+    # Order lines generation.
     if max_dates["order_lines.csv"] < current_date:
         for order in day_orders:
             for _ in range(random.randint(1, 3)):
@@ -215,7 +216,7 @@ for order in new_orders:
 
 # --------------------------
 # Step 4: Save All Updates, preserving original structure exactly.
-# For orders.csv, we save only the original 3 columns.
+# For orders.csv, we save only its original 3 columns.
 def update_dataset(dataset, new_data):
     if not new_data:
         print(f"No new data for {dataset}. Skipping update.")
@@ -224,7 +225,7 @@ def update_dataset(dataset, new_data):
     try:
         df_orig = pl.read_csv(file_path)
         df_new = pl.DataFrame(new_data)
-        # For orders.csv, use the original file's columns exactly.
+        # For orders.csv, use the original file's column order exactly.
         ref_columns = existing_columns[dataset]
         df_new = df_new.select(ref_columns)
         updated_df = pl.concat([df_orig, df_new])
