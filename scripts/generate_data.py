@@ -11,7 +11,7 @@ base_date_incr = datetime.date(2022, 1, 1)
 
 # Helper: generate unique IDs.
 def generate_id(prefix):
-    return f"{prefix}-{random.randint(100000, 999999)}"
+    return f"{prefix}-{random.randint(100000, 99999999)}"
 
 # Datasets to update.
 datasets = [
