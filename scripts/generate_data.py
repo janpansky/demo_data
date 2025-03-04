@@ -122,7 +122,7 @@ while current_date <= today:
 
     # Orders generation.
     if max_dates["orders.csv"] < current_date:
-        for _ in range(random.randint(3, 7)):
+        for _ in range(random.randint(20, 50)):
             new_order_id = generate_id("O")
             # Generate extra fields in memory for linking (order_date, customer_id).
             order = {
