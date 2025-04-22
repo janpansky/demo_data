@@ -90,4 +90,16 @@ jobs:
           AND CAST(new.return_date AS DATE) > (
               SELECT COALESCE(MAX(date), '1900-01-01') FROM returns
           );
+          
+          -- ✅ Insert only new orders records
+          DELETE FROM orders;
+          INSERT INTO orders
+          SELECT *
+          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/orders.csv');
+          
+          -- ✅ Insert only new product records
+          DELETE FROM product;
+          INSERT INTO product
+          SELECT *
+          FROM read_csv_auto('https://raw.githubusercontent.com/janpansky/demo_data/main/data/product.csv');
           "
