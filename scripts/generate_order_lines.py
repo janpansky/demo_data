@@ -16,7 +16,7 @@ def get_last_order_line_date():
         return datetime.date.today() - datetime.timedelta(days=1)
 
 # Generate order lines from last recorded date to today's date
-def generate_order_lines(from_date, to_date, orders_df, existing_product_ids, existing_customer_ids, num_order_lines_range=(10, 15)):
+def generate_order_lines(from_date, to_date, orders_df, existing_product_ids, existing_customer_ids, num_order_lines_range=(8, 13)):
     new_order_lines = []
     current_date = from_date + datetime.timedelta(days=1)
 
