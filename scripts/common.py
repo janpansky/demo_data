@@ -66,3 +66,31 @@ def update_dataset(filename, new_data):
     updated_df = pl.concat([df_orig, df_new])
     write_csv(updated_df, filename)
     print(f"✅ Updated {filename} with {len(new_data)} new records.")
+
+
+def write_deltas_to_s3(df, filename):
+    """
+    Upload only delta DataFrame to S3 instead of writing full dataset.
+    """
+    if df.is_empty():
+        print(f"⚠️ No delta data to upload for {filename}. Skipping.")
+        return
+
+    s3 = boto3.client(
+        "s3",
+        region_name="us-east-1",
+        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+        aws_session_token=os.getenv("AWS_SESSION_TOKEN")
+    )
+    bucket = os.getenv("AWS_S3_BUCKET")
+    key = f"deltas/{filename}"
+
+    # Save DataFrame to memory as CSV
+    from io import BytesIO
+    buffer = BytesIO()
+    df.write_csv(buffer)
+    buffer.seek(0)
+
+    print(f"📤 Uploading {len(df)} delta rows to s3://{bucket}/{key}")
+    s3.put_object(Bucket=bucket, Key=key, Body=buffer.getvalue(), ContentType="text/csv")
