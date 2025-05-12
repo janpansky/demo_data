@@ -16,13 +16,13 @@ def get_last_order_line_date():
         return datetime.date.today() - datetime.timedelta(days=1)
 
 # Generate order lines from last recorded date to today's date
-def generate_order_lines(from_date, to_date, orders_df, existing_product_ids, existing_customer_ids, num_order_lines_range=(8, 12)):
+def generate_order_lines(from_date, to_date, orders_df, existing_product_ids, existing_customer_ids, num_order_lines_range=(8, 13)):
     new_order_lines = []
     current_date = from_date + datetime.timedelta(days=1)
 
     while current_date <= to_date:
         # Randomly sample orders for each day since orders.csv has no date
-        orders_for_day = orders_df.sample(n=int(orders_df.height * 0.05)) if orders_df.height > 0 else pl.DataFrame(
+        orders_for_day = orders_df.sample(n=int(orders_df.height * 0.01)) if orders_df.height > 0 else pl.DataFrame(
             schema=orders_df.schema)
 
         if orders_for_day.height == 0:
