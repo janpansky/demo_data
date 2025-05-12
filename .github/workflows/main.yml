@@ -39,14 +39,25 @@ jobs:
       - name: Generate Monthly Inventory
         run: python scripts/generate_monthly_inventory.py
 
-      - name: Commit and push changes
+      - name: Upload CSVs to S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         run: |
-          git config --local user.name "GitHub Actions"
-          git config --local user.email "actions@github.com"
-          git add data/
-          if ! git diff --cached --quiet; then
-            git commit -m "Daily data update: $(date +'%Y-%m-%d')"
-            git push
-          else
-            echo "No changes to commit."
-          fi
+          pip install boto3
+          python <<EOF
+          import os, boto3
+          data_dir = "data"
+          s3 = boto3.client("s3")
+          bucket = os.getenv("AWS_S3_BUCKET")
+          for fname in os.listdir(data_dir):
+              if fname.endswith(".csv"):
+                  s3.upload_file(
+                      Filename=os.path.join(data_dir, fname),
+                      Bucket=bucket,
+                      Key=f"daily/{fname}",
+                      ExtraArgs={"ContentType": "text/csv"}
+                  )
+                  print(f"✅ Uploaded {fname} to s3://{bucket}/daily/{fname}")
+          EOF
