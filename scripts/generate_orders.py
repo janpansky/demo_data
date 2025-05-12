@@ -1,10 +1,11 @@
 import datetime
 import os
 import random
-import polars as pl
+
 from common import generate_id, read_csv, update_dataset, DATA_DIR, get_last_order_date_s3, update_orders_meta_s3
 
 ORDERS_META_FILE = os.path.join(DATA_DIR, "orders_last_date.txt")
+
 
 def get_last_order_date(current_date):
     if os.getenv("USE_S3", "false").lower() == "true":
@@ -18,11 +19,13 @@ def get_last_order_date(current_date):
             pass
     return current_date - datetime.timedelta(days=1)
 
+
 def update_orders_meta(current_date):
     if os.getenv("USE_S3", "false").lower() == "true":
         return update_orders_meta_s3(current_date)
     with open(ORDERS_META_FILE, "w") as f:
         f.write(current_date.strftime("%Y-%m-%d"))
+
 
 def generate_orders(current_date, existing_customer_ids, num_orders_range=(80, 120)):
     last_date = get_last_order_date(current_date)
@@ -50,6 +53,7 @@ def generate_orders(current_date, existing_customer_ids, num_orders_range=(80, 1
             new_orders.append(order)
         dt += datetime.timedelta(days=1)
     return new_orders
+
 
 if __name__ == "__main__":
     today = datetime.date.today()

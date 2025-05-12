@@ -1,5 +1,6 @@
 import datetime
 import random
+import os
 
 import polars as pl
 
