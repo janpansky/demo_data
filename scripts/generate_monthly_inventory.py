@@ -1,6 +1,11 @@
-import datetime, random
-from common import generate_id, read_csv, update_dataset, write_deltas_to_s3
+import datetime
+import os
+import random
+
 import polars as pl
+
+from common import generate_id, read_csv, update_dataset, write_deltas_to_s3
+
 
 def generate_monthly_inventory(today, existing_product_ids):
     df = read_csv("monthly_inventory.csv")
@@ -44,6 +49,7 @@ def generate_monthly_inventory(today, existing_product_ids):
         else:
             current_month_date = datetime.date(current_month_date.year, current_month_date.month + 1, 1)
     return new_inventory
+
 
 if __name__ == "__main__":
     today = datetime.date.today()
