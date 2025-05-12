@@ -21,8 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install polars-lts-cpu
-          # Add any other dependencies if needed
+          pip install polars-lts-cpu boto3
 
       - name: Generate Customers
         run: python scripts/generate_customers.py
@@ -39,25 +38,40 @@ jobs:
       - name: Generate Monthly Inventory
         run: python scripts/generate_monthly_inventory.py
 
+      - name: Debug AWS key lengths
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          echo "🕵️ AWS_ACCESS_KEY_ID length: ${#AWS_ACCESS_KEY_ID}"
+          echo "🕵️ AWS_SECRET_ACCESS_KEY length: ${#AWS_SECRET_ACCESS_KEY}"
+
       - name: Upload CSVs to S3
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         run: |
-          pip install boto3
           python <<EOF
           import os, boto3
           data_dir = "data"
-          s3 = boto3.client("s3")
+          s3 = boto3.client(
+              "s3",
+              aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+              aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+              region_name="us-east-1"  # Adjust if using a different region
+          )
           bucket = os.getenv("AWS_S3_BUCKET")
           for fname in os.listdir(data_dir):
               if fname.endswith(".csv"):
+                  file_path = os.path.join(data_dir, fname)
+                  key = f"daily/{fname}"
+                  print(f"⏫ Uploading {file_path} to s3://{bucket}/{key}")
                   s3.upload_file(
-                      Filename=os.path.join(data_dir, fname),
+                      Filename=file_path,
                       Bucket=bucket,
-                      Key=f"daily/{fname}",
+                      Key=key,
                       ExtraArgs={"ContentType": "text/csv"}
                   )
-                  print(f"✅ Uploaded {fname} to s3://{bucket}/daily/{fname}")
+                  print(f"✅ Uploaded {fname}")
           EOF
