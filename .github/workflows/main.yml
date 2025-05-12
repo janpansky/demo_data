@@ -3,7 +3,7 @@ name: Daily Data Update
 on:
   schedule:
     - cron: "0 2 * * *"  # Runs every day at 2:00 AM UTC
-  workflow_dispatch:      # Allows manual triggering
+  workflow_dispatch:
 
 jobs:
   update-data:
@@ -48,7 +48,7 @@ jobs:
           echo "🔐 AWS_SECRET_ACCESS_KEY length: ${#AWS_SECRET_ACCESS_KEY}"
           echo "🔐 AWS_SESSION_TOKEN length: ${#AWS_SESSION_TOKEN}"
 
-      - name: Upload CSVs to S3
+      - name: Upload CSVs to root of S3 bucket
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -69,7 +69,7 @@ jobs:
           for fname in os.listdir(data_dir):
               if fname.endswith(".csv"):
                   file_path = os.path.join(data_dir, fname)
-                  key = f"daily/{fname}"
+                  key = fname  # Uploads to root of the bucket
                   print(f"⏫ Uploading {file_path} to s3://{bucket}/{key}")
                   s3.upload_file(
                       Filename=file_path,
