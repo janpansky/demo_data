@@ -1,6 +1,10 @@
-import datetime, random
+import datetime
+import random
+
 import polars as pl
-from common import generate_id, read_csv, update_dataset
+
+from common import generate_id, read_csv, update_dataset, write_deltas_to_s3
+
 
 # Get the last generated date directly from the existing order_lines.csv
 def get_last_order_line_date():
@@ -15,13 +19,13 @@ def get_last_order_line_date():
         print(f"Could not read last order line date: {e}")
         return datetime.date.today() - datetime.timedelta(days=1)
 
-# Generate order lines from last recorded date to today's date
-def generate_order_lines(from_date, to_date, orders_df, existing_product_ids, existing_customer_ids, num_order_lines_range=(8, 13)):
+
+def generate_order_lines(from_date, to_date, orders_df, existing_product_ids, existing_customer_ids,
+                         num_order_lines_range=(8, 13)):
     new_order_lines = []
     current_date = from_date + datetime.timedelta(days=1)
 
     while current_date <= to_date:
-        # Randomly sample orders for each day since orders.csv has no date
         orders_for_day = orders_df.sample(n=int(orders_df.height * 0.01)) if orders_df.height > 0 else pl.DataFrame(
             schema=orders_df.schema)
 
@@ -59,19 +63,17 @@ def generate_order_lines(from_date, to_date, orders_df, existing_product_ids, ex
 
     return new_order_lines
 
+
 if __name__ == "__main__":
     today = datetime.date.today()
 
-    # Load necessary datasets
     orders_df = read_csv("orders.csv")
     customers_df = read_csv("customer.csv")
     product_df = read_csv("product.csv")
 
-    # Prepare existing IDs for referential integrity
     existing_product_ids = product_df["product_id"].to_list()
     existing_customer_ids = customers_df["customer_id"].to_list()
 
-    # Ensure each order has an associated customer_id (if missing, randomly assign one)
     if "customer_id" not in orders_df.columns:
         orders_df = orders_df.with_columns(
             pl.Series("customer_id", [random.choice(existing_customer_ids) for _ in range(orders_df.height)])
@@ -83,7 +85,11 @@ if __name__ == "__main__":
     new_order_lines = generate_order_lines(last_date, today, orders_df, existing_product_ids, existing_customer_ids)
 
     if new_order_lines:
-        update_dataset("order_lines.csv", new_order_lines)
+        df = pl.DataFrame(new_order_lines)
+        if os.getenv("USE_S3", "false").lower() == "true":
+            write_deltas_to_s3(df, "order_lines.csv")
+        else:
+            update_dataset("order_lines.csv", new_order_lines)
         print(f"Updated order_lines.csv with {len(new_order_lines)} new records.")
     else:
         print("No new order lines generated.")

@@ -1,11 +1,12 @@
-import datetime, random
+import datetime
+import random
+
 import polars as pl
-from polars import col
-from common import generate_id, read_csv, update_dataset
+
+from common import generate_id, read_csv, update_dataset, write_deltas_to_s3
 
 
 def get_last_return_date():
-    """Determine the last return_date from returns.csv."""
     try:
         df = read_csv("returns.csv")
         df = df.with_columns(
@@ -17,10 +18,8 @@ def get_last_return_date():
         return datetime.date.today() - datetime.timedelta(days=1)
 
 
-def generate_returns(from_date, to_date, order_lines_df, existing_product_ids, existing_order_ids, existing_customer_ids):
-    """
-    Generate returns for each day from the last return date until today.
-    """
+def generate_returns(from_date, to_date, order_lines_df, existing_product_ids, existing_order_ids,
+                     existing_customer_ids):
     new_returns = []
     current_date = from_date + datetime.timedelta(days=1)
 
@@ -38,7 +37,8 @@ def generate_returns(from_date, to_date, order_lines_df, existing_product_ids, e
         daily_count = 0
 
         for order in orders_for_day.iter_rows(named=True):
-            if order["order__order_id"] not in existing_order_ids or order["customer__customer_id"] not in existing_customer_ids:
+            if order["order__order_id"] not in existing_order_ids or order[
+                "customer__customer_id"] not in existing_customer_ids:
                 continue
 
             if random.random() < 0.4:
@@ -66,7 +66,6 @@ def generate_returns(from_date, to_date, order_lines_df, existing_product_ids, e
 if __name__ == "__main__":
     today = datetime.date.today()
 
-    # Load necessary datasets
     order_lines_df = read_csv("order_lines.csv")
     product_df = read_csv("product.csv")
     existing_product_ids = product_df["product_id"].to_list()
@@ -75,14 +74,18 @@ if __name__ == "__main__":
     existing_order_ids = set(orders_df["order_id"].to_list())
     existing_customer_ids = set(customers_df["customer_id"].to_list())
 
-    # Determine date range for return generation
     last_return_date = get_last_return_date()
     print(f"Last return date detected: {last_return_date}")
 
-    new_returns = generate_returns(last_return_date, today, order_lines_df, existing_product_ids, existing_order_ids, existing_customer_ids)
+    new_returns = generate_returns(last_return_date, today, order_lines_df, existing_product_ids, existing_order_ids,
+                                   existing_customer_ids)
 
     if new_returns:
-        update_dataset("returns.csv", new_returns)
+        df = pl.DataFrame(new_returns)
+        if os.getenv("USE_S3", "false").lower() == "true":
+            write_deltas_to_s3(df, "returns.csv")
+        else:
+            update_dataset("returns.csv", new_returns)
         print(f"Updated returns.csv with {len(new_returns)} new records.")
     else:
         print("No new returns generated.")

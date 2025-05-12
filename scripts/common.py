@@ -94,3 +94,41 @@ def write_deltas_to_s3(df, filename):
 
     print(f"📤 Uploading {len(df)} delta rows to s3://{bucket}/{key}")
     s3.put_object(Bucket=bucket, Key=key, Body=buffer.getvalue(), ContentType="text/csv")
+
+
+def get_last_order_date_s3():
+    """Read orders_last_date.txt from S3 and return it as a date."""
+    s3 = boto3.client(
+        "s3",
+        region_name="us-east-1",
+        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+        aws_session_token=os.getenv("AWS_SESSION_TOKEN")
+    )
+    bucket = os.getenv("AWS_S3_BUCKET")
+    key = "orders_last_date.txt"
+
+    try:
+        obj = s3.get_object(Bucket=bucket, Key=key)
+        date_str = obj["Body"].read().decode("utf-8").strip()
+        return datetime.datetime.strptime(date_str, "%Y-%m-%d").date()
+    except Exception as e:
+        print(f"⚠️ Could not load orders_last_date.txt from S3: {e}")
+        return datetime.date.today() - datetime.timedelta(days=1)
+
+
+def update_orders_meta_s3(current_date):
+    """Write today's date to orders_last_date.txt in S3."""
+    s3 = boto3.client(
+        "s3",
+        region_name="us-east-1",
+        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+        aws_session_token=os.getenv("AWS_SESSION_TOKEN")
+    )
+    bucket = os.getenv("AWS_S3_BUCKET")
+    key = "orders_last_date.txt"
+    body = current_date.strftime("%Y-%m-%d")
+
+    s3.put_object(Bucket=bucket, Key=key, Body=body.encode("utf-8"), ContentType="text/plain")
+    print(f"📄 Updated orders_last_date.txt to {body} in S3")
