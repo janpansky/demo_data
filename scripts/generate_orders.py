@@ -2,7 +2,17 @@ import datetime
 import os
 import random
 
-from common import generate_id, read_csv, update_dataset, DATA_DIR, get_last_order_date_s3, update_orders_meta_s3
+import polars as pl
+
+from common import (
+    generate_id,
+    read_csv,
+    update_dataset,
+    DATA_DIR,
+    get_last_order_date_s3,
+    update_orders_meta_s3,
+    write_deltas_to_s3
+)
 
 ORDERS_META_FILE = os.path.join(DATA_DIR, "orders_last_date.txt")
 
@@ -59,7 +69,17 @@ if __name__ == "__main__":
     today = datetime.date.today()
     customer_df = read_csv("customer.csv")
     existing_customer_ids = customer_df["customer_id"].to_list()
+
     new_orders = generate_orders(today, existing_customer_ids)
     print(f"Generated {len(new_orders)} new orders.")
-    update_dataset("orders.csv", new_orders)
-    update_orders_meta(today)
+
+    if new_orders:
+        df = pl.DataFrame(new_orders)
+        if os.getenv("USE_S3", "false").lower() == "true":
+            write_deltas_to_s3(df, "orders.csv")
+        else:
+            update_dataset("orders.csv", new_orders)
+
+        update_orders_meta(today)
+    else:
+        print("No new orders generated — skipping update of orders_last_date.txt")
