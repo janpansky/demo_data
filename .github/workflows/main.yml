@@ -38,18 +38,21 @@ jobs:
       - name: Generate Monthly Inventory
         run: python scripts/generate_monthly_inventory.py
 
-      - name: Debug AWS key lengths
+      - name: Debug AWS credentials
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
         run: |
-          echo "🕵️ AWS_ACCESS_KEY_ID length: ${#AWS_ACCESS_KEY_ID}"
-          echo "🕵️ AWS_SECRET_ACCESS_KEY length: ${#AWS_SECRET_ACCESS_KEY}"
+          echo "🔐 AWS_ACCESS_KEY_ID length: ${#AWS_ACCESS_KEY_ID}"
+          echo "🔐 AWS_SECRET_ACCESS_KEY length: ${#AWS_SECRET_ACCESS_KEY}"
+          echo "🔐 AWS_SESSION_TOKEN length: ${#AWS_SESSION_TOKEN}"
 
       - name: Upload CSVs to S3
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         run: |
           python <<EOF
@@ -57,9 +60,10 @@ jobs:
           data_dir = "data"
           s3 = boto3.client(
               "s3",
+              region_name="us-east-1",
               aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
               aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
-              region_name="us-east-1"  # Adjust if using a different region
+              aws_session_token=os.getenv("AWS_SESSION_TOKEN")
           )
           bucket = os.getenv("AWS_S3_BUCKET")
           for fname in os.listdir(data_dir):
