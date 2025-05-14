@@ -1,10 +1,3 @@
-name: Daily Data Update
-
-on:
-  schedule:
-    - cron: "0 2 * * *"  # Runs every day at 2:00 AM UTC
-  workflow_dispatch:
-
 jobs:
   update-data:
     runs-on: ubuntu-latest
@@ -24,18 +17,28 @@ jobs:
           pip install polars-lts-cpu boto3
 
       - name: Generate Customers
+        env:
+          USE_S3: "true"
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         run: python scripts/generate_customers.py
 
       - name: Generate Orders
+        env: ${GITHUB_ENV}
         run: python scripts/generate_orders.py
 
       - name: Generate Order Lines
+        env: ${GITHUB_ENV}
         run: python scripts/generate_order_lines.py
 
       - name: Generate Returns
+        env: ${GITHUB_ENV}
         run: python scripts/generate_returns.py
 
       - name: Generate Monthly Inventory
+        env: ${GITHUB_ENV}
         run: python scripts/generate_monthly_inventory.py
 
       - name: Debug AWS credentials
@@ -47,35 +50,3 @@ jobs:
           echo "🔐 AWS_ACCESS_KEY_ID length: ${#AWS_ACCESS_KEY_ID}"
           echo "🔐 AWS_SECRET_ACCESS_KEY length: ${#AWS_SECRET_ACCESS_KEY}"
           echo "🔐 AWS_SESSION_TOKEN length: ${#AWS_SESSION_TOKEN}"
-
-      - name: Upload CSVs to root of S3 bucket
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
-          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-        run: |
-          python <<EOF
-          import os, boto3
-          data_dir = "data"
-          s3 = boto3.client(
-              "s3",
-              region_name="us-east-1",
-              aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-              aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
-              aws_session_token=os.getenv("AWS_SESSION_TOKEN")
-          )
-          bucket = os.getenv("AWS_S3_BUCKET")
-          for fname in os.listdir(data_dir):
-              if fname.endswith(".csv"):
-                  file_path = os.path.join(data_dir, fname)
-                  key = fname  # Uploads to root of the bucket
-                  print(f"⏫ Uploading {file_path} to s3://{bucket}/{key}")
-                  s3.upload_file(
-                      Filename=file_path,
-                      Bucket=bucket,
-                      Key=key,
-                      ExtraArgs={"ContentType": "text/csv"}
-                  )
-                  print(f"✅ Uploaded {fname}")
-          EOF

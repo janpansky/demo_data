@@ -1,7 +1,6 @@
 import datetime
 import os
 import random
-
 import polars as pl
 
 from common import (
@@ -10,7 +9,6 @@ from common import (
     update_dataset,
     DATA_DIR,
     get_last_order_date_s3,
-    update_orders_meta_s3,
     write_deltas_to_s3
 )
 
@@ -28,13 +26,6 @@ def get_last_order_date(current_date):
         except Exception:
             pass
     return current_date - datetime.timedelta(days=1)
-
-
-def update_orders_meta(current_date):
-    if os.getenv("USE_S3", "false").lower() == "true":
-        return update_orders_meta_s3(current_date)
-    with open(ORDERS_META_FILE, "w") as f:
-        f.write(current_date.strftime("%Y-%m-%d"))
 
 
 def generate_orders(current_date, existing_customer_ids, num_orders_range=(80, 120)):
@@ -76,10 +67,10 @@ if __name__ == "__main__":
     if new_orders:
         df = pl.DataFrame(new_orders)
         if os.getenv("USE_S3", "false").lower() == "true":
-            write_deltas_to_s3(df, "orders.csv")
+            write_deltas_to_s3(df, "orders.csv")  # ✅ auto-updates orders_last_date.txt
         else:
             update_dataset("orders.csv", new_orders)
-
-        update_orders_meta(today)
+            with open(ORDERS_META_FILE, "w") as f:
+                f.write(today.strftime("%Y-%m-%d"))
     else:
-        print("No new orders generated — skipping update of orders_last_date.txt")
+        print("No new orders generated.")
