@@ -2,8 +2,7 @@ import datetime
 import random
 import os
 import polars as pl
-from common import generate_id, read_csv, update_dataset, write_csv_to_s3
-
+from common import generate_id, read_csv, update_dataset
 
 def get_last_order_line_date():
     try:
