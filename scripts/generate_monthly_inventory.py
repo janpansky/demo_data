@@ -1,10 +1,6 @@
 import datetime
-import os
 import random
-
-import polars as pl
-
-from common import generate_id, read_csv, update_dataset, write_deltas_to_s3
+from common import generate_id, read_csv, update_dataset
 
 
 def generate_monthly_inventory(today, existing_product_ids):
@@ -38,8 +34,8 @@ def generate_monthly_inventory(today, existing_product_ids):
                 "product__product_id": product_id,
                 "inventory_month": current_month_date.strftime("%Y-%m-01"),
                 "monthly_quantity_eom": float(round(base_eom + incr, 2)),
-                "wdf__client_id": random.choice(
-                    ["merchant__electronics", "merchant__clothing", "merchant__bigboxretailer"]),
+                "wdf__client_id": random.choice([
+                    "merchant__electronics", "merchant__clothing", "merchant__bigboxretailer"]),
                 "monthly_quantity_bom": float(round(base_bom + incr, 2)),
                 "date": current_month_date.strftime("%Y-%m-%d %H:%M:%S.000"),
             }
@@ -57,10 +53,4 @@ if __name__ == "__main__":
     existing_product_ids = product_df["product_id"].to_list()
     new_inventory = generate_monthly_inventory(today, existing_product_ids)
     print(f"Generated {len(new_inventory)} new monthly inventory records.")
-
-    if new_inventory:
-        df = pl.DataFrame(new_inventory)
-        if os.getenv("USE_S3", "false").lower() == "true":
-            write_deltas_to_s3(df, "monthly_inventory.csv")
-        else:
-            update_dataset("monthly_inventory.csv", new_inventory)
+    update_dataset("monthly_inventory.csv", new_inventory)

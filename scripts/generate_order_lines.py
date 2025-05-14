@@ -2,7 +2,7 @@ import datetime
 import random
 import os
 import polars as pl
-from common import generate_id, read_csv, update_dataset, write_deltas_to_s3
+from common import generate_id, read_csv, update_dataset, write_csv_to_s3
 
 
 def get_last_order_line_date():
@@ -63,16 +63,7 @@ def generate_order_lines(from_date, to_date, orders_df, existing_product_ids, ex
 if __name__ == "__main__":
     today = datetime.date.today()
 
-    base_df = read_csv("orders.csv")
-
-    # Try to merge in delta rows if present
-    try:
-        delta_df = read_csv("deltas/orders.csv")
-        orders_df = pl.concat([base_df, delta_df]).unique(subset=["order_id"])
-        print("✅ Merged base and delta orders.csv from S3")
-    except Exception:
-        orders_df = base_df
-
+    orders_df = read_csv("orders.csv")
     customers_df = read_csv("customer.csv")
     product_df = read_csv("product.csv")
 
@@ -90,11 +81,7 @@ if __name__ == "__main__":
     new_order_lines = generate_order_lines(last_date, today, orders_df, existing_product_ids, existing_customer_ids)
 
     if new_order_lines:
-        df = pl.DataFrame(new_order_lines)
-        if os.getenv("USE_S3", "false").lower() == "true":
-            write_deltas_to_s3(df, "order_lines.csv")
-        else:
-            update_dataset("order_lines.csv", new_order_lines)
+        update_dataset("order_lines.csv", new_order_lines)
         print(f"Updated order_lines.csv with {len(new_order_lines)} new records.")
     else:
         print("No new order lines generated.")

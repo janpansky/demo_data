@@ -4,7 +4,7 @@ import os
 
 import polars as pl
 
-from common import generate_id, read_csv, update_dataset, write_deltas_to_s3
+from common import generate_id, read_csv, update_dataset
 
 
 def get_last_return_date():
@@ -67,16 +67,7 @@ def generate_returns(from_date, to_date, order_lines_df, existing_product_ids, e
 if __name__ == "__main__":
     today = datetime.date.today()
 
-    base_df = read_csv("order_lines.csv")
-
-    # Try to merge in delta rows if present
-    try:
-        delta_df = read_csv("deltas/order_lines.csv")
-        order_lines_df = pl.concat([base_df, delta_df]).unique(subset=["order_line_id"])
-        print("✅ Merged base and delta order_lines.csv from S3")
-    except Exception:
-        order_lines_df = base_df
-
+    order_lines_df = read_csv("order_lines.csv")
     product_df = read_csv("product.csv")
     existing_product_ids = product_df["product_id"].to_list()
     orders_df = read_csv("orders.csv")
@@ -91,11 +82,7 @@ if __name__ == "__main__":
                                    existing_customer_ids)
 
     if new_returns:
-        df = pl.DataFrame(new_returns)
-        if os.getenv("USE_S3", "false").lower() == "true":
-            write_deltas_to_s3(df, "returns.csv")
-        else:
-            update_dataset("returns.csv", new_returns)
+        update_dataset("returns.csv", new_returns)
         print(f"Updated returns.csv with {len(new_returns)} new records.")
     else:
         print("No new returns generated.")
