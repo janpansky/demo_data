@@ -67,7 +67,16 @@ def generate_returns(from_date, to_date, order_lines_df, existing_product_ids, e
 if __name__ == "__main__":
     today = datetime.date.today()
 
-    order_lines_df = read_csv("order_lines.csv")
+    base_df = read_csv("order_lines.csv")
+
+    # Try to merge in delta rows if present
+    try:
+        delta_df = read_csv("deltas/order_lines.csv")
+        order_lines_df = pl.concat([base_df, delta_df]).unique(subset=["order_line_id"])
+        print("✅ Merged base and delta order_lines.csv from S3")
+    except Exception:
+        order_lines_df = base_df
+
     product_df = read_csv("product.csv")
     existing_product_ids = product_df["product_id"].to_list()
     orders_df = read_csv("orders.csv")
