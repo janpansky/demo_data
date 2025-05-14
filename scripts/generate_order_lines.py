@@ -1,13 +1,10 @@
 import datetime
 import random
 import os
-
 import polars as pl
-
 from common import generate_id, read_csv, update_dataset, write_deltas_to_s3
 
 
-# Get the last generated date directly from the existing order_lines.csv
 def get_last_order_line_date():
     try:
         df = read_csv("order_lines.csv")
@@ -21,14 +18,12 @@ def get_last_order_line_date():
         return datetime.date.today() - datetime.timedelta(days=1)
 
 
-def generate_order_lines(from_date, to_date, orders_df, existing_product_ids, existing_customer_ids,
-                         num_order_lines_range=(8, 13)):
+def generate_order_lines(from_date, to_date, orders_df, existing_product_ids, existing_customer_ids, num_order_lines_range=(8, 13)):
     new_order_lines = []
     current_date = from_date + datetime.timedelta(days=1)
 
     while current_date <= to_date:
-        orders_for_day = orders_df.sample(n=int(orders_df.height * 0.01)) if orders_df.height > 0 else pl.DataFrame(
-            schema=orders_df.schema)
+        orders_for_day = orders_df.sample(n=int(orders_df.height * 0.01)) if orders_df.height > 0 else pl.DataFrame(schema=orders_df.schema)
 
         if orders_for_day.height == 0:
             print(f"No orders available for {current_date}. Skipping.")
@@ -68,7 +63,16 @@ def generate_order_lines(from_date, to_date, orders_df, existing_product_ids, ex
 if __name__ == "__main__":
     today = datetime.date.today()
 
-    orders_df = read_csv("orders.csv")
+    base_df = read_csv("orders.csv")
+
+    # Try to merge in delta rows if present
+    try:
+        delta_df = read_csv("deltas/orders.csv")
+        orders_df = pl.concat([base_df, delta_df]).unique(subset=["order_id"])
+        print("✅ Merged base and delta orders.csv from S3")
+    except Exception:
+        orders_df = base_df
+
     customers_df = read_csv("customer.csv")
     product_df = read_csv("product.csv")
 
