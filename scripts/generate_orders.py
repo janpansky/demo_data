@@ -1,14 +1,23 @@
 import datetime
-import random
 import os
+import random
 import polars as pl
 
-from common import generate_id, read_csv, update_dataset
+from common import (
+    generate_id,
+    read_csv,
+    update_dataset,
+    get_last_order_date_s3,
+    update_orders_meta_s3
+)
 
+# Path used only for local fallback
 ORDERS_META_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "orders_last_date.txt")
 
 
 def get_last_order_date(current_date):
+    if os.getenv("USE_S3", "false").lower() == "true":
+        return get_last_order_date_s3()
     if os.path.exists(ORDERS_META_FILE):
         try:
             with open(ORDERS_META_FILE, "r") as f:
@@ -20,12 +29,20 @@ def get_last_order_date(current_date):
 
 
 def update_orders_meta(current_date):
+    if os.getenv("USE_S3", "false").lower() == "true":
+        return update_orders_meta_s3(current_date)
     with open(ORDERS_META_FILE, "w") as f:
         f.write(current_date.strftime("%Y-%m-%d"))
 
 
 def generate_orders(current_date, existing_customer_ids, num_orders_range=(80, 120)):
     last_date = get_last_order_date(current_date)
+    print(f"📅 Last order date: {last_date} — Generating up to: {current_date}")
+
+    if last_date >= current_date:
+        print("✅ Orders already up-to-date. Skipping generation.")
+        return []
+
     new_orders = []
     dt = last_date + datetime.timedelta(days=1)
     while dt <= current_date:
@@ -49,6 +66,7 @@ def generate_orders(current_date, existing_customer_ids, num_orders_range=(80, 1
             }
             new_orders.append(order)
         dt += datetime.timedelta(days=1)
+
     return new_orders
 
 
@@ -56,11 +74,10 @@ if __name__ == "__main__":
     today = datetime.date.today()
     customer_df = read_csv("customer.csv")
     existing_customer_ids = customer_df["customer_id"].to_list()
+
     new_orders = generate_orders(today, existing_customer_ids)
     print(f"Generated {len(new_orders)} new orders.")
 
     if new_orders:
         update_dataset("orders.csv", new_orders)
         update_orders_meta(today)
-    else:
-        print("No new orders generated.")

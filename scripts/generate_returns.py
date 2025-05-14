@@ -11,7 +11,7 @@ def get_last_return_date():
     try:
         df = read_csv("returns.csv")
         df = df.with_columns(
-            pl.col("return_date").str.strptime(pl.Date, "%Y-%m-%d")
+            pl.col("return_date").str.strptime(pl.Date, "%Y-%m-%d %H:%M:%S%.3f")
         )
         return df["return_date"].max()
     except Exception as e:
@@ -79,13 +79,16 @@ if __name__ == "__main__":
     existing_customer_ids = set(customers_df["customer_id"].to_list())
 
     last_return_date = get_last_return_date()
-    print(f"Last return date detected: {last_return_date}")
+    print(f"Last return date detected: {last_return_date} — Generating up to: {today}")
 
-    new_returns = generate_returns(last_return_date, today, order_lines_df, existing_product_ids, existing_order_ids,
-                                   existing_customer_ids)
-
-    if new_returns:
-        update_dataset("returns.csv", new_returns)
-        print(f"Updated returns.csv with {len(new_returns)} new records.")
+    if last_return_date >= today:
+        print("✅ Returns already up-to-date. Skipping generation.")
     else:
-        print("No new returns generated.")
+        new_returns = generate_returns(last_return_date, today, order_lines_df, existing_product_ids, existing_order_ids,
+                                       existing_customer_ids)
+
+        if new_returns:
+            update_dataset("returns.csv", new_returns)
+            print(f"Updated returns.csv with {len(new_returns)} new records.")
+        else:
+            print("No new returns generated.")
