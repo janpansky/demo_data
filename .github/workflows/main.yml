@@ -2,7 +2,7 @@ name: Daily Data Update
 
 on:
   schedule:
-    - cron: "0 2 * * *"  # Runs every day at 2:00 AM UTC
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 jobs:
@@ -33,19 +33,39 @@ jobs:
         run: python scripts/generate_customers.py
 
       - name: Generate Orders
-        env: ${GITHUB_ENV}
+        env:
+          USE_S3: "true"
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         run: python scripts/generate_orders.py
 
       - name: Generate Order Lines
-        env: ${GITHUB_ENV}
+        env:
+          USE_S3: "true"
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         run: python scripts/generate_order_lines.py
 
       - name: Generate Returns
-        env: ${GITHUB_ENV}
+        env:
+          USE_S3: "true"
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         run: python scripts/generate_returns.py
 
       - name: Generate Monthly Inventory
-        env: ${GITHUB_ENV}
+        env:
+          USE_S3: "true"
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         run: python scripts/generate_monthly_inventory.py
 
       - name: Debug AWS credentials
