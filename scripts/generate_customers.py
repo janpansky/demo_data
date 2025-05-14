@@ -3,54 +3,54 @@ import random
 from common import generate_id, read_csv, update_dataset
 
 
-def generate_monthly_inventory(today, existing_product_ids):
-    df = read_csv("monthly_inventory.csv")
-    current_month = today.replace(day=1).strftime("%Y-%m-01")
-    if current_month in df["inventory_month"].to_list():
-        print("Monthly inventory already generated for this month. Skipping inventory generation.")
-        return []
-
-    new_inventory = []
-    if df.height > 0 and "date" in df.columns:
-        last_inv_val = df["date"].drop_nulls().max()
+def generate_customers(today, customer_locations, merchant_types, existing_customer_ids, num_customers_range=(10, 20)):
+    df = read_csv("customer.csv")
+    if df.height > 0 and "customer_created_date" in df.columns:
+        max_date_str = df["customer_created_date"].drop_nulls().max()
         try:
-            last_inv_date = datetime.datetime.strptime(last_inv_val, "%Y-%m-%d").date()
-        except ValueError:
-            last_inv_date = datetime.datetime.strptime(last_inv_val.split()[0], "%Y-%m-%d").date()
+            last_date = datetime.datetime.strptime(max_date_str, "%Y-%m-%d").date()
+        except Exception:
+            last_date = today - datetime.timedelta(days=1)
     else:
-        last_inv_date = datetime.date(2024, 1, 1)
+        last_date = today - datetime.timedelta(days=1)
 
-    start_year = last_inv_date.year + (last_inv_date.month // 12)
-    start_month = (last_inv_date.month % 12) + 1
-    current_month_date = datetime.date(start_year, start_month, 1)
-
-    while current_month_date <= today:
-        incr = (current_month_date - datetime.date(2022, 1, 1)).days * 0.1
-        for product_id in existing_product_ids:
-            base_bom = random.randint(300, 2000)
-            base_eom = random.randint(300, 2000)
-            inv = {
-                "monthly_inventory_id": generate_id("M"),
-                "product__product_id": product_id,
-                "inventory_month": current_month_date.strftime("%Y-%m-01"),
-                "monthly_quantity_eom": float(round(base_eom + incr, 2)),
-                "wdf__client_id": random.choice([
-                    "merchant__electronics", "merchant__clothing", "merchant__bigboxretailer"]),
-                "monthly_quantity_bom": float(round(base_bom + incr, 2)),
-                "date": current_month_date.strftime("%Y-%m-%d %H:%M:%S.000"),
+    new_customers = []
+    dt = last_date + datetime.timedelta(days=1)
+    while dt <= today:
+        for _ in range(random.randint(*num_customers_range)):
+            new_customer_id = generate_id("C")
+            full_name = f"{random.choice(['Emma','Olivia','Liam','Noah','Ava','James','Mark'])} {random.choice(['Smith','Johnson','Williams'])}"
+            location = random.choice(customer_locations)
+            merchant_type = random.choice(merchant_types)
+            customer = {
+                "customer_id": new_customer_id,
+                "ls__customer_id__customer_name": full_name,
+                "customer_city": location["customer_city"],
+                "geo__customer_city__city_pushpin_longitude": location["geo__customer_city__city_pushpin_longitude"],
+                "geo__customer_city__city_pushpin_latitude": location["geo__customer_city__city_pushpin_latitude"],
+                "customer_country": location["customer_country"],
+                "customer_email": f"{full_name.replace(' ', '.').lower()}@example.com",
+                "customer_state": location["customer_state"],
+                "customer_created_date": dt.strftime("%Y-%m-%d"),
+                "wdf__client_id": merchant_type,
             }
-            new_inventory.append(inv)
-        if current_month_date.month == 12:
-            current_month_date = datetime.date(current_month_date.year + 1, 1, 1)
-        else:
-            current_month_date = datetime.date(current_month_date.year, current_month_date.month + 1, 1)
-    return new_inventory
+            new_customers.append(customer)
+            existing_customer_ids.append(new_customer_id)
+        dt += datetime.timedelta(days=1)
+    return new_customers
 
 
 if __name__ == "__main__":
     today = datetime.date.today()
-    product_df = read_csv("product.csv")
-    existing_product_ids = product_df["product_id"].to_list()
-    new_inventory = generate_monthly_inventory(today, existing_product_ids)
-    print(f"Generated {len(new_inventory)} new monthly inventory records.")
-    update_dataset("monthly_inventory.csv", new_inventory)
+    customer_df = read_csv("customer.csv")
+    existing_customer_ids = customer_df["customer_id"].to_list()
+    customer_locations = customer_df.select([
+        "customer_city", "customer_state", "customer_country",
+        "geo__customer_city__city_pushpin_longitude",
+        "geo__customer_city__city_pushpin_latitude"
+    ]).unique().to_dicts()
+    merchant_types = ["merchant__electronics", "merchant__clothing", "merchant__bigboxretailer"]
+
+    new_customers = generate_customers(today, customer_locations, merchant_types, existing_customer_ids)
+    print(f"Generated {len(new_customers)} new customers since last update up to today.")
+    update_dataset("customer.csv", new_customers)
