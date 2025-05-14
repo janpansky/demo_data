@@ -1,5 +1,6 @@
 import datetime
 import random
+
 from common import generate_id, read_csv, update_dataset
 
 
@@ -14,22 +15,25 @@ def generate_customers(today, customer_locations, merchant_types, existing_custo
     else:
         last_date = today - datetime.timedelta(days=1)
 
+    first_names = ['Emma', 'Olivia', 'Liam', 'Noah', 'Ava', 'James', 'Mark']
+    last_names = ['Smith', 'Johnson', 'Williams']
+    used_names = set()
+
     new_customers = []
     dt = last_date + datetime.timedelta(days=1)
     while dt <= today:
         for _ in range(random.randint(*num_customers_range)):
             new_customer_id = generate_id("C")
-            first_names = ['Emma','Olivia','Liam','Noah','Ava','James','Mark']
-last_names = ['Smith','Johnson','Williams']
-used_names = set()
 
-while True:
-    first = random.choice(first_names)
-    last = random.choice(last_names)
-    full_name = f"{first} {last}"
-    if full_name not in used_names:
-        used_names.add(full_name)
-        break
+            # Ensure unique full_name
+            while True:
+                first = random.choice(first_names)
+                last = random.choice(last_names)
+                full_name = f"{first} {last}"
+                if full_name not in used_names:
+                    used_names.add(full_name)
+                    break
+
             location = random.choice(customer_locations)
             merchant_type = random.choice(merchant_types)
             customer = {
