@@ -1,6 +1,5 @@
 import datetime
 import random
-
 from common import generate_id, read_csv, update_dataset
 
 
@@ -15,9 +14,10 @@ def generate_customers(today, customer_locations, merchant_types, existing_custo
     else:
         last_date = today - datetime.timedelta(days=1)
 
+    existing_emails = set(df["customer_email"].to_list()) if "customer_email" in df.columns else set()
+
     first_names = ['Emma', 'Olivia', 'Liam', 'Noah', 'Ava', 'James', 'Mark']
     last_names = ['Smith', 'Johnson', 'Williams']
-    used_names = set()
 
     new_customers = []
     dt = last_date + datetime.timedelta(days=1)
@@ -25,15 +25,18 @@ def generate_customers(today, customer_locations, merchant_types, existing_custo
         for _ in range(random.randint(*num_customers_range)):
             new_customer_id = generate_id("C")
 
-            # Ensure unique full_name
+            # Generate unique email
+            attempt = 0
             while True:
                 first = random.choice(first_names)
                 last = random.choice(last_names)
-                full_name = f"{first} {last}"
-                if full_name not in used_names:
-                    used_names.add(full_name)
+                email = f"{first.lower()}.{last.lower()}_{random.randint(1, 9999)}@example.com"
+                if email not in existing_emails or attempt > 10:
+                    existing_emails.add(email)
                     break
+                attempt += 1
 
+            full_name = f"{first} {last}"
             location = random.choice(customer_locations)
             merchant_type = random.choice(merchant_types)
             customer = {
@@ -43,7 +46,7 @@ def generate_customers(today, customer_locations, merchant_types, existing_custo
                 "geo__customer_city__city_pushpin_longitude": location["geo__customer_city__city_pushpin_longitude"],
                 "geo__customer_city__city_pushpin_latitude": location["geo__customer_city__city_pushpin_latitude"],
                 "customer_country": location["customer_country"],
-                "customer_email": f"{full_name.replace(' ', '.').lower()}@example.com",
+                "customer_email": email,
                 "customer_state": location["customer_state"],
                 "customer_created_date": dt.strftime("%Y-%m-%d"),
                 "wdf__client_id": merchant_type,
