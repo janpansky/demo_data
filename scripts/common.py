@@ -39,8 +39,26 @@ def read_csv(filename):
     return pl.read_csv(file_path)
 
 def write_csv(df, filename):
-    file_path = os.path.join(DATA_DIR, filename)
-    df.write_csv(file_path)
+    if os.getenv("USE_S3", "false").lower() == "true":
+        s3 = boto3.client(
+            "s3",
+            region_name="us-east-1",
+            aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+            aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+            aws_session_token=os.getenv("AWS_SESSION_TOKEN")
+        )
+        bucket = os.getenv("AWS_S3_BUCKET")
+        key = filename
+
+        buffer = BytesIO()
+        df.write_csv(buffer)
+        buffer.seek(0)
+
+        print(f"📤 Uploading full file to s3://{bucket}/{key}")
+        s3.put_object(Bucket=bucket, Key=key, Body=buffer.getvalue(), ContentType="text/csv")
+    else:
+        file_path = os.path.join(DATA_DIR, filename)
+        df.write_csv(file_path)
 
 def update_dataset(filename, new_data):
     df_orig = read_csv(filename)

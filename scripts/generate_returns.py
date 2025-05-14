@@ -11,9 +11,9 @@ def get_last_return_date():
     try:
         df = read_csv("returns.csv")
         df = df.with_columns(
-            pl.col("return_date").str.strptime(pl.Datetime, "%Y-%m-%d %H:%M:%S%.3f")
+            pl.col("return_date").str.strptime(pl.Date, "%Y-%m-%d")
         )
-        return df["return_date"].max().date()
+        return df["return_date"].max()
     except Exception as e:
         print(f"Could not read last return date: {e}")
         return datetime.date.today() - datetime.timedelta(days=1)
@@ -26,7 +26,7 @@ def generate_returns(from_date, to_date, order_lines_df, existing_product_ids, e
 
     while current_date <= to_date:
         orders_for_day = order_lines_df.filter(
-            pl.col("order_date").str.contains(f"^{current_date.strftime('%Y-%m-%d')}")
+            pl.col("order_date_parsed") == current_date
         )
 
         if orders_for_day.height == 0:
@@ -38,8 +38,7 @@ def generate_returns(from_date, to_date, order_lines_df, existing_product_ids, e
         daily_count = 0
 
         for order in orders_for_day.iter_rows(named=True):
-            if order["order__order_id"] not in existing_order_ids or order[
-                "customer__customer_id"] not in existing_customer_ids:
+            if order["order__order_id"] not in existing_order_ids or order["customer__customer_id"] not in existing_customer_ids:
                 continue
 
             if random.random() < 0.4:
@@ -68,6 +67,10 @@ if __name__ == "__main__":
     today = datetime.date.today()
 
     order_lines_df = read_csv("order_lines.csv")
+    order_lines_df = order_lines_df.with_columns(
+        pl.col("order_date").str.strptime(pl.Date, "%Y-%m-%d %H:%M:%S%.3f").alias("order_date_parsed")
+    )
+
     product_df = read_csv("product.csv")
     existing_product_ids = product_df["product_id"].to_list()
     orders_df = read_csv("orders.csv")
